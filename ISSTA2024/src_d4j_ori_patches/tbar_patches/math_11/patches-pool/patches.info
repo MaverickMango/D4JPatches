@@ -1,0 +1,330 @@
+[
+  {
+    "stmtLocation": "org/apache/commons/math3/distribution/MultivariateNormalDistribution:183",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_11/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java",
+        "patchPoolId": 0,
+        "startPos": 7214,
+        "endPos": 7359,
+        "suspCodeStr": "return FastMath.pow(2 * FastMath.PI, -dim / 2) *\n            FastMath.pow(covarianceMatrixDeterminant, -0.5) *\n            getExponentTerm(vals);"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_11/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java",
+        "patchPoolId": 1,
+        "startPos": 7214,
+        "endPos": 7359,
+        "suspCodeStr": "return FastMath.pow(2 * FastMath.PI, -dim / 2) *\n            FastMath.pow(covarianceMatrixDeterminant, -0.5) *\n            getExponentTerm(vals);"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_11/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java",
+        "patchPoolId": 2,
+        "startPos": 7214,
+        "endPos": 7359,
+        "suspCodeStr": "return FastMath.pow(2 * FastMath.PI, -dim / 2) *\n            FastMath.pow(covarianceMatrixDeterminant, -0.5) *\n            getExponentTerm(vals);"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_11/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java",
+        "patchPoolId": 3,
+        "startPos": 7214,
+        "endPos": 7359,
+        "suspCodeStr": "return FastMath.pow(2 * FastMath.PI, -dim / 2) *\n            FastMath.pow(covarianceMatrixDeterminant, -0.5) *\n            getExponentTerm(vals);"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_11/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java",
+        "patchPoolId": 4,
+        "startPos": 7214,
+        "endPos": 7359,
+        "suspCodeStr": "return FastMath.pow(2 * FastMath.PI, -dim / 2) *\n            FastMath.pow(covarianceMatrixDeterminant, -0.5) *\n            getExponentTerm(vals);"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_11/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java",
+        "patchPoolId": 5,
+        "startPos": 7214,
+        "endPos": 7359,
+        "suspCodeStr": "return FastMath.pow(2 * FastMath.PI, -dim / 2) *\n            FastMath.pow(covarianceMatrixDeterminant, -0.5) *\n            getExponentTerm(vals);"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_11/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java",
+        "patchPoolId": 6,
+        "startPos": 7214,
+        "endPos": 7359,
+        "suspCodeStr": "return FastMath.pow(2 * FastMath.PI, -dim / 2) *\n            FastMath.pow(covarianceMatrixDeterminant, -0.5) *\n            getExponentTerm(vals);"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_11/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java",
+        "patchPoolId": 7,
+        "startPos": 7214,
+        "endPos": 7359,
+        "suspCodeStr": "return FastMath.pow(2 * FastMath.PI, -dim / 2) *\n            FastMath.pow(covarianceMatrixDeterminant, -0.5) *\n            getExponentTerm(vals);"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_11/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java",
+        "patchPoolId": 8,
+        "startPos": 7214,
+        "endPos": 7359,
+        "suspCodeStr": "return FastMath.pow(2 * FastMath.PI, -dim / 2) *\n            FastMath.pow(covarianceMatrixDeterminant, -0.5) *\n            getExponentTerm(vals);"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_11/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java",
+        "patchPoolId": 9,
+        "startPos": 7214,
+        "endPos": 7359,
+        "suspCodeStr": "return FastMath.pow(2 * FastMath.PI, -dim / 2) *\n            FastMath.pow(covarianceMatrixDeterminant, -0.5) *\n            getExponentTerm(vals);"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_11/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java",
+        "patchPoolId": 10,
+        "startPos": 7214,
+        "endPos": 7359,
+        "suspCodeStr": "return FastMath.pow(2 * FastMath.PI, -dim / 2) *\n            FastMath.pow(covarianceMatrixDeterminant, -0.5) *\n            getExponentTerm(vals);"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_11/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java",
+        "patchPoolId": 11,
+        "startPos": 7214,
+        "endPos": 7359,
+        "suspCodeStr": "return FastMath.pow(2 * FastMath.PI, -dim / 2) *\n            FastMath.pow(covarianceMatrixDeterminant, -0.5) *\n            getExponentTerm(vals);"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_11/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java",
+        "patchPoolId": 12,
+        "startPos": 7214,
+        "endPos": 7359,
+        "suspCodeStr": "return FastMath.pow(2 * FastMath.PI, -dim / 2) *\n            FastMath.pow(covarianceMatrixDeterminant, -0.5) *\n            getExponentTerm(vals);"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_11/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java",
+        "patchPoolId": 13,
+        "startPos": 7214,
+        "endPos": 7359,
+        "suspCodeStr": "return FastMath.pow(2 * FastMath.PI, -dim / 2) *\n            FastMath.pow(covarianceMatrixDeterminant, -0.5) *\n            getExponentTerm(vals);"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_11/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java",
+        "patchPoolId": 14,
+        "startPos": 7214,
+        "endPos": 7359,
+        "suspCodeStr": "return FastMath.pow(2 * FastMath.PI, -dim / 2) *\n            FastMath.pow(covarianceMatrixDeterminant, -0.5) *\n            getExponentTerm(vals);"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_11/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java",
+        "patchPoolId": 15,
+        "startPos": 7214,
+        "endPos": 7359,
+        "suspCodeStr": "return FastMath.pow(2 * FastMath.PI, -dim / 2) *\n            FastMath.pow(covarianceMatrixDeterminant, -0.5) *\n            getExponentTerm(vals);"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_11/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java",
+        "patchPoolId": 16,
+        "startPos": 7214,
+        "endPos": 7359,
+        "suspCodeStr": "return FastMath.pow(2 * FastMath.PI, -dim / 2) *\n            FastMath.pow(covarianceMatrixDeterminant, -0.5) *\n            getExponentTerm(vals);"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_11/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java",
+        "patchPoolId": 17,
+        "startPos": 7214,
+        "endPos": 7359,
+        "suspCodeStr": "return FastMath.pow(2 * FastMath.PI, -dim / 2) *\n            FastMath.pow(covarianceMatrixDeterminant, -0.5) *\n            getExponentTerm(vals);"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_11/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java",
+        "patchPoolId": 18,
+        "startPos": 7214,
+        "endPos": 7359,
+        "suspCodeStr": "return FastMath.pow(2 * FastMath.PI, -dim / 2) *\n            FastMath.pow(covarianceMatrixDeterminant, -0.5) *\n            getExponentTerm(vals);"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_11/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java",
+        "patchPoolId": 19,
+        "startPos": 7214,
+        "endPos": 7359,
+        "suspCodeStr": "return FastMath.pow(2 * FastMath.PI, -dim / 2) *\n            FastMath.pow(covarianceMatrixDeterminant, -0.5) *\n            getExponentTerm(vals);"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_11/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java",
+        "patchPoolId": 20,
+        "startPos": 7214,
+        "endPos": 7359,
+        "suspCodeStr": "return FastMath.pow(2 * FastMath.PI, -dim / 2) *\n            FastMath.pow(covarianceMatrixDeterminant, -0.5) *\n            getExponentTerm(vals);"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_11/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java",
+        "patchPoolId": 21,
+        "startPos": 7214,
+        "endPos": 7359,
+        "suspCodeStr": "return FastMath.pow(2 * FastMath.PI, -dim / 2) *\n            FastMath.pow(covarianceMatrixDeterminant, -0.5) *\n            getExponentTerm(vals);"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_11/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java",
+        "patchPoolId": 22,
+        "startPos": 7214,
+        "endPos": 7359,
+        "suspCodeStr": "return FastMath.pow(2 * FastMath.PI, -dim / 2) *\n            FastMath.pow(covarianceMatrixDeterminant, -0.5) *\n            getExponentTerm(vals);"
+      },
+      {
+        "patchId": 23,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_11/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java",
+        "patchPoolId": 23,
+        "startPos": 7214,
+        "endPos": 7359,
+        "suspCodeStr": "return FastMath.pow(2 * FastMath.PI, -dim / 2) *\n            FastMath.pow(covarianceMatrixDeterminant, -0.5) *\n            getExponentTerm(vals);"
+      },
+      {
+        "patchId": 24,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_11/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java",
+        "patchPoolId": 24,
+        "startPos": 7214,
+        "endPos": 7359,
+        "suspCodeStr": "return FastMath.pow(2 * FastMath.PI, -dim / 2) *\n            FastMath.pow(covarianceMatrixDeterminant, -0.5) *\n            getExponentTerm(vals);"
+      },
+      {
+        "patchId": 25,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_11/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java",
+        "patchPoolId": 25,
+        "startPos": 7214,
+        "endPos": 7359,
+        "suspCodeStr": "return FastMath.pow(2 * FastMath.PI, -dim / 2) *\n            FastMath.pow(covarianceMatrixDeterminant, -0.5) *\n            getExponentTerm(vals);"
+      },
+      {
+        "patchId": 26,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_11/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java",
+        "patchPoolId": 26,
+        "startPos": 7214,
+        "endPos": 7359,
+        "suspCodeStr": "return FastMath.pow(2 * FastMath.PI, -dim / 2) *\n            FastMath.pow(covarianceMatrixDeterminant, -0.5) *\n            getExponentTerm(vals);"
+      },
+      {
+        "patchId": 27,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_11/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java",
+        "patchPoolId": 27,
+        "startPos": 7214,
+        "endPos": 7359,
+        "suspCodeStr": "return FastMath.pow(2 * FastMath.PI, -dim / 2) *\n            FastMath.pow(covarianceMatrixDeterminant, -0.5) *\n            getExponentTerm(vals);"
+      },
+      {
+        "patchId": 28,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_11/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java",
+        "patchPoolId": 28,
+        "startPos": 7214,
+        "endPos": 7359,
+        "suspCodeStr": "return FastMath.pow(2 * FastMath.PI, -dim / 2) *\n            FastMath.pow(covarianceMatrixDeterminant, -0.5) *\n            getExponentTerm(vals);"
+      },
+      {
+        "patchId": 29,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_11/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java",
+        "patchPoolId": 29,
+        "startPos": 7214,
+        "endPos": 7359,
+        "suspCodeStr": "return FastMath.pow(2 * FastMath.PI, -dim / 2) *\n            FastMath.pow(covarianceMatrixDeterminant, -0.5) *\n            getExponentTerm(vals);"
+      },
+      {
+        "patchId": 30,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_11/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java",
+        "patchPoolId": 30,
+        "startPos": 7214,
+        "endPos": 7359,
+        "suspCodeStr": "return FastMath.pow(2 * FastMath.PI, -dim / 2) *\n            FastMath.pow(covarianceMatrixDeterminant, -0.5) *\n            getExponentTerm(vals);"
+      },
+      {
+        "patchId": 31,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_11/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java",
+        "patchPoolId": 31,
+        "startPos": 7214,
+        "endPos": 7359,
+        "suspCodeStr": "return FastMath.pow(2 * FastMath.PI, -dim / 2) *\n            FastMath.pow(covarianceMatrixDeterminant, -0.5) *\n            getExponentTerm(vals);"
+      },
+      {
+        "patchId": 32,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_11/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java",
+        "patchPoolId": 32,
+        "startPos": 7214,
+        "endPos": 7359,
+        "suspCodeStr": "return FastMath.pow(2 * FastMath.PI, -dim / 2) *\n            FastMath.pow(covarianceMatrixDeterminant, -0.5) *\n            getExponentTerm(vals);"
+      },
+      {
+        "patchId": 33,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_11/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java",
+        "patchPoolId": 33,
+        "startPos": 7214,
+        "endPos": 7359,
+        "suspCodeStr": "return FastMath.pow(2 * FastMath.PI, -dim / 2) *\n            FastMath.pow(covarianceMatrixDeterminant, -0.5) *\n            getExponentTerm(vals);"
+      },
+      {
+        "patchId": 34,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_11/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java",
+        "patchPoolId": 34,
+        "startPos": 7214,
+        "endPos": 7359,
+        "suspCodeStr": "return FastMath.pow(2 * FastMath.PI, -dim / 2) *\n            FastMath.pow(covarianceMatrixDeterminant, -0.5) *\n            getExponentTerm(vals);"
+      },
+      {
+        "patchId": 35,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_11/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java",
+        "patchPoolId": 35,
+        "startPos": 7214,
+        "endPos": 7359,
+        "suspCodeStr": "return FastMath.pow(2 * FastMath.PI, -dim / 2) *\n            FastMath.pow(covarianceMatrixDeterminant, -0.5) *\n            getExponentTerm(vals);"
+      },
+      {
+        "patchId": 36,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_11/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java",
+        "patchPoolId": 36,
+        "startPos": 7214,
+        "endPos": 7359,
+        "suspCodeStr": "return FastMath.pow(2 * FastMath.PI, -dim / 2) *\n            FastMath.pow(covarianceMatrixDeterminant, -0.5) *\n            getExponentTerm(vals);"
+      },
+      {
+        "patchId": 37,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_11/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java",
+        "patchPoolId": 37,
+        "startPos": 7214,
+        "endPos": 7359,
+        "suspCodeStr": "return FastMath.pow(2 * FastMath.PI, -dim / 2) *\n            FastMath.pow(covarianceMatrixDeterminant, -0.5) *\n            getExponentTerm(vals);"
+      },
+      {
+        "patchId": 38,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_11/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java",
+        "patchPoolId": 38,
+        "startPos": 7214,
+        "endPos": 7359,
+        "suspCodeStr": "return FastMath.pow(2 * FastMath.PI, -dim / 2) *\n            FastMath.pow(covarianceMatrixDeterminant, -0.5) *\n            getExponentTerm(vals);"
+      },
+      {
+        "patchId": 39,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_11/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java",
+        "patchPoolId": 39,
+        "startPos": 7214,
+        "endPos": 7359,
+        "suspCodeStr": "return FastMath.pow(2 * FastMath.PI, -dim / 2) *\n            FastMath.pow(covarianceMatrixDeterminant, -0.5) *\n            getExponentTerm(vals);"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 1021,
+    "patchesGenerationTimeMs": 10
+  }
+]

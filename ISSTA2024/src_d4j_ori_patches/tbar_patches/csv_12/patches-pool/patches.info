@@ -1,0 +1,26 @@
+[
+  {
+    "stmtLocation": "org/apache/commons/csv/CSVFormat:219",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_12/src/main/java/org/apache/commons/csv/CSVFormat.java",
+        "patchPoolId": 0,
+        "startPos": 7110,
+        "endPos": 7184,
+        "suspCodeStr": "public static final CSVFormat EXCEL \u003d DEFAULT.withIgnoreEmptyLines(false);"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_12/src/main/java/org/apache/commons/csv/CSVFormat.java",
+        "patchPoolId": 1,
+        "startPos": 7110,
+        "endPos": 7184,
+        "suspCodeStr": "public static final CSVFormat EXCEL \u003d DEFAULT.withIgnoreEmptyLines(false);"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 807,
+    "patchesGenerationTimeMs": 18
+  }
+]

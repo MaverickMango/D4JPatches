@@ -1,0 +1,730 @@
+[
+  {
+    "stmtLocation": "org/joda/time/Partial:464",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 0,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 1,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 2,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 3,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 4,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 5,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 6,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 7,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 8,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 9,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 10,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 11,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 12,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 13,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 14,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 15,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 16,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 17,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 18,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 19,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 20,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 21,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 22,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 23,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 23,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 24,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 24,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 25,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 25,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 26,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 26,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 27,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 27,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 28,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 28,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 29,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 29,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 30,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 30,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 31,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 31,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 32,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 32,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 33,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 33,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 34,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 34,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 35,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 35,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 36,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 36,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 37,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 37,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 38,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 38,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 39,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 39,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 40,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 40,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 41,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 41,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 42,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 42,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 43,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 43,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 44,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 44,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 45,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 45,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 46,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 46,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 47,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 47,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 48,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 48,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 49,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 49,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 50,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 50,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 51,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 51,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 52,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 52,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 53,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 53,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 54,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 54,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 55,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 55,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 56,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 56,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 57,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 57,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 58,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 58,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 59,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 59,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 60,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 60,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 61,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 61,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 62,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 62,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 63,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 63,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 64,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 64,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 65,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 65,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 66,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 66,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 67,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 67,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 68,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 68,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 69,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 69,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 70,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 70,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 71,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 71,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 72,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 72,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 73,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 73,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 74,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 74,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 75,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 75,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 76,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 76,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 77,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 77,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 78,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 78,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 79,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 79,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 80,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 80,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 81,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 81,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 82,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 82,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 83,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 83,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 84,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 84,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 85,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 85,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 86,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 86,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 87,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 87,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 88,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 88,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      },
+      {
+        "patchId": 89,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java",
+        "patchPoolId": 89,
+        "startPos": 18532,
+        "endPos": 18599,
+        "suspCodeStr": "Partial newPartial \u003d new Partial(iChronology, newTypes, newValues);"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 569,
+    "patchesGenerationTimeMs": 19
+  }
+]

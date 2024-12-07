@@ -1,0 +1,10 @@
+stmtLocation: org/jsoup/parser/CharacterReader:300
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 665
+patchesGenerationTimeMs: 31
+patchId: 142
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java
+patchPoolId: 142
+startPos: 7952
+endPos: 8008
+suspCodeStr: return (c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z');

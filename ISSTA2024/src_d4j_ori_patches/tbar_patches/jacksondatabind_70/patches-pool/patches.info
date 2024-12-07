@@ -1,0 +1,346 @@
+[
+  {
+    "stmtLocation": "com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap:440",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 0,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 1,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 2,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 3,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 4,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 5,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 6,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 7,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 8,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 9,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 10,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 11,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 12,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 13,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 14,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 15,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 16,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 17,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 18,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 19,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 20,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 21,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 22,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      },
+      {
+        "patchId": 23,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 23,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      },
+      {
+        "patchId": 24,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 24,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      },
+      {
+        "patchId": 25,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 25,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      },
+      {
+        "patchId": 26,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 26,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      },
+      {
+        "patchId": 27,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 27,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      },
+      {
+        "patchId": 28,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 28,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      },
+      {
+        "patchId": 29,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 29,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      },
+      {
+        "patchId": 30,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 30,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      },
+      {
+        "patchId": 31,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 31,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      },
+      {
+        "patchId": 32,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 32,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      },
+      {
+        "patchId": 33,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 33,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      },
+      {
+        "patchId": 34,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 34,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      },
+      {
+        "patchId": 35,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 35,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      },
+      {
+        "patchId": 36,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 36,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      },
+      {
+        "patchId": 37,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 37,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      },
+      {
+        "patchId": 38,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 38,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      },
+      {
+        "patchId": 39,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 39,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      },
+      {
+        "patchId": 40,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 40,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      },
+      {
+        "patchId": 41,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+        "patchPoolId": 41,
+        "startPos": 14894,
+        "endPos": 14929,
+        "suspCodeStr": "found \u003d key.equals(prop.getName());"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 808,
+    "patchesGenerationTimeMs": 20
+  }
+]

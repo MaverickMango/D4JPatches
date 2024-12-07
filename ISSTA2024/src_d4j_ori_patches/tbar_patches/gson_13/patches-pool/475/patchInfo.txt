@@ -1,0 +1,20 @@
+stmtLocation: com/google/gson/stream/JsonReader:731
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 939
+patchesGenerationTimeMs: 118
+patchId: 475
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/gson_13/gson/src/main/java/com/google/gson/stream/JsonReader.java
+patchPoolId: 475
+startPos: 24244
+endPos: 24663
+suspCodeStr: if (last == NUMBER_CHAR_DIGIT && fitsInLong && (value != Long.MIN_VALUE || negative)) {
+      peekedLong = negative ? value : -value;
+      pos += i;
+      return peeked = PEEKED_LONG;
+    } else if (last == NUMBER_CHAR_DIGIT || last == NUMBER_CHAR_FRACTION_DIGIT
+        || last == NUMBER_CHAR_EXP_DIGIT) {
+      peekedNumberLength = i;
+      return peeked = PEEKED_NUMBER;
+    } else {
+      return PEEKED_NONE;
+    }

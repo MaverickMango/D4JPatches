@@ -1,0 +1,10 @@
+stmtLocation: org/apache/commons/math/optimization/fitting/GaussianFitter:121
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 982
+patchesGenerationTimeMs: 13
+patchId: 9
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_58/src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java
+patchPoolId: 9
+startPos: 4789
+endPos: 4834
+suspCodeStr: return fit(new Gaussian.Parametric(), guess);

@@ -1,0 +1,58 @@
+[
+  {
+    "stmtLocation": "com/google/javascript/jscomp/TypeCheck:1661",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_125/src/com/google/javascript/jscomp/TypeCheck.java",
+        "patchPoolId": 0,
+        "startPos": 57767,
+        "endPos": 57933,
+        "suspCodeStr": "if (fnType !\u003d null) {\n        visitParameterList(t, n, fnType);\n        ensureTyped(t, n, fnType.getInstanceType());\n      } else {\n        ensureTyped(t, n);\n      }"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_125/src/com/google/javascript/jscomp/TypeCheck.java",
+        "patchPoolId": 1,
+        "startPos": 57767,
+        "endPos": 57933,
+        "suspCodeStr": "if (fnType !\u003d null) {\n        visitParameterList(t, n, fnType);\n        ensureTyped(t, n, fnType.getInstanceType());\n      } else {\n        ensureTyped(t, n);\n      }"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_125/src/com/google/javascript/jscomp/TypeCheck.java",
+        "patchPoolId": 2,
+        "startPos": 57767,
+        "endPos": 57933,
+        "suspCodeStr": "if (fnType !\u003d null) {\n        visitParameterList(t, n, fnType);\n        ensureTyped(t, n, fnType.getInstanceType());\n      } else {\n        ensureTyped(t, n);\n      }"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_125/src/com/google/javascript/jscomp/TypeCheck.java",
+        "patchPoolId": 3,
+        "startPos": 57767,
+        "endPos": 57933,
+        "suspCodeStr": "if (fnType !\u003d null) {\n        visitParameterList(t, n, fnType);\n        ensureTyped(t, n, fnType.getInstanceType());\n      } else {\n        ensureTyped(t, n);\n      }"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_125/src/com/google/javascript/jscomp/TypeCheck.java",
+        "patchPoolId": 4,
+        "startPos": 57767,
+        "endPos": 57933,
+        "suspCodeStr": "if (fnType !\u003d null) {\n        visitParameterList(t, n, fnType);\n        ensureTyped(t, n, fnType.getInstanceType());\n      } else {\n        ensureTyped(t, n);\n      }"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_125/src/com/google/javascript/jscomp/TypeCheck.java",
+        "patchPoolId": 5,
+        "startPos": 57767,
+        "endPos": 57933,
+        "suspCodeStr": "if (fnType !\u003d null) {\n        visitParameterList(t, n, fnType);\n        ensureTyped(t, n, fnType.getInstanceType());\n      } else {\n        ensureTyped(t, n);\n      }"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 1306,
+    "patchesGenerationTimeMs": 32
+  }
+]

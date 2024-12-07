@@ -1,0 +1,122 @@
+[
+  {
+    "stmtLocation": "org/apache/commons/codec/binary/StringUtils:339",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_17/src/main/java/org/apache/commons/codec/binary/StringUtils.java",
+        "patchPoolId": 0,
+        "startPos": 15213,
+        "endPos": 15259,
+        "suspCodeStr": "return new String(bytes, Charsets.ISO_8859_1);"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_17/src/main/java/org/apache/commons/codec/binary/StringUtils.java",
+        "patchPoolId": 1,
+        "startPos": 15213,
+        "endPos": 15259,
+        "suspCodeStr": "return new String(bytes, Charsets.ISO_8859_1);"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_17/src/main/java/org/apache/commons/codec/binary/StringUtils.java",
+        "patchPoolId": 2,
+        "startPos": 15213,
+        "endPos": 15259,
+        "suspCodeStr": "return new String(bytes, Charsets.ISO_8859_1);"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_17/src/main/java/org/apache/commons/codec/binary/StringUtils.java",
+        "patchPoolId": 3,
+        "startPos": 15213,
+        "endPos": 15259,
+        "suspCodeStr": "return new String(bytes, Charsets.ISO_8859_1);"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_17/src/main/java/org/apache/commons/codec/binary/StringUtils.java",
+        "patchPoolId": 4,
+        "startPos": 15213,
+        "endPos": 15259,
+        "suspCodeStr": "return new String(bytes, Charsets.ISO_8859_1);"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_17/src/main/java/org/apache/commons/codec/binary/StringUtils.java",
+        "patchPoolId": 5,
+        "startPos": 15213,
+        "endPos": 15259,
+        "suspCodeStr": "return new String(bytes, Charsets.ISO_8859_1);"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_17/src/main/java/org/apache/commons/codec/binary/StringUtils.java",
+        "patchPoolId": 6,
+        "startPos": 15213,
+        "endPos": 15259,
+        "suspCodeStr": "return new String(bytes, Charsets.ISO_8859_1);"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_17/src/main/java/org/apache/commons/codec/binary/StringUtils.java",
+        "patchPoolId": 7,
+        "startPos": 15213,
+        "endPos": 15259,
+        "suspCodeStr": "return new String(bytes, Charsets.ISO_8859_1);"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_17/src/main/java/org/apache/commons/codec/binary/StringUtils.java",
+        "patchPoolId": 8,
+        "startPos": 15213,
+        "endPos": 15259,
+        "suspCodeStr": "return new String(bytes, Charsets.ISO_8859_1);"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_17/src/main/java/org/apache/commons/codec/binary/StringUtils.java",
+        "patchPoolId": 9,
+        "startPos": 15213,
+        "endPos": 15259,
+        "suspCodeStr": "return new String(bytes, Charsets.ISO_8859_1);"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_17/src/main/java/org/apache/commons/codec/binary/StringUtils.java",
+        "patchPoolId": 10,
+        "startPos": 15213,
+        "endPos": 15259,
+        "suspCodeStr": "return new String(bytes, Charsets.ISO_8859_1);"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_17/src/main/java/org/apache/commons/codec/binary/StringUtils.java",
+        "patchPoolId": 11,
+        "startPos": 15213,
+        "endPos": 15259,
+        "suspCodeStr": "return new String(bytes, Charsets.ISO_8859_1);"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_17/src/main/java/org/apache/commons/codec/binary/StringUtils.java",
+        "patchPoolId": 12,
+        "startPos": 15213,
+        "endPos": 15259,
+        "suspCodeStr": "return new String(bytes, Charsets.ISO_8859_1);"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_17/src/main/java/org/apache/commons/codec/binary/StringUtils.java",
+        "patchPoolId": 13,
+        "startPos": 15213,
+        "endPos": 15259,
+        "suspCodeStr": "return new String(bytes, Charsets.ISO_8859_1);"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 604,
+    "patchesGenerationTimeMs": 9
+  }
+]

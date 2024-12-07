@@ -1,0 +1,10 @@
+stmtLocation: org/apache/commons/csv/CSVParser:288
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 661
+patchesGenerationTimeMs: 38
+patchId: 4
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_4/src/main/java/org/apache/commons/csv/CSVParser.java
+patchPoolId: 4
+startPos: 9811
+endPos: 9869
+suspCodeStr: return new LinkedHashMap<String, Integer>(this.headerMap);

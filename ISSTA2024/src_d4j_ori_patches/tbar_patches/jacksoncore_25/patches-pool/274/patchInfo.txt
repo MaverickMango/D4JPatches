@@ -1,0 +1,16 @@
+stmtLocation: com/fasterxml/jackson/core/json/ReaderBasedJsonParser:1963
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 1156
+patchesGenerationTimeMs: 110
+patchId: 274
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksoncore_25/src/main/java/com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java
+patchPoolId: 274
+startPos: 68409
+endPos: 68608
+suspCodeStr: if (i <= maxCode) {
+                if (codes[i] != 0) {
+                    break;
+                }
+            } else if (!Character.isJavaIdentifierPart(c)) {
+                break;
+            }

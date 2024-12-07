@@ -1,0 +1,10 @@
+stmtLocation: org/apache/commons/math/analysis/solvers/BisectionSolver:72
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 698
+patchesGenerationTimeMs: 60
+patchId: 108
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java
+patchPoolId: 108
+startPos: 2596
+endPos: 2619
+suspCodeStr: return solve(min, max);

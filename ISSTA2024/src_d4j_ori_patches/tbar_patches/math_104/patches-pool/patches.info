@@ -1,0 +1,18 @@
+[
+  {
+    "stmtLocation": "org/apache/commons/math/special/Gamma:37",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_104/src/java/org/apache/commons/math/special/Gamma.java",
+        "patchPoolId": 0,
+        "startPos": 1401,
+        "endPos": 1453,
+        "suspCodeStr": "private static final double DEFAULT_EPSILON \u003d 10e-9;"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 897,
+    "patchesGenerationTimeMs": 20
+  }
+]

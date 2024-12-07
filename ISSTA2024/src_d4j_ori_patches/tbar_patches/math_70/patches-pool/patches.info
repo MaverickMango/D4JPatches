@@ -1,0 +1,1634 @@
+[
+  {
+    "stmtLocation": "org/apache/commons/math/analysis/solvers/BisectionSolver:72",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 0,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 1,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 2,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 3,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 4,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 5,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 6,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 7,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 8,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 9,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 10,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 11,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 12,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 13,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 14,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 15,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 16,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 17,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 18,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 19,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 20,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 21,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 22,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 23,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 23,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 24,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 24,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 25,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 25,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 26,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 26,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 27,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 27,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 28,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 28,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 29,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 29,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 30,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 30,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 31,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 31,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 32,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 32,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 33,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 33,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 34,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 34,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 35,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 35,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 36,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 36,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 37,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 37,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 38,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 38,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 39,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 39,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 40,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 40,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 41,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 41,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 42,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 42,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 43,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 43,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 44,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 44,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 45,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 45,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 46,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 46,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 47,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 47,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 48,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 48,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 49,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 49,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 50,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 50,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 51,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 51,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 52,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 52,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 53,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 53,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 54,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 54,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 55,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 55,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 56,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 56,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 57,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 57,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 58,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 58,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 59,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 59,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 60,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 60,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 61,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 61,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 62,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 62,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 63,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 63,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 64,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 64,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 65,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 65,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 66,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 66,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 67,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 67,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 68,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 68,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 69,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 69,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 70,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 70,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 71,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 71,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 72,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 72,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 73,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 73,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 74,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 74,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 75,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 75,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 76,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 76,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 77,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 77,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 78,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 78,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 79,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 79,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 80,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 80,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 81,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 81,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 82,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 82,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 83,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 83,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 84,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 84,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 85,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 85,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 86,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 86,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 87,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 87,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 88,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 88,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 89,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 89,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 90,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 90,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 91,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 91,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 92,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 92,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 93,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 93,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 94,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 94,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 95,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 95,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 96,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 96,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 97,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 97,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 98,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 98,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 99,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 99,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 100,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 100,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 101,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 101,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 102,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 102,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 103,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 103,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 104,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 104,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 105,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 105,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 106,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 106,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 107,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 107,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 108,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 108,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 109,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 109,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 110,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 110,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 111,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 111,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 112,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 112,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 113,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 113,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 114,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 114,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 115,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 115,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 116,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 116,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 117,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 117,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 118,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 118,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 119,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 119,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 120,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 120,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 121,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 121,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 122,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 122,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 123,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 123,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 124,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 124,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 125,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 125,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 126,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 126,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 127,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 127,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 128,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 128,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 129,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 129,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 130,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 130,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 131,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 131,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 132,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 132,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 133,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 133,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 134,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 134,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 135,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 135,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 136,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 136,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 137,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 137,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 138,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 138,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 139,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 139,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 140,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 140,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 141,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 141,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 142,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 142,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 143,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 143,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 144,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 144,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 145,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 145,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 146,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 146,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 147,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 147,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 148,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 148,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 149,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 149,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 150,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 150,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 151,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 151,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 152,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 152,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 153,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 153,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 154,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 154,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 155,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 155,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 156,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 156,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 157,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 157,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 158,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 158,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 159,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 159,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 160,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 160,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 161,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 161,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 162,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 162,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 163,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 163,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 164,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 164,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 165,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 165,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 166,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 166,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 167,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 167,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 168,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 168,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 169,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 169,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 170,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 170,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 171,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 171,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 172,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 172,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 173,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 173,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 174,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 174,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 175,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 175,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 176,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 176,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 177,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 177,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 178,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 178,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 179,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 179,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 180,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 180,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 181,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 181,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 182,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 182,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 183,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 183,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 184,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 184,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 185,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 185,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 186,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 186,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 187,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 187,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 188,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 188,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 189,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 189,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 190,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 190,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 191,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 191,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 192,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 192,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 193,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 193,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 194,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 194,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 195,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 195,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 196,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 196,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 197,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 197,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 198,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 198,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 199,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 199,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 200,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 200,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 201,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 201,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      },
+      {
+        "patchId": 202,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_70/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java",
+        "patchPoolId": 202,
+        "startPos": 2596,
+        "endPos": 2619,
+        "suspCodeStr": "return solve(min, max);"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 698,
+    "patchesGenerationTimeMs": 6
+  }
+]

@@ -1,0 +1,778 @@
+[
+  {
+    "stmtLocation": "com/google/javascript/jscomp/CodeGenerator:1045",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 0,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 1,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 2,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 3,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 4,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 5,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 6,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 7,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 8,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 9,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 10,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 11,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 12,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 13,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 14,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 15,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 16,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 17,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 18,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 19,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 20,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 21,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 22,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 23,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 23,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 24,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 24,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 25,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 25,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 26,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 26,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 27,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 27,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 28,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 28,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 29,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 29,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 30,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 30,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 31,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 31,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 32,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 32,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 33,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 33,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 34,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 34,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 35,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 35,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 36,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 36,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 37,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 37,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 38,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 38,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 39,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 39,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 40,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 40,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 41,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 41,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 42,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 42,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 43,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 43,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 44,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 44,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 45,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 45,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 46,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 46,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 47,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 47,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 48,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 48,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 49,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 49,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 50,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 50,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 51,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 51,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 52,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 52,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 53,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 53,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 54,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 54,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 55,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 55,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 56,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 56,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 57,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 57,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 58,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 58,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 59,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 59,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 60,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 60,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 61,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 61,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 62,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 62,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 63,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 63,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 64,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 64,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 65,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 65,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 66,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 66,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 67,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 67,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 68,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 68,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 69,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 69,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 70,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 70,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 71,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 71,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 72,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 72,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 73,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 73,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 74,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 74,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 75,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 75,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 76,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 76,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 77,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 77,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 78,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 78,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 79,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 79,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 80,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 80,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 81,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 81,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 82,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 82,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 83,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 83,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 84,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 84,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 85,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 85,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 86,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 86,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 87,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 87,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 88,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 88,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 89,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 89,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 90,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 90,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 91,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 91,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 92,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 92,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 93,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 93,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 94,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 94,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      },
+      {
+        "patchId": 95,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_73/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 95,
+        "startPos": 32116,
+        "endPos": 32462,
+        "suspCodeStr": "if (c \u003e 0x1f \u0026\u0026 c \u003c\u003d 0x7f) {\n              sb.append(c);\n            } else {\n              // Other characters can be misinterpreted by some js parsers,\n              // or perhaps mangled by proxies along the way,\n              // so we play it safe and unicode escape them.\n              appendHexJavaScriptRepresentation(sb, c);\n            }"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 943,
+    "patchesGenerationTimeMs": 21
+  }
+]

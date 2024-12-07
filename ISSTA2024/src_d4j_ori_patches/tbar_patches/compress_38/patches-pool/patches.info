@@ -1,0 +1,338 @@
+[
+  {
+    "stmtLocation": "org/apache/commons/compress/archivers/tar/TarArchiveEntry:859",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "patchPoolId": 0,
+        "startPos": 24563,
+        "endPos": 24628,
+        "suspCodeStr": "if (getName().endsWith(\"/\")) {\n            return true;\n        }"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "patchPoolId": 1,
+        "startPos": 24563,
+        "endPos": 24628,
+        "suspCodeStr": "if (getName().endsWith(\"/\")) {\n            return true;\n        }"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "patchPoolId": 2,
+        "startPos": 24563,
+        "endPos": 24628,
+        "suspCodeStr": "if (getName().endsWith(\"/\")) {\n            return true;\n        }"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "patchPoolId": 3,
+        "startPos": 24563,
+        "endPos": 24628,
+        "suspCodeStr": "if (getName().endsWith(\"/\")) {\n            return true;\n        }"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "patchPoolId": 4,
+        "startPos": 24563,
+        "endPos": 24628,
+        "suspCodeStr": "if (getName().endsWith(\"/\")) {\n            return true;\n        }"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "patchPoolId": 5,
+        "startPos": 24563,
+        "endPos": 24628,
+        "suspCodeStr": "if (getName().endsWith(\"/\")) {\n            return true;\n        }"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "patchPoolId": 6,
+        "startPos": 24563,
+        "endPos": 24628,
+        "suspCodeStr": "if (getName().endsWith(\"/\")) {\n            return true;\n        }"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "patchPoolId": 7,
+        "startPos": 24563,
+        "endPos": 24628,
+        "suspCodeStr": "if (getName().endsWith(\"/\")) {\n            return true;\n        }"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "patchPoolId": 8,
+        "startPos": 24563,
+        "endPos": 24628,
+        "suspCodeStr": "if (getName().endsWith(\"/\")) {\n            return true;\n        }"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "patchPoolId": 9,
+        "startPos": 24563,
+        "endPos": 24628,
+        "suspCodeStr": "if (getName().endsWith(\"/\")) {\n            return true;\n        }"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "patchPoolId": 10,
+        "startPos": 24563,
+        "endPos": 24628,
+        "suspCodeStr": "if (getName().endsWith(\"/\")) {\n            return true;\n        }"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "patchPoolId": 11,
+        "startPos": 24563,
+        "endPos": 24628,
+        "suspCodeStr": "if (getName().endsWith(\"/\")) {\n            return true;\n        }"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "patchPoolId": 12,
+        "startPos": 24563,
+        "endPos": 24628,
+        "suspCodeStr": "if (getName().endsWith(\"/\")) {\n            return true;\n        }"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "patchPoolId": 13,
+        "startPos": 24563,
+        "endPos": 24628,
+        "suspCodeStr": "if (getName().endsWith(\"/\")) {\n            return true;\n        }"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "patchPoolId": 14,
+        "startPos": 24563,
+        "endPos": 24628,
+        "suspCodeStr": "if (getName().endsWith(\"/\")) {\n            return true;\n        }"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "patchPoolId": 15,
+        "startPos": 24563,
+        "endPos": 24628,
+        "suspCodeStr": "if (getName().endsWith(\"/\")) {\n            return true;\n        }"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "patchPoolId": 16,
+        "startPos": 24563,
+        "endPos": 24628,
+        "suspCodeStr": "if (getName().endsWith(\"/\")) {\n            return true;\n        }"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "patchPoolId": 17,
+        "startPos": 24563,
+        "endPos": 24628,
+        "suspCodeStr": "if (getName().endsWith(\"/\")) {\n            return true;\n        }"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "patchPoolId": 18,
+        "startPos": 24563,
+        "endPos": 24628,
+        "suspCodeStr": "if (getName().endsWith(\"/\")) {\n            return true;\n        }"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "patchPoolId": 19,
+        "startPos": 24563,
+        "endPos": 24628,
+        "suspCodeStr": "if (getName().endsWith(\"/\")) {\n            return true;\n        }"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "patchPoolId": 20,
+        "startPos": 24563,
+        "endPos": 24628,
+        "suspCodeStr": "if (getName().endsWith(\"/\")) {\n            return true;\n        }"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "patchPoolId": 21,
+        "startPos": 24563,
+        "endPos": 24628,
+        "suspCodeStr": "if (getName().endsWith(\"/\")) {\n            return true;\n        }"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "patchPoolId": 22,
+        "startPos": 24563,
+        "endPos": 24628,
+        "suspCodeStr": "if (getName().endsWith(\"/\")) {\n            return true;\n        }"
+      },
+      {
+        "patchId": 23,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "patchPoolId": 23,
+        "startPos": 24563,
+        "endPos": 24628,
+        "suspCodeStr": "if (getName().endsWith(\"/\")) {\n            return true;\n        }"
+      },
+      {
+        "patchId": 24,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "patchPoolId": 24,
+        "startPos": 24563,
+        "endPos": 24628,
+        "suspCodeStr": "if (getName().endsWith(\"/\")) {\n            return true;\n        }"
+      },
+      {
+        "patchId": 25,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "patchPoolId": 25,
+        "startPos": 24563,
+        "endPos": 24628,
+        "suspCodeStr": "if (getName().endsWith(\"/\")) {\n            return true;\n        }"
+      },
+      {
+        "patchId": 26,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "patchPoolId": 26,
+        "startPos": 24563,
+        "endPos": 24628,
+        "suspCodeStr": "if (getName().endsWith(\"/\")) {\n            return true;\n        }"
+      },
+      {
+        "patchId": 27,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "patchPoolId": 27,
+        "startPos": 24563,
+        "endPos": 24628,
+        "suspCodeStr": "if (getName().endsWith(\"/\")) {\n            return true;\n        }"
+      },
+      {
+        "patchId": 28,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "patchPoolId": 28,
+        "startPos": 24563,
+        "endPos": 24628,
+        "suspCodeStr": "if (getName().endsWith(\"/\")) {\n            return true;\n        }"
+      },
+      {
+        "patchId": 29,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "patchPoolId": 29,
+        "startPos": 24563,
+        "endPos": 24628,
+        "suspCodeStr": "if (getName().endsWith(\"/\")) {\n            return true;\n        }"
+      },
+      {
+        "patchId": 30,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "patchPoolId": 30,
+        "startPos": 24563,
+        "endPos": 24628,
+        "suspCodeStr": "if (getName().endsWith(\"/\")) {\n            return true;\n        }"
+      },
+      {
+        "patchId": 31,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "patchPoolId": 31,
+        "startPos": 24563,
+        "endPos": 24628,
+        "suspCodeStr": "if (getName().endsWith(\"/\")) {\n            return true;\n        }"
+      },
+      {
+        "patchId": 32,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "patchPoolId": 32,
+        "startPos": 24563,
+        "endPos": 24628,
+        "suspCodeStr": "if (getName().endsWith(\"/\")) {\n            return true;\n        }"
+      },
+      {
+        "patchId": 33,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "patchPoolId": 33,
+        "startPos": 24563,
+        "endPos": 24628,
+        "suspCodeStr": "if (getName().endsWith(\"/\")) {\n            return true;\n        }"
+      },
+      {
+        "patchId": 34,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "patchPoolId": 34,
+        "startPos": 24563,
+        "endPos": 24628,
+        "suspCodeStr": "if (getName().endsWith(\"/\")) {\n            return true;\n        }"
+      },
+      {
+        "patchId": 35,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "patchPoolId": 35,
+        "startPos": 24563,
+        "endPos": 24628,
+        "suspCodeStr": "if (getName().endsWith(\"/\")) {\n            return true;\n        }"
+      },
+      {
+        "patchId": 36,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "patchPoolId": 36,
+        "startPos": 24563,
+        "endPos": 24628,
+        "suspCodeStr": "if (getName().endsWith(\"/\")) {\n            return true;\n        }"
+      },
+      {
+        "patchId": 37,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "patchPoolId": 37,
+        "startPos": 24563,
+        "endPos": 24628,
+        "suspCodeStr": "if (getName().endsWith(\"/\")) {\n            return true;\n        }"
+      },
+      {
+        "patchId": 38,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "patchPoolId": 38,
+        "startPos": 24563,
+        "endPos": 24628,
+        "suspCodeStr": "if (getName().endsWith(\"/\")) {\n            return true;\n        }"
+      },
+      {
+        "patchId": 39,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "patchPoolId": 39,
+        "startPos": 24563,
+        "endPos": 24628,
+        "suspCodeStr": "if (getName().endsWith(\"/\")) {\n            return true;\n        }"
+      },
+      {
+        "patchId": 40,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java",
+        "patchPoolId": 40,
+        "startPos": 24563,
+        "endPos": 24628,
+        "suspCodeStr": "if (getName().endsWith(\"/\")) {\n            return true;\n        }"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 635,
+    "patchesGenerationTimeMs": 26
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "stmtLocation": "org/jfree/data/time/Week:175",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_8/source/org/jfree/data/time/Week.java",
+        "patchPoolId": 0,
+        "startPos": 6867,
+        "endPos": 6936,
+        "suspCodeStr": "this(time, RegularTimePeriod.DEFAULT_TIME_ZONE, Locale.getDefault());"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_8/source/org/jfree/data/time/Week.java",
+        "patchPoolId": 1,
+        "startPos": 6867,
+        "endPos": 6936,
+        "suspCodeStr": "this(time, RegularTimePeriod.DEFAULT_TIME_ZONE, Locale.getDefault());"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_8/source/org/jfree/data/time/Week.java",
+        "patchPoolId": 2,
+        "startPos": 6867,
+        "endPos": 6936,
+        "suspCodeStr": "this(time, RegularTimePeriod.DEFAULT_TIME_ZONE, Locale.getDefault());"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_8/source/org/jfree/data/time/Week.java",
+        "patchPoolId": 3,
+        "startPos": 6867,
+        "endPos": 6936,
+        "suspCodeStr": "this(time, RegularTimePeriod.DEFAULT_TIME_ZONE, Locale.getDefault());"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_8/source/org/jfree/data/time/Week.java",
+        "patchPoolId": 4,
+        "startPos": 6867,
+        "endPos": 6936,
+        "suspCodeStr": "this(time, RegularTimePeriod.DEFAULT_TIME_ZONE, Locale.getDefault());"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_8/source/org/jfree/data/time/Week.java",
+        "patchPoolId": 5,
+        "startPos": 6867,
+        "endPos": 6936,
+        "suspCodeStr": "this(time, RegularTimePeriod.DEFAULT_TIME_ZONE, Locale.getDefault());"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_8/source/org/jfree/data/time/Week.java",
+        "patchPoolId": 6,
+        "startPos": 6867,
+        "endPos": 6936,
+        "suspCodeStr": "this(time, RegularTimePeriod.DEFAULT_TIME_ZONE, Locale.getDefault());"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_8/source/org/jfree/data/time/Week.java",
+        "patchPoolId": 7,
+        "startPos": 6867,
+        "endPos": 6936,
+        "suspCodeStr": "this(time, RegularTimePeriod.DEFAULT_TIME_ZONE, Locale.getDefault());"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_8/source/org/jfree/data/time/Week.java",
+        "patchPoolId": 8,
+        "startPos": 6867,
+        "endPos": 6936,
+        "suspCodeStr": "this(time, RegularTimePeriod.DEFAULT_TIME_ZONE, Locale.getDefault());"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_8/source/org/jfree/data/time/Week.java",
+        "patchPoolId": 9,
+        "startPos": 6867,
+        "endPos": 6936,
+        "suspCodeStr": "this(time, RegularTimePeriod.DEFAULT_TIME_ZONE, Locale.getDefault());"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_8/source/org/jfree/data/time/Week.java",
+        "patchPoolId": 10,
+        "startPos": 6867,
+        "endPos": 6936,
+        "suspCodeStr": "this(time, RegularTimePeriod.DEFAULT_TIME_ZONE, Locale.getDefault());"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_8/source/org/jfree/data/time/Week.java",
+        "patchPoolId": 11,
+        "startPos": 6867,
+        "endPos": 6936,
+        "suspCodeStr": "this(time, RegularTimePeriod.DEFAULT_TIME_ZONE, Locale.getDefault());"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_8/source/org/jfree/data/time/Week.java",
+        "patchPoolId": 12,
+        "startPos": 6867,
+        "endPos": 6936,
+        "suspCodeStr": "this(time, RegularTimePeriod.DEFAULT_TIME_ZONE, Locale.getDefault());"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_8/source/org/jfree/data/time/Week.java",
+        "patchPoolId": 13,
+        "startPos": 6867,
+        "endPos": 6936,
+        "suspCodeStr": "this(time, RegularTimePeriod.DEFAULT_TIME_ZONE, Locale.getDefault());"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_8/source/org/jfree/data/time/Week.java",
+        "patchPoolId": 14,
+        "startPos": 6867,
+        "endPos": 6936,
+        "suspCodeStr": "this(time, RegularTimePeriod.DEFAULT_TIME_ZONE, Locale.getDefault());"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_8/source/org/jfree/data/time/Week.java",
+        "patchPoolId": 15,
+        "startPos": 6867,
+        "endPos": 6936,
+        "suspCodeStr": "this(time, RegularTimePeriod.DEFAULT_TIME_ZONE, Locale.getDefault());"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_8/source/org/jfree/data/time/Week.java",
+        "patchPoolId": 16,
+        "startPos": 6867,
+        "endPos": 6936,
+        "suspCodeStr": "this(time, RegularTimePeriod.DEFAULT_TIME_ZONE, Locale.getDefault());"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_8/source/org/jfree/data/time/Week.java",
+        "patchPoolId": 17,
+        "startPos": 6867,
+        "endPos": 6936,
+        "suspCodeStr": "this(time, RegularTimePeriod.DEFAULT_TIME_ZONE, Locale.getDefault());"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 757,
+    "patchesGenerationTimeMs": 13
+  }
+]

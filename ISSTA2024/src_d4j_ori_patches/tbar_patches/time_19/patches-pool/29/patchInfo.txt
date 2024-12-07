@@ -1,0 +1,19 @@
+stmtLocation: org/joda/time/DateTimeZone:900
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 864
+patchesGenerationTimeMs: 57
+patchId: 29
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java
+patchPoolId: 29
+startPos: 34135
+endPos: 34498
+suspCodeStr: if (offsetLocal > 0) {
+            long prev = previousTransition(instantAdjusted);
+            if (prev < instantAdjusted) {
+                int offsetPrev = getOffset(prev);
+                int diff = offsetPrev - offsetLocal;
+                if (instantAdjusted - prev <= diff) {
+                    return offsetPrev;
+                }
+            }
+        }

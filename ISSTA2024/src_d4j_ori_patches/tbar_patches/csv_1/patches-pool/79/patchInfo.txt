@@ -1,0 +1,12 @@
+stmtLocation: org/apache/commons/csv/ExtendedBufferedReader:58
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 569
+patchesGenerationTimeMs: 8
+patchId: 79
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java
+patchPoolId: 79
+startPos: 1794
+endPos: 1853
+suspCodeStr: if (current == '\n') {
+            lineCounter++;
+        }

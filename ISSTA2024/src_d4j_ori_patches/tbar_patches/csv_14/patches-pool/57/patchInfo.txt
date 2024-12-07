@@ -1,0 +1,36 @@
+stmtLocation: org/apache/commons/csv/CSVFormat:1039
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 1328
+patchesGenerationTimeMs: 90
+patchId: 57
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_14/src/main/java/org/apache/commons/csv/CSVFormat.java
+patchPoolId: 57
+startPos: 33022
+endPos: 34275
+suspCodeStr: if (newRecord && (c < '0' || c > '9' && c < 'A' || c > 'Z' && c < 'a' || c > 'z')) {
+                    quote = true;
+                } else if (c <= COMMENT) {
+                    // Some other chars at the start of a value caused the parser to fail, so for now
+                    // encapsulate if we start in anything less than '#'. We are being conservative
+                    // by including the default comment char too.
+                    quote = true;
+                } else {
+                    while (pos < end) {
+                        c = value.charAt(pos);
+                        if (c == LF || c == CR || c == quoteChar || c == delimChar) {
+                            quote = true;
+                            break;
+                        }
+                        pos++;
+                    }
+
+                    if (!quote) {
+                        pos = end - 1;
+                        c = value.charAt(pos);
+                        // Some other chars at the end caused the parser to fail, so for now
+                        // encapsulate if we end in anything less than ' '
+                        if (c <= SP) {
+                            quote = true;
+                        }
+                    }
+                }

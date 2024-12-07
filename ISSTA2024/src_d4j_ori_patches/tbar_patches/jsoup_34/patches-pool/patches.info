@@ -1,0 +1,1170 @@
+[
+  {
+    "stmtLocation": "org/jsoup/parser/CharacterReader:91",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 0,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 1,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 2,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 3,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 4,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 5,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 6,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 7,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 8,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 9,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 10,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 11,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 12,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 13,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 14,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 15,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 16,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 17,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 18,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 19,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 20,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 21,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 22,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 23,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 23,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 24,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 24,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 25,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 25,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 26,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 26,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 27,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 27,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 28,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 28,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 29,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 29,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 30,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 30,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 31,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 31,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 32,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 32,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 33,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 33,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 34,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 34,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 35,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 35,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 36,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 36,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 37,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 37,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 38,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 38,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 39,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 39,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 40,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 40,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 41,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 41,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 42,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 42,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 43,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 43,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 44,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 44,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 45,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 45,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 46,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 46,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 47,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 47,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 48,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 48,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 49,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 49,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 50,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 50,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 51,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 51,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 52,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 52,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 53,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 53,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 54,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 54,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 55,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 55,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 56,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 56,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 57,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 57,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 58,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 58,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 59,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 59,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 60,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 60,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 61,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 61,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 62,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 62,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 63,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 63,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 64,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 64,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 65,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 65,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 66,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 66,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 67,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 67,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 68,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 68,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 69,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 69,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 70,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 70,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 71,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 71,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 72,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 72,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 73,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 73,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 74,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 74,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 75,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 75,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 76,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 76,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 77,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 77,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 78,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 78,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 79,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 79,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 80,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 80,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 81,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 81,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 82,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 82,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 83,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 83,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 84,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 84,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 85,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 85,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 86,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 86,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 87,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 87,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 88,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 88,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 89,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 89,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 90,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 90,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 91,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 91,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 92,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 92,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 93,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 93,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 94,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 94,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 95,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 95,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 96,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 96,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 97,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 97,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 98,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 98,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 99,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 99,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 100,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 100,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 101,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 101,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 102,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 102,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 103,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 103,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 104,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 104,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 105,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 105,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 106,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 106,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 107,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 107,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 108,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 108,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 109,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 109,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 110,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 110,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 111,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 111,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 112,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 112,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 113,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 113,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 114,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 114,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 115,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 115,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 116,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 116,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 117,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 117,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 118,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 118,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 119,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 119,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 120,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 120,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 121,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 121,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 122,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 122,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 123,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 123,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 124,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 124,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 125,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 125,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 126,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 126,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 127,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 127,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 128,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 128,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 129,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 129,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 130,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 130,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 131,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 131,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 132,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 132,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 133,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 133,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 134,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 134,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 135,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 135,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 136,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 136,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 137,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 137,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 138,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 138,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 139,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 139,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 140,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 140,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 141,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 141,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 142,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 142,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 143,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 143,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      },
+      {
+        "patchId": 144,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 144,
+        "startPos": 2242,
+        "endPos": 2455,
+        "suspCodeStr": "if (offset \u003c length) {\n                for (int j \u003d 1; i \u003c last \u0026\u0026 seq.charAt(j) \u003d\u003d input[i]; i++, j++);\n                if (i \u003d\u003d last) // found full sequence\n                    return offset - pos;\n            }"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 664,
+    "patchesGenerationTimeMs": 14
+  }
+]

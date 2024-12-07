@@ -1,0 +1,834 @@
+[
+  {
+    "stmtLocation": "org/joda/time/format/DateTimeFormatter:708",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 0,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 1,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 2,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 3,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 4,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 5,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 6,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 7,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 8,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 9,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 10,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 11,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 12,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 13,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 14,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 15,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 16,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 17,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 18,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 19,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 20,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 21,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 22,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 23,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 23,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 24,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 24,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 25,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 25,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 26,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 26,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 27,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 27,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 28,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 28,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 29,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 29,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 30,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 30,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 31,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 31,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 32,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 32,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 33,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 33,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 34,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 34,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 35,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 35,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 36,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 36,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 37,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 37,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 38,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 38,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 39,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 39,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 40,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 40,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 41,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 41,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 42,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 42,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 43,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 43,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 44,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 44,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 45,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 45,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 46,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 46,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 47,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 47,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 48,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 48,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 49,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 49,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 50,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 50,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 51,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 51,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 52,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 52,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 53,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 53,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 54,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 54,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 55,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 55,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 56,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 56,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 57,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 57,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 58,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 58,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 59,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 59,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 60,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 60,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 61,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 61,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 62,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 62,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 63,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 63,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 64,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 64,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 65,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 65,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 66,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 66,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 67,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 67,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 68,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 68,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 69,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 69,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 70,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 70,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 71,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 71,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 72,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 72,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 73,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 73,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 74,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 74,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 75,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 75,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 76,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 76,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 77,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 77,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 78,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 78,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 79,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 79,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 80,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 80,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 81,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 81,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 82,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 82,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 83,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 83,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 84,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 84,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 85,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 85,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 86,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 86,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 87,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 87,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 88,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 88,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 89,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 89,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 90,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 90,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 91,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 91,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 92,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 92,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 93,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 93,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 94,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 94,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 95,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 95,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 96,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 96,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 97,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 97,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 98,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 98,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 99,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 99,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 100,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 100,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 101,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 101,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      },
+      {
+        "patchId": 102,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_7/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 102,
+        "startPos": 26875,
+        "endPos": 26953,
+        "suspCodeStr": "long instantLocal \u003d instantMillis + chrono.getZone().getOffset(instantMillis);"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 544,
+    "patchesGenerationTimeMs": 14
+  }
+]

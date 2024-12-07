@@ -1,0 +1,298 @@
+[
+  {
+    "stmtLocation": "com/google/javascript/jscomp/LightweightMessageFormatter:98",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_62/src/com/google/javascript/jscomp/LightweightMessageFormatter.java",
+        "patchPoolId": 0,
+        "startPos": 3058,
+        "endPos": 3401,
+        "suspCodeStr": "if (excerpt.equals(LINE)\n          \u0026\u0026 0 \u003c\u003d charno \u0026\u0026 charno \u003c sourceExcerpt.length()) {\n        for (int i \u003d 0; i \u003c charno; i++) {\n          char c \u003d sourceExcerpt.charAt(i);\n          if (Character.isWhitespace(c)) {\n            b.append(c);\n          } else {\n            b.append(\u0027 \u0027);\n          }\n        }\n        b.append(\"^\\n\");\n      }"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_62/src/com/google/javascript/jscomp/LightweightMessageFormatter.java",
+        "patchPoolId": 1,
+        "startPos": 3058,
+        "endPos": 3401,
+        "suspCodeStr": "if (excerpt.equals(LINE)\n          \u0026\u0026 0 \u003c\u003d charno \u0026\u0026 charno \u003c sourceExcerpt.length()) {\n        for (int i \u003d 0; i \u003c charno; i++) {\n          char c \u003d sourceExcerpt.charAt(i);\n          if (Character.isWhitespace(c)) {\n            b.append(c);\n          } else {\n            b.append(\u0027 \u0027);\n          }\n        }\n        b.append(\"^\\n\");\n      }"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_62/src/com/google/javascript/jscomp/LightweightMessageFormatter.java",
+        "patchPoolId": 2,
+        "startPos": 3058,
+        "endPos": 3401,
+        "suspCodeStr": "if (excerpt.equals(LINE)\n          \u0026\u0026 0 \u003c\u003d charno \u0026\u0026 charno \u003c sourceExcerpt.length()) {\n        for (int i \u003d 0; i \u003c charno; i++) {\n          char c \u003d sourceExcerpt.charAt(i);\n          if (Character.isWhitespace(c)) {\n            b.append(c);\n          } else {\n            b.append(\u0027 \u0027);\n          }\n        }\n        b.append(\"^\\n\");\n      }"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_62/src/com/google/javascript/jscomp/LightweightMessageFormatter.java",
+        "patchPoolId": 3,
+        "startPos": 3058,
+        "endPos": 3401,
+        "suspCodeStr": "if (excerpt.equals(LINE)\n          \u0026\u0026 0 \u003c\u003d charno \u0026\u0026 charno \u003c sourceExcerpt.length()) {\n        for (int i \u003d 0; i \u003c charno; i++) {\n          char c \u003d sourceExcerpt.charAt(i);\n          if (Character.isWhitespace(c)) {\n            b.append(c);\n          } else {\n            b.append(\u0027 \u0027);\n          }\n        }\n        b.append(\"^\\n\");\n      }"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_62/src/com/google/javascript/jscomp/LightweightMessageFormatter.java",
+        "patchPoolId": 4,
+        "startPos": 3058,
+        "endPos": 3401,
+        "suspCodeStr": "if (excerpt.equals(LINE)\n          \u0026\u0026 0 \u003c\u003d charno \u0026\u0026 charno \u003c sourceExcerpt.length()) {\n        for (int i \u003d 0; i \u003c charno; i++) {\n          char c \u003d sourceExcerpt.charAt(i);\n          if (Character.isWhitespace(c)) {\n            b.append(c);\n          } else {\n            b.append(\u0027 \u0027);\n          }\n        }\n        b.append(\"^\\n\");\n      }"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_62/src/com/google/javascript/jscomp/LightweightMessageFormatter.java",
+        "patchPoolId": 5,
+        "startPos": 3058,
+        "endPos": 3401,
+        "suspCodeStr": "if (excerpt.equals(LINE)\n          \u0026\u0026 0 \u003c\u003d charno \u0026\u0026 charno \u003c sourceExcerpt.length()) {\n        for (int i \u003d 0; i \u003c charno; i++) {\n          char c \u003d sourceExcerpt.charAt(i);\n          if (Character.isWhitespace(c)) {\n            b.append(c);\n          } else {\n            b.append(\u0027 \u0027);\n          }\n        }\n        b.append(\"^\\n\");\n      }"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_62/src/com/google/javascript/jscomp/LightweightMessageFormatter.java",
+        "patchPoolId": 6,
+        "startPos": 3058,
+        "endPos": 3401,
+        "suspCodeStr": "if (excerpt.equals(LINE)\n          \u0026\u0026 0 \u003c\u003d charno \u0026\u0026 charno \u003c sourceExcerpt.length()) {\n        for (int i \u003d 0; i \u003c charno; i++) {\n          char c \u003d sourceExcerpt.charAt(i);\n          if (Character.isWhitespace(c)) {\n            b.append(c);\n          } else {\n            b.append(\u0027 \u0027);\n          }\n        }\n        b.append(\"^\\n\");\n      }"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_62/src/com/google/javascript/jscomp/LightweightMessageFormatter.java",
+        "patchPoolId": 7,
+        "startPos": 3058,
+        "endPos": 3401,
+        "suspCodeStr": "if (excerpt.equals(LINE)\n          \u0026\u0026 0 \u003c\u003d charno \u0026\u0026 charno \u003c sourceExcerpt.length()) {\n        for (int i \u003d 0; i \u003c charno; i++) {\n          char c \u003d sourceExcerpt.charAt(i);\n          if (Character.isWhitespace(c)) {\n            b.append(c);\n          } else {\n            b.append(\u0027 \u0027);\n          }\n        }\n        b.append(\"^\\n\");\n      }"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_62/src/com/google/javascript/jscomp/LightweightMessageFormatter.java",
+        "patchPoolId": 8,
+        "startPos": 3058,
+        "endPos": 3401,
+        "suspCodeStr": "if (excerpt.equals(LINE)\n          \u0026\u0026 0 \u003c\u003d charno \u0026\u0026 charno \u003c sourceExcerpt.length()) {\n        for (int i \u003d 0; i \u003c charno; i++) {\n          char c \u003d sourceExcerpt.charAt(i);\n          if (Character.isWhitespace(c)) {\n            b.append(c);\n          } else {\n            b.append(\u0027 \u0027);\n          }\n        }\n        b.append(\"^\\n\");\n      }"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_62/src/com/google/javascript/jscomp/LightweightMessageFormatter.java",
+        "patchPoolId": 9,
+        "startPos": 3058,
+        "endPos": 3401,
+        "suspCodeStr": "if (excerpt.equals(LINE)\n          \u0026\u0026 0 \u003c\u003d charno \u0026\u0026 charno \u003c sourceExcerpt.length()) {\n        for (int i \u003d 0; i \u003c charno; i++) {\n          char c \u003d sourceExcerpt.charAt(i);\n          if (Character.isWhitespace(c)) {\n            b.append(c);\n          } else {\n            b.append(\u0027 \u0027);\n          }\n        }\n        b.append(\"^\\n\");\n      }"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_62/src/com/google/javascript/jscomp/LightweightMessageFormatter.java",
+        "patchPoolId": 10,
+        "startPos": 3058,
+        "endPos": 3401,
+        "suspCodeStr": "if (excerpt.equals(LINE)\n          \u0026\u0026 0 \u003c\u003d charno \u0026\u0026 charno \u003c sourceExcerpt.length()) {\n        for (int i \u003d 0; i \u003c charno; i++) {\n          char c \u003d sourceExcerpt.charAt(i);\n          if (Character.isWhitespace(c)) {\n            b.append(c);\n          } else {\n            b.append(\u0027 \u0027);\n          }\n        }\n        b.append(\"^\\n\");\n      }"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_62/src/com/google/javascript/jscomp/LightweightMessageFormatter.java",
+        "patchPoolId": 11,
+        "startPos": 3058,
+        "endPos": 3401,
+        "suspCodeStr": "if (excerpt.equals(LINE)\n          \u0026\u0026 0 \u003c\u003d charno \u0026\u0026 charno \u003c sourceExcerpt.length()) {\n        for (int i \u003d 0; i \u003c charno; i++) {\n          char c \u003d sourceExcerpt.charAt(i);\n          if (Character.isWhitespace(c)) {\n            b.append(c);\n          } else {\n            b.append(\u0027 \u0027);\n          }\n        }\n        b.append(\"^\\n\");\n      }"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_62/src/com/google/javascript/jscomp/LightweightMessageFormatter.java",
+        "patchPoolId": 12,
+        "startPos": 3058,
+        "endPos": 3401,
+        "suspCodeStr": "if (excerpt.equals(LINE)\n          \u0026\u0026 0 \u003c\u003d charno \u0026\u0026 charno \u003c sourceExcerpt.length()) {\n        for (int i \u003d 0; i \u003c charno; i++) {\n          char c \u003d sourceExcerpt.charAt(i);\n          if (Character.isWhitespace(c)) {\n            b.append(c);\n          } else {\n            b.append(\u0027 \u0027);\n          }\n        }\n        b.append(\"^\\n\");\n      }"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_62/src/com/google/javascript/jscomp/LightweightMessageFormatter.java",
+        "patchPoolId": 13,
+        "startPos": 3058,
+        "endPos": 3401,
+        "suspCodeStr": "if (excerpt.equals(LINE)\n          \u0026\u0026 0 \u003c\u003d charno \u0026\u0026 charno \u003c sourceExcerpt.length()) {\n        for (int i \u003d 0; i \u003c charno; i++) {\n          char c \u003d sourceExcerpt.charAt(i);\n          if (Character.isWhitespace(c)) {\n            b.append(c);\n          } else {\n            b.append(\u0027 \u0027);\n          }\n        }\n        b.append(\"^\\n\");\n      }"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_62/src/com/google/javascript/jscomp/LightweightMessageFormatter.java",
+        "patchPoolId": 14,
+        "startPos": 3058,
+        "endPos": 3401,
+        "suspCodeStr": "if (excerpt.equals(LINE)\n          \u0026\u0026 0 \u003c\u003d charno \u0026\u0026 charno \u003c sourceExcerpt.length()) {\n        for (int i \u003d 0; i \u003c charno; i++) {\n          char c \u003d sourceExcerpt.charAt(i);\n          if (Character.isWhitespace(c)) {\n            b.append(c);\n          } else {\n            b.append(\u0027 \u0027);\n          }\n        }\n        b.append(\"^\\n\");\n      }"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_62/src/com/google/javascript/jscomp/LightweightMessageFormatter.java",
+        "patchPoolId": 15,
+        "startPos": 3058,
+        "endPos": 3401,
+        "suspCodeStr": "if (excerpt.equals(LINE)\n          \u0026\u0026 0 \u003c\u003d charno \u0026\u0026 charno \u003c sourceExcerpt.length()) {\n        for (int i \u003d 0; i \u003c charno; i++) {\n          char c \u003d sourceExcerpt.charAt(i);\n          if (Character.isWhitespace(c)) {\n            b.append(c);\n          } else {\n            b.append(\u0027 \u0027);\n          }\n        }\n        b.append(\"^\\n\");\n      }"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_62/src/com/google/javascript/jscomp/LightweightMessageFormatter.java",
+        "patchPoolId": 16,
+        "startPos": 3058,
+        "endPos": 3401,
+        "suspCodeStr": "if (excerpt.equals(LINE)\n          \u0026\u0026 0 \u003c\u003d charno \u0026\u0026 charno \u003c sourceExcerpt.length()) {\n        for (int i \u003d 0; i \u003c charno; i++) {\n          char c \u003d sourceExcerpt.charAt(i);\n          if (Character.isWhitespace(c)) {\n            b.append(c);\n          } else {\n            b.append(\u0027 \u0027);\n          }\n        }\n        b.append(\"^\\n\");\n      }"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_62/src/com/google/javascript/jscomp/LightweightMessageFormatter.java",
+        "patchPoolId": 17,
+        "startPos": 3058,
+        "endPos": 3401,
+        "suspCodeStr": "if (excerpt.equals(LINE)\n          \u0026\u0026 0 \u003c\u003d charno \u0026\u0026 charno \u003c sourceExcerpt.length()) {\n        for (int i \u003d 0; i \u003c charno; i++) {\n          char c \u003d sourceExcerpt.charAt(i);\n          if (Character.isWhitespace(c)) {\n            b.append(c);\n          } else {\n            b.append(\u0027 \u0027);\n          }\n        }\n        b.append(\"^\\n\");\n      }"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_62/src/com/google/javascript/jscomp/LightweightMessageFormatter.java",
+        "patchPoolId": 18,
+        "startPos": 3058,
+        "endPos": 3401,
+        "suspCodeStr": "if (excerpt.equals(LINE)\n          \u0026\u0026 0 \u003c\u003d charno \u0026\u0026 charno \u003c sourceExcerpt.length()) {\n        for (int i \u003d 0; i \u003c charno; i++) {\n          char c \u003d sourceExcerpt.charAt(i);\n          if (Character.isWhitespace(c)) {\n            b.append(c);\n          } else {\n            b.append(\u0027 \u0027);\n          }\n        }\n        b.append(\"^\\n\");\n      }"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_62/src/com/google/javascript/jscomp/LightweightMessageFormatter.java",
+        "patchPoolId": 19,
+        "startPos": 3058,
+        "endPos": 3401,
+        "suspCodeStr": "if (excerpt.equals(LINE)\n          \u0026\u0026 0 \u003c\u003d charno \u0026\u0026 charno \u003c sourceExcerpt.length()) {\n        for (int i \u003d 0; i \u003c charno; i++) {\n          char c \u003d sourceExcerpt.charAt(i);\n          if (Character.isWhitespace(c)) {\n            b.append(c);\n          } else {\n            b.append(\u0027 \u0027);\n          }\n        }\n        b.append(\"^\\n\");\n      }"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_62/src/com/google/javascript/jscomp/LightweightMessageFormatter.java",
+        "patchPoolId": 20,
+        "startPos": 3058,
+        "endPos": 3401,
+        "suspCodeStr": "if (excerpt.equals(LINE)\n          \u0026\u0026 0 \u003c\u003d charno \u0026\u0026 charno \u003c sourceExcerpt.length()) {\n        for (int i \u003d 0; i \u003c charno; i++) {\n          char c \u003d sourceExcerpt.charAt(i);\n          if (Character.isWhitespace(c)) {\n            b.append(c);\n          } else {\n            b.append(\u0027 \u0027);\n          }\n        }\n        b.append(\"^\\n\");\n      }"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_62/src/com/google/javascript/jscomp/LightweightMessageFormatter.java",
+        "patchPoolId": 21,
+        "startPos": 3058,
+        "endPos": 3401,
+        "suspCodeStr": "if (excerpt.equals(LINE)\n          \u0026\u0026 0 \u003c\u003d charno \u0026\u0026 charno \u003c sourceExcerpt.length()) {\n        for (int i \u003d 0; i \u003c charno; i++) {\n          char c \u003d sourceExcerpt.charAt(i);\n          if (Character.isWhitespace(c)) {\n            b.append(c);\n          } else {\n            b.append(\u0027 \u0027);\n          }\n        }\n        b.append(\"^\\n\");\n      }"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_62/src/com/google/javascript/jscomp/LightweightMessageFormatter.java",
+        "patchPoolId": 22,
+        "startPos": 3058,
+        "endPos": 3401,
+        "suspCodeStr": "if (excerpt.equals(LINE)\n          \u0026\u0026 0 \u003c\u003d charno \u0026\u0026 charno \u003c sourceExcerpt.length()) {\n        for (int i \u003d 0; i \u003c charno; i++) {\n          char c \u003d sourceExcerpt.charAt(i);\n          if (Character.isWhitespace(c)) {\n            b.append(c);\n          } else {\n            b.append(\u0027 \u0027);\n          }\n        }\n        b.append(\"^\\n\");\n      }"
+      },
+      {
+        "patchId": 23,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_62/src/com/google/javascript/jscomp/LightweightMessageFormatter.java",
+        "patchPoolId": 23,
+        "startPos": 3058,
+        "endPos": 3401,
+        "suspCodeStr": "if (excerpt.equals(LINE)\n          \u0026\u0026 0 \u003c\u003d charno \u0026\u0026 charno \u003c sourceExcerpt.length()) {\n        for (int i \u003d 0; i \u003c charno; i++) {\n          char c \u003d sourceExcerpt.charAt(i);\n          if (Character.isWhitespace(c)) {\n            b.append(c);\n          } else {\n            b.append(\u0027 \u0027);\n          }\n        }\n        b.append(\"^\\n\");\n      }"
+      },
+      {
+        "patchId": 24,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_62/src/com/google/javascript/jscomp/LightweightMessageFormatter.java",
+        "patchPoolId": 24,
+        "startPos": 3058,
+        "endPos": 3401,
+        "suspCodeStr": "if (excerpt.equals(LINE)\n          \u0026\u0026 0 \u003c\u003d charno \u0026\u0026 charno \u003c sourceExcerpt.length()) {\n        for (int i \u003d 0; i \u003c charno; i++) {\n          char c \u003d sourceExcerpt.charAt(i);\n          if (Character.isWhitespace(c)) {\n            b.append(c);\n          } else {\n            b.append(\u0027 \u0027);\n          }\n        }\n        b.append(\"^\\n\");\n      }"
+      },
+      {
+        "patchId": 25,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_62/src/com/google/javascript/jscomp/LightweightMessageFormatter.java",
+        "patchPoolId": 25,
+        "startPos": 3058,
+        "endPos": 3401,
+        "suspCodeStr": "if (excerpt.equals(LINE)\n          \u0026\u0026 0 \u003c\u003d charno \u0026\u0026 charno \u003c sourceExcerpt.length()) {\n        for (int i \u003d 0; i \u003c charno; i++) {\n          char c \u003d sourceExcerpt.charAt(i);\n          if (Character.isWhitespace(c)) {\n            b.append(c);\n          } else {\n            b.append(\u0027 \u0027);\n          }\n        }\n        b.append(\"^\\n\");\n      }"
+      },
+      {
+        "patchId": 26,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_62/src/com/google/javascript/jscomp/LightweightMessageFormatter.java",
+        "patchPoolId": 26,
+        "startPos": 3058,
+        "endPos": 3401,
+        "suspCodeStr": "if (excerpt.equals(LINE)\n          \u0026\u0026 0 \u003c\u003d charno \u0026\u0026 charno \u003c sourceExcerpt.length()) {\n        for (int i \u003d 0; i \u003c charno; i++) {\n          char c \u003d sourceExcerpt.charAt(i);\n          if (Character.isWhitespace(c)) {\n            b.append(c);\n          } else {\n            b.append(\u0027 \u0027);\n          }\n        }\n        b.append(\"^\\n\");\n      }"
+      },
+      {
+        "patchId": 27,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_62/src/com/google/javascript/jscomp/LightweightMessageFormatter.java",
+        "patchPoolId": 27,
+        "startPos": 3058,
+        "endPos": 3401,
+        "suspCodeStr": "if (excerpt.equals(LINE)\n          \u0026\u0026 0 \u003c\u003d charno \u0026\u0026 charno \u003c sourceExcerpt.length()) {\n        for (int i \u003d 0; i \u003c charno; i++) {\n          char c \u003d sourceExcerpt.charAt(i);\n          if (Character.isWhitespace(c)) {\n            b.append(c);\n          } else {\n            b.append(\u0027 \u0027);\n          }\n        }\n        b.append(\"^\\n\");\n      }"
+      },
+      {
+        "patchId": 28,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_62/src/com/google/javascript/jscomp/LightweightMessageFormatter.java",
+        "patchPoolId": 28,
+        "startPos": 3058,
+        "endPos": 3401,
+        "suspCodeStr": "if (excerpt.equals(LINE)\n          \u0026\u0026 0 \u003c\u003d charno \u0026\u0026 charno \u003c sourceExcerpt.length()) {\n        for (int i \u003d 0; i \u003c charno; i++) {\n          char c \u003d sourceExcerpt.charAt(i);\n          if (Character.isWhitespace(c)) {\n            b.append(c);\n          } else {\n            b.append(\u0027 \u0027);\n          }\n        }\n        b.append(\"^\\n\");\n      }"
+      },
+      {
+        "patchId": 29,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_62/src/com/google/javascript/jscomp/LightweightMessageFormatter.java",
+        "patchPoolId": 29,
+        "startPos": 3058,
+        "endPos": 3401,
+        "suspCodeStr": "if (excerpt.equals(LINE)\n          \u0026\u0026 0 \u003c\u003d charno \u0026\u0026 charno \u003c sourceExcerpt.length()) {\n        for (int i \u003d 0; i \u003c charno; i++) {\n          char c \u003d sourceExcerpt.charAt(i);\n          if (Character.isWhitespace(c)) {\n            b.append(c);\n          } else {\n            b.append(\u0027 \u0027);\n          }\n        }\n        b.append(\"^\\n\");\n      }"
+      },
+      {
+        "patchId": 30,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_62/src/com/google/javascript/jscomp/LightweightMessageFormatter.java",
+        "patchPoolId": 30,
+        "startPos": 3058,
+        "endPos": 3401,
+        "suspCodeStr": "if (excerpt.equals(LINE)\n          \u0026\u0026 0 \u003c\u003d charno \u0026\u0026 charno \u003c sourceExcerpt.length()) {\n        for (int i \u003d 0; i \u003c charno; i++) {\n          char c \u003d sourceExcerpt.charAt(i);\n          if (Character.isWhitespace(c)) {\n            b.append(c);\n          } else {\n            b.append(\u0027 \u0027);\n          }\n        }\n        b.append(\"^\\n\");\n      }"
+      },
+      {
+        "patchId": 31,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_62/src/com/google/javascript/jscomp/LightweightMessageFormatter.java",
+        "patchPoolId": 31,
+        "startPos": 3058,
+        "endPos": 3401,
+        "suspCodeStr": "if (excerpt.equals(LINE)\n          \u0026\u0026 0 \u003c\u003d charno \u0026\u0026 charno \u003c sourceExcerpt.length()) {\n        for (int i \u003d 0; i \u003c charno; i++) {\n          char c \u003d sourceExcerpt.charAt(i);\n          if (Character.isWhitespace(c)) {\n            b.append(c);\n          } else {\n            b.append(\u0027 \u0027);\n          }\n        }\n        b.append(\"^\\n\");\n      }"
+      },
+      {
+        "patchId": 32,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_62/src/com/google/javascript/jscomp/LightweightMessageFormatter.java",
+        "patchPoolId": 32,
+        "startPos": 3058,
+        "endPos": 3401,
+        "suspCodeStr": "if (excerpt.equals(LINE)\n          \u0026\u0026 0 \u003c\u003d charno \u0026\u0026 charno \u003c sourceExcerpt.length()) {\n        for (int i \u003d 0; i \u003c charno; i++) {\n          char c \u003d sourceExcerpt.charAt(i);\n          if (Character.isWhitespace(c)) {\n            b.append(c);\n          } else {\n            b.append(\u0027 \u0027);\n          }\n        }\n        b.append(\"^\\n\");\n      }"
+      },
+      {
+        "patchId": 33,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_62/src/com/google/javascript/jscomp/LightweightMessageFormatter.java",
+        "patchPoolId": 33,
+        "startPos": 3058,
+        "endPos": 3401,
+        "suspCodeStr": "if (excerpt.equals(LINE)\n          \u0026\u0026 0 \u003c\u003d charno \u0026\u0026 charno \u003c sourceExcerpt.length()) {\n        for (int i \u003d 0; i \u003c charno; i++) {\n          char c \u003d sourceExcerpt.charAt(i);\n          if (Character.isWhitespace(c)) {\n            b.append(c);\n          } else {\n            b.append(\u0027 \u0027);\n          }\n        }\n        b.append(\"^\\n\");\n      }"
+      },
+      {
+        "patchId": 34,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_62/src/com/google/javascript/jscomp/LightweightMessageFormatter.java",
+        "patchPoolId": 34,
+        "startPos": 3058,
+        "endPos": 3401,
+        "suspCodeStr": "if (excerpt.equals(LINE)\n          \u0026\u0026 0 \u003c\u003d charno \u0026\u0026 charno \u003c sourceExcerpt.length()) {\n        for (int i \u003d 0; i \u003c charno; i++) {\n          char c \u003d sourceExcerpt.charAt(i);\n          if (Character.isWhitespace(c)) {\n            b.append(c);\n          } else {\n            b.append(\u0027 \u0027);\n          }\n        }\n        b.append(\"^\\n\");\n      }"
+      },
+      {
+        "patchId": 35,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_62/src/com/google/javascript/jscomp/LightweightMessageFormatter.java",
+        "patchPoolId": 35,
+        "startPos": 3058,
+        "endPos": 3401,
+        "suspCodeStr": "if (excerpt.equals(LINE)\n          \u0026\u0026 0 \u003c\u003d charno \u0026\u0026 charno \u003c sourceExcerpt.length()) {\n        for (int i \u003d 0; i \u003c charno; i++) {\n          char c \u003d sourceExcerpt.charAt(i);\n          if (Character.isWhitespace(c)) {\n            b.append(c);\n          } else {\n            b.append(\u0027 \u0027);\n          }\n        }\n        b.append(\"^\\n\");\n      }"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 1203,
+    "patchesGenerationTimeMs": 21
+  }
+]

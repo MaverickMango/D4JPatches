@@ -1,0 +1,818 @@
+[
+  {
+    "stmtLocation": "org/apache/commons/lang/text/StrBuilder:884",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 0,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 1,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 2,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 3,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 4,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 5,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 6,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 7,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 8,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 9,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 10,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 11,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 12,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 13,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 14,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 15,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 16,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 17,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 18,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 19,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 20,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 21,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 22,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 23,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 23,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 24,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 24,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 25,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 25,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 26,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 26,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 27,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 27,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 28,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 28,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 29,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 29,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 30,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 30,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 31,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 31,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 32,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 32,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 33,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 33,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 34,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 34,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 35,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 35,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 36,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 36,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 37,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 37,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 38,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 38,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 39,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 39,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 40,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 40,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 41,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 41,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 42,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 42,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 43,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 43,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 44,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 44,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 45,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 45,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 46,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 46,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 47,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 47,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 48,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 48,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 49,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 49,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 50,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 50,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 51,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 51,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 52,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 52,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 53,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 53,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 54,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 54,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 55,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 55,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 56,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 56,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 57,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 57,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 58,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 58,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 59,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 59,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 60,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 60,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 61,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 61,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 62,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 62,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 63,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 63,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 64,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 64,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 65,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 65,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 66,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 66,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 67,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 67,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 68,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 68,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 69,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 69,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 70,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 70,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 71,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 71,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 72,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 72,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 73,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 73,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 74,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 74,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 75,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 75,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 76,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 76,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 77,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 77,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 78,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 78,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 79,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 79,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 80,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 80,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 81,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 81,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 82,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 82,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 83,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 83,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 84,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 84,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 85,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 85,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 86,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 86,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 87,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 87,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 88,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 88,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 89,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 89,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 90,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 90,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 91,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 91,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 92,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 92,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 93,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 93,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 94,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 94,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 95,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 95,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 96,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 96,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 97,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 97,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 98,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 98,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 99,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 99,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      },
+      {
+        "patchId": 100,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java",
+        "patchPoolId": 100,
+        "startPos": 29429,
+        "endPos": 29467,
+        "suspCodeStr": "str.getChars(0, strLen, buffer, size);"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 1038,
+    "patchesGenerationTimeMs": 37
+  }
+]

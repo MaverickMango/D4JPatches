@@ -1,0 +1,1810 @@
+[
+  {
+    "stmtLocation": "org/jsoup/parser/CharacterReader:300",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 0,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 1,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 2,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 3,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 4,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 5,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 6,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 7,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 8,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 9,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 10,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 11,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 12,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 13,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 14,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 15,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 16,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 17,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 18,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 19,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 20,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 21,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 22,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 23,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 23,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 24,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 24,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 25,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 25,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 26,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 26,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 27,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 27,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 28,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 28,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 29,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 29,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 30,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 30,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 31,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 31,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 32,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 32,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 33,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 33,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 34,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 34,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 35,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 35,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 36,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 36,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 37,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 37,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 38,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 38,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 39,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 39,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 40,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 40,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 41,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 41,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 42,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 42,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 43,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 43,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 44,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 44,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 45,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 45,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 46,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 46,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 47,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 47,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 48,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 48,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 49,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 49,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 50,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 50,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 51,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 51,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 52,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 52,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 53,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 53,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 54,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 54,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 55,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 55,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 56,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 56,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 57,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 57,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 58,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 58,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 59,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 59,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 60,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 60,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 61,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 61,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 62,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 62,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 63,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 63,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 64,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 64,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 65,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 65,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 66,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 66,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 67,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 67,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 68,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 68,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 69,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 69,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 70,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 70,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 71,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 71,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 72,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 72,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 73,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 73,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 74,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 74,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 75,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 75,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 76,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 76,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 77,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 77,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 78,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 78,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 79,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 79,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 80,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 80,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 81,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 81,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 82,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 82,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 83,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 83,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 84,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 84,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 85,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 85,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 86,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 86,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 87,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 87,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 88,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 88,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 89,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 89,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 90,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 90,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 91,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 91,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 92,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 92,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 93,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 93,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 94,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 94,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 95,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 95,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 96,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 96,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 97,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 97,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 98,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 98,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 99,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 99,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 100,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 100,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 101,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 101,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 102,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 102,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 103,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 103,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 104,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 104,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 105,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 105,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 106,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 106,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 107,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 107,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 108,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 108,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 109,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 109,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 110,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 110,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 111,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 111,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 112,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 112,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 113,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 113,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 114,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 114,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 115,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 115,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 116,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 116,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 117,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 117,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 118,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 118,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 119,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 119,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 120,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 120,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 121,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 121,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 122,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 122,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 123,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 123,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 124,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 124,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 125,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 125,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 126,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 126,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 127,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 127,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 128,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 128,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 129,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 129,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 130,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 130,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 131,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 131,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 132,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 132,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 133,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 133,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 134,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 134,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 135,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 135,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 136,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 136,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 137,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 137,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 138,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 138,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 139,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 139,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 140,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 140,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 141,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 141,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 142,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 142,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 143,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 143,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 144,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 144,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 145,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 145,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 146,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 146,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 147,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 147,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 148,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 148,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 149,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 149,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 150,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 150,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 151,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 151,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 152,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 152,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 153,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 153,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 154,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 154,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 155,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 155,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 156,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 156,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 157,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 157,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 158,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 158,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 159,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 159,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 160,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 160,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 161,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 161,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 162,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 162,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 163,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 163,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 164,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 164,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 165,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 165,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 166,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 166,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 167,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 167,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 168,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 168,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 169,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 169,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 170,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 170,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 171,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 171,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 172,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 172,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 173,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 173,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 174,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 174,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 175,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 175,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 176,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 176,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 177,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 177,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 178,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 178,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 179,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 179,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 180,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 180,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 181,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 181,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 182,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 182,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 183,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 183,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 184,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 184,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 185,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 185,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 186,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 186,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 187,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 187,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 188,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 188,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 189,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 189,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 190,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 190,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 191,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 191,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 192,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 192,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 193,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 193,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 194,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 194,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 195,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 195,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 196,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 196,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 197,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 197,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 198,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 198,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 199,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 199,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 200,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 200,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 201,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 201,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 202,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 202,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 203,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 203,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 204,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 204,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 205,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 205,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 206,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 206,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 207,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 207,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 208,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 208,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 209,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 209,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 210,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 210,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 211,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 211,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 212,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 212,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 213,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 213,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 214,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 214,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 215,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 215,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 216,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 216,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 217,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 217,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 218,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 218,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 219,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 219,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 220,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 220,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 221,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 221,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 222,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 222,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 223,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 223,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      },
+      {
+        "patchId": 224,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_51/src/main/java/org/jsoup/parser/CharacterReader.java",
+        "patchPoolId": 224,
+        "startPos": 7952,
+        "endPos": 8008,
+        "suspCodeStr": "return (c \u003e\u003d \u0027A\u0027 \u0026\u0026 c \u003c\u003d \u0027Z\u0027) || (c \u003e\u003d \u0027a\u0027 \u0026\u0026 c \u003c\u003d \u0027z\u0027);"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 665,
+    "patchesGenerationTimeMs": 17
+  }
+]

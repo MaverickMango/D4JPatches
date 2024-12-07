@@ -1,0 +1,12 @@
+stmtLocation: org/mockito/internal/invocation/InvocationMatcher:106
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 682
+patchesGenerationTimeMs: 11
+patchId: 12
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/mockito_34/src/org/mockito/internal/invocation/InvocationMatcher.java
+patchPoolId: 12
+startPos: 3498
+endPos: 3623
+suspCodeStr: if (m instanceof CapturesArguments) {
+                ((CapturesArguments) m).captureFrom(i.getArguments()[k]);
+            }

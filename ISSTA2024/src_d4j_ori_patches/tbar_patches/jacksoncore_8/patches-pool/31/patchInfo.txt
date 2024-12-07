@@ -1,0 +1,10 @@
+stmtLocation: com/fasterxml/jackson/core/util/TextBuffer:307
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 874
+patchesGenerationTimeMs: 21
+patchId: 31
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksoncore_8/src/main/java/com/fasterxml/jackson/core/util/TextBuffer.java
+patchPoolId: 31
+startPos: 9139
+endPos: 9182
+suspCodeStr: if (!_hasSegments)  return _currentSegment;

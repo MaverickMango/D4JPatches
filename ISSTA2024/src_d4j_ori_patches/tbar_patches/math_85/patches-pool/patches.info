@@ -1,0 +1,1362 @@
+[
+  {
+    "stmtLocation": "org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils:198",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 0,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 1,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 2,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 3,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 4,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 5,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 6,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 7,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 8,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 9,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 10,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 11,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 12,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 13,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 14,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 15,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 16,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 17,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 18,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 19,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 20,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 21,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 22,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 23,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 23,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 24,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 24,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 25,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 25,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 26,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 26,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 27,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 27,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 28,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 28,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 29,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 29,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 30,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 30,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 31,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 31,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 32,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 32,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 33,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 33,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 34,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 34,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 35,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 35,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 36,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 36,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 37,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 37,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 38,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 38,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 39,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 39,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 40,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 40,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 41,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 41,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 42,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 42,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 43,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 43,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 44,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 44,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 45,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 45,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 46,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 46,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 47,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 47,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 48,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 48,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 49,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 49,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 50,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 50,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 51,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 51,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 52,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 52,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 53,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 53,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 54,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 54,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 55,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 55,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 56,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 56,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 57,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 57,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 58,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 58,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 59,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 59,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 60,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 60,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 61,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 61,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 62,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 62,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 63,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 63,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 64,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 64,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 65,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 65,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 66,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 66,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 67,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 67,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 68,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 68,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 69,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 69,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 70,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 70,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 71,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 71,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 72,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 72,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 73,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 73,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 74,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 74,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 75,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 75,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 76,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 76,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 77,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 77,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 78,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 78,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 79,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 79,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 80,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 80,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 81,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 81,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 82,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 82,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 83,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 83,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 84,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 84,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 85,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 85,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 86,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 86,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 87,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 87,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 88,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 88,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 89,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 89,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 90,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 90,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 91,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 91,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 92,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 92,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 93,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 93,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 94,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 94,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 95,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 95,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 96,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 96,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 97,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 97,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 98,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 98,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 99,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 99,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 100,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 100,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 101,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 101,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 102,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 102,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 103,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 103,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 104,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 104,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 105,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 105,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 106,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 106,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 107,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 107,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 108,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 108,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 109,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 109,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 110,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 110,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 111,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 111,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 112,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 112,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 113,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 113,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 114,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 114,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 115,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 115,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 116,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 116,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 117,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 117,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 118,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 118,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 119,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 119,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 120,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 120,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 121,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 121,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 122,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 122,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 123,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 123,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 124,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 124,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 125,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 125,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 126,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 126,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 127,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 127,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 128,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 128,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 129,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 129,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 130,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 130,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 131,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 131,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 132,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 132,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 133,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 133,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 134,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 134,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 135,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 135,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 136,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 136,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 137,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 137,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 138,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 138,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 139,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 139,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 140,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 140,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 141,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 141,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 142,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 142,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 143,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 143,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 144,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 144,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 145,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 145,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 146,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 146,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 147,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 147,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 148,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 148,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 149,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 149,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 150,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 150,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 151,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 151,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 152,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 152,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 153,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 153,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 154,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 154,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 155,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 155,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 156,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 156,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 157,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 157,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 158,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 158,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 159,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 159,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 160,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 160,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 161,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 161,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 162,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 162,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 163,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 163,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 164,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 164,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 165,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 165,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 166,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 166,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 167,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 167,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      },
+      {
+        "patchId": 168,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_85/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java",
+        "patchPoolId": 168,
+        "startPos": 8825,
+        "endPos": 9260,
+        "suspCodeStr": "if (fa * fb \u003e\u003d 0.0 ) {\n            throw new ConvergenceException(\n                      \"number of iterations\u003d{0}, maximum iterations\u003d{1}, \" +\n                      \"initial\u003d{2}, lower bound\u003d{3}, upper bound\u003d{4}, final a value\u003d{5}, \" +\n                      \"final b value\u003d{6}, f(a)\u003d{7}, f(b)\u003d{8}\",\n                      numIterations, maximumIterations, initial,\n                      lowerBound, upperBound, a, b, fa, fb);\n        }"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 824,
+    "patchesGenerationTimeMs": 9
+  }
+]

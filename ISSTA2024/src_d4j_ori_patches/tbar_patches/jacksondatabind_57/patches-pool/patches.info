@@ -1,0 +1,650 @@
+[
+  {
+    "stmtLocation": "com/fasterxml/jackson/databind/ObjectReader:1441",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 0,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 1,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 2,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 3,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 4,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 5,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 6,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 7,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 8,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 9,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 10,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 11,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 12,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 13,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 14,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 15,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 16,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 17,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 18,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 19,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 20,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 21,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 22,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 23,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 23,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 24,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 24,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 25,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 25,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 26,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 26,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 27,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 27,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 28,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 28,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 29,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 29,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 30,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 30,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 31,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 31,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 32,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 32,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 33,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 33,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 34,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 34,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 35,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 35,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 36,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 36,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 37,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 37,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 38,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 38,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 39,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 39,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 40,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 40,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 41,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 41,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 42,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 42,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 43,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 43,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 44,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 44,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 45,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 45,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 46,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 46,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 47,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 47,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 48,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 48,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 49,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 49,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 50,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 50,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 51,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 51,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 52,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 52,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 53,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 53,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 54,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 54,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 55,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 55,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 56,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 56,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 57,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 57,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 58,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 58,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 59,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 59,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 60,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 60,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 61,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 61,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 62,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 62,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 63,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 63,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 64,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 64,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 65,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 65,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 66,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 66,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 67,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 67,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 68,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 68,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 69,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 69,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 70,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 70,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 71,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 71,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 72,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 72,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 73,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 73,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 74,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 74,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 75,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 75,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 76,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 76,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 77,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 77,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 78,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 78,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      },
+      {
+        "patchId": 79,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java",
+        "patchPoolId": 79,
+        "startPos": 51319,
+        "endPos": 51419,
+        "suspCodeStr": "return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), \n                true));"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 882,
+    "patchesGenerationTimeMs": 30
+  }
+]

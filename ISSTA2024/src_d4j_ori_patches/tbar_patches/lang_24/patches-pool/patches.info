@@ -1,0 +1,218 @@
+[
+  {
+    "stmtLocation": "org/apache/commons/lang3/math/NumberUtils:1413",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_24/src/main/java/org/apache/commons/lang3/math/NumberUtils.java",
+        "patchPoolId": 0,
+        "startPos": 47640,
+        "endPos": 47669,
+        "suspCodeStr": "return foundDigit \u0026\u0026 !hasExp;"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_24/src/main/java/org/apache/commons/lang3/math/NumberUtils.java",
+        "patchPoolId": 1,
+        "startPos": 47640,
+        "endPos": 47669,
+        "suspCodeStr": "return foundDigit \u0026\u0026 !hasExp;"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_24/src/main/java/org/apache/commons/lang3/math/NumberUtils.java",
+        "patchPoolId": 2,
+        "startPos": 47640,
+        "endPos": 47669,
+        "suspCodeStr": "return foundDigit \u0026\u0026 !hasExp;"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_24/src/main/java/org/apache/commons/lang3/math/NumberUtils.java",
+        "patchPoolId": 3,
+        "startPos": 47640,
+        "endPos": 47669,
+        "suspCodeStr": "return foundDigit \u0026\u0026 !hasExp;"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_24/src/main/java/org/apache/commons/lang3/math/NumberUtils.java",
+        "patchPoolId": 4,
+        "startPos": 47640,
+        "endPos": 47669,
+        "suspCodeStr": "return foundDigit \u0026\u0026 !hasExp;"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_24/src/main/java/org/apache/commons/lang3/math/NumberUtils.java",
+        "patchPoolId": 5,
+        "startPos": 47640,
+        "endPos": 47669,
+        "suspCodeStr": "return foundDigit \u0026\u0026 !hasExp;"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_24/src/main/java/org/apache/commons/lang3/math/NumberUtils.java",
+        "patchPoolId": 6,
+        "startPos": 47640,
+        "endPos": 47669,
+        "suspCodeStr": "return foundDigit \u0026\u0026 !hasExp;"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_24/src/main/java/org/apache/commons/lang3/math/NumberUtils.java",
+        "patchPoolId": 7,
+        "startPos": 47640,
+        "endPos": 47669,
+        "suspCodeStr": "return foundDigit \u0026\u0026 !hasExp;"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_24/src/main/java/org/apache/commons/lang3/math/NumberUtils.java",
+        "patchPoolId": 8,
+        "startPos": 47640,
+        "endPos": 47669,
+        "suspCodeStr": "return foundDigit \u0026\u0026 !hasExp;"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_24/src/main/java/org/apache/commons/lang3/math/NumberUtils.java",
+        "patchPoolId": 9,
+        "startPos": 47640,
+        "endPos": 47669,
+        "suspCodeStr": "return foundDigit \u0026\u0026 !hasExp;"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_24/src/main/java/org/apache/commons/lang3/math/NumberUtils.java",
+        "patchPoolId": 10,
+        "startPos": 47640,
+        "endPos": 47669,
+        "suspCodeStr": "return foundDigit \u0026\u0026 !hasExp;"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_24/src/main/java/org/apache/commons/lang3/math/NumberUtils.java",
+        "patchPoolId": 11,
+        "startPos": 47640,
+        "endPos": 47669,
+        "suspCodeStr": "return foundDigit \u0026\u0026 !hasExp;"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_24/src/main/java/org/apache/commons/lang3/math/NumberUtils.java",
+        "patchPoolId": 12,
+        "startPos": 47640,
+        "endPos": 47669,
+        "suspCodeStr": "return foundDigit \u0026\u0026 !hasExp;"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_24/src/main/java/org/apache/commons/lang3/math/NumberUtils.java",
+        "patchPoolId": 13,
+        "startPos": 47640,
+        "endPos": 47669,
+        "suspCodeStr": "return foundDigit \u0026\u0026 !hasExp;"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_24/src/main/java/org/apache/commons/lang3/math/NumberUtils.java",
+        "patchPoolId": 14,
+        "startPos": 47640,
+        "endPos": 47669,
+        "suspCodeStr": "return foundDigit \u0026\u0026 !hasExp;"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_24/src/main/java/org/apache/commons/lang3/math/NumberUtils.java",
+        "patchPoolId": 15,
+        "startPos": 47640,
+        "endPos": 47669,
+        "suspCodeStr": "return foundDigit \u0026\u0026 !hasExp;"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_24/src/main/java/org/apache/commons/lang3/math/NumberUtils.java",
+        "patchPoolId": 16,
+        "startPos": 47640,
+        "endPos": 47669,
+        "suspCodeStr": "return foundDigit \u0026\u0026 !hasExp;"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_24/src/main/java/org/apache/commons/lang3/math/NumberUtils.java",
+        "patchPoolId": 17,
+        "startPos": 47640,
+        "endPos": 47669,
+        "suspCodeStr": "return foundDigit \u0026\u0026 !hasExp;"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_24/src/main/java/org/apache/commons/lang3/math/NumberUtils.java",
+        "patchPoolId": 18,
+        "startPos": 47640,
+        "endPos": 47669,
+        "suspCodeStr": "return foundDigit \u0026\u0026 !hasExp;"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_24/src/main/java/org/apache/commons/lang3/math/NumberUtils.java",
+        "patchPoolId": 19,
+        "startPos": 47640,
+        "endPos": 47669,
+        "suspCodeStr": "return foundDigit \u0026\u0026 !hasExp;"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_24/src/main/java/org/apache/commons/lang3/math/NumberUtils.java",
+        "patchPoolId": 20,
+        "startPos": 47640,
+        "endPos": 47669,
+        "suspCodeStr": "return foundDigit \u0026\u0026 !hasExp;"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_24/src/main/java/org/apache/commons/lang3/math/NumberUtils.java",
+        "patchPoolId": 21,
+        "startPos": 47640,
+        "endPos": 47669,
+        "suspCodeStr": "return foundDigit \u0026\u0026 !hasExp;"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_24/src/main/java/org/apache/commons/lang3/math/NumberUtils.java",
+        "patchPoolId": 22,
+        "startPos": 47640,
+        "endPos": 47669,
+        "suspCodeStr": "return foundDigit \u0026\u0026 !hasExp;"
+      },
+      {
+        "patchId": 23,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_24/src/main/java/org/apache/commons/lang3/math/NumberUtils.java",
+        "patchPoolId": 23,
+        "startPos": 47640,
+        "endPos": 47669,
+        "suspCodeStr": "return foundDigit \u0026\u0026 !hasExp;"
+      },
+      {
+        "patchId": 24,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_24/src/main/java/org/apache/commons/lang3/math/NumberUtils.java",
+        "patchPoolId": 24,
+        "startPos": 47640,
+        "endPos": 47669,
+        "suspCodeStr": "return foundDigit \u0026\u0026 !hasExp;"
+      },
+      {
+        "patchId": 25,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_24/src/main/java/org/apache/commons/lang3/math/NumberUtils.java",
+        "patchPoolId": 25,
+        "startPos": 47640,
+        "endPos": 47669,
+        "suspCodeStr": "return foundDigit \u0026\u0026 !hasExp;"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 845,
+    "patchesGenerationTimeMs": 26
+  }
+]

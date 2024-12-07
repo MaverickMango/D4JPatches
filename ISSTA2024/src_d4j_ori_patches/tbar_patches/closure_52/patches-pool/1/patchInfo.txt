@@ -1,0 +1,10 @@
+stmtLocation: com/google/javascript/jscomp/CodeGenerator:745
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 988
+patchesGenerationTimeMs: 49
+patchId: 1
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_52/src/com/google/javascript/jscomp/CodeGenerator.java
+patchPoolId: 1
+startPos: 22251
+endPos: 22266
+suspCodeStr: return len > 0;

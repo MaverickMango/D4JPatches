@@ -1,0 +1,10 @@
+stmtLocation: com/fasterxml/jackson/databind/node/POJONode:114
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 783
+patchesGenerationTimeMs: 10
+patchId: 14
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_97/src/main/java/com/fasterxml/jackson/databind/node/POJONode.java
+patchPoolId: 14
+startPos: 3287
+endPos: 3311
+suspCodeStr: gen.writeObject(_value);

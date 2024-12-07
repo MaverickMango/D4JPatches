@@ -1,0 +1,506 @@
+[
+  {
+    "stmtLocation": "org/apache/commons/codec/language/Caverphone:76",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 0,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 1,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 2,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 3,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 4,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 5,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 6,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 7,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 8,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 9,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 10,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 11,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 12,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 13,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 14,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 15,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 16,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 17,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 18,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 19,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 20,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 21,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 22,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 23,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 23,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 24,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 24,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 25,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 25,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 26,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 26,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 27,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 27,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 28,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 28,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 29,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 29,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 30,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 30,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 31,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 31,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 32,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 32,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 33,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 33,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 34,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 34,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 35,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 35,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 36,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 36,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 37,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 37,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 38,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 38,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 39,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 39,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 40,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 40,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 41,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 41,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 42,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 42,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 43,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 43,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 44,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 44,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 45,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 45,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 46,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 46,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 47,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 47,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 48,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 48,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 49,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 49,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 50,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 50,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 51,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 51,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 52,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 52,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 53,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 53,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 54,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 54,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 55,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 55,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 56,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 56,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 57,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 57,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 58,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 58,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 59,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 59,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 60,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 60,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      },
+      {
+        "patchId": 61,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java",
+        "patchPoolId": 61,
+        "startPos": 2756,
+        "endPos": 2790,
+        "suspCodeStr": "txt \u003d txt.replaceAll(\"^mb\", \"m2\");"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 570,
+    "patchesGenerationTimeMs": 6
+  }
+]

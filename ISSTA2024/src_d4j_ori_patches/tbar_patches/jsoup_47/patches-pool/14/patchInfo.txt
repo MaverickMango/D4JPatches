@@ -1,0 +1,13 @@
+stmtLocation: org/jsoup/nodes/Entities:122
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 699
+patchesGenerationTimeMs: 35
+patchId: 14
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_47/src/main/java/org/jsoup/nodes/Entities.java
+patchPoolId: 14
+startPos: 4615
+endPos: 4756
+suspCodeStr: if (!inAttribute)
+                            accum.append("&lt;");
+                        else
+                            accum.append(c);

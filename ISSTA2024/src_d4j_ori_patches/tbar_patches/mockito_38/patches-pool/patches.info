@@ -1,0 +1,306 @@
+[
+  {
+    "stmtLocation": "org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool:48",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/mockito_38/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java",
+        "patchPoolId": 0,
+        "startPos": 1609,
+        "endPos": 1669,
+        "suspCodeStr": "return StringDescription.toString(m).equals(arg.toString());"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/mockito_38/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java",
+        "patchPoolId": 1,
+        "startPos": 1609,
+        "endPos": 1669,
+        "suspCodeStr": "return StringDescription.toString(m).equals(arg.toString());"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/mockito_38/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java",
+        "patchPoolId": 2,
+        "startPos": 1609,
+        "endPos": 1669,
+        "suspCodeStr": "return StringDescription.toString(m).equals(arg.toString());"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/mockito_38/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java",
+        "patchPoolId": 3,
+        "startPos": 1609,
+        "endPos": 1669,
+        "suspCodeStr": "return StringDescription.toString(m).equals(arg.toString());"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/mockito_38/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java",
+        "patchPoolId": 4,
+        "startPos": 1609,
+        "endPos": 1669,
+        "suspCodeStr": "return StringDescription.toString(m).equals(arg.toString());"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/mockito_38/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java",
+        "patchPoolId": 5,
+        "startPos": 1609,
+        "endPos": 1669,
+        "suspCodeStr": "return StringDescription.toString(m).equals(arg.toString());"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/mockito_38/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java",
+        "patchPoolId": 6,
+        "startPos": 1609,
+        "endPos": 1669,
+        "suspCodeStr": "return StringDescription.toString(m).equals(arg.toString());"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/mockito_38/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java",
+        "patchPoolId": 7,
+        "startPos": 1609,
+        "endPos": 1669,
+        "suspCodeStr": "return StringDescription.toString(m).equals(arg.toString());"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/mockito_38/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java",
+        "patchPoolId": 8,
+        "startPos": 1609,
+        "endPos": 1669,
+        "suspCodeStr": "return StringDescription.toString(m).equals(arg.toString());"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/mockito_38/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java",
+        "patchPoolId": 9,
+        "startPos": 1609,
+        "endPos": 1669,
+        "suspCodeStr": "return StringDescription.toString(m).equals(arg.toString());"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/mockito_38/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java",
+        "patchPoolId": 10,
+        "startPos": 1609,
+        "endPos": 1669,
+        "suspCodeStr": "return StringDescription.toString(m).equals(arg.toString());"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/mockito_38/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java",
+        "patchPoolId": 11,
+        "startPos": 1609,
+        "endPos": 1669,
+        "suspCodeStr": "return StringDescription.toString(m).equals(arg.toString());"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/mockito_38/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java",
+        "patchPoolId": 12,
+        "startPos": 1609,
+        "endPos": 1669,
+        "suspCodeStr": "return StringDescription.toString(m).equals(arg.toString());"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/mockito_38/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java",
+        "patchPoolId": 13,
+        "startPos": 1609,
+        "endPos": 1669,
+        "suspCodeStr": "return StringDescription.toString(m).equals(arg.toString());"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/mockito_38/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java",
+        "patchPoolId": 14,
+        "startPos": 1609,
+        "endPos": 1669,
+        "suspCodeStr": "return StringDescription.toString(m).equals(arg.toString());"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/mockito_38/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java",
+        "patchPoolId": 15,
+        "startPos": 1609,
+        "endPos": 1669,
+        "suspCodeStr": "return StringDescription.toString(m).equals(arg.toString());"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/mockito_38/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java",
+        "patchPoolId": 16,
+        "startPos": 1609,
+        "endPos": 1669,
+        "suspCodeStr": "return StringDescription.toString(m).equals(arg.toString());"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/mockito_38/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java",
+        "patchPoolId": 17,
+        "startPos": 1609,
+        "endPos": 1669,
+        "suspCodeStr": "return StringDescription.toString(m).equals(arg.toString());"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/mockito_38/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java",
+        "patchPoolId": 18,
+        "startPos": 1609,
+        "endPos": 1669,
+        "suspCodeStr": "return StringDescription.toString(m).equals(arg.toString());"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/mockito_38/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java",
+        "patchPoolId": 19,
+        "startPos": 1609,
+        "endPos": 1669,
+        "suspCodeStr": "return StringDescription.toString(m).equals(arg.toString());"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/mockito_38/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java",
+        "patchPoolId": 20,
+        "startPos": 1609,
+        "endPos": 1669,
+        "suspCodeStr": "return StringDescription.toString(m).equals(arg.toString());"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/mockito_38/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java",
+        "patchPoolId": 21,
+        "startPos": 1609,
+        "endPos": 1669,
+        "suspCodeStr": "return StringDescription.toString(m).equals(arg.toString());"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/mockito_38/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java",
+        "patchPoolId": 22,
+        "startPos": 1609,
+        "endPos": 1669,
+        "suspCodeStr": "return StringDescription.toString(m).equals(arg.toString());"
+      },
+      {
+        "patchId": 23,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/mockito_38/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java",
+        "patchPoolId": 23,
+        "startPos": 1609,
+        "endPos": 1669,
+        "suspCodeStr": "return StringDescription.toString(m).equals(arg.toString());"
+      },
+      {
+        "patchId": 24,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/mockito_38/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java",
+        "patchPoolId": 24,
+        "startPos": 1609,
+        "endPos": 1669,
+        "suspCodeStr": "return StringDescription.toString(m).equals(arg.toString());"
+      },
+      {
+        "patchId": 25,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/mockito_38/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java",
+        "patchPoolId": 25,
+        "startPos": 1609,
+        "endPos": 1669,
+        "suspCodeStr": "return StringDescription.toString(m).equals(arg.toString());"
+      },
+      {
+        "patchId": 26,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/mockito_38/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java",
+        "patchPoolId": 26,
+        "startPos": 1609,
+        "endPos": 1669,
+        "suspCodeStr": "return StringDescription.toString(m).equals(arg.toString());"
+      },
+      {
+        "patchId": 27,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/mockito_38/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java",
+        "patchPoolId": 27,
+        "startPos": 1609,
+        "endPos": 1669,
+        "suspCodeStr": "return StringDescription.toString(m).equals(arg.toString());"
+      },
+      {
+        "patchId": 28,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/mockito_38/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java",
+        "patchPoolId": 28,
+        "startPos": 1609,
+        "endPos": 1669,
+        "suspCodeStr": "return StringDescription.toString(m).equals(arg.toString());"
+      },
+      {
+        "patchId": 29,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/mockito_38/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java",
+        "patchPoolId": 29,
+        "startPos": 1609,
+        "endPos": 1669,
+        "suspCodeStr": "return StringDescription.toString(m).equals(arg.toString());"
+      },
+      {
+        "patchId": 30,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/mockito_38/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java",
+        "patchPoolId": 30,
+        "startPos": 1609,
+        "endPos": 1669,
+        "suspCodeStr": "return StringDescription.toString(m).equals(arg.toString());"
+      },
+      {
+        "patchId": 31,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/mockito_38/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java",
+        "patchPoolId": 31,
+        "startPos": 1609,
+        "endPos": 1669,
+        "suspCodeStr": "return StringDescription.toString(m).equals(arg.toString());"
+      },
+      {
+        "patchId": 32,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/mockito_38/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java",
+        "patchPoolId": 32,
+        "startPos": 1609,
+        "endPos": 1669,
+        "suspCodeStr": "return StringDescription.toString(m).equals(arg.toString());"
+      },
+      {
+        "patchId": 33,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/mockito_38/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java",
+        "patchPoolId": 33,
+        "startPos": 1609,
+        "endPos": 1669,
+        "suspCodeStr": "return StringDescription.toString(m).equals(arg.toString());"
+      },
+      {
+        "patchId": 34,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/mockito_38/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java",
+        "patchPoolId": 34,
+        "startPos": 1609,
+        "endPos": 1669,
+        "suspCodeStr": "return StringDescription.toString(m).equals(arg.toString());"
+      },
+      {
+        "patchId": 35,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/mockito_38/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java",
+        "patchPoolId": 35,
+        "startPos": 1609,
+        "endPos": 1669,
+        "suspCodeStr": "return StringDescription.toString(m).equals(arg.toString());"
+      },
+      {
+        "patchId": 36,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/mockito_38/src/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java",
+        "patchPoolId": 36,
+        "startPos": 1609,
+        "endPos": 1669,
+        "suspCodeStr": "return StringDescription.toString(m).equals(arg.toString());"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 716,
+    "patchesGenerationTimeMs": 5
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "stmtLocation": "com/google/javascript/jscomp/ProcessClosurePrimitives:789",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_92/src/com/google/javascript/jscomp/ProcessClosurePrimitives.java",
+        "patchPoolId": 0,
+        "startPos": 28296,
+        "endPos": 28336,
+        "suspCodeStr": "int indexOfDot \u003d namespace.indexOf(\u0027.\u0027);"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_92/src/com/google/javascript/jscomp/ProcessClosurePrimitives.java",
+        "patchPoolId": 1,
+        "startPos": 28296,
+        "endPos": 28336,
+        "suspCodeStr": "int indexOfDot \u003d namespace.indexOf(\u0027.\u0027);"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_92/src/com/google/javascript/jscomp/ProcessClosurePrimitives.java",
+        "patchPoolId": 2,
+        "startPos": 28296,
+        "endPos": 28336,
+        "suspCodeStr": "int indexOfDot \u003d namespace.indexOf(\u0027.\u0027);"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_92/src/com/google/javascript/jscomp/ProcessClosurePrimitives.java",
+        "patchPoolId": 3,
+        "startPos": 28296,
+        "endPos": 28336,
+        "suspCodeStr": "int indexOfDot \u003d namespace.indexOf(\u0027.\u0027);"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_92/src/com/google/javascript/jscomp/ProcessClosurePrimitives.java",
+        "patchPoolId": 4,
+        "startPos": 28296,
+        "endPos": 28336,
+        "suspCodeStr": "int indexOfDot \u003d namespace.indexOf(\u0027.\u0027);"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_92/src/com/google/javascript/jscomp/ProcessClosurePrimitives.java",
+        "patchPoolId": 5,
+        "startPos": 28296,
+        "endPos": 28336,
+        "suspCodeStr": "int indexOfDot \u003d namespace.indexOf(\u0027.\u0027);"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_92/src/com/google/javascript/jscomp/ProcessClosurePrimitives.java",
+        "patchPoolId": 6,
+        "startPos": 28296,
+        "endPos": 28336,
+        "suspCodeStr": "int indexOfDot \u003d namespace.indexOf(\u0027.\u0027);"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_92/src/com/google/javascript/jscomp/ProcessClosurePrimitives.java",
+        "patchPoolId": 7,
+        "startPos": 28296,
+        "endPos": 28336,
+        "suspCodeStr": "int indexOfDot \u003d namespace.indexOf(\u0027.\u0027);"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_92/src/com/google/javascript/jscomp/ProcessClosurePrimitives.java",
+        "patchPoolId": 8,
+        "startPos": 28296,
+        "endPos": 28336,
+        "suspCodeStr": "int indexOfDot \u003d namespace.indexOf(\u0027.\u0027);"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_92/src/com/google/javascript/jscomp/ProcessClosurePrimitives.java",
+        "patchPoolId": 9,
+        "startPos": 28296,
+        "endPos": 28336,
+        "suspCodeStr": "int indexOfDot \u003d namespace.indexOf(\u0027.\u0027);"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_92/src/com/google/javascript/jscomp/ProcessClosurePrimitives.java",
+        "patchPoolId": 10,
+        "startPos": 28296,
+        "endPos": 28336,
+        "suspCodeStr": "int indexOfDot \u003d namespace.indexOf(\u0027.\u0027);"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_92/src/com/google/javascript/jscomp/ProcessClosurePrimitives.java",
+        "patchPoolId": 11,
+        "startPos": 28296,
+        "endPos": 28336,
+        "suspCodeStr": "int indexOfDot \u003d namespace.indexOf(\u0027.\u0027);"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_92/src/com/google/javascript/jscomp/ProcessClosurePrimitives.java",
+        "patchPoolId": 12,
+        "startPos": 28296,
+        "endPos": 28336,
+        "suspCodeStr": "int indexOfDot \u003d namespace.indexOf(\u0027.\u0027);"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_92/src/com/google/javascript/jscomp/ProcessClosurePrimitives.java",
+        "patchPoolId": 13,
+        "startPos": 28296,
+        "endPos": 28336,
+        "suspCodeStr": "int indexOfDot \u003d namespace.indexOf(\u0027.\u0027);"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_92/src/com/google/javascript/jscomp/ProcessClosurePrimitives.java",
+        "patchPoolId": 14,
+        "startPos": 28296,
+        "endPos": 28336,
+        "suspCodeStr": "int indexOfDot \u003d namespace.indexOf(\u0027.\u0027);"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_92/src/com/google/javascript/jscomp/ProcessClosurePrimitives.java",
+        "patchPoolId": 15,
+        "startPos": 28296,
+        "endPos": 28336,
+        "suspCodeStr": "int indexOfDot \u003d namespace.indexOf(\u0027.\u0027);"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 856,
+    "patchesGenerationTimeMs": 24
+  }
+]

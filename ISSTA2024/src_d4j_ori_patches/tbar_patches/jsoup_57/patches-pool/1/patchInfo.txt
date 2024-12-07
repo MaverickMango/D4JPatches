@@ -1,0 +1,11 @@
+stmtLocation: org/jsoup/nodes/Attributes:125
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 743
+patchesGenerationTimeMs: 37
+patchId: 1
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java
+patchPoolId: 1
+startPos: 3697
+endPos: 3775
+suspCodeStr: if (attrKey.equalsIgnoreCase(key))
+                attributes.remove(attrKey);

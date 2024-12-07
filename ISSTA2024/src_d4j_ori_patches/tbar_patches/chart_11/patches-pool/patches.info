@@ -1,0 +1,34 @@
+[
+  {
+    "stmtLocation": "org/jfree/chart/util/ShapeUtilities:275",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_11/source/org/jfree/chart/util/ShapeUtilities.java",
+        "patchPoolId": 0,
+        "startPos": 9061,
+        "endPos": 9111,
+        "suspCodeStr": "PathIterator iterator2 \u003d p1.getPathIterator(null);"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_11/source/org/jfree/chart/util/ShapeUtilities.java",
+        "patchPoolId": 1,
+        "startPos": 9061,
+        "endPos": 9111,
+        "suspCodeStr": "PathIterator iterator2 \u003d p1.getPathIterator(null);"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_11/source/org/jfree/chart/util/ShapeUtilities.java",
+        "patchPoolId": 2,
+        "startPos": 9061,
+        "endPos": 9111,
+        "suspCodeStr": "PathIterator iterator2 \u003d p1.getPathIterator(null);"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 796,
+    "patchesGenerationTimeMs": 26
+  }
+]

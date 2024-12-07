@@ -1,0 +1,18 @@
+[
+  {
+    "stmtLocation": "org/apache/commons/cli/TypeHandler:103",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_40/src/main/java/org/apache/commons/cli/TypeHandler.java",
+        "patchPoolId": 0,
+        "startPos": 3551,
+        "endPos": 3563,
+        "suspCodeStr": "return null;"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 619,
+    "patchesGenerationTimeMs": 14
+  }
+]

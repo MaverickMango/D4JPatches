@@ -1,0 +1,450 @@
+[
+  {
+    "stmtLocation": "org/apache/commons/lang/LocaleUtils:223",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 0,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 1,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 2,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 3,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 4,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 5,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 6,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 7,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 8,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 9,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 10,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 11,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 12,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 13,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 14,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 15,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 16,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 17,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 18,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 19,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 20,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 21,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 22,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 23,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 23,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 24,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 24,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 25,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 25,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 26,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 26,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 27,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 27,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 28,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 28,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 29,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 29,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 30,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 30,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 31,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 31,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 32,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 32,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 33,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 33,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 34,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 34,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 35,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 35,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 36,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 36,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 37,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 37,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 38,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 38,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 39,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 39,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 40,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 40,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 41,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 41,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 42,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 42,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 43,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 43,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 44,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 44,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 45,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 45,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 46,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 46,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 47,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 47,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 48,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 48,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 49,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 49,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 50,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 50,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 51,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 51,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 52,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 52,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 53,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 53,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      },
+      {
+        "patchId": 54,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_57/src/java/org/apache/commons/lang/LocaleUtils.java",
+        "patchPoolId": 54,
+        "startPos": 8674,
+        "endPos": 8718,
+        "suspCodeStr": "return cAvailableLocaleSet.contains(locale);"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 715,
+    "patchesGenerationTimeMs": 14
+  }
+]

@@ -1,0 +1,10 @@
+stmtLocation: org/jsoup/nodes/Element:1138
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 813
+patchesGenerationTimeMs: 29
+patchId: 67
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_32/src/main/java/org/jsoup/nodes/Element.java
+patchPoolId: 67
+startPos: 40217
+endPos: 40236
+suspCodeStr: clone.classNames();

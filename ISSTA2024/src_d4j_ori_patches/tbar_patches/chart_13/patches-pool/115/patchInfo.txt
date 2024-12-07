@@ -1,0 +1,13 @@
+stmtLocation: org/jfree/chart/block/BorderArrangement:455
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 710
+patchesGenerationTimeMs: 73
+patchId: 115
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java
+patchPoolId: 115
+startPos: 17794
+endPos: 18025
+suspCodeStr: RectangleConstraint c4 = new RectangleConstraint(0.0,
+                    new Range(0.0, constraint.getWidth() - w[2]),
+                    LengthConstraintType.RANGE, h[2], null,
+                    LengthConstraintType.FIXED);

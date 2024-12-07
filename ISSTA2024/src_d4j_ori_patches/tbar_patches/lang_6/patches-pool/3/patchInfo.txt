@@ -1,0 +1,10 @@
+stmtLocation: org/apache/commons/lang3/text/translate/CharSequenceTranslator:95
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 971
+patchesGenerationTimeMs: 22
+patchId: 3
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_6/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java
+patchPoolId: 3
+startPos: 3804
+endPos: 3866
+suspCodeStr: pos += Character.charCount(Character.codePointAt(input, pos));

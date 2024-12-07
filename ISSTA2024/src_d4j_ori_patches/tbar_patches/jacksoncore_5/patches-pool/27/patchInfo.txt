@@ -1,0 +1,10 @@
+stmtLocation: com/fasterxml/jackson/core/JsonPointer:193
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 820
+patchesGenerationTimeMs: 35
+patchId: 27
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksoncore_5/src/main/java/com/fasterxml/jackson/core/JsonPointer.java
+patchPoolId: 27
+startPos: 6211
+endPos: 6236
+suspCodeStr: char c = str.charAt(i++);

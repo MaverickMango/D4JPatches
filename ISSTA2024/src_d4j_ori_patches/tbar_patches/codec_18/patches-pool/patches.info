@@ -1,0 +1,202 @@
+[
+  {
+    "stmtLocation": "org/apache/commons/codec/binary/StringUtils:81",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_18/src/main/java/org/apache/commons/codec/binary/StringUtils.java",
+        "patchPoolId": 0,
+        "startPos": 2953,
+        "endPos": 3053,
+        "suspCodeStr": "return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_18/src/main/java/org/apache/commons/codec/binary/StringUtils.java",
+        "patchPoolId": 1,
+        "startPos": 2953,
+        "endPos": 3053,
+        "suspCodeStr": "return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_18/src/main/java/org/apache/commons/codec/binary/StringUtils.java",
+        "patchPoolId": 2,
+        "startPos": 2953,
+        "endPos": 3053,
+        "suspCodeStr": "return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_18/src/main/java/org/apache/commons/codec/binary/StringUtils.java",
+        "patchPoolId": 3,
+        "startPos": 2953,
+        "endPos": 3053,
+        "suspCodeStr": "return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_18/src/main/java/org/apache/commons/codec/binary/StringUtils.java",
+        "patchPoolId": 4,
+        "startPos": 2953,
+        "endPos": 3053,
+        "suspCodeStr": "return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_18/src/main/java/org/apache/commons/codec/binary/StringUtils.java",
+        "patchPoolId": 5,
+        "startPos": 2953,
+        "endPos": 3053,
+        "suspCodeStr": "return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_18/src/main/java/org/apache/commons/codec/binary/StringUtils.java",
+        "patchPoolId": 6,
+        "startPos": 2953,
+        "endPos": 3053,
+        "suspCodeStr": "return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_18/src/main/java/org/apache/commons/codec/binary/StringUtils.java",
+        "patchPoolId": 7,
+        "startPos": 2953,
+        "endPos": 3053,
+        "suspCodeStr": "return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_18/src/main/java/org/apache/commons/codec/binary/StringUtils.java",
+        "patchPoolId": 8,
+        "startPos": 2953,
+        "endPos": 3053,
+        "suspCodeStr": "return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_18/src/main/java/org/apache/commons/codec/binary/StringUtils.java",
+        "patchPoolId": 9,
+        "startPos": 2953,
+        "endPos": 3053,
+        "suspCodeStr": "return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_18/src/main/java/org/apache/commons/codec/binary/StringUtils.java",
+        "patchPoolId": 10,
+        "startPos": 2953,
+        "endPos": 3053,
+        "suspCodeStr": "return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_18/src/main/java/org/apache/commons/codec/binary/StringUtils.java",
+        "patchPoolId": 11,
+        "startPos": 2953,
+        "endPos": 3053,
+        "suspCodeStr": "return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_18/src/main/java/org/apache/commons/codec/binary/StringUtils.java",
+        "patchPoolId": 12,
+        "startPos": 2953,
+        "endPos": 3053,
+        "suspCodeStr": "return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_18/src/main/java/org/apache/commons/codec/binary/StringUtils.java",
+        "patchPoolId": 13,
+        "startPos": 2953,
+        "endPos": 3053,
+        "suspCodeStr": "return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_18/src/main/java/org/apache/commons/codec/binary/StringUtils.java",
+        "patchPoolId": 14,
+        "startPos": 2953,
+        "endPos": 3053,
+        "suspCodeStr": "return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_18/src/main/java/org/apache/commons/codec/binary/StringUtils.java",
+        "patchPoolId": 15,
+        "startPos": 2953,
+        "endPos": 3053,
+        "suspCodeStr": "return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_18/src/main/java/org/apache/commons/codec/binary/StringUtils.java",
+        "patchPoolId": 16,
+        "startPos": 2953,
+        "endPos": 3053,
+        "suspCodeStr": "return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_18/src/main/java/org/apache/commons/codec/binary/StringUtils.java",
+        "patchPoolId": 17,
+        "startPos": 2953,
+        "endPos": 3053,
+        "suspCodeStr": "return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_18/src/main/java/org/apache/commons/codec/binary/StringUtils.java",
+        "patchPoolId": 18,
+        "startPos": 2953,
+        "endPos": 3053,
+        "suspCodeStr": "return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_18/src/main/java/org/apache/commons/codec/binary/StringUtils.java",
+        "patchPoolId": 19,
+        "startPos": 2953,
+        "endPos": 3053,
+        "suspCodeStr": "return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_18/src/main/java/org/apache/commons/codec/binary/StringUtils.java",
+        "patchPoolId": 20,
+        "startPos": 2953,
+        "endPos": 3053,
+        "suspCodeStr": "return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_18/src/main/java/org/apache/commons/codec/binary/StringUtils.java",
+        "patchPoolId": 21,
+        "startPos": 2953,
+        "endPos": 3053,
+        "suspCodeStr": "return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_18/src/main/java/org/apache/commons/codec/binary/StringUtils.java",
+        "patchPoolId": 22,
+        "startPos": 2953,
+        "endPos": 3053,
+        "suspCodeStr": "return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));"
+      },
+      {
+        "patchId": 23,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_18/src/main/java/org/apache/commons/codec/binary/StringUtils.java",
+        "patchPoolId": 23,
+        "startPos": 2953,
+        "endPos": 3053,
+        "suspCodeStr": "return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 741,
+    "patchesGenerationTimeMs": 14
+  }
+]

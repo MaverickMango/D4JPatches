@@ -1,0 +1,11 @@
+stmtLocation: org/joda/time/format/DateTimeFormatter:709
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 888
+patchesGenerationTimeMs: 60
+patchId: 306
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java
+patchPoolId: 306
+startPos: 26774
+endPos: 26899
+suspCodeStr: DateTimeParserBucket bucket = new DateTimeParserBucket(
+            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);

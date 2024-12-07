@@ -1,0 +1,1338 @@
+[
+  {
+    "stmtLocation": "org/apache/commons/lang3/time/DateUtils:265",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 0,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 1,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 2,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 3,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 4,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 5,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 6,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 7,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 8,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 9,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 10,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 11,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 12,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 13,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 14,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 15,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 16,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 17,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 18,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 19,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 20,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 21,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 22,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 23,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 23,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 24,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 24,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 25,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 25,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 26,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 26,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 27,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 27,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 28,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 28,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 29,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 29,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 30,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 30,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 31,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 31,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 32,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 32,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 33,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 33,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 34,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 34,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 35,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 35,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 36,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 36,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 37,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 37,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 38,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 38,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 39,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 39,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 40,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 40,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 41,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 41,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 42,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 42,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 43,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 43,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 44,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 44,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 45,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 45,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 46,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 46,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 47,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 47,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 48,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 48,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 49,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 49,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 50,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 50,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 51,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 51,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 52,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 52,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 53,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 53,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 54,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 54,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 55,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 55,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 56,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 56,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 57,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 57,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 58,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 58,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 59,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 59,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 60,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 60,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 61,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 61,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 62,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 62,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 63,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 63,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 64,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 64,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 65,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 65,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 66,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 66,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 67,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 67,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 68,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 68,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 69,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 69,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 70,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 70,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 71,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 71,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 72,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 72,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 73,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 73,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 74,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 74,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 75,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 75,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 76,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 76,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 77,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 77,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 78,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 78,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 79,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 79,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 80,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 80,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 81,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 81,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 82,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 82,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 83,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 83,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 84,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 84,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 85,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 85,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 86,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 86,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 87,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 87,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 88,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 88,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 89,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 89,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 90,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 90,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 91,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 91,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 92,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 92,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 93,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 93,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 94,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 94,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 95,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 95,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 96,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 96,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 97,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 97,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 98,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 98,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 99,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 99,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 100,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 100,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 101,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 101,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 102,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 102,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 103,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 103,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 104,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 104,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 105,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 105,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 106,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 106,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 107,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 107,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 108,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 108,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 109,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 109,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 110,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 110,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 111,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 111,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 112,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 112,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 113,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 113,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 114,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 114,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 115,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 115,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 116,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 116,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 117,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 117,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 118,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 118,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 119,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 119,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 120,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 120,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 121,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 121,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 122,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 122,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 123,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 123,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 124,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 124,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 125,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 125,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 126,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 126,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 127,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 127,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 128,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 128,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 129,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 129,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 130,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 130,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 131,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 131,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 132,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 132,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 133,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 133,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 134,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 134,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 135,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 135,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 136,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 136,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 137,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 137,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 138,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 138,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 139,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 139,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 140,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 140,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 141,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 141,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 142,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 142,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 143,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 143,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 144,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 144,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 145,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 145,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 146,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 146,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 147,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 147,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 148,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 148,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 149,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 149,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 150,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 150,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 151,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 151,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 152,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 152,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 153,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 153,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 154,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 154,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 155,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 155,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 156,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 156,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 157,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 157,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 158,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 158,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 159,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 159,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 160,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 160,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 161,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 161,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 162,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 162,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 163,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 163,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 164,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 164,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      },
+      {
+        "patchId": 165,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_21/src/main/java/org/apache/commons/lang3/time/DateUtils.java",
+        "patchPoolId": 165,
+        "startPos": 9423,
+        "endPos": 9991,
+        "suspCodeStr": "return (cal1.get(Calendar.MILLISECOND) \u003d\u003d cal2.get(Calendar.MILLISECOND) \u0026\u0026\n                cal1.get(Calendar.SECOND) \u003d\u003d cal2.get(Calendar.SECOND) \u0026\u0026\n                cal1.get(Calendar.MINUTE) \u003d\u003d cal2.get(Calendar.MINUTE) \u0026\u0026\n                cal1.get(Calendar.HOUR) \u003d\u003d cal2.get(Calendar.HOUR) \u0026\u0026\n                cal1.get(Calendar.DAY_OF_YEAR) \u003d\u003d cal2.get(Calendar.DAY_OF_YEAR) \u0026\u0026\n                cal1.get(Calendar.YEAR) \u003d\u003d cal2.get(Calendar.YEAR) \u0026\u0026\n                cal1.get(Calendar.ERA) \u003d\u003d cal2.get(Calendar.ERA) \u0026\u0026\n                cal1.getClass() \u003d\u003d cal2.getClass());"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 804,
+    "patchesGenerationTimeMs": 21
+  }
+]

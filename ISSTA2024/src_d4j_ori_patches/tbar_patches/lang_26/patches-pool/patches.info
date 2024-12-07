@@ -1,0 +1,434 @@
+[
+  {
+    "stmtLocation": "org/apache/commons/lang3/time/FastDateFormat:820",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 0,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 1,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 2,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 3,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 4,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 5,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 6,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 7,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 8,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 9,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 10,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 11,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 12,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 13,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 14,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 15,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 16,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 17,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 18,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 19,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 20,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 21,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 22,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 23,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 23,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 24,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 24,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 25,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 25,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 26,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 26,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 27,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 27,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 28,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 28,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 29,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 29,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 30,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 30,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 31,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 31,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 32,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 32,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 33,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 33,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 34,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 34,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 35,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 35,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 36,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 36,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 37,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 37,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 38,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 38,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 39,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 39,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 40,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 40,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 41,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 41,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 42,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 42,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 43,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 43,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 44,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 44,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 45,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 45,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 46,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 46,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 47,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 47,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 48,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 48,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 49,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 49,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 50,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 50,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 51,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 51,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      },
+      {
+        "patchId": 52,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_26/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
+        "patchPoolId": 52,
+        "startPos": 30059,
+        "endPos": 30105,
+        "suspCodeStr": "Calendar c \u003d new GregorianCalendar(mTimeZone);"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 915,
+    "patchesGenerationTimeMs": 51
+  }
+]

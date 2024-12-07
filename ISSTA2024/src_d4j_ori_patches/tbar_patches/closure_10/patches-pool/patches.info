@@ -1,0 +1,1554 @@
+[
+  {
+    "stmtLocation": "com/google/javascript/jscomp/NodeUtil:1417",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 0,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 1,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 2,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 3,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 4,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 5,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 6,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 7,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 8,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 9,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 10,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 11,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 12,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 13,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 14,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 15,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 16,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 17,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 18,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 19,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 20,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 21,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 22,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 23,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 23,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 24,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 24,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 25,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 25,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 26,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 26,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 27,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 27,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 28,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 28,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 29,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 29,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 30,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 30,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 31,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 31,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 32,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 32,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 33,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 33,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 34,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 34,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 35,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 35,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 36,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 36,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 37,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 37,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 38,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 38,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 39,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 39,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 40,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 40,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 41,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 41,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 42,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 42,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 43,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 43,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 44,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 44,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 45,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 45,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 46,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 46,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 47,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 47,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 48,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 48,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 49,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 49,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 50,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 50,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 51,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 51,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 52,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 52,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 53,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 53,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 54,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 54,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 55,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 55,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 56,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 56,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 57,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 57,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 58,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 58,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 59,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 59,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 60,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 60,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 61,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 61,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 62,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 62,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 63,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 63,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 64,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 64,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 65,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 65,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 66,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 66,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 67,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 67,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 68,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 68,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 69,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 69,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 70,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 70,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 71,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 71,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 72,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 72,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 73,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 73,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 74,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 74,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 75,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 75,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 76,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 76,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 77,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 77,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 78,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 78,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 79,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 79,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 80,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 80,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 81,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 81,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 82,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 82,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 83,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 83,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 84,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 84,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 85,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 85,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 86,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 86,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 87,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 87,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 88,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 88,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 89,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 89,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 90,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 90,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 91,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 91,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 92,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 92,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 93,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 93,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 94,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 94,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 95,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 95,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 96,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 96,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 97,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 97,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 98,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 98,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 99,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 99,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 100,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 100,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 101,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 101,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 102,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 102,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 103,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 103,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 104,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 104,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 105,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 105,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 106,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 106,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 107,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 107,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 108,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 108,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 109,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 109,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 110,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 110,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 111,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 111,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 112,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 112,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 113,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 113,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 114,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 114,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 115,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 115,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 116,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 116,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 117,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 117,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 118,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 118,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 119,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 119,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 120,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 120,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 121,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 121,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 122,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 122,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 123,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 123,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 124,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 124,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 125,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 125,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 126,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 126,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 127,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 127,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 128,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 128,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 129,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 129,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 130,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 130,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 131,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 131,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 132,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 132,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 133,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 133,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 134,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 134,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 135,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 135,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 136,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 136,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 137,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 137,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 138,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 138,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 139,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 139,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 140,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 140,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 141,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 141,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 142,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 142,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 143,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 143,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 144,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 144,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 145,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 145,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 146,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 146,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 147,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 147,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 148,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 148,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 149,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 149,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 150,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 150,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 151,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 151,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 152,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 152,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 153,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 153,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 154,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 154,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 155,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 155,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 156,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 156,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 157,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 157,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 158,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 158,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 159,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 159,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 160,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 160,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 161,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 161,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 162,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 162,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 163,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 163,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 164,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 164,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 165,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 165,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 166,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 166,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 167,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 167,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 168,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 168,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 169,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 169,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 170,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 170,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 171,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 171,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 172,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 172,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 173,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 173,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 174,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 174,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 175,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 175,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 176,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 176,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 177,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 177,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 178,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 178,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 179,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 179,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 180,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 180,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 181,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 181,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 182,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 182,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 183,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 183,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 184,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 184,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 185,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 185,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 186,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 186,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 187,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 187,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 188,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 188,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 189,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 189,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 190,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 190,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 191,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 191,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      },
+      {
+        "patchId": 192,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_10/src/com/google/javascript/jscomp/NodeUtil.java",
+        "patchPoolId": 192,
+        "startPos": 40978,
+        "endPos": 41029,
+        "suspCodeStr": "return allResultsMatch(n, MAY_BE_STRING_PREDICATE);"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 2674,
+    "patchesGenerationTimeMs": 82
+  }
+]

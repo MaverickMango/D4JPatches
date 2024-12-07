@@ -1,0 +1,12 @@
+stmtLocation: org/apache/commons/math/util/MathUtils:412
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 873
+patchesGenerationTimeMs: 132
+patchId: 21
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_94/src/java/org/apache/commons/math/util/MathUtils.java
+patchPoolId: 21
+startPos: 13869
+endPos: 13944
+suspCodeStr: if (u * v == 0) {
+            return (Math.abs(u) + Math.abs(v));
+        }

@@ -1,0 +1,11 @@
+stmtLocation: org/jsoup/nodes/Element:574
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 762
+patchesGenerationTimeMs: 47
+patchId: 61
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_43/src/main/java/org/jsoup/nodes/Element.java
+patchPoolId: 61
+startPos: 19690
+endPos: 19743
+suspCodeStr: if (element.equals(search))
+                return i;

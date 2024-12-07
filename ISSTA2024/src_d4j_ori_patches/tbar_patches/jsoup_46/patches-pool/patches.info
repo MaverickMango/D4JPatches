@@ -1,0 +1,170 @@
+[
+  {
+    "stmtLocation": "org/jsoup/nodes/Entities:118",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_46/src/main/java/org/jsoup/nodes/Entities.java",
+        "patchPoolId": 0,
+        "startPos": 4245,
+        "endPos": 4406,
+        "suspCodeStr": "if (escapeMode !\u003d EscapeMode.xhtml)\n                            accum.append(\"\u0026nbsp;\");\n                        else\n                            accum.append(c);"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_46/src/main/java/org/jsoup/nodes/Entities.java",
+        "patchPoolId": 1,
+        "startPos": 4245,
+        "endPos": 4406,
+        "suspCodeStr": "if (escapeMode !\u003d EscapeMode.xhtml)\n                            accum.append(\"\u0026nbsp;\");\n                        else\n                            accum.append(c);"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_46/src/main/java/org/jsoup/nodes/Entities.java",
+        "patchPoolId": 2,
+        "startPos": 4245,
+        "endPos": 4406,
+        "suspCodeStr": "if (escapeMode !\u003d EscapeMode.xhtml)\n                            accum.append(\"\u0026nbsp;\");\n                        else\n                            accum.append(c);"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_46/src/main/java/org/jsoup/nodes/Entities.java",
+        "patchPoolId": 3,
+        "startPos": 4245,
+        "endPos": 4406,
+        "suspCodeStr": "if (escapeMode !\u003d EscapeMode.xhtml)\n                            accum.append(\"\u0026nbsp;\");\n                        else\n                            accum.append(c);"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_46/src/main/java/org/jsoup/nodes/Entities.java",
+        "patchPoolId": 4,
+        "startPos": 4245,
+        "endPos": 4406,
+        "suspCodeStr": "if (escapeMode !\u003d EscapeMode.xhtml)\n                            accum.append(\"\u0026nbsp;\");\n                        else\n                            accum.append(c);"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_46/src/main/java/org/jsoup/nodes/Entities.java",
+        "patchPoolId": 5,
+        "startPos": 4245,
+        "endPos": 4406,
+        "suspCodeStr": "if (escapeMode !\u003d EscapeMode.xhtml)\n                            accum.append(\"\u0026nbsp;\");\n                        else\n                            accum.append(c);"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_46/src/main/java/org/jsoup/nodes/Entities.java",
+        "patchPoolId": 6,
+        "startPos": 4245,
+        "endPos": 4406,
+        "suspCodeStr": "if (escapeMode !\u003d EscapeMode.xhtml)\n                            accum.append(\"\u0026nbsp;\");\n                        else\n                            accum.append(c);"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_46/src/main/java/org/jsoup/nodes/Entities.java",
+        "patchPoolId": 7,
+        "startPos": 4245,
+        "endPos": 4406,
+        "suspCodeStr": "if (escapeMode !\u003d EscapeMode.xhtml)\n                            accum.append(\"\u0026nbsp;\");\n                        else\n                            accum.append(c);"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_46/src/main/java/org/jsoup/nodes/Entities.java",
+        "patchPoolId": 8,
+        "startPos": 4245,
+        "endPos": 4406,
+        "suspCodeStr": "if (escapeMode !\u003d EscapeMode.xhtml)\n                            accum.append(\"\u0026nbsp;\");\n                        else\n                            accum.append(c);"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_46/src/main/java/org/jsoup/nodes/Entities.java",
+        "patchPoolId": 9,
+        "startPos": 4245,
+        "endPos": 4406,
+        "suspCodeStr": "if (escapeMode !\u003d EscapeMode.xhtml)\n                            accum.append(\"\u0026nbsp;\");\n                        else\n                            accum.append(c);"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_46/src/main/java/org/jsoup/nodes/Entities.java",
+        "patchPoolId": 10,
+        "startPos": 4245,
+        "endPos": 4406,
+        "suspCodeStr": "if (escapeMode !\u003d EscapeMode.xhtml)\n                            accum.append(\"\u0026nbsp;\");\n                        else\n                            accum.append(c);"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_46/src/main/java/org/jsoup/nodes/Entities.java",
+        "patchPoolId": 11,
+        "startPos": 4245,
+        "endPos": 4406,
+        "suspCodeStr": "if (escapeMode !\u003d EscapeMode.xhtml)\n                            accum.append(\"\u0026nbsp;\");\n                        else\n                            accum.append(c);"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_46/src/main/java/org/jsoup/nodes/Entities.java",
+        "patchPoolId": 12,
+        "startPos": 4245,
+        "endPos": 4406,
+        "suspCodeStr": "if (escapeMode !\u003d EscapeMode.xhtml)\n                            accum.append(\"\u0026nbsp;\");\n                        else\n                            accum.append(c);"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_46/src/main/java/org/jsoup/nodes/Entities.java",
+        "patchPoolId": 13,
+        "startPos": 4245,
+        "endPos": 4406,
+        "suspCodeStr": "if (escapeMode !\u003d EscapeMode.xhtml)\n                            accum.append(\"\u0026nbsp;\");\n                        else\n                            accum.append(c);"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_46/src/main/java/org/jsoup/nodes/Entities.java",
+        "patchPoolId": 14,
+        "startPos": 4245,
+        "endPos": 4406,
+        "suspCodeStr": "if (escapeMode !\u003d EscapeMode.xhtml)\n                            accum.append(\"\u0026nbsp;\");\n                        else\n                            accum.append(c);"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_46/src/main/java/org/jsoup/nodes/Entities.java",
+        "patchPoolId": 15,
+        "startPos": 4245,
+        "endPos": 4406,
+        "suspCodeStr": "if (escapeMode !\u003d EscapeMode.xhtml)\n                            accum.append(\"\u0026nbsp;\");\n                        else\n                            accum.append(c);"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_46/src/main/java/org/jsoup/nodes/Entities.java",
+        "patchPoolId": 16,
+        "startPos": 4245,
+        "endPos": 4406,
+        "suspCodeStr": "if (escapeMode !\u003d EscapeMode.xhtml)\n                            accum.append(\"\u0026nbsp;\");\n                        else\n                            accum.append(c);"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_46/src/main/java/org/jsoup/nodes/Entities.java",
+        "patchPoolId": 17,
+        "startPos": 4245,
+        "endPos": 4406,
+        "suspCodeStr": "if (escapeMode !\u003d EscapeMode.xhtml)\n                            accum.append(\"\u0026nbsp;\");\n                        else\n                            accum.append(c);"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_46/src/main/java/org/jsoup/nodes/Entities.java",
+        "patchPoolId": 18,
+        "startPos": 4245,
+        "endPos": 4406,
+        "suspCodeStr": "if (escapeMode !\u003d EscapeMode.xhtml)\n                            accum.append(\"\u0026nbsp;\");\n                        else\n                            accum.append(c);"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_46/src/main/java/org/jsoup/nodes/Entities.java",
+        "patchPoolId": 19,
+        "startPos": 4245,
+        "endPos": 4406,
+        "suspCodeStr": "if (escapeMode !\u003d EscapeMode.xhtml)\n                            accum.append(\"\u0026nbsp;\");\n                        else\n                            accum.append(c);"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 728,
+    "patchesGenerationTimeMs": 13
+  }
+]

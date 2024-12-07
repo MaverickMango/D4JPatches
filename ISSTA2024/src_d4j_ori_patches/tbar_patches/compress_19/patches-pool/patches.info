@@ -1,0 +1,306 @@
+[
+  {
+    "stmtLocation": "org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField:259",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_19/src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java",
+        "patchPoolId": 0,
+        "startPos": 10291,
+        "endPos": 10798,
+        "suspCodeStr": "if (rawCentralDirectoryData.length !\u003d expectedLength) {\n                throw new ZipException(\"central directory zip64 extended\"\n                                       + \" information extra field\u0027s length\"\n                                       + \" doesn\u0027t match central directory\"\n                                       + \" data.  Expected length \"\n                                       + expectedLength + \" but is \"\n                                       + rawCentralDirectoryData.length);\n            }"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_19/src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java",
+        "patchPoolId": 1,
+        "startPos": 10291,
+        "endPos": 10798,
+        "suspCodeStr": "if (rawCentralDirectoryData.length !\u003d expectedLength) {\n                throw new ZipException(\"central directory zip64 extended\"\n                                       + \" information extra field\u0027s length\"\n                                       + \" doesn\u0027t match central directory\"\n                                       + \" data.  Expected length \"\n                                       + expectedLength + \" but is \"\n                                       + rawCentralDirectoryData.length);\n            }"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_19/src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java",
+        "patchPoolId": 2,
+        "startPos": 10291,
+        "endPos": 10798,
+        "suspCodeStr": "if (rawCentralDirectoryData.length !\u003d expectedLength) {\n                throw new ZipException(\"central directory zip64 extended\"\n                                       + \" information extra field\u0027s length\"\n                                       + \" doesn\u0027t match central directory\"\n                                       + \" data.  Expected length \"\n                                       + expectedLength + \" but is \"\n                                       + rawCentralDirectoryData.length);\n            }"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_19/src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java",
+        "patchPoolId": 3,
+        "startPos": 10291,
+        "endPos": 10798,
+        "suspCodeStr": "if (rawCentralDirectoryData.length !\u003d expectedLength) {\n                throw new ZipException(\"central directory zip64 extended\"\n                                       + \" information extra field\u0027s length\"\n                                       + \" doesn\u0027t match central directory\"\n                                       + \" data.  Expected length \"\n                                       + expectedLength + \" but is \"\n                                       + rawCentralDirectoryData.length);\n            }"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_19/src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java",
+        "patchPoolId": 4,
+        "startPos": 10291,
+        "endPos": 10798,
+        "suspCodeStr": "if (rawCentralDirectoryData.length !\u003d expectedLength) {\n                throw new ZipException(\"central directory zip64 extended\"\n                                       + \" information extra field\u0027s length\"\n                                       + \" doesn\u0027t match central directory\"\n                                       + \" data.  Expected length \"\n                                       + expectedLength + \" but is \"\n                                       + rawCentralDirectoryData.length);\n            }"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_19/src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java",
+        "patchPoolId": 5,
+        "startPos": 10291,
+        "endPos": 10798,
+        "suspCodeStr": "if (rawCentralDirectoryData.length !\u003d expectedLength) {\n                throw new ZipException(\"central directory zip64 extended\"\n                                       + \" information extra field\u0027s length\"\n                                       + \" doesn\u0027t match central directory\"\n                                       + \" data.  Expected length \"\n                                       + expectedLength + \" but is \"\n                                       + rawCentralDirectoryData.length);\n            }"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_19/src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java",
+        "patchPoolId": 6,
+        "startPos": 10291,
+        "endPos": 10798,
+        "suspCodeStr": "if (rawCentralDirectoryData.length !\u003d expectedLength) {\n                throw new ZipException(\"central directory zip64 extended\"\n                                       + \" information extra field\u0027s length\"\n                                       + \" doesn\u0027t match central directory\"\n                                       + \" data.  Expected length \"\n                                       + expectedLength + \" but is \"\n                                       + rawCentralDirectoryData.length);\n            }"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_19/src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java",
+        "patchPoolId": 7,
+        "startPos": 10291,
+        "endPos": 10798,
+        "suspCodeStr": "if (rawCentralDirectoryData.length !\u003d expectedLength) {\n                throw new ZipException(\"central directory zip64 extended\"\n                                       + \" information extra field\u0027s length\"\n                                       + \" doesn\u0027t match central directory\"\n                                       + \" data.  Expected length \"\n                                       + expectedLength + \" but is \"\n                                       + rawCentralDirectoryData.length);\n            }"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_19/src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java",
+        "patchPoolId": 8,
+        "startPos": 10291,
+        "endPos": 10798,
+        "suspCodeStr": "if (rawCentralDirectoryData.length !\u003d expectedLength) {\n                throw new ZipException(\"central directory zip64 extended\"\n                                       + \" information extra field\u0027s length\"\n                                       + \" doesn\u0027t match central directory\"\n                                       + \" data.  Expected length \"\n                                       + expectedLength + \" but is \"\n                                       + rawCentralDirectoryData.length);\n            }"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_19/src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java",
+        "patchPoolId": 9,
+        "startPos": 10291,
+        "endPos": 10798,
+        "suspCodeStr": "if (rawCentralDirectoryData.length !\u003d expectedLength) {\n                throw new ZipException(\"central directory zip64 extended\"\n                                       + \" information extra field\u0027s length\"\n                                       + \" doesn\u0027t match central directory\"\n                                       + \" data.  Expected length \"\n                                       + expectedLength + \" but is \"\n                                       + rawCentralDirectoryData.length);\n            }"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_19/src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java",
+        "patchPoolId": 10,
+        "startPos": 10291,
+        "endPos": 10798,
+        "suspCodeStr": "if (rawCentralDirectoryData.length !\u003d expectedLength) {\n                throw new ZipException(\"central directory zip64 extended\"\n                                       + \" information extra field\u0027s length\"\n                                       + \" doesn\u0027t match central directory\"\n                                       + \" data.  Expected length \"\n                                       + expectedLength + \" but is \"\n                                       + rawCentralDirectoryData.length);\n            }"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_19/src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java",
+        "patchPoolId": 11,
+        "startPos": 10291,
+        "endPos": 10798,
+        "suspCodeStr": "if (rawCentralDirectoryData.length !\u003d expectedLength) {\n                throw new ZipException(\"central directory zip64 extended\"\n                                       + \" information extra field\u0027s length\"\n                                       + \" doesn\u0027t match central directory\"\n                                       + \" data.  Expected length \"\n                                       + expectedLength + \" but is \"\n                                       + rawCentralDirectoryData.length);\n            }"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_19/src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java",
+        "patchPoolId": 12,
+        "startPos": 10291,
+        "endPos": 10798,
+        "suspCodeStr": "if (rawCentralDirectoryData.length !\u003d expectedLength) {\n                throw new ZipException(\"central directory zip64 extended\"\n                                       + \" information extra field\u0027s length\"\n                                       + \" doesn\u0027t match central directory\"\n                                       + \" data.  Expected length \"\n                                       + expectedLength + \" but is \"\n                                       + rawCentralDirectoryData.length);\n            }"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_19/src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java",
+        "patchPoolId": 13,
+        "startPos": 10291,
+        "endPos": 10798,
+        "suspCodeStr": "if (rawCentralDirectoryData.length !\u003d expectedLength) {\n                throw new ZipException(\"central directory zip64 extended\"\n                                       + \" information extra field\u0027s length\"\n                                       + \" doesn\u0027t match central directory\"\n                                       + \" data.  Expected length \"\n                                       + expectedLength + \" but is \"\n                                       + rawCentralDirectoryData.length);\n            }"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_19/src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java",
+        "patchPoolId": 14,
+        "startPos": 10291,
+        "endPos": 10798,
+        "suspCodeStr": "if (rawCentralDirectoryData.length !\u003d expectedLength) {\n                throw new ZipException(\"central directory zip64 extended\"\n                                       + \" information extra field\u0027s length\"\n                                       + \" doesn\u0027t match central directory\"\n                                       + \" data.  Expected length \"\n                                       + expectedLength + \" but is \"\n                                       + rawCentralDirectoryData.length);\n            }"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_19/src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java",
+        "patchPoolId": 15,
+        "startPos": 10291,
+        "endPos": 10798,
+        "suspCodeStr": "if (rawCentralDirectoryData.length !\u003d expectedLength) {\n                throw new ZipException(\"central directory zip64 extended\"\n                                       + \" information extra field\u0027s length\"\n                                       + \" doesn\u0027t match central directory\"\n                                       + \" data.  Expected length \"\n                                       + expectedLength + \" but is \"\n                                       + rawCentralDirectoryData.length);\n            }"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_19/src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java",
+        "patchPoolId": 16,
+        "startPos": 10291,
+        "endPos": 10798,
+        "suspCodeStr": "if (rawCentralDirectoryData.length !\u003d expectedLength) {\n                throw new ZipException(\"central directory zip64 extended\"\n                                       + \" information extra field\u0027s length\"\n                                       + \" doesn\u0027t match central directory\"\n                                       + \" data.  Expected length \"\n                                       + expectedLength + \" but is \"\n                                       + rawCentralDirectoryData.length);\n            }"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_19/src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java",
+        "patchPoolId": 17,
+        "startPos": 10291,
+        "endPos": 10798,
+        "suspCodeStr": "if (rawCentralDirectoryData.length !\u003d expectedLength) {\n                throw new ZipException(\"central directory zip64 extended\"\n                                       + \" information extra field\u0027s length\"\n                                       + \" doesn\u0027t match central directory\"\n                                       + \" data.  Expected length \"\n                                       + expectedLength + \" but is \"\n                                       + rawCentralDirectoryData.length);\n            }"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_19/src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java",
+        "patchPoolId": 18,
+        "startPos": 10291,
+        "endPos": 10798,
+        "suspCodeStr": "if (rawCentralDirectoryData.length !\u003d expectedLength) {\n                throw new ZipException(\"central directory zip64 extended\"\n                                       + \" information extra field\u0027s length\"\n                                       + \" doesn\u0027t match central directory\"\n                                       + \" data.  Expected length \"\n                                       + expectedLength + \" but is \"\n                                       + rawCentralDirectoryData.length);\n            }"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_19/src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java",
+        "patchPoolId": 19,
+        "startPos": 10291,
+        "endPos": 10798,
+        "suspCodeStr": "if (rawCentralDirectoryData.length !\u003d expectedLength) {\n                throw new ZipException(\"central directory zip64 extended\"\n                                       + \" information extra field\u0027s length\"\n                                       + \" doesn\u0027t match central directory\"\n                                       + \" data.  Expected length \"\n                                       + expectedLength + \" but is \"\n                                       + rawCentralDirectoryData.length);\n            }"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_19/src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java",
+        "patchPoolId": 20,
+        "startPos": 10291,
+        "endPos": 10798,
+        "suspCodeStr": "if (rawCentralDirectoryData.length !\u003d expectedLength) {\n                throw new ZipException(\"central directory zip64 extended\"\n                                       + \" information extra field\u0027s length\"\n                                       + \" doesn\u0027t match central directory\"\n                                       + \" data.  Expected length \"\n                                       + expectedLength + \" but is \"\n                                       + rawCentralDirectoryData.length);\n            }"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_19/src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java",
+        "patchPoolId": 21,
+        "startPos": 10291,
+        "endPos": 10798,
+        "suspCodeStr": "if (rawCentralDirectoryData.length !\u003d expectedLength) {\n                throw new ZipException(\"central directory zip64 extended\"\n                                       + \" information extra field\u0027s length\"\n                                       + \" doesn\u0027t match central directory\"\n                                       + \" data.  Expected length \"\n                                       + expectedLength + \" but is \"\n                                       + rawCentralDirectoryData.length);\n            }"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_19/src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java",
+        "patchPoolId": 22,
+        "startPos": 10291,
+        "endPos": 10798,
+        "suspCodeStr": "if (rawCentralDirectoryData.length !\u003d expectedLength) {\n                throw new ZipException(\"central directory zip64 extended\"\n                                       + \" information extra field\u0027s length\"\n                                       + \" doesn\u0027t match central directory\"\n                                       + \" data.  Expected length \"\n                                       + expectedLength + \" but is \"\n                                       + rawCentralDirectoryData.length);\n            }"
+      },
+      {
+        "patchId": 23,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_19/src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java",
+        "patchPoolId": 23,
+        "startPos": 10291,
+        "endPos": 10798,
+        "suspCodeStr": "if (rawCentralDirectoryData.length !\u003d expectedLength) {\n                throw new ZipException(\"central directory zip64 extended\"\n                                       + \" information extra field\u0027s length\"\n                                       + \" doesn\u0027t match central directory\"\n                                       + \" data.  Expected length \"\n                                       + expectedLength + \" but is \"\n                                       + rawCentralDirectoryData.length);\n            }"
+      },
+      {
+        "patchId": 24,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_19/src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java",
+        "patchPoolId": 24,
+        "startPos": 10291,
+        "endPos": 10798,
+        "suspCodeStr": "if (rawCentralDirectoryData.length !\u003d expectedLength) {\n                throw new ZipException(\"central directory zip64 extended\"\n                                       + \" information extra field\u0027s length\"\n                                       + \" doesn\u0027t match central directory\"\n                                       + \" data.  Expected length \"\n                                       + expectedLength + \" but is \"\n                                       + rawCentralDirectoryData.length);\n            }"
+      },
+      {
+        "patchId": 25,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_19/src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java",
+        "patchPoolId": 25,
+        "startPos": 10291,
+        "endPos": 10798,
+        "suspCodeStr": "if (rawCentralDirectoryData.length !\u003d expectedLength) {\n                throw new ZipException(\"central directory zip64 extended\"\n                                       + \" information extra field\u0027s length\"\n                                       + \" doesn\u0027t match central directory\"\n                                       + \" data.  Expected length \"\n                                       + expectedLength + \" but is \"\n                                       + rawCentralDirectoryData.length);\n            }"
+      },
+      {
+        "patchId": 26,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_19/src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java",
+        "patchPoolId": 26,
+        "startPos": 10291,
+        "endPos": 10798,
+        "suspCodeStr": "if (rawCentralDirectoryData.length !\u003d expectedLength) {\n                throw new ZipException(\"central directory zip64 extended\"\n                                       + \" information extra field\u0027s length\"\n                                       + \" doesn\u0027t match central directory\"\n                                       + \" data.  Expected length \"\n                                       + expectedLength + \" but is \"\n                                       + rawCentralDirectoryData.length);\n            }"
+      },
+      {
+        "patchId": 27,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_19/src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java",
+        "patchPoolId": 27,
+        "startPos": 10291,
+        "endPos": 10798,
+        "suspCodeStr": "if (rawCentralDirectoryData.length !\u003d expectedLength) {\n                throw new ZipException(\"central directory zip64 extended\"\n                                       + \" information extra field\u0027s length\"\n                                       + \" doesn\u0027t match central directory\"\n                                       + \" data.  Expected length \"\n                                       + expectedLength + \" but is \"\n                                       + rawCentralDirectoryData.length);\n            }"
+      },
+      {
+        "patchId": 28,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_19/src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java",
+        "patchPoolId": 28,
+        "startPos": 10291,
+        "endPos": 10798,
+        "suspCodeStr": "if (rawCentralDirectoryData.length !\u003d expectedLength) {\n                throw new ZipException(\"central directory zip64 extended\"\n                                       + \" information extra field\u0027s length\"\n                                       + \" doesn\u0027t match central directory\"\n                                       + \" data.  Expected length \"\n                                       + expectedLength + \" but is \"\n                                       + rawCentralDirectoryData.length);\n            }"
+      },
+      {
+        "patchId": 29,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_19/src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java",
+        "patchPoolId": 29,
+        "startPos": 10291,
+        "endPos": 10798,
+        "suspCodeStr": "if (rawCentralDirectoryData.length !\u003d expectedLength) {\n                throw new ZipException(\"central directory zip64 extended\"\n                                       + \" information extra field\u0027s length\"\n                                       + \" doesn\u0027t match central directory\"\n                                       + \" data.  Expected length \"\n                                       + expectedLength + \" but is \"\n                                       + rawCentralDirectoryData.length);\n            }"
+      },
+      {
+        "patchId": 30,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_19/src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java",
+        "patchPoolId": 30,
+        "startPos": 10291,
+        "endPos": 10798,
+        "suspCodeStr": "if (rawCentralDirectoryData.length !\u003d expectedLength) {\n                throw new ZipException(\"central directory zip64 extended\"\n                                       + \" information extra field\u0027s length\"\n                                       + \" doesn\u0027t match central directory\"\n                                       + \" data.  Expected length \"\n                                       + expectedLength + \" but is \"\n                                       + rawCentralDirectoryData.length);\n            }"
+      },
+      {
+        "patchId": 31,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_19/src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java",
+        "patchPoolId": 31,
+        "startPos": 10291,
+        "endPos": 10798,
+        "suspCodeStr": "if (rawCentralDirectoryData.length !\u003d expectedLength) {\n                throw new ZipException(\"central directory zip64 extended\"\n                                       + \" information extra field\u0027s length\"\n                                       + \" doesn\u0027t match central directory\"\n                                       + \" data.  Expected length \"\n                                       + expectedLength + \" but is \"\n                                       + rawCentralDirectoryData.length);\n            }"
+      },
+      {
+        "patchId": 32,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_19/src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java",
+        "patchPoolId": 32,
+        "startPos": 10291,
+        "endPos": 10798,
+        "suspCodeStr": "if (rawCentralDirectoryData.length !\u003d expectedLength) {\n                throw new ZipException(\"central directory zip64 extended\"\n                                       + \" information extra field\u0027s length\"\n                                       + \" doesn\u0027t match central directory\"\n                                       + \" data.  Expected length \"\n                                       + expectedLength + \" but is \"\n                                       + rawCentralDirectoryData.length);\n            }"
+      },
+      {
+        "patchId": 33,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_19/src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java",
+        "patchPoolId": 33,
+        "startPos": 10291,
+        "endPos": 10798,
+        "suspCodeStr": "if (rawCentralDirectoryData.length !\u003d expectedLength) {\n                throw new ZipException(\"central directory zip64 extended\"\n                                       + \" information extra field\u0027s length\"\n                                       + \" doesn\u0027t match central directory\"\n                                       + \" data.  Expected length \"\n                                       + expectedLength + \" but is \"\n                                       + rawCentralDirectoryData.length);\n            }"
+      },
+      {
+        "patchId": 34,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_19/src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java",
+        "patchPoolId": 34,
+        "startPos": 10291,
+        "endPos": 10798,
+        "suspCodeStr": "if (rawCentralDirectoryData.length !\u003d expectedLength) {\n                throw new ZipException(\"central directory zip64 extended\"\n                                       + \" information extra field\u0027s length\"\n                                       + \" doesn\u0027t match central directory\"\n                                       + \" data.  Expected length \"\n                                       + expectedLength + \" but is \"\n                                       + rawCentralDirectoryData.length);\n            }"
+      },
+      {
+        "patchId": 35,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_19/src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java",
+        "patchPoolId": 35,
+        "startPos": 10291,
+        "endPos": 10798,
+        "suspCodeStr": "if (rawCentralDirectoryData.length !\u003d expectedLength) {\n                throw new ZipException(\"central directory zip64 extended\"\n                                       + \" information extra field\u0027s length\"\n                                       + \" doesn\u0027t match central directory\"\n                                       + \" data.  Expected length \"\n                                       + expectedLength + \" but is \"\n                                       + rawCentralDirectoryData.length);\n            }"
+      },
+      {
+        "patchId": 36,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_19/src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java",
+        "patchPoolId": 36,
+        "startPos": 10291,
+        "endPos": 10798,
+        "suspCodeStr": "if (rawCentralDirectoryData.length !\u003d expectedLength) {\n                throw new ZipException(\"central directory zip64 extended\"\n                                       + \" information extra field\u0027s length\"\n                                       + \" doesn\u0027t match central directory\"\n                                       + \" data.  Expected length \"\n                                       + expectedLength + \" but is \"\n                                       + rawCentralDirectoryData.length);\n            }"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 604,
+    "patchesGenerationTimeMs": 10
+  }
+]

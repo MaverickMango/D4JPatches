@@ -1,0 +1,706 @@
+[
+  {
+    "stmtLocation": "org/apache/commons/csv/ExtendedBufferedReader:58",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 0,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 1,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 2,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 3,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 4,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 5,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 6,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 7,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 8,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 9,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 10,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 11,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 12,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 13,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 14,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 15,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 16,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 17,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 18,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 19,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 20,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 21,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 22,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 23,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 23,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 24,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 24,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 25,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 25,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 26,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 26,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 27,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 27,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 28,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 28,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 29,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 29,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 30,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 30,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 31,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 31,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 32,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 32,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 33,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 33,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 34,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 34,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 35,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 35,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 36,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 36,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 37,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 37,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 38,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 38,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 39,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 39,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 40,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 40,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 41,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 41,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 42,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 42,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 43,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 43,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 44,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 44,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 45,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 45,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 46,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 46,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 47,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 47,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 48,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 48,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 49,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 49,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 50,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 50,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 51,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 51,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 52,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 52,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 53,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 53,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 54,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 54,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 55,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 55,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 56,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 56,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 57,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 57,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 58,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 58,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 59,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 59,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 60,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 60,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 61,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 61,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 62,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 62,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 63,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 63,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 64,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 64,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 65,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 65,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 66,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 66,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 67,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 67,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 68,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 68,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 69,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 69,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 70,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 70,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 71,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 71,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 72,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 72,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 73,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 73,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 74,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 74,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 75,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 75,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 76,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 76,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 77,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 77,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 78,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 78,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 79,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 79,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 80,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 80,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 81,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 81,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 82,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 82,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 83,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 83,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 84,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 84,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 85,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 85,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      },
+      {
+        "patchId": 86,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_1/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java",
+        "patchPoolId": 86,
+        "startPos": 1794,
+        "endPos": 1853,
+        "suspCodeStr": "if (current \u003d\u003d \u0027\\n\u0027) {\n            lineCounter++;\n        }"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 569,
+    "patchesGenerationTimeMs": 6
+  }
+]

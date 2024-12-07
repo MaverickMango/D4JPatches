@@ -1,0 +1,11 @@
+stmtLocation: org/apache/commons/jxpath/ri/compiler/CoreOperationRelationalExpression:42
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 762
+patchesGenerationTimeMs: 12
+patchId: 28
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jxpath_10/src/java/org/apache/commons/jxpath/ri/compiler/CoreOperationRelationalExpression.java
+patchPoolId: 28
+startPos: 1564
+endPos: 1689
+suspCodeStr: return compute(args[0].computeValue(context), args[1].computeValue(context)) 
+                ? Boolean.TRUE : Boolean.FALSE;

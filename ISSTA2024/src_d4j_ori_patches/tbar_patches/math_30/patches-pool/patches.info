@@ -1,0 +1,98 @@
+[
+  {
+    "stmtLocation": "org/apache/commons/math3/stat/inference/MannWhitneyUTest:173",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_30/src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java",
+        "patchPoolId": 0,
+        "startPos": 6401,
+        "endPos": 6430,
+        "suspCodeStr": "final int n1n2prod \u003d n1 * n2;"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_30/src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java",
+        "patchPoolId": 1,
+        "startPos": 6401,
+        "endPos": 6430,
+        "suspCodeStr": "final int n1n2prod \u003d n1 * n2;"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_30/src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java",
+        "patchPoolId": 2,
+        "startPos": 6401,
+        "endPos": 6430,
+        "suspCodeStr": "final int n1n2prod \u003d n1 * n2;"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_30/src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java",
+        "patchPoolId": 3,
+        "startPos": 6401,
+        "endPos": 6430,
+        "suspCodeStr": "final int n1n2prod \u003d n1 * n2;"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_30/src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java",
+        "patchPoolId": 4,
+        "startPos": 6401,
+        "endPos": 6430,
+        "suspCodeStr": "final int n1n2prod \u003d n1 * n2;"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_30/src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java",
+        "patchPoolId": 5,
+        "startPos": 6401,
+        "endPos": 6430,
+        "suspCodeStr": "final int n1n2prod \u003d n1 * n2;"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_30/src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java",
+        "patchPoolId": 6,
+        "startPos": 6401,
+        "endPos": 6430,
+        "suspCodeStr": "final int n1n2prod \u003d n1 * n2;"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_30/src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java",
+        "patchPoolId": 7,
+        "startPos": 6401,
+        "endPos": 6430,
+        "suspCodeStr": "final int n1n2prod \u003d n1 * n2;"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_30/src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java",
+        "patchPoolId": 8,
+        "startPos": 6401,
+        "endPos": 6430,
+        "suspCodeStr": "final int n1n2prod \u003d n1 * n2;"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_30/src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java",
+        "patchPoolId": 9,
+        "startPos": 6401,
+        "endPos": 6430,
+        "suspCodeStr": "final int n1n2prod \u003d n1 * n2;"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_30/src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java",
+        "patchPoolId": 10,
+        "startPos": 6401,
+        "endPos": 6430,
+        "suspCodeStr": "final int n1n2prod \u003d n1 * n2;"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 1137,
+    "patchesGenerationTimeMs": 13
+  }
+]

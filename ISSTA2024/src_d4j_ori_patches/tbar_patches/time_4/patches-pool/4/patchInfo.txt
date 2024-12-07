@@ -1,0 +1,10 @@
+stmtLocation: org/joda/time/Partial:464
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 569
+patchesGenerationTimeMs: 37
+patchId: 4
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_4/src/main/java/org/joda/time/Partial.java
+patchPoolId: 4
+startPos: 18532
+endPos: 18599
+suspCodeStr: Partial newPartial = new Partial(iChronology, newTypes, newValues);

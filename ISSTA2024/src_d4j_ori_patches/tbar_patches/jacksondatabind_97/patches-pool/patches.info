@@ -1,0 +1,154 @@
+[
+  {
+    "stmtLocation": "com/fasterxml/jackson/databind/node/POJONode:114",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_97/src/main/java/com/fasterxml/jackson/databind/node/POJONode.java",
+        "patchPoolId": 0,
+        "startPos": 3287,
+        "endPos": 3311,
+        "suspCodeStr": "gen.writeObject(_value);"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_97/src/main/java/com/fasterxml/jackson/databind/node/POJONode.java",
+        "patchPoolId": 1,
+        "startPos": 3287,
+        "endPos": 3311,
+        "suspCodeStr": "gen.writeObject(_value);"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_97/src/main/java/com/fasterxml/jackson/databind/node/POJONode.java",
+        "patchPoolId": 2,
+        "startPos": 3287,
+        "endPos": 3311,
+        "suspCodeStr": "gen.writeObject(_value);"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_97/src/main/java/com/fasterxml/jackson/databind/node/POJONode.java",
+        "patchPoolId": 3,
+        "startPos": 3287,
+        "endPos": 3311,
+        "suspCodeStr": "gen.writeObject(_value);"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_97/src/main/java/com/fasterxml/jackson/databind/node/POJONode.java",
+        "patchPoolId": 4,
+        "startPos": 3287,
+        "endPos": 3311,
+        "suspCodeStr": "gen.writeObject(_value);"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_97/src/main/java/com/fasterxml/jackson/databind/node/POJONode.java",
+        "patchPoolId": 5,
+        "startPos": 3287,
+        "endPos": 3311,
+        "suspCodeStr": "gen.writeObject(_value);"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_97/src/main/java/com/fasterxml/jackson/databind/node/POJONode.java",
+        "patchPoolId": 6,
+        "startPos": 3287,
+        "endPos": 3311,
+        "suspCodeStr": "gen.writeObject(_value);"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_97/src/main/java/com/fasterxml/jackson/databind/node/POJONode.java",
+        "patchPoolId": 7,
+        "startPos": 3287,
+        "endPos": 3311,
+        "suspCodeStr": "gen.writeObject(_value);"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_97/src/main/java/com/fasterxml/jackson/databind/node/POJONode.java",
+        "patchPoolId": 8,
+        "startPos": 3287,
+        "endPos": 3311,
+        "suspCodeStr": "gen.writeObject(_value);"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_97/src/main/java/com/fasterxml/jackson/databind/node/POJONode.java",
+        "patchPoolId": 9,
+        "startPos": 3287,
+        "endPos": 3311,
+        "suspCodeStr": "gen.writeObject(_value);"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_97/src/main/java/com/fasterxml/jackson/databind/node/POJONode.java",
+        "patchPoolId": 10,
+        "startPos": 3287,
+        "endPos": 3311,
+        "suspCodeStr": "gen.writeObject(_value);"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_97/src/main/java/com/fasterxml/jackson/databind/node/POJONode.java",
+        "patchPoolId": 11,
+        "startPos": 3287,
+        "endPos": 3311,
+        "suspCodeStr": "gen.writeObject(_value);"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_97/src/main/java/com/fasterxml/jackson/databind/node/POJONode.java",
+        "patchPoolId": 12,
+        "startPos": 3287,
+        "endPos": 3311,
+        "suspCodeStr": "gen.writeObject(_value);"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_97/src/main/java/com/fasterxml/jackson/databind/node/POJONode.java",
+        "patchPoolId": 13,
+        "startPos": 3287,
+        "endPos": 3311,
+        "suspCodeStr": "gen.writeObject(_value);"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_97/src/main/java/com/fasterxml/jackson/databind/node/POJONode.java",
+        "patchPoolId": 14,
+        "startPos": 3287,
+        "endPos": 3311,
+        "suspCodeStr": "gen.writeObject(_value);"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_97/src/main/java/com/fasterxml/jackson/databind/node/POJONode.java",
+        "patchPoolId": 15,
+        "startPos": 3287,
+        "endPos": 3311,
+        "suspCodeStr": "gen.writeObject(_value);"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_97/src/main/java/com/fasterxml/jackson/databind/node/POJONode.java",
+        "patchPoolId": 16,
+        "startPos": 3287,
+        "endPos": 3311,
+        "suspCodeStr": "gen.writeObject(_value);"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_97/src/main/java/com/fasterxml/jackson/databind/node/POJONode.java",
+        "patchPoolId": 17,
+        "startPos": 3287,
+        "endPos": 3311,
+        "suspCodeStr": "gen.writeObject(_value);"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 783,
+    "patchesGenerationTimeMs": 6
+  }
+]

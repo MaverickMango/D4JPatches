@@ -1,0 +1,186 @@
+[
+  {
+    "stmtLocation": "org/apache/commons/cli/HelpFormatter:632",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_11/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 0,
+        "startPos": 19042,
+        "endPos": 19186,
+        "suspCodeStr": "if (option.hasArg() \u0026\u0026 (option.getArgName() !\u003d null))\n        {\n            buff.append(\" \u003c\").append(option.getArgName()).append(\"\u003e\");\n        }"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_11/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 1,
+        "startPos": 19042,
+        "endPos": 19186,
+        "suspCodeStr": "if (option.hasArg() \u0026\u0026 (option.getArgName() !\u003d null))\n        {\n            buff.append(\" \u003c\").append(option.getArgName()).append(\"\u003e\");\n        }"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_11/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 2,
+        "startPos": 19042,
+        "endPos": 19186,
+        "suspCodeStr": "if (option.hasArg() \u0026\u0026 (option.getArgName() !\u003d null))\n        {\n            buff.append(\" \u003c\").append(option.getArgName()).append(\"\u003e\");\n        }"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_11/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 3,
+        "startPos": 19042,
+        "endPos": 19186,
+        "suspCodeStr": "if (option.hasArg() \u0026\u0026 (option.getArgName() !\u003d null))\n        {\n            buff.append(\" \u003c\").append(option.getArgName()).append(\"\u003e\");\n        }"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_11/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 4,
+        "startPos": 19042,
+        "endPos": 19186,
+        "suspCodeStr": "if (option.hasArg() \u0026\u0026 (option.getArgName() !\u003d null))\n        {\n            buff.append(\" \u003c\").append(option.getArgName()).append(\"\u003e\");\n        }"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_11/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 5,
+        "startPos": 19042,
+        "endPos": 19186,
+        "suspCodeStr": "if (option.hasArg() \u0026\u0026 (option.getArgName() !\u003d null))\n        {\n            buff.append(\" \u003c\").append(option.getArgName()).append(\"\u003e\");\n        }"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_11/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 6,
+        "startPos": 19042,
+        "endPos": 19186,
+        "suspCodeStr": "if (option.hasArg() \u0026\u0026 (option.getArgName() !\u003d null))\n        {\n            buff.append(\" \u003c\").append(option.getArgName()).append(\"\u003e\");\n        }"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_11/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 7,
+        "startPos": 19042,
+        "endPos": 19186,
+        "suspCodeStr": "if (option.hasArg() \u0026\u0026 (option.getArgName() !\u003d null))\n        {\n            buff.append(\" \u003c\").append(option.getArgName()).append(\"\u003e\");\n        }"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_11/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 8,
+        "startPos": 19042,
+        "endPos": 19186,
+        "suspCodeStr": "if (option.hasArg() \u0026\u0026 (option.getArgName() !\u003d null))\n        {\n            buff.append(\" \u003c\").append(option.getArgName()).append(\"\u003e\");\n        }"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_11/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 9,
+        "startPos": 19042,
+        "endPos": 19186,
+        "suspCodeStr": "if (option.hasArg() \u0026\u0026 (option.getArgName() !\u003d null))\n        {\n            buff.append(\" \u003c\").append(option.getArgName()).append(\"\u003e\");\n        }"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_11/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 10,
+        "startPos": 19042,
+        "endPos": 19186,
+        "suspCodeStr": "if (option.hasArg() \u0026\u0026 (option.getArgName() !\u003d null))\n        {\n            buff.append(\" \u003c\").append(option.getArgName()).append(\"\u003e\");\n        }"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_11/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 11,
+        "startPos": 19042,
+        "endPos": 19186,
+        "suspCodeStr": "if (option.hasArg() \u0026\u0026 (option.getArgName() !\u003d null))\n        {\n            buff.append(\" \u003c\").append(option.getArgName()).append(\"\u003e\");\n        }"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_11/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 12,
+        "startPos": 19042,
+        "endPos": 19186,
+        "suspCodeStr": "if (option.hasArg() \u0026\u0026 (option.getArgName() !\u003d null))\n        {\n            buff.append(\" \u003c\").append(option.getArgName()).append(\"\u003e\");\n        }"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_11/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 13,
+        "startPos": 19042,
+        "endPos": 19186,
+        "suspCodeStr": "if (option.hasArg() \u0026\u0026 (option.getArgName() !\u003d null))\n        {\n            buff.append(\" \u003c\").append(option.getArgName()).append(\"\u003e\");\n        }"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_11/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 14,
+        "startPos": 19042,
+        "endPos": 19186,
+        "suspCodeStr": "if (option.hasArg() \u0026\u0026 (option.getArgName() !\u003d null))\n        {\n            buff.append(\" \u003c\").append(option.getArgName()).append(\"\u003e\");\n        }"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_11/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 15,
+        "startPos": 19042,
+        "endPos": 19186,
+        "suspCodeStr": "if (option.hasArg() \u0026\u0026 (option.getArgName() !\u003d null))\n        {\n            buff.append(\" \u003c\").append(option.getArgName()).append(\"\u003e\");\n        }"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_11/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 16,
+        "startPos": 19042,
+        "endPos": 19186,
+        "suspCodeStr": "if (option.hasArg() \u0026\u0026 (option.getArgName() !\u003d null))\n        {\n            buff.append(\" \u003c\").append(option.getArgName()).append(\"\u003e\");\n        }"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_11/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 17,
+        "startPos": 19042,
+        "endPos": 19186,
+        "suspCodeStr": "if (option.hasArg() \u0026\u0026 (option.getArgName() !\u003d null))\n        {\n            buff.append(\" \u003c\").append(option.getArgName()).append(\"\u003e\");\n        }"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_11/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 18,
+        "startPos": 19042,
+        "endPos": 19186,
+        "suspCodeStr": "if (option.hasArg() \u0026\u0026 (option.getArgName() !\u003d null))\n        {\n            buff.append(\" \u003c\").append(option.getArgName()).append(\"\u003e\");\n        }"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_11/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 19,
+        "startPos": 19042,
+        "endPos": 19186,
+        "suspCodeStr": "if (option.hasArg() \u0026\u0026 (option.getArgName() !\u003d null))\n        {\n            buff.append(\" \u003c\").append(option.getArgName()).append(\"\u003e\");\n        }"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_11/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 20,
+        "startPos": 19042,
+        "endPos": 19186,
+        "suspCodeStr": "if (option.hasArg() \u0026\u0026 (option.getArgName() !\u003d null))\n        {\n            buff.append(\" \u003c\").append(option.getArgName()).append(\"\u003e\");\n        }"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_11/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 21,
+        "startPos": 19042,
+        "endPos": 19186,
+        "suspCodeStr": "if (option.hasArg() \u0026\u0026 (option.getArgName() !\u003d null))\n        {\n            buff.append(\" \u003c\").append(option.getArgName()).append(\"\u003e\");\n        }"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 707,
+    "patchesGenerationTimeMs": 21
+  }
+]

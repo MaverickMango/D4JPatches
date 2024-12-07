@@ -1,0 +1,10 @@
+stmtLocation: org/apache/commons/math/stat/Frequency:303
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 809
+patchesGenerationTimeMs: 10
+patchId: 21
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_75/src/main/java/org/apache/commons/math/stat/Frequency.java
+patchPoolId: 21
+startPos: 9485
+endPos: 9521
+suspCodeStr: return getCumPct((Comparable<?>) v);

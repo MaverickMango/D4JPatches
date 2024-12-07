@@ -1,0 +1,10 @@
+stmtLocation: com/fasterxml/jackson/databind/ser/std/NumberSerializer:81
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 979
+patchesGenerationTimeMs: 20
+patchId: 13
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_34/src/main/java/com/fasterxml/jackson/databind/ser/std/NumberSerializer.java
+patchPoolId: 13
+startPos: 2939
+endPos: 3010
+suspCodeStr: visitFloatFormat(visitor, typeHint, JsonParser.NumberType.BIG_INTEGER);

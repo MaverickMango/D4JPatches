@@ -1,0 +1,23 @@
+stmtLocation: org/mockito/internal/verification/VerificationOverTimeImpl:91
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 438
+patchesGenerationTimeMs: 6
+patchId: 1
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/mockito_5/src/org/mockito/internal/verification/VerificationOverTimeImpl.java
+patchPoolId: 1
+startPos: 4555
+endPos: 5008
+suspCodeStr: try {
+                delegate.verify(data);
+
+                if (returnOnSuccess) {
+                    return;
+                } else {
+                    error = null;
+                }
+            } catch (MockitoAssertionError e) {
+                error = handleVerifyException(e);
+            }
+            catch (org.mockito.exceptions.verification.junit.ArgumentsAreDifferent e) {
+                error = handleVerifyException(e);
+            }

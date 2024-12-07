@@ -1,0 +1,66 @@
+[
+  {
+    "stmtLocation": "org/apache/commons/math3/fraction/Fraction:597",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_27/src/main/java/org/apache/commons/math3/fraction/Fraction.java",
+        "patchPoolId": 0,
+        "startPos": 20972,
+        "endPos": 21007,
+        "suspCodeStr": "return multiply(100).doubleValue();"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_27/src/main/java/org/apache/commons/math3/fraction/Fraction.java",
+        "patchPoolId": 1,
+        "startPos": 20972,
+        "endPos": 21007,
+        "suspCodeStr": "return multiply(100).doubleValue();"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_27/src/main/java/org/apache/commons/math3/fraction/Fraction.java",
+        "patchPoolId": 2,
+        "startPos": 20972,
+        "endPos": 21007,
+        "suspCodeStr": "return multiply(100).doubleValue();"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_27/src/main/java/org/apache/commons/math3/fraction/Fraction.java",
+        "patchPoolId": 3,
+        "startPos": 20972,
+        "endPos": 21007,
+        "suspCodeStr": "return multiply(100).doubleValue();"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_27/src/main/java/org/apache/commons/math3/fraction/Fraction.java",
+        "patchPoolId": 4,
+        "startPos": 20972,
+        "endPos": 21007,
+        "suspCodeStr": "return multiply(100).doubleValue();"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_27/src/main/java/org/apache/commons/math3/fraction/Fraction.java",
+        "patchPoolId": 5,
+        "startPos": 20972,
+        "endPos": 21007,
+        "suspCodeStr": "return multiply(100).doubleValue();"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_27/src/main/java/org/apache/commons/math3/fraction/Fraction.java",
+        "patchPoolId": 6,
+        "startPos": 20972,
+        "endPos": 21007,
+        "suspCodeStr": "return multiply(100).doubleValue();"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 1178,
+    "patchesGenerationTimeMs": 25
+  }
+]

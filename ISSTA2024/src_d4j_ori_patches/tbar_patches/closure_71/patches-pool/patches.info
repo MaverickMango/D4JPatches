@@ -1,0 +1,2154 @@
+[
+  {
+    "stmtLocation": "com/google/javascript/jscomp/CheckAccessControls:416",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 0,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 1,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 2,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 3,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 4,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 5,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 6,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 7,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 8,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 9,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 10,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 11,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 12,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 13,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 14,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 15,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 16,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 17,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 18,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 19,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 20,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 21,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 22,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 23,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 23,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 24,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 24,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 25,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 25,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 26,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 26,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 27,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 27,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 28,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 28,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 29,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 29,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 30,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 30,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 31,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 31,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 32,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 32,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 33,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 33,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 34,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 34,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 35,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 35,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 36,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 36,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 37,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 37,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 38,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 38,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 39,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 39,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 40,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 40,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 41,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 41,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 42,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 42,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 43,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 43,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 44,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 44,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 45,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 45,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 46,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 46,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 47,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 47,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 48,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 48,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 49,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 49,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 50,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 50,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 51,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 51,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 52,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 52,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 53,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 53,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 54,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 54,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 55,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 55,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 56,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 56,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 57,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 57,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 58,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 58,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 59,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 59,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 60,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 60,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 61,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 61,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 62,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 62,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 63,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 63,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 64,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 64,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 65,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 65,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 66,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 66,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 67,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 67,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 68,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 68,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 69,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 69,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 70,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 70,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 71,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 71,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 72,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 72,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 73,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 73,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 74,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 74,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 75,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 75,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 76,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 76,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 77,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 77,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 78,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 78,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 79,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 79,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 80,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 80,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 81,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 81,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 82,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 82,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 83,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 83,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 84,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 84,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 85,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 85,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 86,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 86,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 87,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 87,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 88,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 88,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 89,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 89,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 90,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 90,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 91,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 91,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 92,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 92,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 93,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 93,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 94,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 94,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 95,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 95,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 96,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 96,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 97,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 97,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 98,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 98,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 99,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 99,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 100,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 100,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 101,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 101,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 102,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 102,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 103,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 103,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 104,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 104,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 105,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 105,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 106,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 106,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 107,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 107,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 108,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 108,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 109,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 109,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 110,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 110,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 111,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 111,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 112,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 112,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 113,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 113,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 114,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 114,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 115,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 115,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 116,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 116,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 117,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 117,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 118,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 118,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 119,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 119,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 120,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 120,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 121,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 121,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 122,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 122,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 123,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 123,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 124,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 124,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 125,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 125,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 126,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 126,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 127,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 127,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 128,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 128,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 129,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 129,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 130,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 130,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 131,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 131,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 132,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 132,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 133,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 133,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 134,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 134,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 135,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 135,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 136,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 136,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 137,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 137,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 138,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 138,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 139,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 139,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 140,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 140,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 141,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 141,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 142,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 142,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 143,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 143,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 144,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 144,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 145,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 145,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 146,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 146,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 147,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 147,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 148,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 148,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 149,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 149,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 150,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 150,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 151,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 151,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 152,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 152,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 153,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 153,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 154,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 154,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 155,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 155,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 156,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 156,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 157,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 157,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 158,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 158,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 159,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 159,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 160,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 160,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 161,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 161,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 162,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 162,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 163,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 163,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 164,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 164,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 165,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 165,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 166,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 166,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 167,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 167,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 168,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 168,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 169,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 169,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 170,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 170,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 171,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 171,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 172,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 172,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 173,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 173,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 174,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 174,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 175,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 175,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 176,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 176,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 177,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 177,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 178,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 178,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 179,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 179,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 180,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 180,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 181,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 181,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 182,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 182,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 183,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 183,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 184,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 184,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 185,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 185,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 186,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 186,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 187,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 187,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 188,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 188,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 189,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 189,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 190,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 190,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 191,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 191,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 192,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 192,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 193,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 193,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 194,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 194,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 195,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 195,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 196,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 196,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 197,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 197,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 198,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 198,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 199,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 199,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 200,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 200,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 201,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 201,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 202,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 202,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 203,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 203,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 204,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 204,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 205,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 205,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 206,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 206,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 207,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 207,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 208,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 208,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 209,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 209,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 210,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 210,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 211,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 211,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 212,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 212,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 213,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 213,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 214,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 214,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 215,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 215,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 216,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 216,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 217,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 217,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 218,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 218,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 219,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 219,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 220,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 220,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 221,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 221,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 222,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 222,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 223,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 223,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 224,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 224,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 225,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 225,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 226,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 226,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 227,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 227,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 228,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 228,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 229,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 229,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 230,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 230,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 231,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 231,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 232,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 232,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 233,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 233,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 234,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 234,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 235,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 235,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 236,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 236,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 237,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 237,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 238,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 238,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 239,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 239,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 240,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 240,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 241,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 241,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 242,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 242,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 243,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 243,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 244,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 244,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 245,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 245,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 246,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 246,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 247,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 247,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 248,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 248,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 249,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 249,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 250,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 250,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 251,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 251,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 252,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 252,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 253,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 253,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 254,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 254,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 255,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 255,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 256,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 256,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 257,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 257,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 258,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 258,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 259,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 259,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 260,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 260,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 261,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 261,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 262,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 262,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 263,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 263,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 264,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 264,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 265,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 265,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 266,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 266,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      },
+      {
+        "patchId": 267,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_71/src/com/google/javascript/jscomp/CheckAccessControls.java",
+        "patchPoolId": 267,
+        "startPos": 14227,
+        "endPos": 14359,
+        "suspCodeStr": "boolean isOverride \u003d t.inGlobalScope() \u0026\u0026\n          parent.getType() \u003d\u003d Token.ASSIGN \u0026\u0026\n          parent.getFirstChild() \u003d\u003d getprop;"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 776,
+    "patchesGenerationTimeMs": 15
+  }
+]

@@ -1,0 +1,10 @@
+stmtLocation: org/mockito/internal/matchers/Same:29
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 641
+patchesGenerationTimeMs: 5
+patchId: 0
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/mockito_29/src/org/mockito/internal/matchers/Same.java
+patchPoolId: 0
+startPos: 737
+endPos: 779
+suspCodeStr: description.appendText(wanted.toString());

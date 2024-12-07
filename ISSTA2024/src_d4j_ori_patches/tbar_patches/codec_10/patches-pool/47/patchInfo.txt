@@ -1,0 +1,10 @@
+stmtLocation: org/apache/commons/codec/language/Caverphone:76
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 570
+patchesGenerationTimeMs: 9
+patchId: 47
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_10/src/java/org/apache/commons/codec/language/Caverphone.java
+patchPoolId: 47
+startPos: 2756
+endPos: 2790
+suspCodeStr: txt = txt.replaceAll("^mb", "m2");

@@ -1,0 +1,90 @@
+[
+  {
+    "stmtLocation": "org/apache/commons/math/optimization/fitting/GaussianFitter:121",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_58/src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java",
+        "patchPoolId": 0,
+        "startPos": 4789,
+        "endPos": 4834,
+        "suspCodeStr": "return fit(new Gaussian.Parametric(), guess);"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_58/src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java",
+        "patchPoolId": 1,
+        "startPos": 4789,
+        "endPos": 4834,
+        "suspCodeStr": "return fit(new Gaussian.Parametric(), guess);"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_58/src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java",
+        "patchPoolId": 2,
+        "startPos": 4789,
+        "endPos": 4834,
+        "suspCodeStr": "return fit(new Gaussian.Parametric(), guess);"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_58/src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java",
+        "patchPoolId": 3,
+        "startPos": 4789,
+        "endPos": 4834,
+        "suspCodeStr": "return fit(new Gaussian.Parametric(), guess);"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_58/src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java",
+        "patchPoolId": 4,
+        "startPos": 4789,
+        "endPos": 4834,
+        "suspCodeStr": "return fit(new Gaussian.Parametric(), guess);"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_58/src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java",
+        "patchPoolId": 5,
+        "startPos": 4789,
+        "endPos": 4834,
+        "suspCodeStr": "return fit(new Gaussian.Parametric(), guess);"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_58/src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java",
+        "patchPoolId": 6,
+        "startPos": 4789,
+        "endPos": 4834,
+        "suspCodeStr": "return fit(new Gaussian.Parametric(), guess);"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_58/src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java",
+        "patchPoolId": 7,
+        "startPos": 4789,
+        "endPos": 4834,
+        "suspCodeStr": "return fit(new Gaussian.Parametric(), guess);"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_58/src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java",
+        "patchPoolId": 8,
+        "startPos": 4789,
+        "endPos": 4834,
+        "suspCodeStr": "return fit(new Gaussian.Parametric(), guess);"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_58/src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java",
+        "patchPoolId": 9,
+        "startPos": 4789,
+        "endPos": 4834,
+        "suspCodeStr": "return fit(new Gaussian.Parametric(), guess);"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 982,
+    "patchesGenerationTimeMs": 17
+  }
+]

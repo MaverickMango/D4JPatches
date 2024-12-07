@@ -1,0 +1,12 @@
+stmtLocation: org/apache/commons/math3/distribution/MultivariateNormalDistribution:183
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 1021
+patchesGenerationTimeMs: 31
+patchId: 0
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_11/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java
+patchPoolId: 0
+startPos: 7214
+endPos: 7359
+suspCodeStr: return FastMath.pow(2 * FastMath.PI, -dim / 2) *
+            FastMath.pow(covarianceMatrixDeterminant, -0.5) *
+            getExponentTerm(vals);

@@ -1,0 +1,18 @@
+[
+  {
+    "stmtLocation": "org/jsoup/parser/TreeBuilderState:1451",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_17/src/main/java/org/jsoup/parser/TreeBuilderState.java",
+        "patchPoolId": 0,
+        "startPos": 67043,
+        "endPos": 67101,
+        "suspCodeStr": "private static String nullString \u003d String.valueOf(0x0000);"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 797,
+    "patchesGenerationTimeMs": 1
+  }
+]

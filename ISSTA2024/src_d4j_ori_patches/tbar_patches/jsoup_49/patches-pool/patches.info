@@ -1,0 +1,194 @@
+[
+  {
+    "stmtLocation": "org/jsoup/nodes/Node:445",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_49/src/main/java/org/jsoup/nodes/Node.java",
+        "patchPoolId": 0,
+        "startPos": 14270,
+        "endPos": 14433,
+        "suspCodeStr": "for (int i \u003d children.length - 1; i \u003e\u003d 0; i--) {\n            Node in \u003d children[i];\n            reparentChild(in);\n            childNodes.add(index, in);\n        }"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_49/src/main/java/org/jsoup/nodes/Node.java",
+        "patchPoolId": 1,
+        "startPos": 14270,
+        "endPos": 14433,
+        "suspCodeStr": "for (int i \u003d children.length - 1; i \u003e\u003d 0; i--) {\n            Node in \u003d children[i];\n            reparentChild(in);\n            childNodes.add(index, in);\n        }"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_49/src/main/java/org/jsoup/nodes/Node.java",
+        "patchPoolId": 2,
+        "startPos": 14270,
+        "endPos": 14433,
+        "suspCodeStr": "for (int i \u003d children.length - 1; i \u003e\u003d 0; i--) {\n            Node in \u003d children[i];\n            reparentChild(in);\n            childNodes.add(index, in);\n        }"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_49/src/main/java/org/jsoup/nodes/Node.java",
+        "patchPoolId": 3,
+        "startPos": 14270,
+        "endPos": 14433,
+        "suspCodeStr": "for (int i \u003d children.length - 1; i \u003e\u003d 0; i--) {\n            Node in \u003d children[i];\n            reparentChild(in);\n            childNodes.add(index, in);\n        }"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_49/src/main/java/org/jsoup/nodes/Node.java",
+        "patchPoolId": 4,
+        "startPos": 14270,
+        "endPos": 14433,
+        "suspCodeStr": "for (int i \u003d children.length - 1; i \u003e\u003d 0; i--) {\n            Node in \u003d children[i];\n            reparentChild(in);\n            childNodes.add(index, in);\n        }"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_49/src/main/java/org/jsoup/nodes/Node.java",
+        "patchPoolId": 5,
+        "startPos": 14270,
+        "endPos": 14433,
+        "suspCodeStr": "for (int i \u003d children.length - 1; i \u003e\u003d 0; i--) {\n            Node in \u003d children[i];\n            reparentChild(in);\n            childNodes.add(index, in);\n        }"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_49/src/main/java/org/jsoup/nodes/Node.java",
+        "patchPoolId": 6,
+        "startPos": 14270,
+        "endPos": 14433,
+        "suspCodeStr": "for (int i \u003d children.length - 1; i \u003e\u003d 0; i--) {\n            Node in \u003d children[i];\n            reparentChild(in);\n            childNodes.add(index, in);\n        }"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_49/src/main/java/org/jsoup/nodes/Node.java",
+        "patchPoolId": 7,
+        "startPos": 14270,
+        "endPos": 14433,
+        "suspCodeStr": "for (int i \u003d children.length - 1; i \u003e\u003d 0; i--) {\n            Node in \u003d children[i];\n            reparentChild(in);\n            childNodes.add(index, in);\n        }"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_49/src/main/java/org/jsoup/nodes/Node.java",
+        "patchPoolId": 8,
+        "startPos": 14270,
+        "endPos": 14433,
+        "suspCodeStr": "for (int i \u003d children.length - 1; i \u003e\u003d 0; i--) {\n            Node in \u003d children[i];\n            reparentChild(in);\n            childNodes.add(index, in);\n        }"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_49/src/main/java/org/jsoup/nodes/Node.java",
+        "patchPoolId": 9,
+        "startPos": 14270,
+        "endPos": 14433,
+        "suspCodeStr": "for (int i \u003d children.length - 1; i \u003e\u003d 0; i--) {\n            Node in \u003d children[i];\n            reparentChild(in);\n            childNodes.add(index, in);\n        }"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_49/src/main/java/org/jsoup/nodes/Node.java",
+        "patchPoolId": 10,
+        "startPos": 14270,
+        "endPos": 14433,
+        "suspCodeStr": "for (int i \u003d children.length - 1; i \u003e\u003d 0; i--) {\n            Node in \u003d children[i];\n            reparentChild(in);\n            childNodes.add(index, in);\n        }"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_49/src/main/java/org/jsoup/nodes/Node.java",
+        "patchPoolId": 11,
+        "startPos": 14270,
+        "endPos": 14433,
+        "suspCodeStr": "for (int i \u003d children.length - 1; i \u003e\u003d 0; i--) {\n            Node in \u003d children[i];\n            reparentChild(in);\n            childNodes.add(index, in);\n        }"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_49/src/main/java/org/jsoup/nodes/Node.java",
+        "patchPoolId": 12,
+        "startPos": 14270,
+        "endPos": 14433,
+        "suspCodeStr": "for (int i \u003d children.length - 1; i \u003e\u003d 0; i--) {\n            Node in \u003d children[i];\n            reparentChild(in);\n            childNodes.add(index, in);\n        }"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_49/src/main/java/org/jsoup/nodes/Node.java",
+        "patchPoolId": 13,
+        "startPos": 14270,
+        "endPos": 14433,
+        "suspCodeStr": "for (int i \u003d children.length - 1; i \u003e\u003d 0; i--) {\n            Node in \u003d children[i];\n            reparentChild(in);\n            childNodes.add(index, in);\n        }"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_49/src/main/java/org/jsoup/nodes/Node.java",
+        "patchPoolId": 14,
+        "startPos": 14270,
+        "endPos": 14433,
+        "suspCodeStr": "for (int i \u003d children.length - 1; i \u003e\u003d 0; i--) {\n            Node in \u003d children[i];\n            reparentChild(in);\n            childNodes.add(index, in);\n        }"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_49/src/main/java/org/jsoup/nodes/Node.java",
+        "patchPoolId": 15,
+        "startPos": 14270,
+        "endPos": 14433,
+        "suspCodeStr": "for (int i \u003d children.length - 1; i \u003e\u003d 0; i--) {\n            Node in \u003d children[i];\n            reparentChild(in);\n            childNodes.add(index, in);\n        }"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_49/src/main/java/org/jsoup/nodes/Node.java",
+        "patchPoolId": 16,
+        "startPos": 14270,
+        "endPos": 14433,
+        "suspCodeStr": "for (int i \u003d children.length - 1; i \u003e\u003d 0; i--) {\n            Node in \u003d children[i];\n            reparentChild(in);\n            childNodes.add(index, in);\n        }"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_49/src/main/java/org/jsoup/nodes/Node.java",
+        "patchPoolId": 17,
+        "startPos": 14270,
+        "endPos": 14433,
+        "suspCodeStr": "for (int i \u003d children.length - 1; i \u003e\u003d 0; i--) {\n            Node in \u003d children[i];\n            reparentChild(in);\n            childNodes.add(index, in);\n        }"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_49/src/main/java/org/jsoup/nodes/Node.java",
+        "patchPoolId": 18,
+        "startPos": 14270,
+        "endPos": 14433,
+        "suspCodeStr": "for (int i \u003d children.length - 1; i \u003e\u003d 0; i--) {\n            Node in \u003d children[i];\n            reparentChild(in);\n            childNodes.add(index, in);\n        }"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_49/src/main/java/org/jsoup/nodes/Node.java",
+        "patchPoolId": 19,
+        "startPos": 14270,
+        "endPos": 14433,
+        "suspCodeStr": "for (int i \u003d children.length - 1; i \u003e\u003d 0; i--) {\n            Node in \u003d children[i];\n            reparentChild(in);\n            childNodes.add(index, in);\n        }"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_49/src/main/java/org/jsoup/nodes/Node.java",
+        "patchPoolId": 20,
+        "startPos": 14270,
+        "endPos": 14433,
+        "suspCodeStr": "for (int i \u003d children.length - 1; i \u003e\u003d 0; i--) {\n            Node in \u003d children[i];\n            reparentChild(in);\n            childNodes.add(index, in);\n        }"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_49/src/main/java/org/jsoup/nodes/Node.java",
+        "patchPoolId": 21,
+        "startPos": 14270,
+        "endPos": 14433,
+        "suspCodeStr": "for (int i \u003d children.length - 1; i \u003e\u003d 0; i--) {\n            Node in \u003d children[i];\n            reparentChild(in);\n            childNodes.add(index, in);\n        }"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_49/src/main/java/org/jsoup/nodes/Node.java",
+        "patchPoolId": 22,
+        "startPos": 14270,
+        "endPos": 14433,
+        "suspCodeStr": "for (int i \u003d children.length - 1; i \u003e\u003d 0; i--) {\n            Node in \u003d children[i];\n            reparentChild(in);\n            childNodes.add(index, in);\n        }"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 849,
+    "patchesGenerationTimeMs": 21
+  }
+]

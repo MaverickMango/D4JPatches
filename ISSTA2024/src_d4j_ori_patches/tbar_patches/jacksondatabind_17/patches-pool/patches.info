@@ -1,0 +1,706 @@
+[
+  {
+    "stmtLocation": "com/fasterxml/jackson/databind/ObjectMapper:180",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 0,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 1,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 2,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 3,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 4,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 5,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 6,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 7,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 8,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 9,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 10,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 11,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 12,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 13,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 14,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 15,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 16,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 17,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 18,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 19,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 20,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 21,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 22,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 23,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 23,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 24,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 24,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 25,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 25,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 26,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 26,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 27,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 27,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 28,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 28,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 29,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 29,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 30,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 30,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 31,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 31,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 32,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 32,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 33,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 33,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 34,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 34,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 35,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 35,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 36,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 36,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 37,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 37,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 38,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 38,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 39,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 39,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 40,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 40,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 41,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 41,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 42,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 42,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 43,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 43,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 44,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 44,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 45,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 45,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 46,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 46,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 47,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 47,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 48,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 48,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 49,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 49,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 50,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 50,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 51,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 51,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 52,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 52,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 53,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 53,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 54,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 54,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 55,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 55,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 56,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 56,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 57,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 57,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 58,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 58,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 59,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 59,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 60,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 60,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 61,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 61,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 62,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 62,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 63,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 63,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 64,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 64,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 65,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 65,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 66,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 66,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 67,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 67,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 68,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 68,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 69,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 69,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 70,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 70,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 71,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 71,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 72,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 72,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 73,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 73,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 74,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 74,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 75,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 75,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 76,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 76,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 77,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 77,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 78,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 78,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 79,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 79,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 80,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 80,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 81,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 81,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 82,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 82,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 83,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 83,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 84,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 84,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 85,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 85,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      },
+      {
+        "patchId": 86,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java",
+        "patchPoolId": 86,
+        "startPos": 7406,
+        "endPos": 7655,
+        "suspCodeStr": "return (t.getRawClass() \u003d\u003d Object.class)\n                        || (!t.isConcrete()\n                                // [databind#88] Should not apply to JSON tree models:\n                        || TreeNode.class.isAssignableFrom(t.getRawClass()));"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 1076,
+    "patchesGenerationTimeMs": 37
+  }
+]

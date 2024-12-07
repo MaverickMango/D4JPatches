@@ -1,0 +1,482 @@
+[
+  {
+    "stmtLocation": "org/jfree/data/time/TimeSeries:944",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 0,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 1,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 2,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 3,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 4,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 5,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 6,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 7,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 8,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 9,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 10,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 11,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 12,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 13,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 14,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 15,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 16,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 17,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 18,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 19,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 20,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 21,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 22,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 23,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 23,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 24,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 24,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 25,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 25,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 26,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 26,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 27,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 27,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 28,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 28,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 29,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 29,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 30,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 30,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 31,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 31,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 32,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 32,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 33,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 33,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 34,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 34,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 35,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 35,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 36,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 36,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 37,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 37,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 38,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 38,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 39,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 39,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 40,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 40,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 41,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 41,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 42,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 42,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 43,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 43,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 44,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 44,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 45,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 45,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 46,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 46,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 47,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 47,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 48,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 48,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 49,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 49,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 50,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 50,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 51,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 51,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 52,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 52,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 53,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 53,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 54,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 54,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 55,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 55,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 56,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 56,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 57,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 57,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      },
+      {
+        "patchId": 58,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java",
+        "patchPoolId": 58,
+        "startPos": 34415,
+        "endPos": 34477,
+        "suspCodeStr": "if (endIndex \u003c 0) {\r\n            emptyRange \u003d true;\r\n        }"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 1839,
+    "patchesGenerationTimeMs": 37
+  }
+]

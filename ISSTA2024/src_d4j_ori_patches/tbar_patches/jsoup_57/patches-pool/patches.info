@@ -1,0 +1,578 @@
+[
+  {
+    "stmtLocation": "org/jsoup/nodes/Attributes:125",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 0,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 1,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 2,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 3,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 4,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 5,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 6,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 7,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 8,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 9,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 10,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 11,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 12,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 13,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 14,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 15,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 16,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 17,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 18,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 19,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 20,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 21,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 22,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 23,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 23,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 24,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 24,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 25,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 25,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 26,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 26,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 27,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 27,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 28,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 28,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 29,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 29,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 30,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 30,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 31,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 31,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 32,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 32,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 33,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 33,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 34,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 34,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 35,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 35,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 36,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 36,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 37,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 37,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 38,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 38,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 39,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 39,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 40,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 40,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 41,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 41,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 42,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 42,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 43,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 43,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 44,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 44,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 45,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 45,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 46,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 46,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 47,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 47,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 48,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 48,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 49,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 49,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 50,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 50,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 51,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 51,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 52,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 52,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 53,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 53,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 54,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 54,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 55,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 55,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 56,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 56,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 57,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 57,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 58,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 58,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 59,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 59,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 60,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 60,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 61,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 61,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 62,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 62,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 63,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 63,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 64,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 64,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 65,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 65,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 66,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 66,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 67,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 67,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 68,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 68,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 69,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 69,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      },
+      {
+        "patchId": 70,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_57/src/main/java/org/jsoup/nodes/Attributes.java",
+        "patchPoolId": 70,
+        "startPos": 3697,
+        "endPos": 3775,
+        "suspCodeStr": "if (attrKey.equalsIgnoreCase(key))\n                attributes.remove(attrKey);"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 743,
+    "patchesGenerationTimeMs": 14
+  }
+]

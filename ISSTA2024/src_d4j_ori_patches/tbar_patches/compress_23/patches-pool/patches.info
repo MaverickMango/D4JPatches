@@ -1,0 +1,170 @@
+[
+  {
+    "stmtLocation": "org/apache/commons/compress/archivers/sevenz/Coders:112",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_23/src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java",
+        "patchPoolId": 0,
+        "startPos": 4395,
+        "endPos": 4444,
+        "suspCodeStr": "dictSize |\u003d (coder.properties[i + 1] \u003c\u003c (8 * i));"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_23/src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java",
+        "patchPoolId": 1,
+        "startPos": 4395,
+        "endPos": 4444,
+        "suspCodeStr": "dictSize |\u003d (coder.properties[i + 1] \u003c\u003c (8 * i));"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_23/src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java",
+        "patchPoolId": 2,
+        "startPos": 4395,
+        "endPos": 4444,
+        "suspCodeStr": "dictSize |\u003d (coder.properties[i + 1] \u003c\u003c (8 * i));"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_23/src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java",
+        "patchPoolId": 3,
+        "startPos": 4395,
+        "endPos": 4444,
+        "suspCodeStr": "dictSize |\u003d (coder.properties[i + 1] \u003c\u003c (8 * i));"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_23/src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java",
+        "patchPoolId": 4,
+        "startPos": 4395,
+        "endPos": 4444,
+        "suspCodeStr": "dictSize |\u003d (coder.properties[i + 1] \u003c\u003c (8 * i));"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_23/src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java",
+        "patchPoolId": 5,
+        "startPos": 4395,
+        "endPos": 4444,
+        "suspCodeStr": "dictSize |\u003d (coder.properties[i + 1] \u003c\u003c (8 * i));"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_23/src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java",
+        "patchPoolId": 6,
+        "startPos": 4395,
+        "endPos": 4444,
+        "suspCodeStr": "dictSize |\u003d (coder.properties[i + 1] \u003c\u003c (8 * i));"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_23/src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java",
+        "patchPoolId": 7,
+        "startPos": 4395,
+        "endPos": 4444,
+        "suspCodeStr": "dictSize |\u003d (coder.properties[i + 1] \u003c\u003c (8 * i));"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_23/src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java",
+        "patchPoolId": 8,
+        "startPos": 4395,
+        "endPos": 4444,
+        "suspCodeStr": "dictSize |\u003d (coder.properties[i + 1] \u003c\u003c (8 * i));"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_23/src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java",
+        "patchPoolId": 9,
+        "startPos": 4395,
+        "endPos": 4444,
+        "suspCodeStr": "dictSize |\u003d (coder.properties[i + 1] \u003c\u003c (8 * i));"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_23/src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java",
+        "patchPoolId": 10,
+        "startPos": 4395,
+        "endPos": 4444,
+        "suspCodeStr": "dictSize |\u003d (coder.properties[i + 1] \u003c\u003c (8 * i));"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_23/src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java",
+        "patchPoolId": 11,
+        "startPos": 4395,
+        "endPos": 4444,
+        "suspCodeStr": "dictSize |\u003d (coder.properties[i + 1] \u003c\u003c (8 * i));"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_23/src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java",
+        "patchPoolId": 12,
+        "startPos": 4395,
+        "endPos": 4444,
+        "suspCodeStr": "dictSize |\u003d (coder.properties[i + 1] \u003c\u003c (8 * i));"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_23/src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java",
+        "patchPoolId": 13,
+        "startPos": 4395,
+        "endPos": 4444,
+        "suspCodeStr": "dictSize |\u003d (coder.properties[i + 1] \u003c\u003c (8 * i));"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_23/src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java",
+        "patchPoolId": 14,
+        "startPos": 4395,
+        "endPos": 4444,
+        "suspCodeStr": "dictSize |\u003d (coder.properties[i + 1] \u003c\u003c (8 * i));"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_23/src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java",
+        "patchPoolId": 15,
+        "startPos": 4395,
+        "endPos": 4444,
+        "suspCodeStr": "dictSize |\u003d (coder.properties[i + 1] \u003c\u003c (8 * i));"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_23/src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java",
+        "patchPoolId": 16,
+        "startPos": 4395,
+        "endPos": 4444,
+        "suspCodeStr": "dictSize |\u003d (coder.properties[i + 1] \u003c\u003c (8 * i));"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_23/src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java",
+        "patchPoolId": 17,
+        "startPos": 4395,
+        "endPos": 4444,
+        "suspCodeStr": "dictSize |\u003d (coder.properties[i + 1] \u003c\u003c (8 * i));"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_23/src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java",
+        "patchPoolId": 18,
+        "startPos": 4395,
+        "endPos": 4444,
+        "suspCodeStr": "dictSize |\u003d (coder.properties[i + 1] \u003c\u003c (8 * i));"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_23/src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java",
+        "patchPoolId": 19,
+        "startPos": 4395,
+        "endPos": 4444,
+        "suspCodeStr": "dictSize |\u003d (coder.properties[i + 1] \u003c\u003c (8 * i));"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 539,
+    "patchesGenerationTimeMs": 10
+  }
+]

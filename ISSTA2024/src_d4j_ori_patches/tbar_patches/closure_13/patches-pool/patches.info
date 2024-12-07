@@ -1,0 +1,194 @@
+[
+  {
+    "stmtLocation": "com/google/javascript/jscomp/PeepholeOptimizationsPass:126",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_13/src/com/google/javascript/jscomp/PeepholeOptimizationsPass.java",
+        "patchPoolId": 0,
+        "startPos": 3344,
+        "endPos": 3356,
+        "suspCodeStr": "traverse(c);"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_13/src/com/google/javascript/jscomp/PeepholeOptimizationsPass.java",
+        "patchPoolId": 1,
+        "startPos": 3344,
+        "endPos": 3356,
+        "suspCodeStr": "traverse(c);"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_13/src/com/google/javascript/jscomp/PeepholeOptimizationsPass.java",
+        "patchPoolId": 2,
+        "startPos": 3344,
+        "endPos": 3356,
+        "suspCodeStr": "traverse(c);"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_13/src/com/google/javascript/jscomp/PeepholeOptimizationsPass.java",
+        "patchPoolId": 3,
+        "startPos": 3344,
+        "endPos": 3356,
+        "suspCodeStr": "traverse(c);"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_13/src/com/google/javascript/jscomp/PeepholeOptimizationsPass.java",
+        "patchPoolId": 4,
+        "startPos": 3344,
+        "endPos": 3356,
+        "suspCodeStr": "traverse(c);"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_13/src/com/google/javascript/jscomp/PeepholeOptimizationsPass.java",
+        "patchPoolId": 5,
+        "startPos": 3344,
+        "endPos": 3356,
+        "suspCodeStr": "traverse(c);"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_13/src/com/google/javascript/jscomp/PeepholeOptimizationsPass.java",
+        "patchPoolId": 6,
+        "startPos": 3344,
+        "endPos": 3356,
+        "suspCodeStr": "traverse(c);"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_13/src/com/google/javascript/jscomp/PeepholeOptimizationsPass.java",
+        "patchPoolId": 7,
+        "startPos": 3344,
+        "endPos": 3356,
+        "suspCodeStr": "traverse(c);"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_13/src/com/google/javascript/jscomp/PeepholeOptimizationsPass.java",
+        "patchPoolId": 8,
+        "startPos": 3344,
+        "endPos": 3356,
+        "suspCodeStr": "traverse(c);"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_13/src/com/google/javascript/jscomp/PeepholeOptimizationsPass.java",
+        "patchPoolId": 9,
+        "startPos": 3344,
+        "endPos": 3356,
+        "suspCodeStr": "traverse(c);"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_13/src/com/google/javascript/jscomp/PeepholeOptimizationsPass.java",
+        "patchPoolId": 10,
+        "startPos": 3344,
+        "endPos": 3356,
+        "suspCodeStr": "traverse(c);"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_13/src/com/google/javascript/jscomp/PeepholeOptimizationsPass.java",
+        "patchPoolId": 11,
+        "startPos": 3344,
+        "endPos": 3356,
+        "suspCodeStr": "traverse(c);"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_13/src/com/google/javascript/jscomp/PeepholeOptimizationsPass.java",
+        "patchPoolId": 12,
+        "startPos": 3344,
+        "endPos": 3356,
+        "suspCodeStr": "traverse(c);"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_13/src/com/google/javascript/jscomp/PeepholeOptimizationsPass.java",
+        "patchPoolId": 13,
+        "startPos": 3344,
+        "endPos": 3356,
+        "suspCodeStr": "traverse(c);"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_13/src/com/google/javascript/jscomp/PeepholeOptimizationsPass.java",
+        "patchPoolId": 14,
+        "startPos": 3344,
+        "endPos": 3356,
+        "suspCodeStr": "traverse(c);"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_13/src/com/google/javascript/jscomp/PeepholeOptimizationsPass.java",
+        "patchPoolId": 15,
+        "startPos": 3344,
+        "endPos": 3356,
+        "suspCodeStr": "traverse(c);"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_13/src/com/google/javascript/jscomp/PeepholeOptimizationsPass.java",
+        "patchPoolId": 16,
+        "startPos": 3344,
+        "endPos": 3356,
+        "suspCodeStr": "traverse(c);"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_13/src/com/google/javascript/jscomp/PeepholeOptimizationsPass.java",
+        "patchPoolId": 17,
+        "startPos": 3344,
+        "endPos": 3356,
+        "suspCodeStr": "traverse(c);"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_13/src/com/google/javascript/jscomp/PeepholeOptimizationsPass.java",
+        "patchPoolId": 18,
+        "startPos": 3344,
+        "endPos": 3356,
+        "suspCodeStr": "traverse(c);"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_13/src/com/google/javascript/jscomp/PeepholeOptimizationsPass.java",
+        "patchPoolId": 19,
+        "startPos": 3344,
+        "endPos": 3356,
+        "suspCodeStr": "traverse(c);"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_13/src/com/google/javascript/jscomp/PeepholeOptimizationsPass.java",
+        "patchPoolId": 20,
+        "startPos": 3344,
+        "endPos": 3356,
+        "suspCodeStr": "traverse(c);"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_13/src/com/google/javascript/jscomp/PeepholeOptimizationsPass.java",
+        "patchPoolId": 21,
+        "startPos": 3344,
+        "endPos": 3356,
+        "suspCodeStr": "traverse(c);"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_13/src/com/google/javascript/jscomp/PeepholeOptimizationsPass.java",
+        "patchPoolId": 22,
+        "startPos": 3344,
+        "endPos": 3356,
+        "suspCodeStr": "traverse(c);"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 1451,
+    "patchesGenerationTimeMs": 14
+  }
+]

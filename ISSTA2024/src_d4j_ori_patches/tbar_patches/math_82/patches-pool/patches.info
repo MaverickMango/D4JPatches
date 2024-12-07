@@ -1,0 +1,634 @@
+[
+  {
+    "stmtLocation": "org/apache/commons/math/optimization/linear/SimplexSolver:82",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 0,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 1,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 2,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 3,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 4,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 5,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 6,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 7,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 8,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 9,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 10,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 11,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 12,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 13,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 14,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 15,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 16,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 17,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 18,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 19,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 20,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 21,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 22,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 23,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 23,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 24,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 24,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 25,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 25,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 26,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 26,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 27,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 27,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 28,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 28,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 29,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 29,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 30,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 30,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 31,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 31,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 32,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 32,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 33,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 33,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 34,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 34,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 35,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 35,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 36,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 36,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 37,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 37,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 38,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 38,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 39,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 39,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 40,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 40,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 41,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 41,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 42,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 42,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 43,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 43,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 44,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 44,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 45,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 45,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 46,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 46,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 47,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 47,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 48,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 48,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 49,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 49,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 50,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 50,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 51,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 51,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 52,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 52,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 53,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 53,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 54,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 54,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 55,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 55,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 56,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 56,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 57,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 57,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 58,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 58,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 59,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 59,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 60,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 60,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 61,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 61,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 62,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 62,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 63,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 63,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 64,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 64,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 65,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 65,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 66,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 66,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 67,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 67,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 68,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 68,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 69,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 69,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 70,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 70,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 71,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 71,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 72,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 72,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 73,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 73,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 74,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 74,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 75,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 75,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 76,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 76,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      },
+      {
+        "patchId": 77,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java",
+        "patchPoolId": 77,
+        "startPos": 3193,
+        "endPos": 3441,
+        "suspCodeStr": "if (MathUtils.compareTo(entry, 0, epsilon) \u003e\u003d 0) {\n                final double ratio \u003d rhs / entry;\n                if (ratio \u003c minRatio) {\n                    minRatio \u003d ratio;\n                    minRatioPos \u003d i; \n                }\n            }"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 801,
+    "patchesGenerationTimeMs": 10
+  }
+]

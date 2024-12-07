@@ -1,0 +1,10 @@
+stmtLocation: org/apache/commons/codec/binary/StringUtils:81
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 741
+patchesGenerationTimeMs: 38
+patchId: 3
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_18/src/main/java/org/apache/commons/codec/binary/StringUtils.java
+patchPoolId: 3
+startPos: 2953
+endPos: 3053
+suspCodeStr: return CharSequenceUtils.regionMatches(cs1, false, 0, cs2, 0, Math.max(cs1.length(), cs2.length()));

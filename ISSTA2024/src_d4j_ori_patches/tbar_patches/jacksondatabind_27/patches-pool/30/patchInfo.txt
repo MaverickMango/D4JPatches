@@ -1,0 +1,36 @@
+stmtLocation: com/fasterxml/jackson/databind/deser/BeanDeserializer:794
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 922
+patchesGenerationTimeMs: 125
+patchId: 30
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_27/src/main/java/com/fasterxml/jackson/databind/deser/BeanDeserializer.java
+patchPoolId: 30
+startPos: 31484
+endPos: 33007
+suspCodeStr: if (ext.handlePropertyValue(p, ctxt, propName, buffer)) {
+                    ;
+                } else {
+                    // Last creator property to set?
+                    if (buffer.assignParameter(creatorProp, _deserializeWithErrorWrapping(p, ctxt, creatorProp))) {
+                        t = p.nextToken(); // to move to following FIELD_NAME/END_OBJECT
+                        Object bean;
+                        try {
+                            bean = creator.build(ctxt, buffer);
+                        } catch (Exception e) {
+                            wrapAndThrow(e, _beanType.getRawClass(), propName, ctxt);
+                            continue; // never gets here
+                        }
+                        // if so, need to copy all remaining tokens into buffer
+                        while (t == JsonToken.FIELD_NAME) {
+                            p.nextToken(); // to skip name
+                            tokens.copyCurrentStructure(p);
+                            t = p.nextToken();
+                        }
+                        if (bean.getClass() != _beanType.getRawClass()) {
+                            // !!! 08-Jul-2011, tatu: Could theoretically support; but for now
+                            //   it's too complicated, so bail out
+                            throw ctxt.mappingException("Can not create polymorphic instances with unwrapped values");
+                        }
+                        return ext.complete(p, ctxt, bean);
+                    }
+                }

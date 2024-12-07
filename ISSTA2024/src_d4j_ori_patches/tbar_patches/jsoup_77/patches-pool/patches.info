@@ -1,0 +1,90 @@
+[
+  {
+    "stmtLocation": "org/jsoup/parser/XmlTreeBuilder:117",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_77/src/main/java/org/jsoup/parser/XmlTreeBuilder.java",
+        "patchPoolId": 0,
+        "startPos": 4409,
+        "endPos": 4439,
+        "suspCodeStr": "String elName \u003d endTag.name();"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_77/src/main/java/org/jsoup/parser/XmlTreeBuilder.java",
+        "patchPoolId": 1,
+        "startPos": 4409,
+        "endPos": 4439,
+        "suspCodeStr": "String elName \u003d endTag.name();"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_77/src/main/java/org/jsoup/parser/XmlTreeBuilder.java",
+        "patchPoolId": 2,
+        "startPos": 4409,
+        "endPos": 4439,
+        "suspCodeStr": "String elName \u003d endTag.name();"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_77/src/main/java/org/jsoup/parser/XmlTreeBuilder.java",
+        "patchPoolId": 3,
+        "startPos": 4409,
+        "endPos": 4439,
+        "suspCodeStr": "String elName \u003d endTag.name();"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_77/src/main/java/org/jsoup/parser/XmlTreeBuilder.java",
+        "patchPoolId": 4,
+        "startPos": 4409,
+        "endPos": 4439,
+        "suspCodeStr": "String elName \u003d endTag.name();"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_77/src/main/java/org/jsoup/parser/XmlTreeBuilder.java",
+        "patchPoolId": 5,
+        "startPos": 4409,
+        "endPos": 4439,
+        "suspCodeStr": "String elName \u003d endTag.name();"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_77/src/main/java/org/jsoup/parser/XmlTreeBuilder.java",
+        "patchPoolId": 6,
+        "startPos": 4409,
+        "endPos": 4439,
+        "suspCodeStr": "String elName \u003d endTag.name();"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_77/src/main/java/org/jsoup/parser/XmlTreeBuilder.java",
+        "patchPoolId": 7,
+        "startPos": 4409,
+        "endPos": 4439,
+        "suspCodeStr": "String elName \u003d endTag.name();"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_77/src/main/java/org/jsoup/parser/XmlTreeBuilder.java",
+        "patchPoolId": 8,
+        "startPos": 4409,
+        "endPos": 4439,
+        "suspCodeStr": "String elName \u003d endTag.name();"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_77/src/main/java/org/jsoup/parser/XmlTreeBuilder.java",
+        "patchPoolId": 9,
+        "startPos": 4409,
+        "endPos": 4439,
+        "suspCodeStr": "String elName \u003d endTag.name();"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 733,
+    "patchesGenerationTimeMs": 10
+  }
+]

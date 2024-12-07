@@ -1,0 +1,12 @@
+stmtLocation: org/apache/commons/math3/optimization/linear/SimplexTableau:338
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 913
+patchesGenerationTimeMs: 32
+patchId: 63
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_33/src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+patchPoolId: 63
+startPos: 13461
+endPos: 13563
+suspCodeStr: if (Precision.compareTo(entry, 0d, maxUlps) > 0) {
+                columnsToDrop.add(i);
+            }

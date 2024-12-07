@@ -1,0 +1,19 @@
+stmtLocation: org/apache/commons/collections4/keyvalue/MultiKey:277
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 516
+patchesGenerationTimeMs: 20
+patchId: 1
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/collections_26/src/main/java/org/apache/commons/collections4/keyvalue/MultiKey.java
+patchPoolId: 1
+startPos: 8575
+endPos: 8933
+suspCodeStr: /**
+     * Recalculate the hash code after deserialization. The hash code of some
+     * keys might have change (hash codes based on the system hash code are
+     * only stable for the same process).
+     * @return the instance with recalculated hash code
+     */
+    private Object readResolve() {
+        calculateHashCode(keys);
+        return this;
+    }

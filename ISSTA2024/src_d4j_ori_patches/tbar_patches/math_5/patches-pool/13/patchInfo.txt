@@ -1,0 +1,10 @@
+stmtLocation: org/apache/commons/math3/complex/Complex:305
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 700
+patchesGenerationTimeMs: 35
+patchId: 13
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_5/src/main/java/org/apache/commons/math3/complex/Complex.java
+patchPoolId: 13
+startPos: 10942
+endPos: 10953
+suspCodeStr: return NaN;

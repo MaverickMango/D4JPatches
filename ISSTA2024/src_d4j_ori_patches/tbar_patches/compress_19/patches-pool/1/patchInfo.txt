@@ -1,0 +1,17 @@
+stmtLocation: org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField:259
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 604
+patchesGenerationTimeMs: 37
+patchId: 1
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_19/src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java
+patchPoolId: 1
+startPos: 10291
+endPos: 10798
+suspCodeStr: if (rawCentralDirectoryData.length != expectedLength) {
+                throw new ZipException("central directory zip64 extended"
+                                       + " information extra field's length"
+                                       + " doesn't match central directory"
+                                       + " data.  Expected length "
+                                       + expectedLength + " but is "
+                                       + rawCentralDirectoryData.length);
+            }

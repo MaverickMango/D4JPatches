@@ -1,0 +1,10 @@
+stmtLocation: com/google/javascript/jscomp/CodeGenerator:285
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 1192
+patchesGenerationTimeMs: 68
+patchId: 4
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_123/src/com/google/javascript/jscomp/CodeGenerator.java
+patchPoolId: 4
+startPos: 8546
+endPos: 8581
+suspCodeStr: Context rhsContext = Context.OTHER;

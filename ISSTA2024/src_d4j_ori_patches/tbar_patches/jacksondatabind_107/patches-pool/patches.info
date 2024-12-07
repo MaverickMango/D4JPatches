@@ -1,0 +1,34 @@
+[
+  {
+    "stmtLocation": "com/fasterxml/jackson/databind/jsontype/impl/TypeDeserializerBase:165",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_107/src/main/java/com/fasterxml/jackson/databind/jsontype/impl/TypeDeserializerBase.java",
+        "patchPoolId": 0,
+        "startPos": 5807,
+        "endPos": 5819,
+        "suspCodeStr": "return null;"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_107/src/main/java/com/fasterxml/jackson/databind/jsontype/impl/TypeDeserializerBase.java",
+        "patchPoolId": 1,
+        "startPos": 5807,
+        "endPos": 5819,
+        "suspCodeStr": "return null;"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_107/src/main/java/com/fasterxml/jackson/databind/jsontype/impl/TypeDeserializerBase.java",
+        "patchPoolId": 2,
+        "startPos": 5807,
+        "endPos": 5819,
+        "suspCodeStr": "return null;"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 880,
+    "patchesGenerationTimeMs": 16
+  }
+]

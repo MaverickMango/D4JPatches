@@ -1,0 +1,10 @@
+stmtLocation: com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap:440
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 808
+patchesGenerationTimeMs: 47
+patchId: 0
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_70/src/main/java/com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java
+patchPoolId: 0
+startPos: 14894
+endPos: 14929
+suspCodeStr: found = key.equals(prop.getName());

@@ -1,0 +1,74 @@
+[
+  {
+    "stmtLocation": "com/google/javascript/jscomp/CodeGenerator:285",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_123/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 0,
+        "startPos": 8546,
+        "endPos": 8581,
+        "suspCodeStr": "Context rhsContext \u003d Context.OTHER;"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_123/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 1,
+        "startPos": 8546,
+        "endPos": 8581,
+        "suspCodeStr": "Context rhsContext \u003d Context.OTHER;"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_123/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 2,
+        "startPos": 8546,
+        "endPos": 8581,
+        "suspCodeStr": "Context rhsContext \u003d Context.OTHER;"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_123/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 3,
+        "startPos": 8546,
+        "endPos": 8581,
+        "suspCodeStr": "Context rhsContext \u003d Context.OTHER;"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_123/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 4,
+        "startPos": 8546,
+        "endPos": 8581,
+        "suspCodeStr": "Context rhsContext \u003d Context.OTHER;"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_123/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 5,
+        "startPos": 8546,
+        "endPos": 8581,
+        "suspCodeStr": "Context rhsContext \u003d Context.OTHER;"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_123/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 6,
+        "startPos": 8546,
+        "endPos": 8581,
+        "suspCodeStr": "Context rhsContext \u003d Context.OTHER;"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_123/src/com/google/javascript/jscomp/CodeGenerator.java",
+        "patchPoolId": 7,
+        "startPos": 8546,
+        "endPos": 8581,
+        "suspCodeStr": "Context rhsContext \u003d Context.OTHER;"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 1192,
+    "patchesGenerationTimeMs": 46
+  }
+]

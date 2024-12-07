@@ -1,0 +1,250 @@
+[
+  {
+    "stmtLocation": "org/jfree/chart/plot/MultiplePiePlot:145",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_12/source/org/jfree/chart/plot/MultiplePiePlot.java",
+        "patchPoolId": 0,
+        "startPos": 5105,
+        "endPos": 5128,
+        "suspCodeStr": "this.dataset \u003d dataset;"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_12/source/org/jfree/chart/plot/MultiplePiePlot.java",
+        "patchPoolId": 1,
+        "startPos": 5105,
+        "endPos": 5128,
+        "suspCodeStr": "this.dataset \u003d dataset;"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_12/source/org/jfree/chart/plot/MultiplePiePlot.java",
+        "patchPoolId": 2,
+        "startPos": 5105,
+        "endPos": 5128,
+        "suspCodeStr": "this.dataset \u003d dataset;"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_12/source/org/jfree/chart/plot/MultiplePiePlot.java",
+        "patchPoolId": 3,
+        "startPos": 5105,
+        "endPos": 5128,
+        "suspCodeStr": "this.dataset \u003d dataset;"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_12/source/org/jfree/chart/plot/MultiplePiePlot.java",
+        "patchPoolId": 4,
+        "startPos": 5105,
+        "endPos": 5128,
+        "suspCodeStr": "this.dataset \u003d dataset;"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_12/source/org/jfree/chart/plot/MultiplePiePlot.java",
+        "patchPoolId": 5,
+        "startPos": 5105,
+        "endPos": 5128,
+        "suspCodeStr": "this.dataset \u003d dataset;"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_12/source/org/jfree/chart/plot/MultiplePiePlot.java",
+        "patchPoolId": 6,
+        "startPos": 5105,
+        "endPos": 5128,
+        "suspCodeStr": "this.dataset \u003d dataset;"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_12/source/org/jfree/chart/plot/MultiplePiePlot.java",
+        "patchPoolId": 7,
+        "startPos": 5105,
+        "endPos": 5128,
+        "suspCodeStr": "this.dataset \u003d dataset;"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_12/source/org/jfree/chart/plot/MultiplePiePlot.java",
+        "patchPoolId": 8,
+        "startPos": 5105,
+        "endPos": 5128,
+        "suspCodeStr": "this.dataset \u003d dataset;"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_12/source/org/jfree/chart/plot/MultiplePiePlot.java",
+        "patchPoolId": 9,
+        "startPos": 5105,
+        "endPos": 5128,
+        "suspCodeStr": "this.dataset \u003d dataset;"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_12/source/org/jfree/chart/plot/MultiplePiePlot.java",
+        "patchPoolId": 10,
+        "startPos": 5105,
+        "endPos": 5128,
+        "suspCodeStr": "this.dataset \u003d dataset;"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_12/source/org/jfree/chart/plot/MultiplePiePlot.java",
+        "patchPoolId": 11,
+        "startPos": 5105,
+        "endPos": 5128,
+        "suspCodeStr": "this.dataset \u003d dataset;"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_12/source/org/jfree/chart/plot/MultiplePiePlot.java",
+        "patchPoolId": 12,
+        "startPos": 5105,
+        "endPos": 5128,
+        "suspCodeStr": "this.dataset \u003d dataset;"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_12/source/org/jfree/chart/plot/MultiplePiePlot.java",
+        "patchPoolId": 13,
+        "startPos": 5105,
+        "endPos": 5128,
+        "suspCodeStr": "this.dataset \u003d dataset;"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_12/source/org/jfree/chart/plot/MultiplePiePlot.java",
+        "patchPoolId": 14,
+        "startPos": 5105,
+        "endPos": 5128,
+        "suspCodeStr": "this.dataset \u003d dataset;"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_12/source/org/jfree/chart/plot/MultiplePiePlot.java",
+        "patchPoolId": 15,
+        "startPos": 5105,
+        "endPos": 5128,
+        "suspCodeStr": "this.dataset \u003d dataset;"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_12/source/org/jfree/chart/plot/MultiplePiePlot.java",
+        "patchPoolId": 16,
+        "startPos": 5105,
+        "endPos": 5128,
+        "suspCodeStr": "this.dataset \u003d dataset;"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_12/source/org/jfree/chart/plot/MultiplePiePlot.java",
+        "patchPoolId": 17,
+        "startPos": 5105,
+        "endPos": 5128,
+        "suspCodeStr": "this.dataset \u003d dataset;"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_12/source/org/jfree/chart/plot/MultiplePiePlot.java",
+        "patchPoolId": 18,
+        "startPos": 5105,
+        "endPos": 5128,
+        "suspCodeStr": "this.dataset \u003d dataset;"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_12/source/org/jfree/chart/plot/MultiplePiePlot.java",
+        "patchPoolId": 19,
+        "startPos": 5105,
+        "endPos": 5128,
+        "suspCodeStr": "this.dataset \u003d dataset;"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_12/source/org/jfree/chart/plot/MultiplePiePlot.java",
+        "patchPoolId": 20,
+        "startPos": 5105,
+        "endPos": 5128,
+        "suspCodeStr": "this.dataset \u003d dataset;"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_12/source/org/jfree/chart/plot/MultiplePiePlot.java",
+        "patchPoolId": 21,
+        "startPos": 5105,
+        "endPos": 5128,
+        "suspCodeStr": "this.dataset \u003d dataset;"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_12/source/org/jfree/chart/plot/MultiplePiePlot.java",
+        "patchPoolId": 22,
+        "startPos": 5105,
+        "endPos": 5128,
+        "suspCodeStr": "this.dataset \u003d dataset;"
+      },
+      {
+        "patchId": 23,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_12/source/org/jfree/chart/plot/MultiplePiePlot.java",
+        "patchPoolId": 23,
+        "startPos": 5105,
+        "endPos": 5128,
+        "suspCodeStr": "this.dataset \u003d dataset;"
+      },
+      {
+        "patchId": 24,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_12/source/org/jfree/chart/plot/MultiplePiePlot.java",
+        "patchPoolId": 24,
+        "startPos": 5105,
+        "endPos": 5128,
+        "suspCodeStr": "this.dataset \u003d dataset;"
+      },
+      {
+        "patchId": 25,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_12/source/org/jfree/chart/plot/MultiplePiePlot.java",
+        "patchPoolId": 25,
+        "startPos": 5105,
+        "endPos": 5128,
+        "suspCodeStr": "this.dataset \u003d dataset;"
+      },
+      {
+        "patchId": 26,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_12/source/org/jfree/chart/plot/MultiplePiePlot.java",
+        "patchPoolId": 26,
+        "startPos": 5105,
+        "endPos": 5128,
+        "suspCodeStr": "this.dataset \u003d dataset;"
+      },
+      {
+        "patchId": 27,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_12/source/org/jfree/chart/plot/MultiplePiePlot.java",
+        "patchPoolId": 27,
+        "startPos": 5105,
+        "endPos": 5128,
+        "suspCodeStr": "this.dataset \u003d dataset;"
+      },
+      {
+        "patchId": 28,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_12/source/org/jfree/chart/plot/MultiplePiePlot.java",
+        "patchPoolId": 28,
+        "startPos": 5105,
+        "endPos": 5128,
+        "suspCodeStr": "this.dataset \u003d dataset;"
+      },
+      {
+        "patchId": 29,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_12/source/org/jfree/chart/plot/MultiplePiePlot.java",
+        "patchPoolId": 29,
+        "startPos": 5105,
+        "endPos": 5128,
+        "suspCodeStr": "this.dataset \u003d dataset;"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 780,
+    "patchesGenerationTimeMs": 14
+  }
+]

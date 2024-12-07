@@ -1,0 +1,14 @@
+stmtLocation: org/jsoup/parser/CharacterReader:91
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 664
+patchesGenerationTimeMs: 28
+patchId: 15
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_34/src/main/java/org/jsoup/parser/CharacterReader.java
+patchPoolId: 15
+startPos: 2242
+endPos: 2455
+suspCodeStr: if (offset < length) {
+                for (int j = 1; i < last && seq.charAt(j) == input[i]; i++, j++);
+                if (i == last) // found full sequence
+                    return offset - pos;
+            }

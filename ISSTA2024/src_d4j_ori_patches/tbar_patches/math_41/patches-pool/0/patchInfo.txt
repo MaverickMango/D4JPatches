@@ -1,0 +1,12 @@
+stmtLocation: org/apache/commons/math/stat/descriptive/moment/Variance:520
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 915
+patchesGenerationTimeMs: 54
+patchId: 0
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_41/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java
+patchPoolId: 0
+startPos: 21218
+endPos: 21320
+suspCodeStr: for (int i = 0; i < weights.length; i++) {
+                    sumWts += weights[i];
+                }

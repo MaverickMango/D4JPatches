@@ -1,0 +1,3626 @@
+[
+  {
+    "stmtLocation": "org/jfree/chart/plot/ValueMarker:95",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 0,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 1,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 2,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 3,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 4,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 5,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 6,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 7,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 8,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 9,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 10,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 11,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 12,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 13,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 14,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 15,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 16,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 17,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 18,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 19,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 20,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 21,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 22,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 23,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 23,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 24,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 24,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 25,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 25,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 26,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 26,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 27,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 27,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 28,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 28,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 29,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 29,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 30,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 30,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 31,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 31,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 32,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 32,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 33,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 33,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 34,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 34,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 35,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 35,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 36,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 36,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 37,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 37,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 38,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 38,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 39,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 39,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 40,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 40,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 41,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 41,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 42,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 42,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 43,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 43,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 44,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 44,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 45,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 45,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 46,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 46,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 47,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 47,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 48,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 48,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 49,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 49,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 50,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 50,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 51,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 51,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 52,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 52,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 53,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 53,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 54,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 54,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 55,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 55,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 56,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 56,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 57,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 57,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 58,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 58,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 59,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 59,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 60,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 60,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 61,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 61,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 62,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 62,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 63,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 63,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 64,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 64,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 65,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 65,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 66,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 66,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 67,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 67,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 68,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 68,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 69,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 69,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 70,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 70,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 71,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 71,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 72,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 72,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 73,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 73,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 74,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 74,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 75,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 75,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 76,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 76,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 77,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 77,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 78,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 78,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 79,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 79,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 80,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 80,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 81,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 81,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 82,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 82,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 83,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 83,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 84,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 84,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 85,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 85,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 86,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 86,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 87,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 87,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 88,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 88,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 89,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 89,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 90,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 90,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 91,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 91,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 92,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 92,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 93,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 93,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 94,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 94,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 95,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 95,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 96,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 96,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 97,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 97,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 98,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 98,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 99,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 99,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 100,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 100,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 101,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 101,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 102,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 102,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 103,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 103,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 104,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 104,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 105,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 105,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 106,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 106,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 107,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 107,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 108,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 108,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 109,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 109,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 110,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 110,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 111,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 111,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 112,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 112,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 113,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 113,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 114,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 114,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 115,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 115,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 116,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 116,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 117,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 117,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 118,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 118,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 119,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 119,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 120,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 120,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 121,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 121,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 122,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 122,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 123,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 123,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 124,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 124,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 125,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 125,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 126,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 126,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 127,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 127,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 128,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 128,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 129,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 129,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 130,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 130,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 131,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 131,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 132,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 132,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 133,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 133,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 134,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 134,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 135,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 135,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 136,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 136,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 137,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 137,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 138,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 138,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 139,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 139,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 140,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 140,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 141,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 141,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 142,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 142,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 143,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 143,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 144,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 144,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 145,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 145,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 146,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 146,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 147,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 147,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 148,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 148,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 149,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 149,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 150,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 150,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 151,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 151,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 152,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 152,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 153,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 153,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 154,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 154,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 155,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 155,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 156,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 156,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 157,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 157,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 158,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 158,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 159,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 159,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 160,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 160,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 161,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 161,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 162,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 162,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 163,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 163,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 164,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 164,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 165,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 165,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 166,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 166,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 167,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 167,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 168,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 168,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 169,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 169,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 170,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 170,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 171,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 171,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 172,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 172,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 173,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 173,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 174,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 174,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 175,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 175,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 176,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 176,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 177,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 177,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 178,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 178,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 179,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 179,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 180,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 180,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 181,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 181,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 182,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 182,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 183,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 183,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 184,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 184,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 185,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 185,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 186,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 186,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 187,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 187,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 188,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 188,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 189,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 189,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 190,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 190,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 191,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 191,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 192,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 192,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 193,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 193,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 194,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 194,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 195,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 195,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 196,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 196,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 197,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 197,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 198,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 198,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 199,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 199,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 200,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 200,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 201,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 201,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 202,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 202,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 203,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 203,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 204,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 204,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 205,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 205,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 206,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 206,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 207,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 207,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 208,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 208,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 209,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 209,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 210,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 210,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 211,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 211,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 212,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 212,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 213,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 213,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 214,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 214,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 215,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 215,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 216,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 216,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 217,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 217,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 218,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 218,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 219,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 219,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 220,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 220,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 221,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 221,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 222,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 222,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 223,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 223,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 224,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 224,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 225,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 225,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 226,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 226,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 227,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 227,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 228,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 228,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 229,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 229,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 230,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 230,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 231,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 231,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 232,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 232,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 233,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 233,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 234,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 234,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 235,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 235,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 236,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 236,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 237,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 237,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 238,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 238,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 239,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 239,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 240,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 240,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 241,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 241,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 242,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 242,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 243,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 243,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 244,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 244,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 245,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 245,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 246,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 246,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 247,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 247,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 248,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 248,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 249,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 249,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 250,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 250,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 251,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 251,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 252,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 252,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 253,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 253,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 254,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 254,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 255,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 255,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 256,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 256,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 257,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 257,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 258,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 258,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 259,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 259,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 260,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 260,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 261,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 261,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 262,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 262,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 263,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 263,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 264,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 264,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 265,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 265,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 266,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 266,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 267,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 267,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 268,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 268,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 269,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 269,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 270,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 270,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 271,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 271,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 272,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 272,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 273,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 273,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 274,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 274,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 275,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 275,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 276,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 276,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 277,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 277,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 278,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 278,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 279,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 279,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 280,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 280,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 281,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 281,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 282,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 282,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 283,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 283,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 284,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 284,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 285,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 285,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 286,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 286,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 287,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 287,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 288,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 288,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 289,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 289,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 290,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 290,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 291,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 291,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 292,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 292,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 293,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 293,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 294,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 294,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 295,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 295,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 296,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 296,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 297,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 297,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 298,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 298,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 299,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 299,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 300,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 300,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 301,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 301,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 302,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 302,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 303,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 303,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 304,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 304,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 305,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 305,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 306,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 306,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 307,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 307,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 308,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 308,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 309,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 309,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 310,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 310,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 311,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 311,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 312,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 312,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 313,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 313,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 314,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 314,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 315,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 315,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 316,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 316,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 317,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 317,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 318,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 318,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 319,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 319,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 320,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 320,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 321,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 321,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 322,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 322,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 323,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 323,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 324,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 324,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 325,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 325,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 326,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 326,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 327,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 327,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 328,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 328,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 329,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 329,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 330,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 330,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 331,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 331,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 332,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 332,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 333,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 333,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 334,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 334,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 335,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 335,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 336,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 336,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 337,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 337,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 338,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 338,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 339,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 339,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 340,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 340,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 341,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 341,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 342,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 342,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 343,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 343,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 344,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 344,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 345,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 345,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 346,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 346,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 347,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 347,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 348,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 348,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 349,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 349,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 350,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 350,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 351,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 351,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 352,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 352,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 353,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 353,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 354,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 354,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 355,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 355,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 356,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 356,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 357,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 357,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 358,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 358,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 359,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 359,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 360,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 360,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 361,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 361,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 362,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 362,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 363,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 363,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 364,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 364,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 365,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 365,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 366,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 366,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 367,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 367,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 368,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 368,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 369,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 369,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 370,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 370,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 371,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 371,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 372,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 372,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 373,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 373,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 374,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 374,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 375,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 375,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 376,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 376,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 377,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 377,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 378,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 378,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 379,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 379,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 380,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 380,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 381,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 381,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 382,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 382,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 383,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 383,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 384,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 384,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 385,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 385,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 386,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 386,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 387,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 387,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 388,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 388,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 389,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 389,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 390,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 390,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 391,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 391,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 392,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 392,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 393,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 393,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 394,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 394,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 395,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 395,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 396,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 396,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 397,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 397,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 398,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 398,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 399,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 399,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 400,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 400,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 401,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 401,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 402,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 402,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 403,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 403,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 404,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 404,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 405,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 405,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 406,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 406,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 407,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 407,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 408,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 408,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 409,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 409,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 410,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 410,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 411,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 411,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 412,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 412,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 413,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 413,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 414,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 414,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 415,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 415,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 416,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 416,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 417,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 417,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 418,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 418,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 419,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 419,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 420,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 420,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 421,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 421,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 422,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 422,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 423,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 423,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 424,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 424,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 425,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 425,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 426,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 426,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 427,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 427,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 428,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 428,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 429,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 429,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 430,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 430,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 431,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 431,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 432,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 432,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 433,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 433,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 434,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 434,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 435,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 435,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 436,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 436,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 437,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 437,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 438,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 438,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 439,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 439,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 440,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 440,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 441,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 441,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 442,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 442,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 443,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 443,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 444,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 444,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 445,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 445,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 446,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 446,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 447,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 447,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 448,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 448,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 449,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 449,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 450,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 450,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      },
+      {
+        "patchId": 451,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_20/source/org/jfree/chart/plot/ValueMarker.java",
+        "patchPoolId": 451,
+        "startPos": 3343,
+        "endPos": 3386,
+        "suspCodeStr": "super(paint, stroke, paint, stroke, alpha);"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 655,
+    "patchesGenerationTimeMs": 5
+  }
+]

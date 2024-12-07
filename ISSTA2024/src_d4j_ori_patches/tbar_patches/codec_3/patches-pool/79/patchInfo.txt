@@ -1,0 +1,14 @@
+stmtLocation: org/apache/commons/codec/language/DoubleMetaphone:455
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 724
+patchesGenerationTimeMs: 114
+patchId: 79
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_3/src/java/org/apache/commons/codec/language/DoubleMetaphone.java
+patchPoolId: 79
+startPos: 16191
+endPos: 16346
+suspCodeStr: if (contains(value, index + 1, 4, "IER")) {
+                result.append('J');
+            } else {
+                result.append('J', 'K');
+            }

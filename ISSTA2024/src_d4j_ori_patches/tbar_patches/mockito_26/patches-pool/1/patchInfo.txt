@@ -1,0 +1,10 @@
+stmtLocation: org/mockito/internal/util/Primitives:66
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 745
+patchesGenerationTimeMs: 21
+patchId: 1
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/mockito_26/src/org/mockito/internal/util/Primitives.java
+patchPoolId: 1
+startPos: 2546
+endPos: 2583
+suspCodeStr: primitiveValues.put(double.class, 0);

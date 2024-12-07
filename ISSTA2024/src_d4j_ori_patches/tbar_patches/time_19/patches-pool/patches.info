@@ -1,0 +1,466 @@
+[
+  {
+    "stmtLocation": "org/joda/time/DateTimeZone:900",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 0,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 1,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 2,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 3,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 4,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 5,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 6,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 7,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 8,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 9,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 10,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 11,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 12,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 13,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 14,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 15,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 16,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 17,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 18,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 19,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 20,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 21,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 22,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 23,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 23,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 24,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 24,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 25,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 25,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 26,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 26,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 27,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 27,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 28,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 28,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 29,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 29,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 30,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 30,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 31,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 31,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 32,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 32,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 33,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 33,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 34,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 34,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 35,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 35,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 36,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 36,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 37,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 37,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 38,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 38,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 39,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 39,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 40,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 40,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 41,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 41,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 42,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 42,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 43,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 43,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 44,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 44,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 45,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 45,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 46,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 46,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 47,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 47,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 48,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 48,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 49,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 49,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 50,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 50,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 51,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 51,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 52,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 52,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 53,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 53,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 54,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 54,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 55,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 55,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      },
+      {
+        "patchId": 56,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_19/src/main/java/org/joda/time/DateTimeZone.java",
+        "patchPoolId": 56,
+        "startPos": 34135,
+        "endPos": 34498,
+        "suspCodeStr": "if (offsetLocal \u003e 0) {\n            long prev \u003d previousTransition(instantAdjusted);\n            if (prev \u003c instantAdjusted) {\n                int offsetPrev \u003d getOffset(prev);\n                int diff \u003d offsetPrev - offsetLocal;\n                if (instantAdjusted - prev \u003c\u003d diff) {\n                    return offsetPrev;\n                }\n            }\n        }"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 864,
+    "patchesGenerationTimeMs": 24
+  }
+]

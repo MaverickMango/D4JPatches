@@ -1,0 +1,34 @@
+[
+  {
+    "stmtLocation": "org/apache/commons/codec/binary/Base64:225",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_4/src/java/org/apache/commons/codec/binary/Base64.java",
+        "patchPoolId": 0,
+        "startPos": 9000,
+        "endPos": 9012,
+        "suspCodeStr": "this(false);"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_4/src/java/org/apache/commons/codec/binary/Base64.java",
+        "patchPoolId": 1,
+        "startPos": 9000,
+        "endPos": 9012,
+        "suspCodeStr": "this(false);"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/codec_4/src/java/org/apache/commons/codec/binary/Base64.java",
+        "patchPoolId": 2,
+        "startPos": 9000,
+        "endPos": 9012,
+        "suspCodeStr": "this(false);"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 874,
+    "patchesGenerationTimeMs": 44
+  }
+]

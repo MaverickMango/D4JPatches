@@ -1,0 +1,2570 @@
+[
+  {
+    "stmtLocation": "org/joda/time/format/DateTimeFormatter:709",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 0,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 1,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 2,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 3,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 4,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 5,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 6,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 7,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 8,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 9,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 10,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 11,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 12,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 13,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 14,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 15,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 16,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 17,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 18,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 19,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 20,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 21,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 22,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 23,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 23,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 24,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 24,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 25,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 25,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 26,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 26,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 27,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 27,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 28,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 28,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 29,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 29,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 30,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 30,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 31,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 31,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 32,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 32,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 33,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 33,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 34,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 34,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 35,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 35,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 36,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 36,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 37,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 37,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 38,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 38,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 39,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 39,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 40,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 40,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 41,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 41,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 42,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 42,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 43,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 43,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 44,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 44,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 45,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 45,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 46,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 46,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 47,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 47,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 48,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 48,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 49,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 49,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 50,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 50,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 51,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 51,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 52,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 52,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 53,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 53,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 54,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 54,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 55,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 55,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 56,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 56,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 57,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 57,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 58,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 58,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 59,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 59,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 60,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 60,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 61,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 61,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 62,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 62,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 63,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 63,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 64,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 64,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 65,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 65,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 66,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 66,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 67,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 67,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 68,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 68,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 69,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 69,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 70,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 70,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 71,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 71,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 72,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 72,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 73,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 73,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 74,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 74,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 75,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 75,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 76,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 76,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 77,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 77,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 78,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 78,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 79,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 79,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 80,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 80,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 81,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 81,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 82,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 82,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 83,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 83,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 84,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 84,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 85,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 85,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 86,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 86,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 87,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 87,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 88,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 88,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 89,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 89,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 90,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 90,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 91,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 91,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 92,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 92,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 93,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 93,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 94,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 94,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 95,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 95,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 96,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 96,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 97,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 97,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 98,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 98,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 99,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 99,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 100,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 100,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 101,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 101,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 102,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 102,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 103,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 103,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 104,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 104,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 105,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 105,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 106,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 106,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 107,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 107,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 108,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 108,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 109,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 109,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 110,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 110,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 111,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 111,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 112,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 112,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 113,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 113,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 114,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 114,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 115,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 115,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 116,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 116,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 117,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 117,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 118,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 118,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 119,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 119,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 120,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 120,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 121,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 121,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 122,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 122,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 123,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 123,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 124,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 124,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 125,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 125,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 126,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 126,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 127,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 127,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 128,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 128,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 129,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 129,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 130,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 130,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 131,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 131,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 132,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 132,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 133,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 133,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 134,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 134,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 135,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 135,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 136,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 136,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 137,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 137,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 138,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 138,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 139,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 139,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 140,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 140,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 141,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 141,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 142,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 142,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 143,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 143,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 144,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 144,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 145,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 145,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 146,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 146,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 147,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 147,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 148,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 148,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 149,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 149,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 150,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 150,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 151,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 151,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 152,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 152,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 153,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 153,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 154,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 154,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 155,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 155,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 156,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 156,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 157,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 157,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 158,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 158,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 159,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 159,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 160,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 160,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 161,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 161,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 162,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 162,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 163,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 163,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 164,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 164,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 165,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 165,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 166,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 166,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 167,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 167,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 168,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 168,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 169,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 169,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 170,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 170,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 171,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 171,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 172,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 172,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 173,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 173,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 174,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 174,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 175,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 175,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 176,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 176,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 177,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 177,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 178,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 178,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 179,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 179,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 180,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 180,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 181,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 181,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 182,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 182,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 183,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 183,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 184,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 184,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 185,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 185,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 186,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 186,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 187,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 187,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 188,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 188,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 189,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 189,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 190,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 190,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 191,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 191,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 192,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 192,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 193,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 193,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 194,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 194,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 195,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 195,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 196,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 196,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 197,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 197,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 198,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 198,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 199,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 199,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 200,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 200,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 201,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 201,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 202,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 202,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 203,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 203,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 204,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 204,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 205,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 205,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 206,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 206,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 207,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 207,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 208,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 208,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 209,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 209,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 210,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 210,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 211,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 211,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 212,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 212,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 213,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 213,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 214,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 214,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 215,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 215,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 216,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 216,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 217,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 217,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 218,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 218,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 219,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 219,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 220,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 220,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 221,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 221,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 222,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 222,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 223,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 223,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 224,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 224,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 225,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 225,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 226,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 226,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 227,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 227,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 228,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 228,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 229,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 229,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 230,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 230,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 231,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 231,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 232,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 232,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 233,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 233,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 234,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 234,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 235,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 235,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 236,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 236,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 237,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 237,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 238,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 238,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 239,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 239,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 240,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 240,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 241,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 241,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 242,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 242,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 243,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 243,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 244,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 244,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 245,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 245,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 246,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 246,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 247,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 247,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 248,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 248,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 249,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 249,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 250,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 250,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 251,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 251,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 252,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 252,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 253,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 253,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 254,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 254,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 255,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 255,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 256,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 256,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 257,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 257,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 258,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 258,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 259,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 259,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 260,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 260,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 261,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 261,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 262,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 262,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 263,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 263,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 264,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 264,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 265,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 265,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 266,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 266,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 267,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 267,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 268,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 268,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 269,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 269,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 270,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 270,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 271,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 271,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 272,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 272,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 273,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 273,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 274,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 274,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 275,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 275,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 276,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 276,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 277,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 277,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 278,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 278,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 279,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 279,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 280,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 280,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 281,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 281,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 282,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 282,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 283,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 283,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 284,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 284,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 285,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 285,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 286,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 286,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 287,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 287,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 288,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 288,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 289,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 289,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 290,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 290,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 291,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 291,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 292,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 292,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 293,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 293,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 294,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 294,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 295,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 295,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 296,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 296,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 297,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 297,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 298,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 298,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 299,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 299,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 300,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 300,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 301,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 301,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 302,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 302,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 303,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 303,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 304,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 304,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 305,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 305,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 306,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 306,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 307,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 307,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 308,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 308,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 309,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 309,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 310,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 310,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 311,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 311,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 312,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 312,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 313,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 313,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 314,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 314,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 315,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 315,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 316,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 316,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 317,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 317,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 318,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 318,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      },
+      {
+        "patchId": 319,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/time_16/src/main/java/org/joda/time/format/DateTimeFormatter.java",
+        "patchPoolId": 319,
+        "startPos": 26774,
+        "endPos": 26899,
+        "suspCodeStr": "DateTimeParserBucket bucket \u003d new DateTimeParserBucket(\n            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 888,
+    "patchesGenerationTimeMs": 19
+  }
+]

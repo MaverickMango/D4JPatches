@@ -1,0 +1,1322 @@
+[
+  {
+    "stmtLocation": "com/google/javascript/jscomp/ControlFlowAnalysis:767",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 0,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 1,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 2,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 3,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 4,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 5,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 6,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 7,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 8,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 9,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 10,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 11,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 12,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 13,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 14,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 15,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 16,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 17,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 18,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 19,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 20,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 21,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 22,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 23,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 23,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 24,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 24,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 25,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 25,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 26,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 26,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 27,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 27,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 28,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 28,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 29,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 29,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 30,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 30,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 31,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 31,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 32,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 32,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 33,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 33,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 34,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 34,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 35,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 35,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 36,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 36,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 37,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 37,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 38,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 38,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 39,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 39,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 40,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 40,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 41,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 41,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 42,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 42,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 43,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 43,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 44,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 44,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 45,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 45,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 46,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 46,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 47,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 47,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 48,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 48,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 49,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 49,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 50,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 50,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 51,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 51,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 52,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 52,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 53,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 53,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 54,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 54,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 55,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 55,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 56,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 56,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 57,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 57,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 58,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 58,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 59,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 59,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 60,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 60,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 61,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 61,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 62,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 62,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 63,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 63,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 64,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 64,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 65,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 65,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 66,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 66,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 67,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 67,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 68,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 68,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 69,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 69,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 70,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 70,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 71,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 71,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 72,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 72,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 73,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 73,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 74,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 74,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 75,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 75,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 76,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 76,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 77,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 77,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 78,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 78,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 79,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 79,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 80,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 80,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 81,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 81,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 82,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 82,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 83,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 83,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 84,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 84,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 85,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 85,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 86,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 86,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 87,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 87,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 88,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 88,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 89,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 89,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 90,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 90,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 91,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 91,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 92,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 92,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 93,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 93,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 94,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 94,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 95,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 95,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 96,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 96,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 97,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 97,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 98,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 98,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 99,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 99,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 100,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 100,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 101,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 101,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 102,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 102,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 103,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 103,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 104,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 104,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 105,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 105,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 106,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 106,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 107,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 107,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 108,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 108,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 109,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 109,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 110,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 110,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 111,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 111,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 112,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 112,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 113,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 113,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 114,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 114,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 115,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 115,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 116,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 116,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 117,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 117,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 118,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 118,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 119,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 119,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 120,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 120,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 121,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 121,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 122,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 122,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 123,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 123,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 124,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 124,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 125,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 125,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 126,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 126,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 127,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 127,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 128,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 128,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 129,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 129,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 130,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 130,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 131,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 131,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 132,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 132,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 133,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 133,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 134,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 134,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 135,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 135,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 136,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 136,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 137,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 137,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 138,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 138,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 139,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 139,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 140,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 140,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 141,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 141,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 142,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 142,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 143,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 143,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 144,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 144,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 145,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 145,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 146,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 146,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 147,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 147,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 148,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 148,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 149,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 149,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 150,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 150,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 151,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 151,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 152,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 152,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 153,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 153,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 154,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 154,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 155,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 155,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 156,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 156,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 157,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 157,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 158,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 158,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 159,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 159,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 160,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 160,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 161,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 161,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 162,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 162,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      },
+      {
+        "patchId": 163,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_14/src/com/google/javascript/jscomp/ControlFlowAnalysis.java",
+        "patchPoolId": 163,
+        "startPos": 26358,
+        "endPos": 26411,
+        "suspCodeStr": "cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 1801,
+    "patchesGenerationTimeMs": 57
+  }
+]

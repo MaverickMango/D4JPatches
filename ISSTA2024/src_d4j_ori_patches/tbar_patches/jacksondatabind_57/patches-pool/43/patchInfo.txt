@@ -1,0 +1,11 @@
+stmtLocation: com/fasterxml/jackson/databind/ObjectReader:1441
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 882
+patchesGenerationTimeMs: 69
+patchId: 43
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_57/src/main/java/com/fasterxml/jackson/databind/ObjectReader.java
+patchPoolId: 43
+startPos: 51319
+endPos: 51419
+suspCodeStr: return _bindAndReadValues(_considerFilter(_parserFactory.createParser(src), 
+                true));

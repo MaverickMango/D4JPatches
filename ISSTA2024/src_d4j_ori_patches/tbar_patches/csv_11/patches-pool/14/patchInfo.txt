@@ -1,0 +1,10 @@
+stmtLocation: org/apache/commons/csv/CSVParser:384
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 770
+patchesGenerationTimeMs: 22
+patchId: 14
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_11/src/main/java/org/apache/commons/csv/CSVParser.java
+patchPoolId: 14
+startPos: 13540
+endPos: 13592
+suspCodeStr: final boolean emptyHeader = header.trim().isEmpty();

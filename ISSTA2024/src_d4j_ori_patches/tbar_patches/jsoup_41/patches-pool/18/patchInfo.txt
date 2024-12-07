@@ -1,0 +1,10 @@
+stmtLocation: org/jsoup/nodes/Element:1175
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 768
+patchesGenerationTimeMs: 23
+patchId: 18
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_41/src/main/java/org/jsoup/nodes/Element.java
+patchPoolId: 18
+startPos: 42297
+endPos: 42314
+suspCodeStr: return this == o;

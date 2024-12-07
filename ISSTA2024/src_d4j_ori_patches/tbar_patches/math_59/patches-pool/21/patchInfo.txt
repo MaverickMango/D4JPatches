@@ -1,0 +1,10 @@
+stmtLocation: org/apache/commons/math/util/FastMath:3482
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 1345
+patchesGenerationTimeMs: 59
+patchId: 21
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_59/src/main/java/org/apache/commons/math/util/FastMath.java
+patchPoolId: 21
+startPos: 103149
+endPos: 103208
+suspCodeStr: return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : b);

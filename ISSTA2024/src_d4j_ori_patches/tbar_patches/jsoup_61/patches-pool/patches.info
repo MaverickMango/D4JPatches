@@ -1,0 +1,146 @@
+[
+  {
+    "stmtLocation": "org/jsoup/nodes/Element:1092",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_61/src/main/java/org/jsoup/nodes/Element.java",
+        "patchPoolId": 0,
+        "startPos": 40034,
+        "endPos": 40083,
+        "suspCodeStr": "final String classAttr \u003d attributes.get(\"class\");"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_61/src/main/java/org/jsoup/nodes/Element.java",
+        "patchPoolId": 1,
+        "startPos": 40034,
+        "endPos": 40083,
+        "suspCodeStr": "final String classAttr \u003d attributes.get(\"class\");"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_61/src/main/java/org/jsoup/nodes/Element.java",
+        "patchPoolId": 2,
+        "startPos": 40034,
+        "endPos": 40083,
+        "suspCodeStr": "final String classAttr \u003d attributes.get(\"class\");"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_61/src/main/java/org/jsoup/nodes/Element.java",
+        "patchPoolId": 3,
+        "startPos": 40034,
+        "endPos": 40083,
+        "suspCodeStr": "final String classAttr \u003d attributes.get(\"class\");"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_61/src/main/java/org/jsoup/nodes/Element.java",
+        "patchPoolId": 4,
+        "startPos": 40034,
+        "endPos": 40083,
+        "suspCodeStr": "final String classAttr \u003d attributes.get(\"class\");"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_61/src/main/java/org/jsoup/nodes/Element.java",
+        "patchPoolId": 5,
+        "startPos": 40034,
+        "endPos": 40083,
+        "suspCodeStr": "final String classAttr \u003d attributes.get(\"class\");"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_61/src/main/java/org/jsoup/nodes/Element.java",
+        "patchPoolId": 6,
+        "startPos": 40034,
+        "endPos": 40083,
+        "suspCodeStr": "final String classAttr \u003d attributes.get(\"class\");"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_61/src/main/java/org/jsoup/nodes/Element.java",
+        "patchPoolId": 7,
+        "startPos": 40034,
+        "endPos": 40083,
+        "suspCodeStr": "final String classAttr \u003d attributes.get(\"class\");"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_61/src/main/java/org/jsoup/nodes/Element.java",
+        "patchPoolId": 8,
+        "startPos": 40034,
+        "endPos": 40083,
+        "suspCodeStr": "final String classAttr \u003d attributes.get(\"class\");"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_61/src/main/java/org/jsoup/nodes/Element.java",
+        "patchPoolId": 9,
+        "startPos": 40034,
+        "endPos": 40083,
+        "suspCodeStr": "final String classAttr \u003d attributes.get(\"class\");"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_61/src/main/java/org/jsoup/nodes/Element.java",
+        "patchPoolId": 10,
+        "startPos": 40034,
+        "endPos": 40083,
+        "suspCodeStr": "final String classAttr \u003d attributes.get(\"class\");"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_61/src/main/java/org/jsoup/nodes/Element.java",
+        "patchPoolId": 11,
+        "startPos": 40034,
+        "endPos": 40083,
+        "suspCodeStr": "final String classAttr \u003d attributes.get(\"class\");"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_61/src/main/java/org/jsoup/nodes/Element.java",
+        "patchPoolId": 12,
+        "startPos": 40034,
+        "endPos": 40083,
+        "suspCodeStr": "final String classAttr \u003d attributes.get(\"class\");"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_61/src/main/java/org/jsoup/nodes/Element.java",
+        "patchPoolId": 13,
+        "startPos": 40034,
+        "endPos": 40083,
+        "suspCodeStr": "final String classAttr \u003d attributes.get(\"class\");"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_61/src/main/java/org/jsoup/nodes/Element.java",
+        "patchPoolId": 14,
+        "startPos": 40034,
+        "endPos": 40083,
+        "suspCodeStr": "final String classAttr \u003d attributes.get(\"class\");"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_61/src/main/java/org/jsoup/nodes/Element.java",
+        "patchPoolId": 15,
+        "startPos": 40034,
+        "endPos": 40083,
+        "suspCodeStr": "final String classAttr \u003d attributes.get(\"class\");"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_61/src/main/java/org/jsoup/nodes/Element.java",
+        "patchPoolId": 16,
+        "startPos": 40034,
+        "endPos": 40083,
+        "suspCodeStr": "final String classAttr \u003d attributes.get(\"class\");"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 769,
+    "patchesGenerationTimeMs": 18
+  }
+]

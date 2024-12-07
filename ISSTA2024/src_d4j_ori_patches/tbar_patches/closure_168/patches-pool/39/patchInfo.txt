@@ -1,0 +1,20 @@
+stmtLocation: com/google/javascript/jscomp/TypedScopeCreator:1996
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 1662
+patchesGenerationTimeMs: 39
+patchId: 39
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/closure_168/src/com/google/javascript/jscomp/TypedScopeCreator.java
+patchPoolId: 39
+startPos: 74482
+endPos: 74926
+suspCodeStr: if (t.getScopeDepth() <= 2) {
+        // The first-order function analyzer looks at two types of variables:
+        //
+        // 1) Local variables that are assigned in inner scopes ("escaped vars")
+        //
+        // 2) Local variables that are assigned more than once.
+        //
+        // We treat all global variables as escaped by default, so there's
+        // no reason to do this extra computation for them.
+        return;
+      }

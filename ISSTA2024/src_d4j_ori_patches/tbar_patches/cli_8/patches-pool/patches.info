@@ -1,0 +1,2426 @@
+[
+  {
+    "stmtLocation": "org/apache/commons/cli/HelpFormatter:812",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 0,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 1,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 2,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 3,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 4,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 5,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 6,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 7,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 8,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 9,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 10,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 11,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 12,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 13,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 14,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 15,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 16,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 17,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 18,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 19,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 20,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 21,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 22,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 23,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 23,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 24,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 24,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 25,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 25,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 26,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 26,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 27,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 27,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 28,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 28,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 29,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 29,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 30,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 30,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 31,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 31,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 32,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 32,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 33,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 33,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 34,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 34,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 35,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 35,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 36,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 36,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 37,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 37,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 38,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 38,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 39,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 39,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 40,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 40,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 41,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 41,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 42,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 42,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 43,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 43,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 44,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 44,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 45,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 45,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 46,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 46,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 47,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 47,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 48,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 48,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 49,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 49,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 50,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 50,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 51,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 51,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 52,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 52,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 53,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 53,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 54,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 54,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 55,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 55,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 56,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 56,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 57,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 57,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 58,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 58,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 59,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 59,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 60,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 60,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 61,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 61,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 62,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 62,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 63,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 63,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 64,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 64,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 65,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 65,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 66,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 66,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 67,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 67,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 68,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 68,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 69,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 69,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 70,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 70,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 71,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 71,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 72,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 72,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 73,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 73,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 74,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 74,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 75,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 75,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 76,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 76,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 77,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 77,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 78,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 78,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 79,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 79,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 80,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 80,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 81,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 81,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 82,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 82,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 83,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 83,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 84,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 84,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 85,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 85,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 86,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 86,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 87,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 87,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 88,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 88,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 89,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 89,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 90,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 90,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 91,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 91,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 92,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 92,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 93,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 93,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 94,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 94,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 95,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 95,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 96,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 96,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 97,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 97,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 98,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 98,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 99,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 99,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 100,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 100,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 101,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 101,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 102,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 102,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 103,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 103,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 104,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 104,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 105,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 105,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 106,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 106,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 107,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 107,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 108,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 108,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 109,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 109,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 110,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 110,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 111,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 111,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 112,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 112,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 113,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 113,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 114,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 114,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 115,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 115,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 116,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 116,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 117,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 117,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 118,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 118,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 119,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 119,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 120,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 120,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 121,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 121,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 122,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 122,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 123,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 123,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 124,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 124,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 125,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 125,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 126,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 126,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 127,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 127,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 128,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 128,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 129,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 129,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 130,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 130,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 131,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 131,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 132,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 132,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 133,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 133,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 134,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 134,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 135,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 135,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 136,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 136,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 137,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 137,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 138,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 138,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 139,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 139,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 140,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 140,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 141,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 141,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 142,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 142,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 143,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 143,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 144,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 144,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 145,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 145,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 146,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 146,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 147,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 147,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 148,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 148,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 149,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 149,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 150,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 150,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 151,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 151,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 152,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 152,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 153,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 153,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 154,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 154,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 155,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 155,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 156,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 156,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 157,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 157,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 158,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 158,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 159,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 159,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 160,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 160,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 161,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 161,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 162,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 162,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 163,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 163,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 164,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 164,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 165,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 165,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 166,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 166,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 167,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 167,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 168,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 168,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 169,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 169,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 170,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 170,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 171,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 171,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 172,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 172,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 173,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 173,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 174,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 174,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 175,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 175,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 176,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 176,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 177,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 177,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 178,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 178,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 179,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 179,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 180,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 180,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 181,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 181,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 182,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 182,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 183,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 183,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 184,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 184,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 185,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 185,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 186,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 186,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 187,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 187,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 188,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 188,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 189,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 189,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 190,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 190,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 191,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 191,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 192,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 192,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 193,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 193,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 194,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 194,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 195,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 195,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 196,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 196,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 197,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 197,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 198,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 198,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 199,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 199,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 200,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 200,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 201,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 201,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 202,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 202,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 203,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 203,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 204,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 204,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 205,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 205,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 206,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 206,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 207,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 207,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 208,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 208,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 209,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 209,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 210,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 210,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 211,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 211,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 212,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 212,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 213,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 213,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 214,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 214,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 215,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 215,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 216,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 216,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 217,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 217,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 218,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 218,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 219,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 219,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 220,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 220,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 221,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 221,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 222,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 222,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 223,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 223,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 224,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 224,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 225,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 225,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 226,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 226,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 227,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 227,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 228,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 228,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 229,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 229,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 230,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 230,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 231,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 231,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 232,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 232,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 233,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 233,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 234,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 234,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 235,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 235,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 236,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 236,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 237,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 237,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 238,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 238,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 239,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 239,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 240,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 240,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 241,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 241,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 242,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 242,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 243,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 243,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 244,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 244,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 245,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 245,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 246,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 246,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 247,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 247,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 248,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 248,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 249,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 249,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 250,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 250,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 251,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 251,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 252,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 252,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 253,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 253,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 254,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 254,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 255,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 255,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 256,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 256,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 257,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 257,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 258,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 258,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 259,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 259,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 260,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 260,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 261,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 261,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 262,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 262,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 263,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 263,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 264,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 264,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 265,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 265,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 266,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 266,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 267,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 267,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 268,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 268,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 269,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 269,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 270,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 270,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 271,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 271,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 272,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 272,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 273,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 273,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 274,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 274,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 275,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 275,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 276,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 276,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 277,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 277,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 278,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 278,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 279,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 279,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 280,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 280,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 281,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 281,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 282,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 282,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 283,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 283,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 284,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 284,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 285,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 285,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 286,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 286,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 287,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 287,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 288,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 288,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 289,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 289,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 290,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 290,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 291,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 291,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 292,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 292,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 293,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 293,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 294,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 294,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 295,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 295,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 296,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 296,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 297,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 297,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 298,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 298,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 299,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 299,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 300,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 300,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      },
+      {
+        "patchId": 301,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_8/src/java/org/apache/commons/cli/HelpFormatter.java",
+        "patchPoolId": 301,
+        "startPos": 25242,
+        "endPos": 25290,
+        "suspCodeStr": "pos \u003d findWrapPos(text, width, nextLineTabStop);"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 735,
+    "patchesGenerationTimeMs": 18
+  }
+]

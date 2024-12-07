@@ -1,0 +1,43 @@
+stmtLocation: org/jsoup/parser/HtmlTreeBuilder:394
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 808
+patchesGenerationTimeMs: 73
+patchId: 14
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_45/src/main/java/org/jsoup/parser/HtmlTreeBuilder.java
+patchPoolId: 14
+startPos: 13959
+endPos: 15476
+suspCodeStr: if (("td".equals(name) || "td".equals(name) && !last)) {
+                transition(HtmlTreeBuilderState.InCell);
+                break;
+            } else if ("tr".equals(name)) {
+                transition(HtmlTreeBuilderState.InRow);
+                break;
+            } else if ("tbody".equals(name) || "thead".equals(name) || "tfoot".equals(name)) {
+                transition(HtmlTreeBuilderState.InTableBody);
+                break;
+            } else if ("caption".equals(name)) {
+                transition(HtmlTreeBuilderState.InCaption);
+                break;
+            } else if ("colgroup".equals(name)) {
+                transition(HtmlTreeBuilderState.InColumnGroup);
+                break; // frag
+            } else if ("table".equals(name)) {
+                transition(HtmlTreeBuilderState.InTable);
+                break;
+            } else if ("head".equals(name)) {
+                transition(HtmlTreeBuilderState.InBody);
+                break; // frag
+            } else if ("body".equals(name)) {
+                transition(HtmlTreeBuilderState.InBody);
+                break;
+            } else if ("frameset".equals(name)) {
+                transition(HtmlTreeBuilderState.InFrameset);
+                break; // frag
+            } else if ("html".equals(name)) {
+                transition(HtmlTreeBuilderState.BeforeHead);
+                break; // frag
+            } else if (last) {
+                transition(HtmlTreeBuilderState.InBody);
+                break; // frag
+            }

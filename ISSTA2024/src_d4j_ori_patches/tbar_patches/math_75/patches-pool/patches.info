@@ -1,0 +1,186 @@
+[
+  {
+    "stmtLocation": "org/apache/commons/math/stat/Frequency:303",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_75/src/main/java/org/apache/commons/math/stat/Frequency.java",
+        "patchPoolId": 0,
+        "startPos": 9485,
+        "endPos": 9521,
+        "suspCodeStr": "return getCumPct((Comparable\u003c?\u003e) v);"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_75/src/main/java/org/apache/commons/math/stat/Frequency.java",
+        "patchPoolId": 1,
+        "startPos": 9485,
+        "endPos": 9521,
+        "suspCodeStr": "return getCumPct((Comparable\u003c?\u003e) v);"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_75/src/main/java/org/apache/commons/math/stat/Frequency.java",
+        "patchPoolId": 2,
+        "startPos": 9485,
+        "endPos": 9521,
+        "suspCodeStr": "return getCumPct((Comparable\u003c?\u003e) v);"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_75/src/main/java/org/apache/commons/math/stat/Frequency.java",
+        "patchPoolId": 3,
+        "startPos": 9485,
+        "endPos": 9521,
+        "suspCodeStr": "return getCumPct((Comparable\u003c?\u003e) v);"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_75/src/main/java/org/apache/commons/math/stat/Frequency.java",
+        "patchPoolId": 4,
+        "startPos": 9485,
+        "endPos": 9521,
+        "suspCodeStr": "return getCumPct((Comparable\u003c?\u003e) v);"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_75/src/main/java/org/apache/commons/math/stat/Frequency.java",
+        "patchPoolId": 5,
+        "startPos": 9485,
+        "endPos": 9521,
+        "suspCodeStr": "return getCumPct((Comparable\u003c?\u003e) v);"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_75/src/main/java/org/apache/commons/math/stat/Frequency.java",
+        "patchPoolId": 6,
+        "startPos": 9485,
+        "endPos": 9521,
+        "suspCodeStr": "return getCumPct((Comparable\u003c?\u003e) v);"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_75/src/main/java/org/apache/commons/math/stat/Frequency.java",
+        "patchPoolId": 7,
+        "startPos": 9485,
+        "endPos": 9521,
+        "suspCodeStr": "return getCumPct((Comparable\u003c?\u003e) v);"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_75/src/main/java/org/apache/commons/math/stat/Frequency.java",
+        "patchPoolId": 8,
+        "startPos": 9485,
+        "endPos": 9521,
+        "suspCodeStr": "return getCumPct((Comparable\u003c?\u003e) v);"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_75/src/main/java/org/apache/commons/math/stat/Frequency.java",
+        "patchPoolId": 9,
+        "startPos": 9485,
+        "endPos": 9521,
+        "suspCodeStr": "return getCumPct((Comparable\u003c?\u003e) v);"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_75/src/main/java/org/apache/commons/math/stat/Frequency.java",
+        "patchPoolId": 10,
+        "startPos": 9485,
+        "endPos": 9521,
+        "suspCodeStr": "return getCumPct((Comparable\u003c?\u003e) v);"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_75/src/main/java/org/apache/commons/math/stat/Frequency.java",
+        "patchPoolId": 11,
+        "startPos": 9485,
+        "endPos": 9521,
+        "suspCodeStr": "return getCumPct((Comparable\u003c?\u003e) v);"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_75/src/main/java/org/apache/commons/math/stat/Frequency.java",
+        "patchPoolId": 12,
+        "startPos": 9485,
+        "endPos": 9521,
+        "suspCodeStr": "return getCumPct((Comparable\u003c?\u003e) v);"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_75/src/main/java/org/apache/commons/math/stat/Frequency.java",
+        "patchPoolId": 13,
+        "startPos": 9485,
+        "endPos": 9521,
+        "suspCodeStr": "return getCumPct((Comparable\u003c?\u003e) v);"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_75/src/main/java/org/apache/commons/math/stat/Frequency.java",
+        "patchPoolId": 14,
+        "startPos": 9485,
+        "endPos": 9521,
+        "suspCodeStr": "return getCumPct((Comparable\u003c?\u003e) v);"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_75/src/main/java/org/apache/commons/math/stat/Frequency.java",
+        "patchPoolId": 15,
+        "startPos": 9485,
+        "endPos": 9521,
+        "suspCodeStr": "return getCumPct((Comparable\u003c?\u003e) v);"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_75/src/main/java/org/apache/commons/math/stat/Frequency.java",
+        "patchPoolId": 16,
+        "startPos": 9485,
+        "endPos": 9521,
+        "suspCodeStr": "return getCumPct((Comparable\u003c?\u003e) v);"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_75/src/main/java/org/apache/commons/math/stat/Frequency.java",
+        "patchPoolId": 17,
+        "startPos": 9485,
+        "endPos": 9521,
+        "suspCodeStr": "return getCumPct((Comparable\u003c?\u003e) v);"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_75/src/main/java/org/apache/commons/math/stat/Frequency.java",
+        "patchPoolId": 18,
+        "startPos": 9485,
+        "endPos": 9521,
+        "suspCodeStr": "return getCumPct((Comparable\u003c?\u003e) v);"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_75/src/main/java/org/apache/commons/math/stat/Frequency.java",
+        "patchPoolId": 19,
+        "startPos": 9485,
+        "endPos": 9521,
+        "suspCodeStr": "return getCumPct((Comparable\u003c?\u003e) v);"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_75/src/main/java/org/apache/commons/math/stat/Frequency.java",
+        "patchPoolId": 20,
+        "startPos": 9485,
+        "endPos": 9521,
+        "suspCodeStr": "return getCumPct((Comparable\u003c?\u003e) v);"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_75/src/main/java/org/apache/commons/math/stat/Frequency.java",
+        "patchPoolId": 21,
+        "startPos": 9485,
+        "endPos": 9521,
+        "suspCodeStr": "return getCumPct((Comparable\u003c?\u003e) v);"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 809,
+    "patchesGenerationTimeMs": 10
+  }
+]

@@ -1,0 +1,1346 @@
+[
+  {
+    "stmtLocation": "org/jfree/chart/block/BorderArrangement:455",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 0,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 1,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 2,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 3,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 4,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 5,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 6,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 7,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 8,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 9,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 10,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 11,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 12,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 13,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 14,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 15,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 16,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 17,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 18,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 19,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 20,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 21,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 22,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 23,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 23,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 24,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 24,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 25,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 25,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 26,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 26,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 27,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 27,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 28,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 28,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 29,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 29,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 30,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 30,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 31,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 31,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 32,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 32,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 33,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 33,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 34,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 34,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 35,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 35,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 36,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 36,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 37,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 37,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 38,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 38,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 39,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 39,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 40,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 40,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 41,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 41,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 42,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 42,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 43,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 43,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 44,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 44,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 45,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 45,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 46,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 46,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 47,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 47,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 48,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 48,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 49,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 49,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 50,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 50,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 51,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 51,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 52,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 52,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 53,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 53,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 54,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 54,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 55,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 55,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 56,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 56,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 57,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 57,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 58,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 58,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 59,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 59,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 60,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 60,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 61,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 61,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 62,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 62,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 63,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 63,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 64,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 64,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 65,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 65,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 66,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 66,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 67,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 67,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 68,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 68,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 69,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 69,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 70,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 70,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 71,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 71,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 72,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 72,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 73,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 73,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 74,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 74,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 75,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 75,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 76,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 76,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 77,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 77,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 78,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 78,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 79,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 79,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 80,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 80,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 81,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 81,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 82,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 82,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 83,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 83,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 84,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 84,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 85,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 85,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 86,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 86,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 87,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 87,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 88,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 88,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 89,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 89,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 90,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 90,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 91,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 91,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 92,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 92,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 93,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 93,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 94,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 94,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 95,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 95,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 96,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 96,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 97,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 97,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 98,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 98,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 99,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 99,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 100,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 100,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 101,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 101,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 102,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 102,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 103,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 103,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 104,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 104,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 105,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 105,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 106,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 106,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 107,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 107,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 108,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 108,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 109,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 109,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 110,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 110,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 111,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 111,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 112,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 112,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 113,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 113,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 114,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 114,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 115,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 115,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 116,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 116,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 117,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 117,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 118,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 118,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 119,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 119,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 120,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 120,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 121,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 121,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 122,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 122,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 123,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 123,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 124,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 124,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 125,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 125,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 126,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 126,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 127,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 127,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 128,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 128,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 129,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 129,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 130,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 130,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 131,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 131,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 132,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 132,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 133,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 133,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 134,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 134,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 135,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 135,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 136,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 136,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 137,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 137,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 138,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 138,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 139,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 139,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 140,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 140,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 141,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 141,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 142,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 142,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 143,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 143,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 144,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 144,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 145,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 145,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 146,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 146,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 147,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 147,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 148,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 148,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 149,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 149,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 150,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 150,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 151,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 151,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 152,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 152,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 153,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 153,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 154,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 154,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 155,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 155,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 156,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 156,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 157,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 157,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 158,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 158,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 159,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 159,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 160,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 160,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 161,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 161,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 162,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 162,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 163,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 163,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 164,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 164,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 165,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 165,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      },
+      {
+        "patchId": 166,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_13/source/org/jfree/chart/block/BorderArrangement.java",
+        "patchPoolId": 166,
+        "startPos": 17794,
+        "endPos": 18025,
+        "suspCodeStr": "RectangleConstraint c4 \u003d new RectangleConstraint(0.0,\r\n                    new Range(0.0, constraint.getWidth() - w[2]),\r\n                    LengthConstraintType.RANGE, h[2], null,\r\n                    LengthConstraintType.FIXED);"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 710,
+    "patchesGenerationTimeMs": 16
+  }
+]

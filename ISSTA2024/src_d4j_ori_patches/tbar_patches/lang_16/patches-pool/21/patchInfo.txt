@@ -1,0 +1,12 @@
+stmtLocation: org/apache/commons/lang3/math/NumberUtils:458
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 873
+patchesGenerationTimeMs: 68
+patchId: 21
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_16/src/main/java/org/apache/commons/lang3/math/NumberUtils.java
+patchPoolId: 21
+startPos: 16260
+endPos: 16361
+suspCodeStr: if (str.startsWith("0x") || str.startsWith("-0x")) {
+            return createInteger(str);
+        }

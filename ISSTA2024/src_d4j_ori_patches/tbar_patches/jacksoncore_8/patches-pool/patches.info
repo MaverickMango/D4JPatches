@@ -1,0 +1,266 @@
+[
+  {
+    "stmtLocation": "com/fasterxml/jackson/core/util/TextBuffer:307",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksoncore_8/src/main/java/com/fasterxml/jackson/core/util/TextBuffer.java",
+        "patchPoolId": 0,
+        "startPos": 9139,
+        "endPos": 9182,
+        "suspCodeStr": "if (!_hasSegments)  return _currentSegment;"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksoncore_8/src/main/java/com/fasterxml/jackson/core/util/TextBuffer.java",
+        "patchPoolId": 1,
+        "startPos": 9139,
+        "endPos": 9182,
+        "suspCodeStr": "if (!_hasSegments)  return _currentSegment;"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksoncore_8/src/main/java/com/fasterxml/jackson/core/util/TextBuffer.java",
+        "patchPoolId": 2,
+        "startPos": 9139,
+        "endPos": 9182,
+        "suspCodeStr": "if (!_hasSegments)  return _currentSegment;"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksoncore_8/src/main/java/com/fasterxml/jackson/core/util/TextBuffer.java",
+        "patchPoolId": 3,
+        "startPos": 9139,
+        "endPos": 9182,
+        "suspCodeStr": "if (!_hasSegments)  return _currentSegment;"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksoncore_8/src/main/java/com/fasterxml/jackson/core/util/TextBuffer.java",
+        "patchPoolId": 4,
+        "startPos": 9139,
+        "endPos": 9182,
+        "suspCodeStr": "if (!_hasSegments)  return _currentSegment;"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksoncore_8/src/main/java/com/fasterxml/jackson/core/util/TextBuffer.java",
+        "patchPoolId": 5,
+        "startPos": 9139,
+        "endPos": 9182,
+        "suspCodeStr": "if (!_hasSegments)  return _currentSegment;"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksoncore_8/src/main/java/com/fasterxml/jackson/core/util/TextBuffer.java",
+        "patchPoolId": 6,
+        "startPos": 9139,
+        "endPos": 9182,
+        "suspCodeStr": "if (!_hasSegments)  return _currentSegment;"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksoncore_8/src/main/java/com/fasterxml/jackson/core/util/TextBuffer.java",
+        "patchPoolId": 7,
+        "startPos": 9139,
+        "endPos": 9182,
+        "suspCodeStr": "if (!_hasSegments)  return _currentSegment;"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksoncore_8/src/main/java/com/fasterxml/jackson/core/util/TextBuffer.java",
+        "patchPoolId": 8,
+        "startPos": 9139,
+        "endPos": 9182,
+        "suspCodeStr": "if (!_hasSegments)  return _currentSegment;"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksoncore_8/src/main/java/com/fasterxml/jackson/core/util/TextBuffer.java",
+        "patchPoolId": 9,
+        "startPos": 9139,
+        "endPos": 9182,
+        "suspCodeStr": "if (!_hasSegments)  return _currentSegment;"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksoncore_8/src/main/java/com/fasterxml/jackson/core/util/TextBuffer.java",
+        "patchPoolId": 10,
+        "startPos": 9139,
+        "endPos": 9182,
+        "suspCodeStr": "if (!_hasSegments)  return _currentSegment;"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksoncore_8/src/main/java/com/fasterxml/jackson/core/util/TextBuffer.java",
+        "patchPoolId": 11,
+        "startPos": 9139,
+        "endPos": 9182,
+        "suspCodeStr": "if (!_hasSegments)  return _currentSegment;"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksoncore_8/src/main/java/com/fasterxml/jackson/core/util/TextBuffer.java",
+        "patchPoolId": 12,
+        "startPos": 9139,
+        "endPos": 9182,
+        "suspCodeStr": "if (!_hasSegments)  return _currentSegment;"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksoncore_8/src/main/java/com/fasterxml/jackson/core/util/TextBuffer.java",
+        "patchPoolId": 13,
+        "startPos": 9139,
+        "endPos": 9182,
+        "suspCodeStr": "if (!_hasSegments)  return _currentSegment;"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksoncore_8/src/main/java/com/fasterxml/jackson/core/util/TextBuffer.java",
+        "patchPoolId": 14,
+        "startPos": 9139,
+        "endPos": 9182,
+        "suspCodeStr": "if (!_hasSegments)  return _currentSegment;"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksoncore_8/src/main/java/com/fasterxml/jackson/core/util/TextBuffer.java",
+        "patchPoolId": 15,
+        "startPos": 9139,
+        "endPos": 9182,
+        "suspCodeStr": "if (!_hasSegments)  return _currentSegment;"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksoncore_8/src/main/java/com/fasterxml/jackson/core/util/TextBuffer.java",
+        "patchPoolId": 16,
+        "startPos": 9139,
+        "endPos": 9182,
+        "suspCodeStr": "if (!_hasSegments)  return _currentSegment;"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksoncore_8/src/main/java/com/fasterxml/jackson/core/util/TextBuffer.java",
+        "patchPoolId": 17,
+        "startPos": 9139,
+        "endPos": 9182,
+        "suspCodeStr": "if (!_hasSegments)  return _currentSegment;"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksoncore_8/src/main/java/com/fasterxml/jackson/core/util/TextBuffer.java",
+        "patchPoolId": 18,
+        "startPos": 9139,
+        "endPos": 9182,
+        "suspCodeStr": "if (!_hasSegments)  return _currentSegment;"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksoncore_8/src/main/java/com/fasterxml/jackson/core/util/TextBuffer.java",
+        "patchPoolId": 19,
+        "startPos": 9139,
+        "endPos": 9182,
+        "suspCodeStr": "if (!_hasSegments)  return _currentSegment;"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksoncore_8/src/main/java/com/fasterxml/jackson/core/util/TextBuffer.java",
+        "patchPoolId": 20,
+        "startPos": 9139,
+        "endPos": 9182,
+        "suspCodeStr": "if (!_hasSegments)  return _currentSegment;"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksoncore_8/src/main/java/com/fasterxml/jackson/core/util/TextBuffer.java",
+        "patchPoolId": 21,
+        "startPos": 9139,
+        "endPos": 9182,
+        "suspCodeStr": "if (!_hasSegments)  return _currentSegment;"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksoncore_8/src/main/java/com/fasterxml/jackson/core/util/TextBuffer.java",
+        "patchPoolId": 22,
+        "startPos": 9139,
+        "endPos": 9182,
+        "suspCodeStr": "if (!_hasSegments)  return _currentSegment;"
+      },
+      {
+        "patchId": 23,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksoncore_8/src/main/java/com/fasterxml/jackson/core/util/TextBuffer.java",
+        "patchPoolId": 23,
+        "startPos": 9139,
+        "endPos": 9182,
+        "suspCodeStr": "if (!_hasSegments)  return _currentSegment;"
+      },
+      {
+        "patchId": 24,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksoncore_8/src/main/java/com/fasterxml/jackson/core/util/TextBuffer.java",
+        "patchPoolId": 24,
+        "startPos": 9139,
+        "endPos": 9182,
+        "suspCodeStr": "if (!_hasSegments)  return _currentSegment;"
+      },
+      {
+        "patchId": 25,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksoncore_8/src/main/java/com/fasterxml/jackson/core/util/TextBuffer.java",
+        "patchPoolId": 25,
+        "startPos": 9139,
+        "endPos": 9182,
+        "suspCodeStr": "if (!_hasSegments)  return _currentSegment;"
+      },
+      {
+        "patchId": 26,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksoncore_8/src/main/java/com/fasterxml/jackson/core/util/TextBuffer.java",
+        "patchPoolId": 26,
+        "startPos": 9139,
+        "endPos": 9182,
+        "suspCodeStr": "if (!_hasSegments)  return _currentSegment;"
+      },
+      {
+        "patchId": 27,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksoncore_8/src/main/java/com/fasterxml/jackson/core/util/TextBuffer.java",
+        "patchPoolId": 27,
+        "startPos": 9139,
+        "endPos": 9182,
+        "suspCodeStr": "if (!_hasSegments)  return _currentSegment;"
+      },
+      {
+        "patchId": 28,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksoncore_8/src/main/java/com/fasterxml/jackson/core/util/TextBuffer.java",
+        "patchPoolId": 28,
+        "startPos": 9139,
+        "endPos": 9182,
+        "suspCodeStr": "if (!_hasSegments)  return _currentSegment;"
+      },
+      {
+        "patchId": 29,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksoncore_8/src/main/java/com/fasterxml/jackson/core/util/TextBuffer.java",
+        "patchPoolId": 29,
+        "startPos": 9139,
+        "endPos": 9182,
+        "suspCodeStr": "if (!_hasSegments)  return _currentSegment;"
+      },
+      {
+        "patchId": 30,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksoncore_8/src/main/java/com/fasterxml/jackson/core/util/TextBuffer.java",
+        "patchPoolId": 30,
+        "startPos": 9139,
+        "endPos": 9182,
+        "suspCodeStr": "if (!_hasSegments)  return _currentSegment;"
+      },
+      {
+        "patchId": 31,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksoncore_8/src/main/java/com/fasterxml/jackson/core/util/TextBuffer.java",
+        "patchPoolId": 31,
+        "startPos": 9139,
+        "endPos": 9182,
+        "suspCodeStr": "if (!_hasSegments)  return _currentSegment;"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 874,
+    "patchesGenerationTimeMs": 21
+  }
+]

@@ -1,0 +1,11 @@
+stmtLocation: org/jfree/chart/renderer/GrayPaintScale:126
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 687
+patchesGenerationTimeMs: 11
+patchId: 18
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_24/source/org/jfree/chart/renderer/GrayPaintScale.java
+patchPoolId: 18
+startPos: 3923
+endPos: 4029
+suspCodeStr: int g = (int) ((value - this.lowerBound) / (this.upperBound 
+                - this.lowerBound) * 255.0);

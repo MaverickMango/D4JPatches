@@ -1,0 +1,1290 @@
+[
+  {
+    "stmtLocation": "org/apache/commons/math/complex/Complex:258",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 0,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 1,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 2,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 3,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 4,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 5,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 6,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 7,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 8,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 9,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 10,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 11,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 12,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 13,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 14,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 15,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 16,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 17,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 18,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 19,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 20,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 21,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 22,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 23,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 23,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 24,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 24,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 25,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 25,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 26,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 26,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 27,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 27,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 28,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 28,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 29,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 29,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 30,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 30,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 31,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 31,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 32,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 32,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 33,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 33,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 34,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 34,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 35,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 35,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 36,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 36,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 37,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 37,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 38,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 38,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 39,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 39,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 40,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 40,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 41,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 41,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 42,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 42,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 43,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 43,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 44,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 44,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 45,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 45,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 46,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 46,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 47,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 47,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 48,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 48,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 49,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 49,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 50,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 50,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 51,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 51,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 52,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 52,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 53,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 53,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 54,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 54,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 55,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 55,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 56,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 56,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 57,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 57,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 58,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 58,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 59,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 59,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 60,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 60,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 61,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 61,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 62,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 62,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 63,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 63,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 64,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 64,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 65,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 65,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 66,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 66,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 67,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 67,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 68,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 68,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 69,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 69,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 70,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 70,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 71,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 71,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 72,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 72,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 73,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 73,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 74,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 74,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 75,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 75,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 76,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 76,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 77,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 77,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 78,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 78,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 79,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 79,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 80,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 80,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 81,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 81,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 82,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 82,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 83,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 83,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 84,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 84,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 85,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 85,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 86,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 86,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 87,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 87,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 88,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 88,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 89,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 89,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 90,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 90,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 91,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 91,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 92,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 92,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 93,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 93,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 94,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 94,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 95,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 95,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 96,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 96,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 97,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 97,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 98,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 98,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 99,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 99,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 100,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 100,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 101,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 101,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 102,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 102,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 103,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 103,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 104,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 104,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 105,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 105,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 106,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 106,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 107,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 107,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 108,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 108,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 109,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 109,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 110,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 110,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 111,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 111,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 112,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 112,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 113,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 113,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 114,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 114,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 115,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 115,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 116,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 116,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 117,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 117,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 118,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 118,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 119,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 119,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 120,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 120,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 121,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 121,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 122,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 122,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 123,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 123,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 124,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 124,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 125,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 125,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 126,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 126,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 127,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 127,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 128,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 128,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 129,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 129,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 130,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 130,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 131,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 131,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 132,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 132,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 133,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 133,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 134,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 134,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 135,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 135,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 136,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 136,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 137,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 137,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 138,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 138,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 139,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 139,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 140,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 140,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 141,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 141,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 142,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 142,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 143,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 143,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 144,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 144,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 145,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 145,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 146,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 146,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 147,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 147,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 148,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 148,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 149,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 149,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 150,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 150,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 151,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 151,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 152,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 152,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 153,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 153,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 154,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 154,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 155,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 155,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 156,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 156,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 157,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 157,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 158,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 158,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      },
+      {
+        "patchId": 159,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_96/src/java/org/apache/commons/math/complex/Complex.java",
+        "patchPoolId": 159,
+        "startPos": 9262,
+        "endPos": 9441,
+        "suspCodeStr": "ret \u003d (Double.doubleToRawLongBits(real) \u003d\u003d Double.doubleToRawLongBits(rhs.getReal())) \u0026\u0026 (Double.doubleToRawLongBits(imaginary) \u003d\u003d Double.doubleToRawLongBits(rhs.getImaginary()));"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 692,
+    "patchesGenerationTimeMs": 13
+  }
+]

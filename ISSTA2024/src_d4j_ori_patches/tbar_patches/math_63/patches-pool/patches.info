@@ -1,0 +1,842 @@
+[
+  {
+    "stmtLocation": "org/apache/commons/math/util/MathUtils:417",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 0,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 1,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 2,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 3,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 4,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 5,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 6,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 7,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 8,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 9,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 10,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 11,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 12,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 13,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 14,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 15,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 16,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 17,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 18,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 19,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 20,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 21,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 22,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 23,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 23,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 24,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 24,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 25,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 25,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 26,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 26,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 27,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 27,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 28,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 28,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 29,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 29,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 30,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 30,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 31,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 31,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 32,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 32,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 33,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 33,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 34,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 34,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 35,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 35,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 36,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 36,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 37,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 37,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 38,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 38,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 39,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 39,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 40,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 40,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 41,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 41,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 42,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 42,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 43,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 43,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 44,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 44,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 45,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 45,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 46,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 46,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 47,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 47,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 48,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 48,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 49,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 49,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 50,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 50,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 51,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 51,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 52,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 52,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 53,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 53,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 54,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 54,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 55,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 55,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 56,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 56,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 57,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 57,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 58,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 58,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 59,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 59,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 60,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 60,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 61,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 61,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 62,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 62,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 63,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 63,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 64,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 64,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 65,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 65,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 66,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 66,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 67,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 67,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 68,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 68,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 69,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 69,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 70,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 70,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 71,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 71,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 72,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 72,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 73,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 73,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 74,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 74,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 75,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 75,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 76,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 76,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 77,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 77,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 78,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 78,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 79,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 79,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 80,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 80,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 81,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 81,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 82,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 82,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 83,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 83,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 84,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 84,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 85,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 85,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 86,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 86,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 87,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 87,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 88,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 88,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 89,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 89,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 90,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 90,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 91,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 91,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 92,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 92,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 93,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 93,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 94,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 94,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 95,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 95,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 96,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 96,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 97,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 97,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 98,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 98,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 99,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 99,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 100,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 100,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 101,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 101,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 102,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 102,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      },
+      {
+        "patchId": 103,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_63/src/main/java/org/apache/commons/math/util/MathUtils.java",
+        "patchPoolId": 103,
+        "startPos": 14429,
+        "endPos": 14483,
+        "suspCodeStr": "return (Double.isNaN(x) \u0026\u0026 Double.isNaN(y)) || x \u003d\u003d y;"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 1188,
+    "patchesGenerationTimeMs": 27
+  }
+]

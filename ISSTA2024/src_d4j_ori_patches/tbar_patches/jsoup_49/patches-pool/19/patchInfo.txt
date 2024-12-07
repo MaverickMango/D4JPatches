@@ -1,0 +1,14 @@
+stmtLocation: org/jsoup/nodes/Node:445
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 849
+patchesGenerationTimeMs: 21
+patchId: 19
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_49/src/main/java/org/jsoup/nodes/Node.java
+patchPoolId: 19
+startPos: 14270
+endPos: 14433
+suspCodeStr: for (int i = children.length - 1; i >= 0; i--) {
+            Node in = children[i];
+            reparentChild(in);
+            childNodes.add(index, in);
+        }

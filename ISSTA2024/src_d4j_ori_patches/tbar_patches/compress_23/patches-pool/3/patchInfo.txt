@@ -1,0 +1,10 @@
+stmtLocation: org/apache/commons/compress/archivers/sevenz/Coders:112
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 539
+patchesGenerationTimeMs: 18
+patchId: 3
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_23/src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java
+patchPoolId: 3
+startPos: 4395
+endPos: 4444
+suspCodeStr: dictSize |= (coder.properties[i + 1] << (8 * i));

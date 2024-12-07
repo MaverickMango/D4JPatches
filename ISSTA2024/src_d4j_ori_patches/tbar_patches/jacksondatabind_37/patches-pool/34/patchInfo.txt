@@ -1,0 +1,11 @@
+stmtLocation: com/fasterxml/jackson/databind/type/SimpleType:135
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 1074
+patchesGenerationTimeMs: 52
+patchId: 34
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java
+patchPoolId: 34
+startPos: 5037
+endPos: 5167
+suspCodeStr: return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,
+                _valueHandler, _typeHandler, _asStatic);

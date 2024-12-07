@@ -1,0 +1,13 @@
+stmtLocation: org/apache/commons/cli/HelpFormatter:632
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 707
+patchesGenerationTimeMs: 21
+patchId: 20
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/cli_11/src/java/org/apache/commons/cli/HelpFormatter.java
+patchPoolId: 20
+startPos: 19042
+endPos: 19186
+suspCodeStr: if (option.hasArg() && (option.getArgName() != null))
+        {
+            buff.append(" <").append(option.getArgName()).append(">");
+        }

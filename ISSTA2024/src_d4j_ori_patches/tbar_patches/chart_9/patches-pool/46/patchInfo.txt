@@ -1,0 +1,12 @@
+stmtLocation: org/jfree/data/time/TimeSeries:944
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 1839
+patchesGenerationTimeMs: 29
+patchId: 46
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/chart_9/source/org/jfree/data/time/TimeSeries.java
+patchPoolId: 46
+startPos: 34415
+endPos: 34477
+suspCodeStr: if (endIndex < 0) {
+            emptyRange = true;
+        }

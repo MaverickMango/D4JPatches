@@ -1,0 +1,16 @@
+stmtLocation: org/apache/commons/math/optimization/linear/SimplexSolver:82
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 801
+patchesGenerationTimeMs: 24
+patchId: 51
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_82/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java
+patchPoolId: 51
+startPos: 3193
+endPos: 3441
+suspCodeStr: if (MathUtils.compareTo(entry, 0, epsilon) >= 0) {
+                final double ratio = rhs / entry;
+                if (ratio < minRatio) {
+                    minRatio = ratio;
+                    minRatioPos = i; 
+                }
+            }

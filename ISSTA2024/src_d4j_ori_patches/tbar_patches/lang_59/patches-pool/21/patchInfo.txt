@@ -1,0 +1,10 @@
+stmtLocation: org/apache/commons/lang/text/StrBuilder:884
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 1038
+patchesGenerationTimeMs: 79
+patchId: 21
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/lang_59/src/java/org/apache/commons/lang/text/StrBuilder.java
+patchPoolId: 21
+startPos: 29429
+endPos: 29467
+suspCodeStr: str.getChars(0, strLen, buffer, size);

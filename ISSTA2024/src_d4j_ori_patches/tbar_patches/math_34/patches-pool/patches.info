@@ -1,0 +1,114 @@
+[
+  {
+    "stmtLocation": "org/apache/commons/math3/genetics/ListPopulation:209",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_34/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java",
+        "patchPoolId": 0,
+        "startPos": 8245,
+        "endPos": 8275,
+        "suspCodeStr": "return chromosomes.iterator();"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_34/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java",
+        "patchPoolId": 1,
+        "startPos": 8245,
+        "endPos": 8275,
+        "suspCodeStr": "return chromosomes.iterator();"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_34/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java",
+        "patchPoolId": 2,
+        "startPos": 8245,
+        "endPos": 8275,
+        "suspCodeStr": "return chromosomes.iterator();"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_34/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java",
+        "patchPoolId": 3,
+        "startPos": 8245,
+        "endPos": 8275,
+        "suspCodeStr": "return chromosomes.iterator();"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_34/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java",
+        "patchPoolId": 4,
+        "startPos": 8245,
+        "endPos": 8275,
+        "suspCodeStr": "return chromosomes.iterator();"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_34/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java",
+        "patchPoolId": 5,
+        "startPos": 8245,
+        "endPos": 8275,
+        "suspCodeStr": "return chromosomes.iterator();"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_34/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java",
+        "patchPoolId": 6,
+        "startPos": 8245,
+        "endPos": 8275,
+        "suspCodeStr": "return chromosomes.iterator();"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_34/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java",
+        "patchPoolId": 7,
+        "startPos": 8245,
+        "endPos": 8275,
+        "suspCodeStr": "return chromosomes.iterator();"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_34/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java",
+        "patchPoolId": 8,
+        "startPos": 8245,
+        "endPos": 8275,
+        "suspCodeStr": "return chromosomes.iterator();"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_34/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java",
+        "patchPoolId": 9,
+        "startPos": 8245,
+        "endPos": 8275,
+        "suspCodeStr": "return chromosomes.iterator();"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_34/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java",
+        "patchPoolId": 10,
+        "startPos": 8245,
+        "endPos": 8275,
+        "suspCodeStr": "return chromosomes.iterator();"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_34/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java",
+        "patchPoolId": 11,
+        "startPos": 8245,
+        "endPos": 8275,
+        "suspCodeStr": "return chromosomes.iterator();"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_34/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java",
+        "patchPoolId": 12,
+        "startPos": 8245,
+        "endPos": 8275,
+        "suspCodeStr": "return chromosomes.iterator();"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 843,
+    "patchesGenerationTimeMs": 7
+  }
+]

@@ -1,0 +1,378 @@
+[
+  {
+    "stmtLocation": "org/apache/commons/math/linear/EigenDecompositionImpl:1135",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 0,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 1,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 2,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 3,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 4,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 5,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 6,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 7,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 8,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 9,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 10,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 11,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 12,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 13,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 14,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 15,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 16,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 17,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 18,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 19,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 20,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 21,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 22,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 23,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 23,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 24,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 24,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 25,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 25,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 26,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 26,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 27,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 27,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 28,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 28,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 29,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 29,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 30,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 30,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 31,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 31,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 32,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 32,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 33,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 33,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 34,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 34,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 35,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 35,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 36,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 36,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 37,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 37,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 38,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 38,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 39,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 39,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 40,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 40,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 41,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 41,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 42,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 42,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 43,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 43,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 44,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 44,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      },
+      {
+        "patchId": 45,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/math_80/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java",
+        "patchPoolId": 45,
+        "startPos": 41188,
+        "endPos": 41206,
+        "suspCodeStr": "int j \u003d 4 * n - 1;"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 768,
+    "patchesGenerationTimeMs": 39
+  }
+]

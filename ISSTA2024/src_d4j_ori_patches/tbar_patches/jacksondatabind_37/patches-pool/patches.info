@@ -1,0 +1,650 @@
+[
+  {
+    "stmtLocation": "com/fasterxml/jackson/databind/type/SimpleType:135",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 0,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 1,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 2,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 3,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 4,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 5,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 6,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 7,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 8,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 9,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 10,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 10,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 11,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 11,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 12,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 12,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 13,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 13,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 14,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 14,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 15,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 15,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 16,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 16,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 17,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 17,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 18,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 18,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 19,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 19,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 20,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 20,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 21,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 21,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 22,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 22,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 23,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 23,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 24,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 24,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 25,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 25,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 26,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 26,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 27,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 27,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 28,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 28,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 29,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 29,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 30,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 30,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 31,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 31,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 32,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 32,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 33,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 33,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 34,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 34,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 35,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 35,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 36,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 36,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 37,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 37,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 38,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 38,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 39,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 39,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 40,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 40,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 41,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 41,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 42,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 42,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 43,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 43,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 44,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 44,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 45,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 45,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 46,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 46,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 47,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 47,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 48,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 48,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 49,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 49,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 50,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 50,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 51,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 51,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 52,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 52,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 53,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 53,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 54,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 54,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 55,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 55,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 56,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 56,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 57,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 57,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 58,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 58,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 59,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 59,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 60,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 60,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 61,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 61,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 62,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 62,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 63,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 63,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 64,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 64,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 65,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 65,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 66,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 66,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 67,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 67,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 68,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 68,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 69,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 69,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 70,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 70,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 71,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 71,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 72,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 72,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 73,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 73,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 74,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 74,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 75,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 75,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 76,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 76,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 77,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 77,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 78,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 78,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      },
+      {
+        "patchId": 79,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_37/src/main/java/com/fasterxml/jackson/databind/type/SimpleType.java",
+        "patchPoolId": 79,
+        "startPos": 5037,
+        "endPos": 5167,
+        "suspCodeStr": "return new SimpleType(subclass, _bindings, _superClass, _superInterfaces,\n                _valueHandler, _typeHandler, _asStatic);"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 1074,
+    "patchesGenerationTimeMs": 14
+  }
+]

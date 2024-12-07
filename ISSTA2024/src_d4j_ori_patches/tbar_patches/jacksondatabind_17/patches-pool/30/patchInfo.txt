@@ -1,0 +1,13 @@
+stmtLocation: com/fasterxml/jackson/databind/ObjectMapper:180
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 1076
+patchesGenerationTimeMs: 64
+patchId: 30
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jacksondatabind_17/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java
+patchPoolId: 30
+startPos: 7406
+endPos: 7655
+suspCodeStr: return (t.getRawClass() == Object.class)
+                        || (!t.isConcrete()
+                                // [databind#88] Should not apply to JSON tree models:
+                        || TreeNode.class.isAssignableFrom(t.getRawClass()));

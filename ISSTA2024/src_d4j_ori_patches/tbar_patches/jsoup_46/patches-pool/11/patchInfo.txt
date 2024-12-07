@@ -1,0 +1,13 @@
+stmtLocation: org/jsoup/nodes/Entities:118
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 728
+patchesGenerationTimeMs: 24
+patchId: 11
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_46/src/main/java/org/jsoup/nodes/Entities.java
+patchPoolId: 11
+startPos: 4245
+endPos: 4406
+suspCodeStr: if (escapeMode != EscapeMode.xhtml)
+                            accum.append("&nbsp;");
+                        else
+                            accum.append(c);

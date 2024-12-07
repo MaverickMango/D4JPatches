@@ -1,0 +1,90 @@
+[
+  {
+    "stmtLocation": "org/apache/commons/csv/CSVParser:288",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_4/src/main/java/org/apache/commons/csv/CSVParser.java",
+        "patchPoolId": 0,
+        "startPos": 9811,
+        "endPos": 9869,
+        "suspCodeStr": "return new LinkedHashMap\u003cString, Integer\u003e(this.headerMap);"
+      },
+      {
+        "patchId": 1,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_4/src/main/java/org/apache/commons/csv/CSVParser.java",
+        "patchPoolId": 1,
+        "startPos": 9811,
+        "endPos": 9869,
+        "suspCodeStr": "return new LinkedHashMap\u003cString, Integer\u003e(this.headerMap);"
+      },
+      {
+        "patchId": 2,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_4/src/main/java/org/apache/commons/csv/CSVParser.java",
+        "patchPoolId": 2,
+        "startPos": 9811,
+        "endPos": 9869,
+        "suspCodeStr": "return new LinkedHashMap\u003cString, Integer\u003e(this.headerMap);"
+      },
+      {
+        "patchId": 3,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_4/src/main/java/org/apache/commons/csv/CSVParser.java",
+        "patchPoolId": 3,
+        "startPos": 9811,
+        "endPos": 9869,
+        "suspCodeStr": "return new LinkedHashMap\u003cString, Integer\u003e(this.headerMap);"
+      },
+      {
+        "patchId": 4,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_4/src/main/java/org/apache/commons/csv/CSVParser.java",
+        "patchPoolId": 4,
+        "startPos": 9811,
+        "endPos": 9869,
+        "suspCodeStr": "return new LinkedHashMap\u003cString, Integer\u003e(this.headerMap);"
+      },
+      {
+        "patchId": 5,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_4/src/main/java/org/apache/commons/csv/CSVParser.java",
+        "patchPoolId": 5,
+        "startPos": 9811,
+        "endPos": 9869,
+        "suspCodeStr": "return new LinkedHashMap\u003cString, Integer\u003e(this.headerMap);"
+      },
+      {
+        "patchId": 6,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_4/src/main/java/org/apache/commons/csv/CSVParser.java",
+        "patchPoolId": 6,
+        "startPos": 9811,
+        "endPos": 9869,
+        "suspCodeStr": "return new LinkedHashMap\u003cString, Integer\u003e(this.headerMap);"
+      },
+      {
+        "patchId": 7,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_4/src/main/java/org/apache/commons/csv/CSVParser.java",
+        "patchPoolId": 7,
+        "startPos": 9811,
+        "endPos": 9869,
+        "suspCodeStr": "return new LinkedHashMap\u003cString, Integer\u003e(this.headerMap);"
+      },
+      {
+        "patchId": 8,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_4/src/main/java/org/apache/commons/csv/CSVParser.java",
+        "patchPoolId": 8,
+        "startPos": 9811,
+        "endPos": 9869,
+        "suspCodeStr": "return new LinkedHashMap\u003cString, Integer\u003e(this.headerMap);"
+      },
+      {
+        "patchId": 9,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/csv_4/src/main/java/org/apache/commons/csv/CSVParser.java",
+        "patchPoolId": 9,
+        "startPos": 9811,
+        "endPos": 9869,
+        "suspCodeStr": "return new LinkedHashMap\u003cString, Integer\u003e(this.headerMap);"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 661,
+    "patchesGenerationTimeMs": 15
+  }
+]

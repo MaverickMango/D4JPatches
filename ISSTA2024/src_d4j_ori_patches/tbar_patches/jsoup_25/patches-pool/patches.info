@@ -1,0 +1,18 @@
+[
+  {
+    "stmtLocation": "org/jsoup/parser/Tag:218",
+    "#suspCodeNode": 1,
+    "patches": [
+      {
+        "patchId": 0,
+        "targetJavaFilePath": "/home/yicheng/research/mutd4j/d4j_scripts/d4jProj/jsoup_25/src/main/java/org/jsoup/parser/Tag.java",
+        "patchPoolId": 0,
+        "startPos": 7033,
+        "endPos": 7118,
+        "suspCodeStr": "private static final String[] preserveWhitespaceTags \u003d {\"pre\", \"plaintext\", \"title\"};"
+      }
+    ],
+    "parseSuspCodeNodeTimeMs": 603,
+    "patchesGenerationTimeMs": 22
+  }
+]

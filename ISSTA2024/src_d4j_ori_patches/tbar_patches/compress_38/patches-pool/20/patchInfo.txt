@@ -1,0 +1,12 @@
+stmtLocation: org/apache/commons/compress/archivers/tar/TarArchiveEntry:859
+#suspCodeNode: 1
+parseSuspCodeNodeTimeMs: 635
+patchesGenerationTimeMs: 57
+patchId: 20
+targetJavaFilePath: /home/yicheng/research/mutd4j/d4j_scripts/d4jProj/compress_38/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java
+patchPoolId: 20
+startPos: 24563
+endPos: 24628
+suspCodeStr: if (getName().endsWith("/")) {
+            return true;
+        }
