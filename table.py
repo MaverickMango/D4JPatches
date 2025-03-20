@@ -11,12 +11,12 @@ def split_str(value):
 
 
 def pivot_proj_tool(df):
-    tool_project_count = df.groupby(['tool', 'proj']).size().unstack(fill_value=0)
-    tool_project_patch_count = df.groupby(['tool', 'proj'])['patch'].nunique().unstack(fill_value=0)
+    tool_project_patch_count = df.groupby(['tool', 'proj']).size().unstack(fill_value=0)
+    tool_proj_bug_count = df.groupby(['tool', 'proj'])['bid'].nunique().unstack(fill_value=0)
     result = pd.DataFrame()
     for tool in df['tool'].unique():
-        result[f'{tool}_proj_count'] = tool_project_count.loc[tool]
         result[f'{tool}_patch_count'] = tool_project_patch_count.loc[tool]
+        result[f'{tool}_bug_count'] = tool_proj_bug_count.loc[tool]
     final_df = result.reset_index().rename(columns={'index': 'proj'})
     return final_df
 
