@@ -1,0 +1,8 @@
+,proj,alpharepair_proj_count,alpharepair_patch_count,recoder_proj_count,recoder_patch_count,simfix_proj_count,simfix_patch_count,selfapr_proj_count,selfapr_patch_count,edits_proj_count,edits_patch_count,rewardrepair_proj_count,rewardrepair_patch_count,coconut_proj_count,coconut_patch_count,cure_proj_count,cure_patch_count
+0,closure,0,0,0,0,0,0,0,0,0,0,0,0,51,39,0,0
+1,codec,0,0,0,0,0,0,0,0,0,0,0,0,15,14,0,0
+2,gson,0,0,0,0,0,0,0,0,0,0,0,0,12,12,0,0
+3,jacksoncore,0,0,0,0,0,0,0,0,0,0,0,0,10,10,0,0
+4,jsoup,0,0,0,0,0,0,0,0,0,0,0,0,27,24,0,0
+5,lang,43,40,43,36,32,32,14,14,0,0,27,25,53,41,9,9
+6,time,0,0,19,19,2,2,4,4,2,2,0,0,0,0,0,0

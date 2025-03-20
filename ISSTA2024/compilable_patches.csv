@@ -1,0 +1,17 @@
+,proj,alpharepair_proj_count,alpharepair_patch_count,rewardrepair_proj_count,rewardrepair_patch_count,cure_proj_count,cure_patch_count,coconut_proj_count,coconut_patch_count,selfapr_proj_count,selfapr_patch_count,recoder_proj_count,recoder_patch_count,simfix_proj_count,simfix_patch_count,edits_proj_count,edits_patch_count
+0,chart,0,0,0,0,0,0,50,42,0,0,0,0,0,0,0,0
+1,cli,1,1,0,0,0,0,35,32,0,0,0,0,0,0,0,0
+2,closure,0,0,0,0,0,0,102,59,0,0,0,0,0,0,0,0
+3,codec,2,2,0,0,0,0,30,22,0,0,0,0,0,0,0,0
+4,collections,0,0,0,0,0,0,19,19,0,0,0,0,0,0,0,0
+5,compress,0,0,0,0,0,0,35,30,0,0,0,0,0,0,0,0
+6,csv,0,0,0,0,0,0,32,27,0,0,0,0,0,0,0,0
+7,gson,0,0,0,0,0,0,12,12,0,0,0,0,0,0,0,0
+8,jacksoncore,0,0,0,0,0,0,20,20,0,0,0,0,0,0,0,0
+9,jacksondatabind,0,0,0,0,0,0,50,36,0,0,0,0,0,0,0,0
+10,jacksonxml,0,0,0,0,0,0,5,5,0,0,0,0,0,0,0,0
+11,jsoup,0,0,0,0,0,0,119,66,0,0,0,0,0,0,0,0
+12,jxpath,0,0,0,0,0,0,17,17,0,0,0,0,0,0,0,0
+13,lang,91,67,164,92,109,69,172,92,30,25,87,51,66,53,0,0
+14,math,1,1,0,0,0,0,70,52,0,0,0,0,0,0,0,0
+15,time,0,0,0,0,0,0,0,0,4,4,19,19,2,2,2,2
