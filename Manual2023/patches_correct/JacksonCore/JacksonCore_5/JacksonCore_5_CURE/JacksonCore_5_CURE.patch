@@ -1,0 +1,12 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/jacksoncore/jacksoncore_5_buggy/src/main/java/com/fasterxml/jackson/core/JsonPointer.java /mnt/D4JPatches/Manual2023/patches_correct/JacksonCore/JacksonCore_5/JacksonCore_5_CURE/src/main/java/com/fasterxml/jackson/core/JsonPointer.java
+--- /mnt/d4j_bug_info/buggyfiles/jacksoncore/jacksoncore_5_buggy/src/main/java/com/fasterxml/jackson/core/JsonPointer.java	2022-11-20 04:09:33.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/JacksonCore/JacksonCore_5/JacksonCore_5_CURE/src/main/java/com/fasterxml/jackson/core/JsonPointer.java	2023-11-13 22:37:06.000000000 -0800
+@@ -190,7 +190,7 @@
+             return -1;
+         }
+         for (int i = 0; i < len; ++i) {
+-            char c = str.charAt(i++);
++            char c = str.charAt(i);
+             if (c > '9' || c < '0') {
+                 return -1;
+             }

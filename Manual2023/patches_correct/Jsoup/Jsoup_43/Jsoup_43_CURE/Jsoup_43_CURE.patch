@@ -1,0 +1,12 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/jsoup/jsoup_43_buggy/src/main/java/org/jsoup/nodes/Element.java /mnt/D4JPatches/Manual2023/patches_correct/Jsoup/Jsoup_43/Jsoup_43_CURE/src/main/java/org/jsoup/nodes/Element.java
+--- /mnt/d4j_bug_info/buggyfiles/jsoup/jsoup_43_buggy/src/main/java/org/jsoup/nodes/Element.java	2022-11-20 04:09:33.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Jsoup/Jsoup_43/Jsoup_43_CURE/src/main/java/org/jsoup/nodes/Element.java	2023-11-13 22:37:06.000000000 -0800
+@@ -571,7 +571,7 @@
+ 
+         for (int i = 0; i < elements.size(); i++) {
+             E element = elements.get(i);
+-            if (element.equals(search))
++            if (element.equals(search) && (element == search))
+                 return i;
+         }
+         return null;

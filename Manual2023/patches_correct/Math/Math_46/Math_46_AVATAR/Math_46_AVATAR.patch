@@ -1,0 +1,12 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/math/math_46_buggy/src/main/java/org/apache/commons/math/complex/Complex.java /mnt/D4JPatches/Manual2023/patches_correct/Math/Math_46/Math_46_AVATAR/src/main/java/org/apache/commons/math/complex/Complex.java
+--- /mnt/d4j_bug_info/buggyfiles/math/math_46_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	2022-11-20 04:09:32.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Math/Math_46/Math_46_AVATAR/src/main/java/org/apache/commons/math/complex/Complex.java	2023-11-13 22:37:06.000000000 -0800
+@@ -257,7 +257,7 @@
+ 
+         if (divisor.isZero) {
+             // return isZero ? NaN : INF; // See MATH-657
+-            return isZero ? NaN : INF;
++            return NaN;
+         }
+ 
+         if (divisor.isInfinite() && !isInfinite()) {

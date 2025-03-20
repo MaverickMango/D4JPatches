@@ -1,0 +1,13 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/lang/lang_55_buggy/src/java/org/apache/commons/lang/time/StopWatch.java /mnt/D4JPatches/Manual2023/patches_correct/Lang/Lang_55/Lang_55_Jaid/src/java/org/apache/commons/lang/time/StopWatch.java
+--- /mnt/d4j_bug_info/buggyfiles/lang/lang_55_buggy/src/java/org/apache/commons/lang/time/StopWatch.java	2022-11-20 04:09:31.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Lang/Lang_55/Lang_55_Jaid/src/java/org/apache/commons/lang/time/StopWatch.java	2023-11-13 22:37:06.000000000 -0800
+@@ -115,7 +115,9 @@
+         if(this.runningState != STATE_RUNNING && this.runningState != STATE_SUSPENDED) {
+             throw new IllegalStateException("Stopwatch is not running. ");
+         }
++        if(!((this.runningState == 1) == false)){
+             stopTime = System.currentTimeMillis();
++        }
+         this.runningState = STATE_STOPPED;
+     }
+ 

@@ -1,0 +1,195 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/lang/lang_44_buggy/src/java/org/apache/commons/lang/NumberUtils.java /mnt/D4JPatches/Manual2023/patches_correct/Lang/Lang_44/Lang_44_AVATAR/src/java/org/apache/commons/lang/NumberUtils.java
+--- /mnt/d4j_bug_info/buggyfiles/lang/lang_44_buggy/src/java/org/apache/commons/lang/NumberUtils.java	2022-11-20 04:09:31.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Lang/Lang_44/Lang_44_AVATAR/src/java/org/apache/commons/lang/NumberUtils.java	2023-11-13 22:37:06.000000000 -0800
+@@ -34,8 +34,8 @@
+  *             Class will be removed in Commons Lang 3.0.
+  */
+ public final class NumberUtils {
+-    // DEPRECATED CLASS !!!
+     
++    // DEPRECATED CLASS !!!
+     /**
+      * <p><code>NumberUtils</code> instances should NOT be constructed in standard programming.
+      * Instead, the class should be used as <code>NumberUtils.stringToInt("6");</code>.</p>
+@@ -48,7 +48,6 @@
+     }
+ 
+     //--------------------------------------------------------------------
+-    
+     /**
+      * <p>Convert a <code>String</code> to an <code>int</code>, returning
+      * <code>zero</code> if the conversion fails.</p>
+@@ -78,7 +77,6 @@
+     }
+ 
+     //--------------------------------------------------------------------
+-    
+     // must handle Long, Float, Integer, Float, Short,
+     //                  BigDecimal, BigInteger and Byte
+     // useful methods:
+@@ -113,7 +111,6 @@
+     // Possible inputs:
+     // 45 45.5 45E7 4.5E7 Hex Oct Binary xxxF xxxD xxxf xxxd
+     // plus minus everything. Prolly more. A lot are not separable.
+-
+     /**
+      * <p>Turns a string value into a java.lang.Number.</p>
+      *
+@@ -158,9 +155,7 @@
+         String exp;
+         int decPos = val.indexOf('.');
+         int expPos = val.indexOf('e') + val.indexOf('E') + 1;
+-
+         if (decPos > -1) {
+-
+             if (expPos > -1) {
+                 if (expPos < decPos) {
+                     throw new NumberFormatException(val + " is not a valid number.");
+@@ -190,16 +185,13 @@
+             switch (lastChar) {
+                 case 'l' :
+                 case 'L' :
+-                    if (dec == null
+-                        && exp == null
+-                        && (numeric.charAt(0) == '-' && isDigits(numeric.substring(1)) || isDigits(numeric))) {
++                    if (dec == null || exp == null && (numeric.charAt(0) == '-' && isDigits(numeric.substring(1)) || isDigits(numeric))) {
+                         try {
+                             return createLong(numeric);
+                         } catch (NumberFormatException nfe) {
+                             //Too big for a long
+                         }
+                         return createBigInteger(numeric);
+-
+                     }
+                     throw new NumberFormatException(val + " is not a valid number.");
+                 case 'f' :
+@@ -211,7 +203,6 @@
+                             //has non-zeros in it, then float does not have the precision we want
+                             return f;
+                         }
+-
+                     } catch (NumberFormatException e) {
+                         // ignore the bad number
+                     }
+@@ -234,7 +225,6 @@
+                     //Fall through
+                 default :
+                     throw new NumberFormatException(val + " is not a valid number.");
+-
+             }
+         } else {
+             //User doesn't have a preference on the return type, so let's start
+@@ -257,7 +247,6 @@
+                     // empty catch
+                 }
+                 return createBigInteger(val);
+-
+             } else {
+                 //Must be a float,double,BigDec
+                 boolean allZeros = isAllZeros(mant) && isAllZeros(exp);
+@@ -277,11 +266,8 @@
+                 } catch (NumberFormatException nfe) {
+                     // empty catch
+                 }
+-
+                 return createBigDecimal(val);
+-
+             }
+-
+         }
+     }
+ 
+@@ -306,7 +292,6 @@
+     }
+ 
+     //--------------------------------------------------------------------
+-    
+     /**
+      * <p>Convert a <code>String</code> to a <code>Float</code>.</p>
+      * 
+@@ -378,7 +363,6 @@
+     }
+ 
+     //--------------------------------------------------------------------
+-    
+     /**
+      * <p>Gets the minimum of three <code>long</code> values.</p>
+      * 
+@@ -452,7 +436,6 @@
+     }
+ 
+     //--------------------------------------------------------------------
+-    
+     /**
+      * <p>Compares two <code>doubles</code> for order.</p>
+      *
+@@ -578,7 +561,6 @@
+     }
+     
+     //--------------------------------------------------------------------
+-    
+     /**
+      * <p>Checks whether the <code>String</code> contains only
+      * digit characters.</p>
+@@ -630,20 +612,20 @@
+             if (chars[start] == '0' && chars[start + 1] == 'x') {
+                 int i = start + 2;
+                 if (i == sz) {
+-                    return false; // str == "0x"
++                    // str == "0x"
++                    return false;
+                 }
+                 // checking hex (it can't be anything else)
+                 for (; i < chars.length; i++) {
+-                    if ((chars[i] < '0' || chars[i] > '9')
+-                        && (chars[i] < 'a' || chars[i] > 'f')
+-                        && (chars[i] < 'A' || chars[i] > 'F')) {
++                    if ((chars[i] < '0' || chars[i] > '9') && (chars[i] < 'a' || chars[i] > 'f') && (chars[i] < 'A' || chars[i] > 'F')) {
+                         return false;
+                     }
+                 }
+                 return true;
+             }
+         }
+-        sz--; // don't want to loop to the last char, check it afterwords
++        // don't want to loop to the last char, check it afterwords
++        sz--;
+               // for type qualifiers
+         int i = start;
+         // loop to the next to last char or to the last char if we need another digit to
+@@ -652,7 +634,6 @@
+             if (chars[i] >= '0' && chars[i] <= '9') {
+                 foundDigit = true;
+                 allowSigns = false;
+-
+             } else if (chars[i] == '.') {
+                 if (hasDecPoint || hasExp) {
+                     // two decimal points or dec in exponent   
+@@ -675,7 +656,8 @@
+                     return false;
+                 }
+                 allowSigns = false;
+-                foundDigit = false; // we need a digit after the E
++                // we need a digit after the E
++                foundDigit = false;
+             } else {
+                 return false;
+             }
+@@ -690,15 +672,10 @@
+                 // can't have an E at the last byte
+                 return false;
+             }
+-            if (!allowSigns
+-                && (chars[i] == 'd'
+-                    || chars[i] == 'D'
+-                    || chars[i] == 'f'
+-                    || chars[i] == 'F')) {
++            if (!allowSigns && (chars[i] == 'd' || chars[i] == 'D' || chars[i] == 'f' || chars[i] == 'F')) {
+                 return foundDigit;
+             }
+-            if (chars[i] == 'l'
+-                || chars[i] == 'L') {
++            if (chars[i] == 'l' || chars[i] == 'L') {
+                 // not allowing L with an exponent
+                 return foundDigit && !hasExp;
+             }

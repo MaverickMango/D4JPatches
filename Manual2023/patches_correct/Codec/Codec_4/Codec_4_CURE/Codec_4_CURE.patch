@@ -1,0 +1,12 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/codec/codec_4_buggy/src/java/org/apache/commons/codec/binary/Base64.java /mnt/D4JPatches/Manual2023/patches_correct/Codec/Codec_4/Codec_4_CURE/src/java/org/apache/commons/codec/binary/Base64.java
+--- /mnt/d4j_bug_info/buggyfiles/codec/codec_4_buggy/src/java/org/apache/commons/codec/binary/Base64.java	2022-11-20 04:09:32.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Codec/Codec_4/Codec_4_CURE/src/java/org/apache/commons/codec/binary/Base64.java	2023-11-13 22:37:06.000000000 -0800
+@@ -222,7 +222,7 @@
+      * </p>
+      */
+     public Base64() {
+-        this(false);
++        this(0);
+     }
+ 
+     /**

@@ -1,0 +1,12 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/closure/closure_104_buggy/src/com/google/javascript/rhino/jstype/UnionType.java /mnt/D4JPatches/Manual2023/patches_correct/Closure/Closure_104/Closure_104_/src/com/google/javascript/rhino/jstype/UnionType.java
+--- /mnt/d4j_bug_info/buggyfiles/closure/closure_104_buggy/src/com/google/javascript/rhino/jstype/UnionType.java	2022-11-20 04:09:31.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Closure/Closure_104/Closure_104_/src/com/google/javascript/rhino/jstype/UnionType.java	2023-11-13 22:37:06.000000000 -0800
+@@ -288,7 +288,7 @@
+       builder.addAlternate(that);
+     }
+     JSType result = builder.build();
+-    if (result != null) {
++    if (!result.isNoType()) {
+       return result;
+     } else if (this.isObject() && that.isObject()) {
+       return getNativeType(JSTypeNative.NO_OBJECT_TYPE);

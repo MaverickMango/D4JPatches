@@ -1,0 +1,14 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/math/math_50_buggy/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java /mnt/D4JPatches/Manual2023/patches_correct/Math/Math_50/Math_50_SOFix/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
+--- /mnt/d4j_bug_info/buggyfiles/math/math_50_buggy/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java	2022-11-20 04:09:32.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Math/Math_50/Math_50_SOFix/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java	2023-11-13 22:37:06.000000000 -0800
+@@ -184,10 +184,6 @@
+                     break;
+                 case REGULA_FALSI:
+                     // Nothing.
+-                    if (x == x1) {
+-                        x0 = 0.5 * (x0 + x1 - FastMath.max(rtol * FastMath.abs(x1), atol));
+-                        f0 = computeObjectiveValue(x0);
+-                    }
+                     break;
+                 default:
+                     // Should never happen.

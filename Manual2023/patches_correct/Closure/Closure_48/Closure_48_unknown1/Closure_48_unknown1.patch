@@ -1,0 +1,1657 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/closure/closure_48_buggy/src/com/google/javascript/jscomp/TypedScopeCreator.java /mnt/D4JPatches/Manual2023/patches_correct/Closure/Closure_48/Closure_48_unknown1/src/com/google/javascript/jscomp/TypedScopeCreator.java
+--- /mnt/d4j_bug_info/buggyfiles/closure/closure_48_buggy/src/com/google/javascript/jscomp/TypedScopeCreator.java	2022-11-20 04:09:31.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Closure/Closure_48/Closure_48_unknown1/src/com/google/javascript/jscomp/TypedScopeCreator.java	2023-11-13 22:37:06.000000000 -0800
+@@ -13,7 +13,6 @@
+  * See the License for the specific language governing permissions and
+  * limitations under the License.
+  */
+-
+ package com.google.javascript.jscomp;
+ 
+ import static com.google.javascript.jscomp.TypeCheck.ENUM_NOT_CONSTANT;
+@@ -45,7 +44,6 @@
+ import static com.google.javascript.rhino.jstype.JSTypeNative.UNKNOWN_TYPE;
+ import static com.google.javascript.rhino.jstype.JSTypeNative.URI_ERROR_FUNCTION_TYPE;
+ import static com.google.javascript.rhino.jstype.JSTypeNative.VOID_TYPE;
+-
+ import com.google.common.annotations.VisibleForTesting;
+ import com.google.common.base.Preconditions;
+ import com.google.common.collect.ImmutableList;
+@@ -71,11 +69,9 @@
+ import com.google.javascript.rhino.jstype.JSTypeNative;
+ import com.google.javascript.rhino.jstype.JSTypeRegistry;
+ import com.google.javascript.rhino.jstype.ObjectType;
+-
+ import java.util.Iterator;
+ import java.util.List;
+ import java.util.Map;
+-
+ import javax.annotation.Nullable;
+ 
+ /**
+@@ -93,66 +89,51 @@
+  * @author nicksantos@google.com (Nick Santos)
+  */
+ final class TypedScopeCreator implements ScopeCreator {
++
+   /**
+    * A suffix for naming delegate proxies differently from their base.
+    */
+-  static final String DELEGATE_PROXY_SUFFIX =
+-      ObjectType.createDelegateSuffix("Proxy");
++    static final String DELEGATE_PROXY_SUFFIX = ObjectType.createDelegateSuffix("Proxy");
++
++    static final DiagnosticType MALFORMED_TYPEDEF = DiagnosticType.warning("JSC_MALFORMED_TYPEDEF", "Typedef for {0} does not have any type information");
++
++    static final DiagnosticType ENUM_INITIALIZER = DiagnosticType.warning("JSC_ENUM_INITIALIZER_NOT_ENUM", "enum initializer must be an object literal or an enum");
++
++    static final DiagnosticType CTOR_INITIALIZER = DiagnosticType.warning("JSC_CTOR_INITIALIZER_NOT_CTOR", "Constructor {0} must be initialized at declaration");
++
++    static final DiagnosticType IFACE_INITIALIZER = DiagnosticType.warning("JSC_IFACE_INITIALIZER_NOT_IFACE", "Interface {0} must be initialized at declaration");
++
++    static final DiagnosticType CONSTRUCTOR_EXPECTED = DiagnosticType.warning("JSC_REFLECT_CONSTRUCTOR_EXPECTED", "Constructor expected as first argument");
+ 
+-  static final DiagnosticType MALFORMED_TYPEDEF =
+-      DiagnosticType.warning(
+-          "JSC_MALFORMED_TYPEDEF",
+-          "Typedef for {0} does not have any type information");
+-
+-  static final DiagnosticType ENUM_INITIALIZER =
+-      DiagnosticType.warning(
+-          "JSC_ENUM_INITIALIZER_NOT_ENUM",
+-          "enum initializer must be an object literal or an enum");
+-
+-  static final DiagnosticType CTOR_INITIALIZER =
+-      DiagnosticType.warning(
+-          "JSC_CTOR_INITIALIZER_NOT_CTOR",
+-          "Constructor {0} must be initialized at declaration");
+-
+-  static final DiagnosticType IFACE_INITIALIZER =
+-      DiagnosticType.warning(
+-          "JSC_IFACE_INITIALIZER_NOT_IFACE",
+-          "Interface {0} must be initialized at declaration");
+-
+-  static final DiagnosticType CONSTRUCTOR_EXPECTED =
+-      DiagnosticType.warning(
+-          "JSC_REFLECT_CONSTRUCTOR_EXPECTED",
+-          "Constructor expected as first argument");
+-
+-  static final DiagnosticType UNKNOWN_LENDS =
+-      DiagnosticType.warning(
+-          "JSC_UNKNOWN_LENDS",
+-          "Variable {0} not declared before @lends annotation.");
+-
+-  static final DiagnosticType LENDS_ON_NON_OBJECT =
+-      DiagnosticType.warning(
+-          "JSC_LENDS_ON_NON_OBJECT",
+-          "May only lend properties to object types. {0} has type {1}.");
++    static final DiagnosticType UNKNOWN_LENDS = DiagnosticType.warning("JSC_UNKNOWN_LENDS", "Variable {0} not declared before @lends annotation.");
++
++    static final DiagnosticType LENDS_ON_NON_OBJECT = DiagnosticType.warning("JSC_LENDS_ON_NON_OBJECT", "May only lend properties to object types. {0} has type {1}.");
+ 
+   private final AbstractCompiler compiler;
++
+   private final ErrorReporter typeParsingErrorReporter;
++
+   private final TypeValidator validator;
++
+   private final CodingConvention codingConvention;
++
+   private final JSTypeRegistry typeRegistry;
++
+   private final List<ObjectType> delegateProxyPrototypes = Lists.newArrayList();
+-  private final Map<String, String> delegateCallingConventions =
+-      Maps.newHashMap();
++
++    private final Map<String, String> delegateCallingConventions = Maps.newHashMap();
+ 
+   // Simple properties inferred about functions.
+-  private final Map<Node, AstFunctionContents> functionAnalysisResults =
+-      Maps.newHashMap();
++    private final Map<Node, AstFunctionContents> functionAnalysisResults = Maps.newHashMap();
+ 
+   /**
+    * Defer attachment of types to nodes until all type names
+    * have been resolved. Then, we can resolve the type and attach it.
+    */
+   private class DeferredSetType {
++
+     final Node node;
++
+     final JSType type;
+ 
+     DeferredSetType(Node node, JSType type) {
+@@ -160,7 +141,6 @@
+       Preconditions.checkNotNull(type);
+       this.node = node;
+       this.type = type;
+-
+       // Other parts of this pass may read off the node.
+       // (like when we set the LHS of an assign with a typed RHS function.)
+       node.setJSType(type);
+@@ -175,8 +155,7 @@
+     this(compiler, compiler.getCodingConvention());
+   }
+ 
+-  TypedScopeCreator(AbstractCompiler compiler,
+-      CodingConvention codingConvention) {
++    TypedScopeCreator(AbstractCompiler compiler, CodingConvention codingConvention) {
+     this.compiler = compiler;
+     this.validator = compiler.getTypeValidator();
+     this.codingConvention = codingConvention;
+@@ -197,12 +176,9 @@
+     AbstractScopeBuilder scopeBuilder = null;
+     if (parent == null) {
+       // Run a first-order analysis over the syntax tree.
+-      (new FirstOrderFunctionAnalyzer(compiler, functionAnalysisResults))
+-          .process(root.getFirstChild(), root.getLastChild());
+-
++            (new FirstOrderFunctionAnalyzer(compiler, functionAnalysisResults)).process(root.getFirstChild(), root.getLastChild());
+       // Find all the classes in the global scope.
+       newScope = createInitialScope(root);
+-
+       GlobalScopeBuilder globalScopeBuilder = new GlobalScopeBuilder(newScope);
+       scopeBuilder = globalScopeBuilder;
+       NodeTraversal.traverse(compiler, root, scopeBuilder);
+@@ -212,10 +188,8 @@
+       scopeBuilder = localScopeBuilder;
+       localScopeBuilder.build();
+     }
+-
+     scopeBuilder.resolveStubDeclarations();
+     scopeBuilder.resolveTypes();
+-
+     // Gather the properties in each function that we found in the
+     // global scope, if that function has a @this type that we can
+     // build properties on.
+@@ -225,16 +199,12 @@
+         FunctionType fnType = type.toMaybeFunctionType();
+         ObjectType fnThisType = fnType.getTypeOfThis();
+         if (!fnThisType.isUnknownType()) {
+-          NodeTraversal.traverse(compiler, functionNode.getLastChild(),
+-              scopeBuilder.new CollectProperties(fnThisType));
++                    NodeTraversal.traverse(compiler, functionNode.getLastChild(), scopeBuilder.new CollectProperties(fnThisType));
+         }
+       }
+     }
+-
+     if (parent == null) {
+-      codingConvention.defineDelegateProxyPrototypeProperties(
+-          typeRegistry, newScope, delegateProxyPrototypes,
+-          delegateCallingConventions);
++            codingConvention.defineDelegateProxyPrototypeProperties(typeRegistry, newScope, delegateProxyPrototypes, delegateCallingConventions);
+     }
+     return newScope;
+   }
+@@ -252,7 +222,6 @@
+     Preconditions.checkState(scriptRoot.isScript());
+     Preconditions.checkNotNull(globalScope);
+     Preconditions.checkState(globalScope.isGlobal());
+-
+     String scriptName = NodeUtil.getSourceName(scriptRoot);
+     Preconditions.checkNotNull(scriptName);
+     for (Node node : ImmutableList.copyOf(functionAnalysisResults.keySet())) {
+@@ -260,13 +229,9 @@
+         functionAnalysisResults.remove(node);
+       }
+     }
+-
+-    (new FirstOrderFunctionAnalyzer(
+-        compiler, functionAnalysisResults)).process(null, scriptRoot);
+-
++        (new FirstOrderFunctionAnalyzer(compiler, functionAnalysisResults)).process(null, scriptRoot);
+     // TODO(bashir): Variable declaration is not the only side effect of last
+     // global scope generation but here we only wipe that part off!
+-
+     // Remove all variables that were previously declared in this scripts.
+     // First find all vars to remove then remove them because of iterator!
+     Iterator<Var> varIter = globalScope.getVars();
+@@ -281,7 +246,6 @@
+       globalScope.undeclare(var);
+       globalScope.getTypeOfThis().removeProperty(var.getName());
+     }
+-
+     // Now re-traverse the given script.
+     GlobalScopeBuilder scopeBuilder = new GlobalScopeBuilder(globalScope);
+     NodeTraversal.traverse(compiler, scriptRoot, scopeBuilder);
+@@ -293,10 +257,7 @@
+    */
+   @VisibleForTesting
+   Scope createInitialScope(Node root) {
+-
+-    NodeTraversal.traverse(
+-        compiler, root, new DiscoverEnumsAndTypedefs(typeRegistry));
+-
++        NodeTraversal.traverse(compiler, root, new DiscoverEnumsAndTypedefs(typeRegistry));
+     Scope s = new Scope(root, compiler);
+     declareNativeFunctionType(s, ARRAY_FUNCTION_TYPE);
+     declareNativeFunctionType(s, BOOLEAN_OBJECT_FUNCTION_TYPE);
+@@ -314,24 +275,20 @@
+     declareNativeFunctionType(s, TYPE_ERROR_FUNCTION_TYPE);
+     declareNativeFunctionType(s, URI_ERROR_FUNCTION_TYPE);
+     declareNativeValueType(s, "undefined", VOID_TYPE);
+-
+     // ActiveXObject is unqiuely special, because it can be used to construct
+     // any type (the type that it creates is related to the arguments you
+     // pass to it).
+     declareNativeValueType(s, "ActiveXObject", NO_OBJECT_TYPE);
+-
+     return s;
+   }
+ 
+   private void declareNativeFunctionType(Scope scope, JSTypeNative tId) {
+     FunctionType t = typeRegistry.getNativeFunctionType(tId);
+     declareNativeType(scope, t.getInstanceType().getReferenceName(), t);
+-    declareNativeType(
+-        scope, t.getPrototype().getReferenceName(), t.getPrototype());
++        declareNativeType(scope, t.getPrototype().getReferenceName(), t.getPrototype());
+   }
+ 
+-  private void declareNativeValueType(Scope scope, String name,
+-      JSTypeNative tId) {
++    private void declareNativeValueType(Scope scope, String name, JSTypeNative tId) {
+     declareNativeType(scope, name, typeRegistry.getNativeType(tId));
+   }
+ 
+@@ -339,8 +296,8 @@
+     scope.declare(name, null, t, null, false);
+   }
+ 
+-  private static class DiscoverEnumsAndTypedefs
+-      extends AbstractShallowStatementCallback {
++    private static class DiscoverEnumsAndTypedefs extends AbstractShallowStatementCallback {
++
+     private final JSTypeRegistry registry;
+ 
+     DiscoverEnumsAndTypedefs(JSTypeRegistry registry) {
+@@ -352,29 +309,22 @@
+       Node nameNode = null;
+       switch (node.getType()) {
+         case Token.VAR:
+-          for (Node child = node.getFirstChild();
+-               child != null; child = child.getNext()) {
+-            identifyNameNode(
+-                child, child.getFirstChild(),
+-                NodeUtil.getBestJSDocInfo(child));
++                    for (Node child = node.getFirstChild(); child != null; child = child.getNext()) {
++                        identifyNameNode(child, child.getFirstChild(), NodeUtil.getBestJSDocInfo(child));
+           }
+           break;
+         case Token.EXPR_RESULT:
+           Node firstChild = node.getFirstChild();
+           if (firstChild.isAssign()) {
+-            identifyNameNode(
+-                firstChild.getFirstChild(), firstChild.getLastChild(),
+-                firstChild.getJSDocInfo());
++                        identifyNameNode(firstChild.getFirstChild(), firstChild.getLastChild(), firstChild.getJSDocInfo());
+           } else {
+-            identifyNameNode(
+-                firstChild, null, firstChild.getJSDocInfo());
++                        identifyNameNode(firstChild, null, firstChild.getJSDocInfo());
+           }
+           break;
+       }
+     }
+ 
+-    private void identifyNameNode(
+-        Node nameNode, Node valueNode, JSDocInfo info) {
++        private void identifyNameNode(Node nameNode, Node valueNode, JSDocInfo info) {
+       if (nameNode.isQualifiedName()) {
+         if (info != null) {
+           if (info.hasEnumParameterType()) {
+@@ -391,16 +341,14 @@
+     return typeRegistry.getNativeType(nativeType);
+   }
+ 
+-  private abstract class AbstractScopeBuilder
+-      implements NodeTraversal.Callback {
++    private abstract class AbstractScopeBuilder implements NodeTraversal.Callback {
+ 
+     /**
+      * The scope that we're builidng.
+      */
+     final Scope scope;
+ 
+-    private final List<DeferredSetType> deferredSetTypes =
+-        Lists.newArrayList();
++        private final List<DeferredSetType> deferredSetTypes = Lists.newArrayList();
+ 
+     /**
+      * Functions that we found in the global scope and not in externs.
+@@ -413,8 +361,7 @@
+      * If at the end of traversal, we still don't have types for these
+      * stubs, then we should declare UNKNOWN types.
+      */
+-    private final List<StubDeclaration> stubDeclarations =
+-        Lists.newArrayList();
++        private final List<StubDeclaration> stubDeclarations = Lists.newArrayList();
+ 
+     /**
+      * The current source file that we're in.
+@@ -439,47 +386,37 @@
+       for (DeferredSetType deferred : deferredSetTypes) {
+         deferred.resolve(scope);
+       }
+-
+       // Resolve types and attach them to scope slots.
+       Iterator<Var> vars = scope.getVars();
+       while (vars.hasNext()) {
+         vars.next().resolveType(typeParsingErrorReporter);
+       }
+-
+       // Tell the type registry that any remaining types
+       // are unknown.
+       typeRegistry.resolveTypesInScope(scope);
+     }
+ 
+     @Override
+-    public final boolean shouldTraverse(NodeTraversal t, Node n,
+-        Node parent) {
++        public final boolean shouldTraverse(NodeTraversal t, Node n, Node parent) {
+       inputId = t.getInputId();
+-      if (n.isFunction() ||
+-          n.isScript()) {
++            if (n.isFunction() || n.isScript()) {
+         Preconditions.checkNotNull(inputId);
+         sourceName = NodeUtil.getSourceName(n);
+       }
+-
+       // We do want to traverse the name of a named function, but we don't
+       // want to traverse the arguments or body.
+-      boolean descend = parent == null || parent.getType() != Token.FUNCTION ||
+-          n == parent.getFirstChild() || parent == scope.getRootNode();
+-
++            boolean descend = parent == null || parent.getType() != Token.FUNCTION || n == parent.getFirstChild() || parent == scope.getRootNode();
+       if (descend) {
+         // Handle hoisted functions on pre-order traversal, so that they
+         // get hit before other things in the scope.
+         if (NodeUtil.isStatementParent(n)) {
+-          for (Node child = n.getFirstChild();
+-               child != null;
+-               child = child.getNext()) {
++                    for (Node child = n.getFirstChild(); child != null; child = child.getNext()) {
+             if (NodeUtil.isHoistedFunctionDeclaration(child)) {
+               defineFunctionLiteral(child, n);
+             }
+           }
+         }
+       }
+-
+       return descend;
+     }
+ 
+@@ -487,46 +424,36 @@
+     public void visit(NodeTraversal t, Node n, Node parent) {
+       inputId = t.getInputId();
+       attachLiteralTypes(t, n);
+-
+       switch (n.getType()) {
+         case Token.CALL:
+           checkForClassDefiningCalls(t, n, parent);
+           checkForCallingConventionDefiningCalls(n, delegateCallingConventions);
+           break;
+-
+         case Token.FUNCTION:
+           if (t.getInput() == null || !t.getInput().isExtern()) {
+             nonExternFunctions.add(n);
+           }
+-
+           // Hoisted functions are handled during pre-traversal.
+           if (!NodeUtil.isHoistedFunctionDeclaration(n)) {
+             defineFunctionLiteral(n, parent);
+           }
+           break;
+-
+         case Token.ASSIGN:
+           // Handle initialization of properties.
+           Node firstChild = n.getFirstChild();
+-          if (firstChild.isGetProp() &&
+-              firstChild.isQualifiedName()) {
+-            maybeDeclareQualifiedName(t, n.getJSDocInfo(),
+-                firstChild, n, firstChild.getNext());
++                    if (firstChild.isGetProp() && firstChild.isQualifiedName()) {
++                        maybeDeclareQualifiedName(t, n.getJSDocInfo(), firstChild, n, firstChild.getNext());
+           }
+           break;
+-
+         case Token.CATCH:
+           defineCatch(n, parent);
+           break;
+-
+         case Token.VAR:
+           defineVar(n, parent);
+           break;
+-
+         case Token.GETPROP:
+           // Handle stubbed properties.
+-          if (parent.isExprResult() &&
+-              n.isQualifiedName()) {
++                    if (parent.isExprResult() && n.isQualifiedName()) {
+             maybeDeclareQualifiedName(t, n.getJSDocInfo(), n, parent, null);
+           }
+           break;
+@@ -538,37 +465,28 @@
+         case Token.NULL:
+           n.setJSType(getNativeType(NULL_TYPE));
+           break;
+-
+         case Token.VOID:
+           n.setJSType(getNativeType(VOID_TYPE));
+           break;
+-
+         case Token.STRING:
+           // Defer keys to the Token.OBJECTLIT case
+           if (!NodeUtil.isObjectLitKey(n, n.getParent())) {
+             n.setJSType(getNativeType(STRING_TYPE));
+           }
+           break;
+-
+         case Token.NUMBER:
+           n.setJSType(getNativeType(NUMBER_TYPE));
+           break;
+-
+         case Token.TRUE:
+         case Token.FALSE:
+           n.setJSType(getNativeType(BOOLEAN_TYPE));
+           break;
+-
+         case Token.REGEXP:
+           n.setJSType(getNativeType(REGEXP_TYPE));
+           break;
+-
+         case Token.OBJECTLIT:
+           defineObjectLiteral(t, n);
+           break;
+-
+-          // NOTE(nicksantos): If we ever support Array tuples,
+-          // we will need to put ARRAYLIT here as well.
+       }
+     }
+ 
+@@ -576,29 +494,24 @@
+       // Handle the @lends annotation.
+       JSType type = null;
+       JSDocInfo info = objectLit.getJSDocInfo();
+-      if (info != null &&
+-          info.getLendsName() != null) {
++            if (info != null && info.getLendsName() != null) {
+         String lendsName = info.getLendsName();
+         Var lendsVar = scope.getVar(lendsName);
+         if (lendsVar == null) {
+-          compiler.report(
+-              JSError.make(sourceName, objectLit, UNKNOWN_LENDS, lendsName));
++                    compiler.report(JSError.make(sourceName, objectLit, UNKNOWN_LENDS, lendsName));
+         } else {
+           type = lendsVar.getType();
+           if (type == null) {
+             type = typeRegistry.getNativeType(UNKNOWN_TYPE);
+           }
+           if (!type.isSubtype(typeRegistry.getNativeType(OBJECT_TYPE))) {
+-            compiler.report(
+-                JSError.make(sourceName, objectLit, LENDS_ON_NON_OBJECT,
+-                    lendsName, type.toString()));
++                        compiler.report(JSError.make(sourceName, objectLit, LENDS_ON_NON_OBJECT, lendsName, type.toString()));
+             type = null;
+           } else {
+             objectLit.setJSType(type);
+           }
+         }
+       }
+-
+       info = NodeUtil.getBestJSDocInfo(objectLit);
+       Node lValue = NodeUtil.getBestLValue(objectLit);
+       String lValueName = NodeUtil.getBestLValueName(lValue);
+@@ -607,16 +520,12 @@
+         type = createEnumTypeFromNodes(objectLit, lValueName, info, lValue);
+         createdEnumType = true;
+       }
+-
+       if (type == null) {
+         type = typeRegistry.createAnonymousObjectType();
+       }
+-
+       setDeferredType(objectLit, type);
+-
+       // If this is an enum, the properties were already taken care of above.
+-      processObjectLitProperties(
+-          t, objectLit, ObjectType.cast(objectLit.getJSType()), !createdEnumType);
++            processObjectLitProperties(t, objectLit, ObjectType.cast(objectLit.getJSType()), !createdEnumType);
+     }
+ 
+     /**
+@@ -627,19 +536,13 @@
+      * @param declareOnOwner If true, declare properties on the objLitType as
+      *     well. If false, the caller should take crae of this.
+      */
+-    void processObjectLitProperties(
+-        NodeTraversal t, Node objLit, ObjectType objLitType,
+-        boolean declareOnOwner) {
+-      for (Node keyNode = objLit.getFirstChild(); keyNode != null;
+-           keyNode = keyNode.getNext()) {
++        void processObjectLitProperties(NodeTraversal t, Node objLit, ObjectType objLitType, boolean declareOnOwner) {
++            for (Node keyNode = objLit.getFirstChild(); keyNode != null; keyNode = keyNode.getNext()) {
+         Node value = keyNode.getFirstChild();
+         String memberName = NodeUtil.getObjectLitKeyName(keyNode);
+         JSDocInfo info = keyNode.getJSDocInfo();
+-        JSType valueType =
+-            getDeclaredType(t.getSourceName(), info, keyNode, value);
+-        JSType keyType =  objLitType.isEnumType() ?
+-            objLitType.toMaybeEnumType().getElementsType() :
+-            NodeUtil.getObjectLitKeyTypeFromValueType(keyNode, valueType);
++                JSType valueType = getDeclaredType(t.getSourceName(), info, keyNode, value);
++                JSType keyType = objLitType.isEnumType() ? objLitType.toMaybeEnumType().getElementsType() : NodeUtil.getObjectLitKeyTypeFromValueType(keyNode, valueType);
+         if (keyType != null) {
+           // Try to declare this property in the current scope if it
+           // has an authoritative name.
+@@ -649,7 +552,6 @@
+           } else {
+             setDeferredType(keyNode, keyType);
+           }
+-
+           if (objLitType != null && declareOnOwner) {
+             // Declare this property on its object literal.
+             boolean isExtern = t.getInput() != null && t.getInput().isExtern();
+@@ -665,20 +567,15 @@
+      * Extracts type information from either the {@code @type} tag or from
+      * the {@code @return} and {@code @param} tags.
+      */
+-    private JSType getDeclaredTypeInAnnotation(String sourceName,
+-        Node node, JSDocInfo info) {
++        private JSType getDeclaredTypeInAnnotation(String sourceName, Node node, JSDocInfo info) {
+       JSType jsType = null;
+-      Node objNode =
+-          node.isGetProp() ? node.getFirstChild() :
+-          NodeUtil.isObjectLitKey(node, node.getParent()) ? node.getParent() :
+-          null;
++            Node objNode = node.isGetProp() ? node.getFirstChild() : NodeUtil.isObjectLitKey(node, node.getParent()) ? node.getParent() : null;
+       if (info != null) {
+         if (info.hasType()) {
+           jsType = info.getType().evaluate(scope, typeRegistry);
+         } else if (FunctionTypeBuilder.isFunctionTypeDeclaration(info)) {
+           String fnName = node.getQualifiedName();
+-          jsType = createFunctionTypeFromNodes(
+-              null, fnName, info, node);
++                    jsType = createFunctionTypeFromNodes(null, fnName, info, node);
+         }
+       }
+       return jsType;
+@@ -718,8 +615,7 @@
+         }
+       } else {
+         Node name = n.getFirstChild();
+-        defineName(name, n, parent,
+-            (info != null) ? info : name.getJSDocInfo());
++                defineName(name, n, parent, (info != null) ? info : name.getJSDocInfo());
+       }
+     }
+ 
+@@ -728,18 +624,14 @@
+      */
+     void defineFunctionLiteral(Node n, Node parent) {
+       assertDefinitionNode(n, Token.FUNCTION);
+-
+       // Determine the name and JSDocInfo and lvalue for the function.
+       // Any of these may be null.
+       Node lValue = NodeUtil.getBestLValue(n);
+       JSDocInfo info = NodeUtil.getBestJSDocInfo(n);
+       String functionName = NodeUtil.getBestLValueName(lValue);
+-      FunctionType functionType =
+-          createFunctionTypeFromNodes(n, functionName, info, lValue);
+-
++            FunctionType functionType = createFunctionTypeFromNodes(n, functionName, info, lValue);
+       // Assigning the function type to the function node
+       setDeferredType(n, functionType);
+-
+       // Declare this symbol in the current scope iff it's a function
+       // declaration. Otherwise, the declaration will happen in other
+       // code paths.
+@@ -759,13 +651,11 @@
+      */
+     private void defineName(Node name, Node var, Node parent, JSDocInfo info) {
+       Node value = name.getFirstChild();
+-
+       // variable's type
+       JSType type = getDeclaredType(sourceName, info, name, value);
+       if (type == null) {
+         // The variable's type will be inferred.
+-        type = name.isFromExterns() ?
+-            getNativeType(UNKNOWN_TYPE) : null;
++                type = name.isFromExterns() ? getNativeType(UNKNOWN_TYPE) : null;
+       }
+       defineSlot(name, var, type);
+     }
+@@ -777,13 +667,11 @@
+      * if the return type is inferred, and we're in a local
+      * scope, we should assume the whole function is inferred.
+      */
+-    private boolean shouldUseFunctionLiteralType(
+-        FunctionType type, JSDocInfo info, Node lValue) {
++        private boolean shouldUseFunctionLiteralType(FunctionType type, JSDocInfo info, Node lValue) {
+       if (info != null) {
+         return true;
+       }
+-      if (lValue != null &&
+-          NodeUtil.isObjectLitKey(lValue, lValue.getParent())) {
++            if (lValue != null && NodeUtil.isObjectLitKey(lValue, lValue.getParent())) {
+         return false;
+       }
+       return scope.isGlobal() || !type.isReturnTypeInferred();
+@@ -811,43 +699,29 @@
+      *     determine that this function is a method of A.prototype. May be
+      *     null to indicate that this is not being assigned to a qualified name.
+      */
+-    private FunctionType createFunctionTypeFromNodes(
+-        @Nullable Node rValue,
+-        @Nullable String name,
+-        @Nullable JSDocInfo info,
+-        @Nullable Node lvalueNode) {
+-
++        private FunctionType createFunctionTypeFromNodes(@Nullable Node rValue, @Nullable String name, @Nullable JSDocInfo info, @Nullable Node lvalueNode) {
+       FunctionType functionType = null;
+-
+       // Global ctor aliases should be registered with the type registry.
+       if (rValue != null && rValue.isQualifiedName() && scope.isGlobal()) {
+         Var var = scope.getVar(rValue.getQualifiedName());
+-        if (var != null && var.getType() != null &&
+-            var.getType().isFunctionType()) {
++                if (var != null && var.getType() != null && var.getType().isFunctionType()) {
+           FunctionType aliasedType  = var.getType().toMaybeFunctionType();
+-          if ((aliasedType.isConstructor() || aliasedType.isInterface()) &&
+-              !aliasedType.isNativeObjectType()) {
++                    if ((aliasedType.isConstructor() || aliasedType.isInterface()) && !aliasedType.isNativeObjectType()) {
+             functionType = aliasedType;
+-
+             if (name != null && scope.isGlobal()) {
+               typeRegistry.declareType(name, functionType.getInstanceType());
+             }
+           }
+         }
+       }
+-
+       if (functionType == null) {
+         Node errorRoot = rValue == null ? lvalueNode : rValue;
+-        boolean isFnLiteral =
+-            rValue != null && rValue.isFunction();
++                boolean isFnLiteral = rValue != null && rValue.isFunction();
+         Node fnRoot = isFnLiteral ? rValue : null;
+-        Node parametersNode = isFnLiteral ?
+-            rValue.getFirstChild().getNext() : null;
++                Node parametersNode = isFnLiteral ? rValue.getFirstChild().getNext() : null;
+         Node fnBlock = isFnLiteral ? parametersNode.getNext() : null;
+-
+         if (info != null && info.hasType()) {
+           JSType type = info.getType().evaluate(scope, typeRegistry);
+-
+           // Known to be not null since we have the FUNCTION token there.
+           type = type.restrictByNotNullOrUndefined();
+           if (type.isFunctionType()) {
+@@ -855,7 +729,6 @@
+             functionType.setJSDocInfo(info);
+           }
+         }
+-
+         if (functionType == null) {
+           // Find the type of any overridden function.
+           Node ownerNode = NodeUtil.getBestLValueOwner(lvalueNode);
+@@ -872,44 +745,26 @@
+               propName = name.substring(ownerName.length() + 1);
+             }
+           }
+-
+           FunctionType overriddenPropType = null;
+           if (ownerType != null && propName != null) {
+-            overriddenPropType =
+-                findOverriddenFunction(ownerType, propName);
++                        overriddenPropType = findOverriddenFunction(ownerType, propName);
+           }
+-
+-          FunctionTypeBuilder builder =
+-              new FunctionTypeBuilder(name, compiler, errorRoot, sourceName,
+-                  scope)
+-              .setContents(getFunctionAnalysisResults(fnRoot))
+-              .inferFromOverriddenFunction(overriddenPropType, parametersNode)
+-              .inferTemplateTypeName(info)
+-              .inferReturnType(info)
+-              .inferInheritance(info);
+-
+-
++                    FunctionTypeBuilder builder = new FunctionTypeBuilder(name, compiler, errorRoot, sourceName, scope).setContents(getFunctionAnalysisResults(fnRoot)).inferFromOverriddenFunction(overriddenPropType, parametersNode).inferTemplateTypeName(info).inferReturnType(info).inferInheritance(info);
+           // Infer the context type.
+           boolean searchedForThisType = false;
+           if (ownerType != null && ownerType.isFunctionPrototypeType()) {
+-            builder.inferThisType(
+-                info, ownerType.getOwnerFunction().getInstanceType());
++                        builder.inferThisType(info, ownerType.getOwnerFunction().getInstanceType());
+             searchedForThisType = true;
+           } else if (ownerNode != null && ownerNode.isThis()) {
+             builder.inferThisType(info, ownerNode.getJSType());
+             searchedForThisType = true;
+           }
+-
+           if (!searchedForThisType) {
+             builder.inferThisType(info);
+           }
+-
+-          functionType = builder
+-              .inferParameterTypes(parametersNode, info)
+-              .buildAndRegister();
++                    functionType = builder.inferParameterTypes(parametersNode, info).buildAndRegister();
+         }
+       }
+-
+       // all done
+       return functionType;
+     }
+@@ -917,8 +772,7 @@
+     /**
+      * Find the function that's being overridden on this type, if any.
+      */
+-    private FunctionType findOverriddenFunction(
+-        ObjectType ownerType, String propName) {
++        private FunctionType findOverriddenFunction(ObjectType ownerType, String propName) {
+       // First, check to see if the property is implemented
+       // on a superclass.
+       JSType propType = ownerType.getPropertyType(propName);
+@@ -927,15 +781,13 @@
+       } else {
+         // If it's not, then check to see if it's implemented
+         // on an implemented interface.
+-        for (ObjectType iface :
+-                 ownerType.getCtorImplementedInterfaces()) {
++                for (ObjectType iface : ownerType.getCtorImplementedInterfaces()) {
+           propType = iface.getPropertyType(propName);
+           if (propType != null && propType.isFunctionType()) {
+             return propType.toMaybeFunctionType();
+           }
+         }
+       }
+-
+       return null;
+     }
+ 
+@@ -956,11 +808,9 @@
+      * @param lValueNode The node where this function is being
+      *     assigned.
+      */
+-    private EnumType createEnumTypeFromNodes(Node rValue, String name,
+-        JSDocInfo info, Node lValueNode) {
++        private EnumType createEnumTypeFromNodes(Node rValue, String name, JSDocInfo info, Node lValueNode) {
+       Preconditions.checkNotNull(info);
+       Preconditions.checkState(info.hasEnumParameterType());
+-
+       EnumType enumType = null;
+       if (rValue != null && rValue.isQualifiedName()) {
+         // Handle an aliased enum.
+@@ -969,12 +819,9 @@
+           enumType = (EnumType) var.getType();
+         }
+       }
+-
+       if (enumType == null) {
+-        JSType elementsType =
+-            info.getEnumParameterType().evaluate(scope, typeRegistry);
++                JSType elementsType = info.getEnumParameterType().evaluate(scope, typeRegistry);
+         enumType = typeRegistry.createEnumType(name, rValue, elementsType);
+-
+         if (rValue != null && rValue.isObjectLit()) {
+           // collect enum elements
+           Node key = rValue.getFirstChild();
+@@ -982,11 +829,9 @@
+             String keyName = NodeUtil.getStringValue(key);
+             if (keyName == null) {
+               // GET and SET don't have a String value;
+-              compiler.report(
+-                  JSError.make(sourceName, key, ENUM_NOT_CONSTANT, keyName));
++                            compiler.report(JSError.make(sourceName, key, ENUM_NOT_CONSTANT, keyName));
+             } else if (!codingConvention.isValidEnumKey(keyName)) {
+-              compiler.report(
+-                  JSError.make(sourceName, key, ENUM_NOT_CONSTANT, keyName));
++                            compiler.report(JSError.make(sourceName, key, ENUM_NOT_CONSTANT, keyName));
+             } else {
+               enumType.defineElement(keyName, key);
+             }
+@@ -994,11 +839,9 @@
+           }
+         }
+       }
+-
+       if (name != null && scope.isGlobal()) {
+         typeRegistry.declareType(name, enumType.getElementsType());
+       }
+-
+       return enumType;
+     }
+ 
+@@ -1028,25 +871,16 @@
+      */
+     void defineSlot(Node n, Node parent, JSType type, boolean inferred) {
+       Preconditions.checkArgument(inferred || type != null);
+-
+       // Only allow declarations of NAMEs and qualfied names.
+       // Object literal keys will have to compute their names themselves.
+       if (n.isName()) {
+-        Preconditions.checkArgument(
+-            parent.isFunction() ||
+-            parent.isVar() ||
+-            parent.isParamList() ||
+-            parent.isCatch());
++                Preconditions.checkArgument(parent.isFunction() || parent.isVar() || parent.isParamList() || parent.isCatch());
+       } else {
+-        Preconditions.checkArgument(
+-            n.isGetProp() &&
+-            (parent.isAssign() ||
+-             parent.isExprResult()));
++                Preconditions.checkArgument(n.isGetProp() && (parent.isAssign() || parent.isExprResult()));
+       }
+       defineSlot(n, parent, n.getQualifiedName(), type, inferred);
+     }
+ 
+-
+     /**
+      * Defines a symbol in the current scope.
+      *
+@@ -1057,70 +891,50 @@
+      *     {@code inferred} is {@code true}.
+      * @param inferred Whether the type is inferred or declared.
+      */
+-    void defineSlot(Node n, Node parent, String variableName,
+-        JSType type, boolean inferred) {
++        void defineSlot(Node n, Node parent, String variableName, JSType type, boolean inferred) {
+       Preconditions.checkArgument(!variableName.isEmpty());
+-
+       boolean isGlobalVar = n.isName() && scope.isGlobal();
+-      boolean shouldDeclareOnGlobalThis =
+-          isGlobalVar &&
+-          (parent.isVar() ||
+-           parent.isFunction());
+-
++            boolean shouldDeclareOnGlobalThis = isGlobalVar && (parent.isVar() || parent.isFunction());
+       // If n is a property, then we should really declare it in the
+       // scope where the root object appears. This helps out people
+       // who declare "global" names in an anonymous namespace.
+       Scope scopeToDeclareIn = scope;
+-      if (n.isGetProp() && !scope.isGlobal() &&
+-          isQnameRootedInGlobalScope(n)) {
++            if (n.isGetProp() && !scope.isGlobal() && isQnameRootedInGlobalScope(n)) {
+         Scope globalScope = scope.getGlobalScope();
+-
+         // don't try to declare in the global scope if there's
+         // already a symbol there with this name.
+         if (!globalScope.isDeclared(variableName, false)) {
+           scopeToDeclareIn = scope.getGlobalScope();
+         }
+       }
+-
+       // declared in closest scope?
+       CompilerInput input = compiler.getInput(inputId);
+       if (scopeToDeclareIn.isDeclared(variableName, false)) {
+         Var oldVar = scopeToDeclareIn.getVar(variableName);
+-        validator.expectUndeclaredVariable(
+-            sourceName, input, n, parent, oldVar, variableName, type);
++                validator.expectUndeclaredVariable(sourceName, input, n, parent, oldVar, variableName, type);
+       } else {
+         if (!inferred) {
+           setDeferredType(n, type);
+         }
+-
+         // The input may be null if we are working with a AST snippet.
+         boolean isExtern = n.isFromExterns();
+-        Var newVar =
+-            scopeToDeclareIn.declare(variableName, n, type, input, inferred);
+-
++                Var newVar = scopeToDeclareIn.declare(variableName, n, type, input, inferred);
+         if (type instanceof EnumType) {
+           Node initialValue = newVar.getInitialValue();
+-          boolean isValidValue = initialValue != null &&
+-              (initialValue.isObjectLit() ||
+-               initialValue.isQualifiedName());
++                    boolean isValidValue = initialValue != null && (initialValue.isObjectLit() || initialValue.isQualifiedName());
+           if (!isValidValue) {
+             compiler.report(JSError.make(sourceName, n, ENUM_INITIALIZER));
+           }
+         }
+-
+         // We need to do some additional work for constructors and interfaces.
+         FunctionType fnType = JSType.toMaybeFunctionType(type);
+-        if (fnType != null &&
+-            // We don't want to look at empty function types.
++                if (fnType != null && // We don't want to look at empty function types.
+             !type.isEmptyType()) {
+-          if ((fnType.isConstructor() || fnType.isInterface()) &&
+-              !fnType.equals(getNativeType(U2U_CONSTRUCTOR_TYPE))) {
++                    if ((fnType.isConstructor() || fnType.isInterface()) && !fnType.equals(getNativeType(U2U_CONSTRUCTOR_TYPE))) {
+             // Declare var.prototype in the scope chain.
+             FunctionType superClassCtor = fnType.getSuperClassConstructor();
+             ObjectType.Property prototypeSlot = fnType.getSlot("prototype");
+-
+             String prototypeName = variableName + ".prototype";
+-
+             // There are some rare cases where the prototype will already
+             // be declared. See TypedScopeCreatorTest#testBogusPrototypeInit.
+             // Fortunately, other warnings will complain if this happens.
+@@ -1134,61 +948,36 @@
+               // This consistency is helpful to users of SymbolTable,
+               // because everything gets declared at the same place.
+               prototypeSlot.setNode(n);
+-
+-              scopeToDeclareIn.declare(prototypeName,
+-                  n, prototypeSlot.getType(), input,
+-                  /* declared iff there's an explicit supertype */
+-                  superClassCtor == null ||
+-                  superClassCtor.getInstanceType().equals(
+-                      getNativeType(OBJECT_TYPE)));
++                            scopeToDeclareIn.declare(prototypeName, n, prototypeSlot.getType(), input, /* declared iff there's an explicit supertype */
++                            superClassCtor == null || superClassCtor.getInstanceType().equals(getNativeType(OBJECT_TYPE)));
+             }
+-
+             // Make sure the variable is initialized to something if
+             // it constructs itself.
+-            if (newVar.getInitialValue() == null &&
+-                !isExtern &&
+-                // We want to make sure that when we declare a new instance
++                        if (newVar.getInitialValue() == null && !isExtern && // We want to make sure that when we declare a new instance
+                 // type (with @constructor) that there's actually a ctor for it.
+                 // This doesn't apply to structural constructors
+                 // (like function(new:Array). Checking the constructed
+                 // type against the variable name is a sufficient check for
+                 // this.
+-                variableName.equals(
+-                    fnType.getInstanceType().getReferenceName())) {
+-              compiler.report(
+-                  JSError.make(sourceName, n,
+-                      fnType.isConstructor() ?
+-                          CTOR_INITIALIZER : IFACE_INITIALIZER,
+-                      variableName));
++                        variableName.equals(fnType.getInstanceType().getReferenceName())) {
++                            compiler.report(JSError.make(sourceName, n, fnType.isConstructor() ? CTOR_INITIALIZER : IFACE_INITIALIZER, variableName));
+             }
+           }
+         }
+       }
+-
+       if (shouldDeclareOnGlobalThis) {
+-        ObjectType globalThis =
+-            typeRegistry.getNativeObjectType(GLOBAL_THIS);
++                ObjectType globalThis = typeRegistry.getNativeObjectType(GLOBAL_THIS);
+         if (inferred) {
+-          globalThis.defineInferredProperty(variableName,
+-              type == null ?
+-              getNativeType(JSTypeNative.NO_TYPE) :
+-              type,
+-              n);
++                    globalThis.defineInferredProperty(variableName, type == null ? getNativeType(JSTypeNative.NO_TYPE) : type, n);
+         } else {
+           globalThis.defineDeclaredProperty(variableName, type, n);
+         }
+       }
+-
+-      if (isGlobalVar && "Window".equals(variableName)
+-          && type != null
+-          && type.isFunctionType()
+-          && type.isConstructor()) {
+-        FunctionType globalThisCtor =
+-            typeRegistry.getNativeObjectType(GLOBAL_THIS).getConstructor();
++            if (isGlobalVar && "Window".equals(variableName) && type != null && type.isFunctionType() && type.isConstructor()) {
++                FunctionType globalThisCtor = typeRegistry.getNativeObjectType(GLOBAL_THIS).getConstructor();
+         globalThisCtor.getInstanceType().clearCachedValues();
+         globalThisCtor.getPrototype().clearCachedValues();
+-        globalThisCtor
+-            .setPrototypeBasedOn((type.toMaybeFunctionType()).getInstanceType());
++                globalThisCtor.setPrototypeBasedOn((type.toMaybeFunctionType()).getInstanceType());
+       }
+     }
+ 
+@@ -1223,32 +1012,26 @@
+      * @param rValue The node that {@code n} is being initialized to,
+      *     or {@code null} if this is a stub declaration.
+      */
+-    private JSType getDeclaredType(String sourceName, JSDocInfo info,
+-        Node lValue, @Nullable Node rValue) {
++        private JSType getDeclaredType(String sourceName, JSDocInfo info, Node lValue, @Nullable Node rValue) {
+       if (info != null && info.hasType()) {
+         return getDeclaredTypeInAnnotation(sourceName, lValue, info);
+-      } else if (rValue != null && rValue.isFunction() &&
+-          shouldUseFunctionLiteralType(
+-              JSType.toMaybeFunctionType(rValue.getJSType()), info, lValue)) {
++            } else if (rValue != null && rValue.isFunction() && shouldUseFunctionLiteralType(JSType.toMaybeFunctionType(rValue.getJSType()), info, lValue)) {
+         return rValue.getJSType();
+       } else if (info != null) {
+         if (info.hasEnumParameterType()) {
+           if (rValue != null && rValue.isObjectLit()) {
+             return rValue.getJSType();
+           } else {
+-            return createEnumTypeFromNodes(
+-                rValue, lValue.getQualifiedName(), info, lValue);
++                        return createEnumTypeFromNodes(rValue, lValue.getQualifiedName(), info, lValue);
+           }
+         } else if (info.isConstructor() || info.isInterface()) {
+-          return createFunctionTypeFromNodes(
+-              rValue, lValue.getQualifiedName(), info, lValue);
++                    return createFunctionTypeFromNodes(rValue, lValue.getQualifiedName(), info, lValue);
+         } else {
+           // Check if this is constant, and if it has a known type.
+           if (info.isConstant()) {
+             JSType knownType = null;
+             if (rValue != null) {
+-              if (rValue.getJSType() != null
+-                  && !rValue.getJSType().isUnknownType()) {
++                            if (rValue.getJSType() != null && !rValue.getJSType().isUnknownType()) {
+                 return rValue.getJSType();
+               } else if (rValue.isOr()) {
+                 // Check for a very specific JS idiom:
+@@ -1257,11 +1040,8 @@
+                 // reasons.
+                 Node firstClause = rValue.getFirstChild();
+                 Node secondClause = firstClause.getNext();
+-                boolean namesMatch = firstClause.isName()
+-                    && lValue.isName()
+-                    && firstClause.getString().equals(lValue.getString());
+-                if (namesMatch && secondClause.getJSType() != null
+-                    && !secondClause.getJSType().isUnknownType()) {
++                                boolean namesMatch = firstClause.isName() && lValue.isName() && firstClause.getString().equals(lValue.getString());
++                                if (namesMatch && secondClause.getJSType() != null && !secondClause.getJSType().isUnknownType()) {
+                   return secondClause.getJSType();
+                 }
+               }
+@@ -1269,7 +1049,6 @@
+           }
+         }
+       }
+-
+       return getDeclaredTypeInAnnotation(sourceName, lValue, info);
+     }
+ 
+@@ -1282,10 +1061,8 @@
+     /**
+      * Look for calls that set a delegate method's calling convention.
+      */
+-    private void checkForCallingConventionDefiningCalls(
+-        Node n, Map<String, String> delegateCallingConventions) {
+-      codingConvention.checkForCallingConventionDefiningCalls(n,
+-          delegateCallingConventions);
++        private void checkForCallingConventionDefiningCalls(Node n, Map<String, String> delegateCallingConventions) {
++            codingConvention.checkForCallingConventionDefiningCalls(n, delegateCallingConventions);
+     }
+ 
+     /**
+@@ -1293,71 +1070,49 @@
+      * Because JS has no 'native' syntax for defining classes,
+      * this is often very coding-convention dependent and business-logic heavy.
+      */
+-    private void checkForClassDefiningCalls(
+-        NodeTraversal t, Node n, Node parent) {
+-      SubclassRelationship relationship =
+-          codingConvention.getClassesDefinedByCall(n);
++        private void checkForClassDefiningCalls(NodeTraversal t, Node n, Node parent) {
++            SubclassRelationship relationship = codingConvention.getClassesDefinedByCall(n);
+       if (relationship != null) {
+-        FunctionType superCtor = getFunctionType(
+-            scope.getVar(relationship.superclassName));
+-        FunctionType subCtor = getFunctionType(
+-            scope.getVar(relationship.subclassName));
+-        if (superCtor != null && superCtor.isConstructor() &&
+-            subCtor != null && subCtor.isConstructor()) {
++                FunctionType superCtor = getFunctionType(scope.getVar(relationship.superclassName));
++                FunctionType subCtor = getFunctionType(scope.getVar(relationship.subclassName));
++                if (superCtor != null && superCtor.isConstructor() && subCtor != null && subCtor.isConstructor()) {
+           ObjectType superClass = superCtor.getInstanceType();
+           ObjectType subClass = subCtor.getInstanceType();
+-
+           // superCtor and subCtor might be structural constructors
+           // (like {function(new:Object)}) so we need to resolve them back
+           // to the original ctor objects.
+           superCtor = superClass.getConstructor();
+           subCtor = subClass.getConstructor();
+-
+-          if (relationship.type == SubclassType.INHERITS &&
+-              !superClass.isEmptyType() && !subClass.isEmptyType()) {
++                    if (relationship.type == SubclassType.INHERITS && !superClass.isEmptyType() && !subClass.isEmptyType()) {
+             validator.expectSuperType(t, n, superClass, subClass);
+           }
+-
+           if (superCtor != null && subCtor != null) {
+-            codingConvention.applySubclassRelationship(
+-                superCtor, subCtor, relationship.type);
++                        codingConvention.applySubclassRelationship(superCtor, subCtor, relationship.type);
+           }
+         }
+       }
+-
+-      String singletonGetterClassName =
+-          codingConvention.getSingletonGetterClassName(n);
++            String singletonGetterClassName = codingConvention.getSingletonGetterClassName(n);
+       if (singletonGetterClassName != null) {
+-        ObjectType objectType = ObjectType.cast(
+-            typeRegistry.getType(singletonGetterClassName));
++                ObjectType objectType = ObjectType.cast(typeRegistry.getType(singletonGetterClassName));
+         if (objectType != null) {
+           FunctionType functionType = objectType.getConstructor();
+-
+           if (functionType != null) {
+-            FunctionType getterType =
+-                typeRegistry.createFunctionType(objectType);
+-            codingConvention.applySingletonGetter(functionType, getterType,
+-                objectType);
++                        FunctionType getterType = typeRegistry.createFunctionType(objectType);
++                        codingConvention.applySingletonGetter(functionType, getterType, objectType);
+           }
+         }
+       }
+-
+-      DelegateRelationship delegateRelationship =
+-          codingConvention.getDelegateRelationship(n);
++            DelegateRelationship delegateRelationship = codingConvention.getDelegateRelationship(n);
+       if (delegateRelationship != null) {
+         applyDelegateRelationship(delegateRelationship);
+       }
+-
+-      ObjectLiteralCast objectLiteralCast =
+-          codingConvention.getObjectLiteralCast(t, n);
++            ObjectLiteralCast objectLiteralCast = codingConvention.getObjectLiteralCast(t, n);
+       if (objectLiteralCast != null) {
+-        ObjectType type = ObjectType.cast(
+-            typeRegistry.getType(objectLiteralCast.typeName));
++                ObjectType type = ObjectType.cast(typeRegistry.getType(objectLiteralCast.typeName));
+         if (type != null && type.getConstructor() != null) {
+           setDeferredType(objectLiteralCast.objectNode, type);
+         } else {
+-          compiler.report(JSError.make(t.getSourceName(), n,
+-                  CONSTRUCTOR_EXPECTED));
++                    compiler.report(JSError.make(t.getSourceName(), n, CONSTRUCTOR_EXPECTED));
+         }
+       }
+     }
+@@ -1365,39 +1120,21 @@
+     /**
+      * Apply special properties that only apply to delegates.
+      */
+-    private void applyDelegateRelationship(
+-        DelegateRelationship delegateRelationship) {
+-      ObjectType delegatorObject = ObjectType.cast(
+-          typeRegistry.getType(delegateRelationship.delegator));
+-      ObjectType delegateBaseObject = ObjectType.cast(
+-          typeRegistry.getType(delegateRelationship.delegateBase));
+-      ObjectType delegateSuperObject = ObjectType.cast(
+-          typeRegistry.getType(codingConvention.getDelegateSuperclassName()));
+-      if (delegatorObject != null &&
+-          delegateBaseObject != null &&
+-          delegateSuperObject != null) {
++        private void applyDelegateRelationship(DelegateRelationship delegateRelationship) {
++            ObjectType delegatorObject = ObjectType.cast(typeRegistry.getType(delegateRelationship.delegator));
++            ObjectType delegateBaseObject = ObjectType.cast(typeRegistry.getType(delegateRelationship.delegateBase));
++            ObjectType delegateSuperObject = ObjectType.cast(typeRegistry.getType(codingConvention.getDelegateSuperclassName()));
++            if (delegatorObject != null && delegateBaseObject != null && delegateSuperObject != null) {
+         FunctionType delegatorCtor = delegatorObject.getConstructor();
+         FunctionType delegateBaseCtor = delegateBaseObject.getConstructor();
+         FunctionType delegateSuperCtor = delegateSuperObject.getConstructor();
+-
+-        if (delegatorCtor != null && delegateBaseCtor != null &&
+-            delegateSuperCtor != null) {
+-          FunctionParamBuilder functionParamBuilder =
+-              new FunctionParamBuilder(typeRegistry);
+-          functionParamBuilder.addRequiredParams(
+-              getNativeType(U2U_CONSTRUCTOR_TYPE));
+-          FunctionType findDelegate = typeRegistry.createFunctionType(
+-              typeRegistry.createDefaultObjectUnion(delegateBaseObject),
+-              functionParamBuilder.build());
+-
+-          FunctionType delegateProxy = typeRegistry.createConstructorType(
+-              delegateBaseObject.getReferenceName() + DELEGATE_PROXY_SUFFIX,
+-              null, null, null);
++                if (delegatorCtor != null && delegateBaseCtor != null && delegateSuperCtor != null) {
++                    FunctionParamBuilder functionParamBuilder = new FunctionParamBuilder(typeRegistry);
++                    functionParamBuilder.addRequiredParams(getNativeType(U2U_CONSTRUCTOR_TYPE));
++                    FunctionType findDelegate = typeRegistry.createFunctionType(typeRegistry.createDefaultObjectUnion(delegateBaseObject), functionParamBuilder.build());
++                    FunctionType delegateProxy = typeRegistry.createConstructorType(delegateBaseObject.getReferenceName() + DELEGATE_PROXY_SUFFIX, null, null, null);
+           delegateProxy.setPrototypeBasedOn(delegateBaseObject);
+-
+-          codingConvention.applyDelegateRelationship(
+-              delegateSuperObject, delegateBaseObject, delegatorObject,
+-              delegateProxy, findDelegate);
++                    codingConvention.applyDelegateRelationship(delegateSuperObject, delegateBaseObject, delegatorObject, delegateProxy, findDelegate);
+           delegateProxyPrototypes.add(delegateProxy.getPrototype());
+         }
+       }
+@@ -1413,14 +1150,12 @@
+      * @param rhsValue The node that {@code n} is being initialized to,
+      *     or {@code null} if this is a stub declaration.
+      */
+-    void maybeDeclareQualifiedName(NodeTraversal t, JSDocInfo info,
+-        Node n, Node parent, Node rhsValue) {
++        void maybeDeclareQualifiedName(NodeTraversal t, JSDocInfo info, Node n, Node parent, Node rhsValue) {
+       Node ownerNode = n.getFirstChild();
+       String ownerName = ownerNode.getQualifiedName();
+       String qName = n.getQualifiedName();
+       String propName = n.getLastChild().getString();
+       Preconditions.checkArgument(qName != null && ownerName != null);
+-
+       // Precedence of type information on GETPROPs:
+       // 1) @type annnotation / @enum annotation
+       // 2) ASSIGN to FUNCTION literal
+@@ -1433,7 +1168,6 @@
+       //
+       // FUNCTION literals are special because TypedScopeCreator is very smart
+       // about getting as much type information as possible for them.
+-
+       // Determining type for #1 + #2 + #3 + #4
+       JSType valueType = getDeclaredType(t.getSourceName(), info, n, rhsValue);
+       if (valueType == null && rhsValue != null) {
+@@ -1454,11 +1188,8 @@
+           // implicit prototype is set up appropriately. We just obey
+           // the @extends tag.
+           ObjectType qVarType = ObjectType.cast(qVar.getType());
+-          if (qVarType != null &&
+-              rhsValue != null &&
+-              rhsValue.isObjectLit()) {
+-            typeRegistry.resetImplicitPrototype(
+-                rhsValue.getJSType(), qVarType.getImplicitPrototype());
++                    if (qVarType != null && rhsValue != null && rhsValue.isObjectLit()) {
++                        typeRegistry.resetImplicitPrototype(rhsValue.getJSType(), qVarType.getImplicitPrototype());
+           } else if (!qVar.isTypeInferred()) {
+             // If the programmer has declared that F inherits from Super,
+             // and they assign F.prototype to some arbitrary expression,
+@@ -1472,18 +1203,12 @@
+           }
+         }
+       }
+-
+       if (valueType == null) {
+         if (parent.isExprResult()) {
+-          stubDeclarations.add(new StubDeclaration(
+-              n,
+-              t.getInput() != null && t.getInput().isExtern(),
+-              ownerName));
++                    stubDeclarations.add(new StubDeclaration(n, t.getInput() != null && t.getInput().isExtern(), ownerName));
+         }
+-
+         return;
+       }
+-
+       // NOTE(nicksantos): Determining whether a property is declared or not
+       // is really really obnoxious.
+       //
+@@ -1511,49 +1236,34 @@
+       boolean inferred = true;
+       if (info != null) {
+         // Determining declaration for #1 + #3 + #4
+-        inferred = !(info.hasType()
+-            || info.hasEnumParameterType()
+-            || (info.isConstant() && valueType != null
+-                && !valueType.isUnknownType())
+-            || FunctionTypeBuilder.isFunctionTypeDeclaration(info));
++                inferred = !(info.hasType() || info.hasEnumParameterType() || (info.isConstant() && valueType != null && !valueType.isUnknownType()) || FunctionTypeBuilder.isFunctionTypeDeclaration(info));
+       }
+-
+       if (inferred) {
+         // Determining declaration for #2
+-        inferred = !(rhsValue != null &&
+-            rhsValue.isFunction() &&
+-            (info != null || !scope.isDeclared(qName, false)));
++                inferred = !(rhsValue != null && rhsValue.isFunction() && (info != null || !scope.isDeclared(qName, false)));
+       }
+-
+       if (!inferred) {
+         ObjectType ownerType = getObjectSlot(ownerName);
+         if (ownerType != null) {
+           // Only declare this as an official property if it has not been
+           // declared yet.
+           boolean isExtern = t.getInput() != null && t.getInput().isExtern();
+-          if ((!ownerType.hasOwnProperty(propName) ||
+-               ownerType.isPropertyTypeInferred(propName)) &&
+-              ((isExtern && !ownerType.isNativeObjectType()) ||
+-               !ownerType.isInstanceType())) {
++                    if ((!ownerType.hasOwnProperty(propName) || ownerType.isPropertyTypeInferred(propName)) && ((isExtern && !ownerType.isNativeObjectType()) || !ownerType.isInstanceType())) {
+             // If the property is undeclared or inferred, declare it now.
+             ownerType.defineDeclaredProperty(propName, valueType, n);
+           }
+         }
+-
+         // If the property is already declared, the error will be
+         // caught when we try to declare it in the current scope.
+         defineSlot(n, parent, valueType, inferred);
+       } else if (rhsValue != null && rhsValue.isTrue()) {
+         // We declare these for delegate proxy method properties.
+-        FunctionType ownerType =
+-            JSType.toMaybeFunctionType(getObjectSlot(ownerName));
++                FunctionType ownerType = JSType.toMaybeFunctionType(getObjectSlot(ownerName));
+         if (ownerType != null) {
+           JSType ownerTypeOfThis = ownerType.getTypeOfThis();
+           String delegateName = codingConvention.getDelegateSuperclassName();
+-          JSType delegateType = delegateName == null ?
+-              null : typeRegistry.getType(delegateName);
+-          if (delegateType != null &&
+-              ownerTypeOfThis.isSubtype(delegateType)) {
++                    JSType delegateType = delegateName == null ? null : typeRegistry.getType(delegateName);
++                    if (delegateType != null && ownerTypeOfThis.isSubtype(delegateType)) {
+             defineSlot(n, parent, getNativeType(BOOLEAN_TYPE), true);
+           }
+         }
+@@ -1569,8 +1279,7 @@
+       Var ownerVar = scope.getVar(slotName);
+       if (ownerVar != null) {
+         JSType ownerVarType = ownerVar.getType();
+-        return ObjectType.cast(ownerVarType == null ?
+-            null : ownerVarType.restrictByNotNullOrUndefined());
++                return ObjectType.cast(ownerVarType == null ? null : ownerVarType.restrictByNotNullOrUndefined());
+       }
+       return null;
+     }
+@@ -1587,26 +1296,20 @@
+         String propName = n.getLastChild().getString();
+         String ownerName = stub.ownerName;
+         boolean isExtern = stub.isExtern;
+-
+         if (scope.isDeclared(qName, false)) {
+           continue;
+         }
+-
+         // If we see a stub property, make sure to register this property
+         // in the type registry.
+         ObjectType ownerType = getObjectSlot(ownerName);
+         ObjectType unknownType = typeRegistry.getNativeObjectType(UNKNOWN_TYPE);
+         defineSlot(n, parent, unknownType, true);
+-
+-        if (ownerType != null &&
+-            (isExtern || ownerType.isFunctionPrototypeType())) {
++                if (ownerType != null && (isExtern || ownerType.isFunctionPrototypeType())) {
+           // If this is a stub for a prototype, just declare it
+           // as an unknown type. These are seen often in externs.
+-          ownerType.defineInferredProperty(
+-              propName, unknownType, n);
++                    ownerType.defineInferredProperty(propName, unknownType, n);
+         } else {
+-          typeRegistry.registerPropertyOnType(
+-              propName, ownerType == null ? unknownType : ownerType);
++                    typeRegistry.registerPropertyOnType(propName, ownerType == null ? unknownType : ownerType);
+         }
+       }
+     }
+@@ -1615,8 +1318,8 @@
+      * Collects all declared properties in a function, and
+      * resolves them relative to the global scope.
+      */
+-    private final class CollectProperties
+-        extends AbstractShallowStatementCallback {
++        private final class CollectProperties extends AbstractShallowStatementCallback {
++
+       private final ObjectType thisType;
+ 
+       CollectProperties(ObjectType thisType) {
+@@ -1629,8 +1332,7 @@
+           Node child = n.getFirstChild();
+           switch (child.getType()) {
+             case Token.ASSIGN:
+-              maybeCollectMember(t, child.getFirstChild(), child,
+-                  child.getLastChild());
++                            maybeCollectMember(t, child.getFirstChild(), child, child.getLastChild());
+               break;
+             case Token.GETPROP:
+               maybeCollectMember(t, child, child, null);
+@@ -1639,39 +1341,34 @@
+         }
+       }
+ 
+-      private void maybeCollectMember(NodeTraversal t,
+-          Node member, Node nodeWithJsDocInfo, @Nullable Node value) {
++            private void maybeCollectMember(NodeTraversal t, Node member, Node nodeWithJsDocInfo, @Nullable Node value) {
+         JSDocInfo info = nodeWithJsDocInfo.getJSDocInfo();
+-
+         // Do nothing if there is no JSDoc type info, or
+         // if the node is not a member expression, or
+         // if the member expression is not of the form: this.someProperty.
+-        if (info == null ||
+-            member.getType() != Token.GETPROP ||
+-            member.getFirstChild().getType() != Token.THIS) {
++                if (info == null || member.getType() != Token.GETPROP || member.getFirstChild().getType() != Token.THIS) {
+           return;
+         }
+-
+         member.getFirstChild().setJSType(thisType);
+         JSType jsType = getDeclaredType(t.getSourceName(), info, member, value);
+         Node name = member.getLastChild();
+-        if (jsType != null &&
+-            (name.isName() || name.isString())) {
+-          thisType.defineDeclaredProperty(
+-              name.getString(),
+-              jsType,
+-              member);
++                if (jsType != null && (name.isName() || name.isString())) {
++                    thisType.defineDeclaredProperty(name.getString(), jsType, member);
+         }
+       }
+-    } // end CollectProperties
++        }
++        // end CollectProperties
+   }
+ 
+   /**
+    * A stub declaration without any type information.
+    */
+   private static final class StubDeclaration {
++
+     private final Node node;
++
+     private final boolean isExtern;
++
+     private final String ownerName;
+ 
+     private StubDeclaration(Node node, boolean isExtern, String ownerName) {
+@@ -1699,11 +1396,10 @@
+      * @param n The node being visited.
+      * @param parent The parent of n
+      */
+-    @Override public void visit(NodeTraversal t, Node n, Node parent) {
++        @Override
++        public void visit(NodeTraversal t, Node n, Node parent) {
+       super.visit(t, n, parent);
+-
+       switch (n.getType()) {
+-
+         case Token.VAR:
+           // Handle typedefs.
+           if (n.hasOneChild()) {
+@@ -1714,9 +1410,7 @@
+     }
+ 
+     @Override
+-    void maybeDeclareQualifiedName(
+-        NodeTraversal t, JSDocInfo info,
+-        Node n, Node parent, Node rhsValue) {
++        void maybeDeclareQualifiedName(NodeTraversal t, JSDocInfo info, Node n, Node parent, Node rhsValue) {
+       checkForTypedef(t, n, info);
+       super.maybeDeclareQualifiedName(t, info, n, parent, rhsValue);
+     }
+@@ -1727,42 +1421,36 @@
+      * @param candidate A qualified name node.
+      * @param info JSDoc comments.
+      */
+-    private void checkForTypedef(
+-        NodeTraversal t, Node candidate, JSDocInfo info) {
++        private void checkForTypedef(NodeTraversal t, Node candidate, JSDocInfo info) {
+       if (info == null || !info.hasTypedefType()) {
+         return;
+       }
+-
+       String typedef = candidate.getQualifiedName();
+       if (typedef == null) {
+         return;
+       }
+-
+       // TODO(nicksantos|user): This is a terrible, terrible hack
+       // to bail out on recusive typedefs. We'll eventually need
+       // to handle these properly.
+       typeRegistry.declareType(typedef, getNativeType(UNKNOWN_TYPE));
+-
+       JSType realType = info.getTypedefType().evaluate(scope, typeRegistry);
+       if (realType == null) {
+-        compiler.report(
+-            JSError.make(
+-                t.getSourceName(), candidate, MALFORMED_TYPEDEF, typedef));
++                compiler.report(JSError.make(t.getSourceName(), candidate, MALFORMED_TYPEDEF, typedef));
+       }
+-
+       typeRegistry.overwriteDeclaredType(typedef, realType);
+       if (candidate.isGetProp()) {
+-        defineSlot(candidate, candidate.getParent(),
+-            getNativeType(NO_TYPE), false);
++                defineSlot(candidate, candidate.getParent(), getNativeType(NO_TYPE), false);
++            }
+       }
+     }
+-  } // end GlobalScopeBuilder
+ 
++    // end GlobalScopeBuilder
+   /**
+    * A shallow traversal of a local scope to find all arguments and
+    * local variables.
+    */
+   private final class LocalScopeBuilder extends AbstractScopeBuilder {
++
+     /**
+      * @param scope The scope that we're builidng.
+      */
+@@ -1775,9 +1463,7 @@
+      */
+     void build() {
+       NodeTraversal.traverse(compiler, scope.getRootNode(), this);
+-
+-      AstFunctionContents contents =
+-          getFunctionAnalysisResults(scope.getRootNode());
++            AstFunctionContents contents = getFunctionAnalysisResults(scope.getRootNode());
+       if (contents != null) {
+         for (String varName : contents.getEscapedVarNames()) {
+           Var v = scope.getVar(varName);
+@@ -1795,36 +1481,35 @@
+      * @param n The node being visited.
+      * @param parent The parent of n
+      */
+-    @Override public void visit(NodeTraversal t, Node n, Node parent) {
+-      if (n == scope.getRootNode()) return;
+-
++        @Override
++        public void visit(NodeTraversal t, Node n, Node parent) {
++            if (n == scope.getRootNode())
++                return;
+       if (n.isParamList() && parent == scope.getRootNode()) {
+         handleFunctionInputs(parent);
+         return;
+       }
+-
+       super.visit(t, n, parent);
+     }
+ 
+-    /** Handle bleeding functions and function parameters. */
++        /**
++         * Handle bleeding functions and function parameters.
++         */
+     private void handleFunctionInputs(Node fnNode) {
+       // Handle bleeding functions.
+       Node fnNameNode = fnNode.getFirstChild();
+       String fnName = fnNameNode.getString();
+       if (!fnName.isEmpty()) {
+         Scope.Var fnVar = scope.getVar(fnName);
+-        if (fnVar == null ||
+-            // Make sure we're not touching a native function. Native
++                if (fnVar == null || // Make sure we're not touching a native function. Native
+             // functions aren't bleeding, but may not have a declaration
+             // node.
+-            (fnVar.getNameNode() != null &&
+-                // Make sure that the function is actually bleeding by checking
++                (fnVar.getNameNode() != null && // Make sure that the function is actually bleeding by checking
+                 // if has already been declared.
+                 fnVar.getInitialValue() != fnNode)) {
+           defineSlot(fnNameNode, fnNode, fnNode.getJSType(), false);
+         }
+       }
+-
+       declareArguments(fnNode);
+     }
+ 
+@@ -1834,16 +1519,14 @@
+     private void declareArguments(Node functionNode) {
+       Node astParameters = functionNode.getFirstChild().getNext();
+       Node body = astParameters.getNext();
+-      FunctionType functionType =
+-          JSType.toMaybeFunctionType(functionNode.getJSType());
++            FunctionType functionType = JSType.toMaybeFunctionType(functionNode.getJSType());
+       if (functionType != null) {
+         Node jsDocParameters = functionType.getParametersNode();
+         if (jsDocParameters != null) {
+           Node jsDocParameter = jsDocParameters.getFirstChild();
+           for (Node astParameter : astParameters.children()) {
+             if (jsDocParameter != null) {
+-              defineSlot(astParameter, functionNode,
+-                  jsDocParameter.getJSType(), false);
++                            defineSlot(astParameter, functionNode, jsDocParameter.getJSType(), false);
+               jsDocParameter = jsDocParameter.getNext();
+             } else {
+               defineSlot(astParameter, functionNode, null, true);
+@@ -1851,45 +1534,48 @@
+           }
+         }
+       }
+-    } // end declareArguments
+-  } // end LocalScopeBuilder
++        }
++        // end declareArguments
++    }
+ 
++    // end LocalScopeBuilder
+   /**
+    * Does a first-order function analysis that just looks at simple things
+    * like what variables are escaped, and whether 'this' is used.
+    */
+-  private static class FirstOrderFunctionAnalyzer
+-      extends AbstractScopedCallback implements CompilerPass {
++    private static class FirstOrderFunctionAnalyzer extends AbstractScopedCallback implements CompilerPass {
++
+     private final AbstractCompiler compiler;
++
+     private final Map<Node, AstFunctionContents> data;
+ 
+-    FirstOrderFunctionAnalyzer(
+-        AbstractCompiler compiler, Map<Node, AstFunctionContents> outParam) {
++        FirstOrderFunctionAnalyzer(AbstractCompiler compiler, Map<Node, AstFunctionContents> outParam) {
+       this.compiler = compiler;
+       this.data = outParam;
+     }
+ 
+-    @Override public void process(Node externs, Node root) {
++        @Override
++        public void process(Node externs, Node root) {
+       if (externs == null) {
+         NodeTraversal.traverse(compiler, root, this);
+       } else {
+-        NodeTraversal.traverseRoots(
+-            compiler, ImmutableList.of(externs, root), this);
++                NodeTraversal.traverseRoots(compiler, ImmutableList.of(externs, root), this);
+       }
+     }
+ 
+-    @Override public void enterScope(NodeTraversal t) {
++        @Override
++        public void enterScope(NodeTraversal t) {
+       if (!t.inGlobalScope()) {
+         Node n = t.getScopeRoot();
+         data.put(n, new AstFunctionContents(n));
+       }
+     }
+ 
+-    @Override public void visit(NodeTraversal t, Node n, Node parent) {
++        @Override
++        public void visit(NodeTraversal t, Node n, Node parent) {
+       if (t.inGlobalScope()) {
+         return;
+       }
+-
+       if (n.isReturn() && n.getFirstChild() != null) {
+         data.get(t.getScopeRoot()).recordNonEmptyReturn();
+       } else if (n.isName() && NodeUtil.isLValue(n)) {
+@@ -1910,7 +1596,6 @@
+     if (n == null) {
+       return null;
+     }
+-
+     // Sometimes this will return null in things like
+     // NameReferenceGraphConstruction that build partial scopes.
+     return functionAnalysisResults.get(n);

@@ -1,0 +1,169 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/closure/closure_12_buggy/src/com/google/javascript/jscomp/MaybeReachingVariableUse.java /mnt/D4JPatches/Manual2023/patches_plausible/Closure/Closure_12/closure_12_AVATAR_buggy/src/com/google/javascript/jscomp/MaybeReachingVariableUse.java
+--- /mnt/d4j_bug_info/buggyfiles/closure/closure_12_buggy/src/com/google/javascript/jscomp/MaybeReachingVariableUse.java	2022-11-20 04:09:31.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_plausible/Closure/Closure_12/closure_12_AVATAR_buggy/src/com/google/javascript/jscomp/MaybeReachingVariableUse.java	2023-11-13 22:37:06.000000000 -0800
+@@ -13,7 +13,6 @@
+  * See the License for the specific language governing permissions and
+  * limitations under the License.
+  */
+-
+ package com.google.javascript.jscomp;
+ 
+ import com.google.common.base.Preconditions;
+@@ -27,7 +26,6 @@
+ import com.google.javascript.jscomp.graph.LatticeElement;
+ import com.google.javascript.rhino.Node;
+ import com.google.javascript.rhino.Token;
+-
+ import java.util.Collection;
+ import java.util.List;
+ import java.util.Set;
+@@ -39,21 +37,18 @@
+  * the definition of {@code A} at {@code A = foo()} if at least one path from
+  * the use node reaches that definition and it is the last definition before
+  * the use on that path.
+- *
+  */
+-class MaybeReachingVariableUse extends
+-    DataFlowAnalysis<Node, MaybeReachingVariableUse.ReachingUses> {
++class MaybeReachingVariableUse extends DataFlowAnalysis<Node, MaybeReachingVariableUse.ReachingUses> {
+ 
+   // The scope of the function that we are analyzing.
+   private final Scope jsScope;
++
+   private final Set<Var> escaped;
+ 
+-  MaybeReachingVariableUse(
+-      ControlFlowGraph<Node> cfg, Scope jsScope, AbstractCompiler compiler) {
++    MaybeReachingVariableUse(ControlFlowGraph<Node> cfg, Scope jsScope, AbstractCompiler compiler) {
+     super(cfg, new ReachingUsesJoinOp());
+     this.jsScope = jsScope;
+     this.escaped = Sets.newHashSet();
+-
+     // TODO(user): Maybe compute it somewhere else and re-use the escape
+     // local set here.
+     computeEscaped(jsScope, escaped, compiler);
+@@ -83,6 +78,7 @@
+    * At N_3, reads of A in {N_4, N_5} are said to be upward exposed.
+    */
+   static final class ReachingUses implements LatticeElement {
++
+     final Multimap<Var, Node> mayUseMap;
+ 
+     public ReachingUses() {
+@@ -100,8 +96,7 @@
+ 
+     @Override
+     public boolean equals(Object other) {
+-      return (other instanceof ReachingUses) &&
+-          ((ReachingUses) other).mayUseMap.equals(this.mayUseMap);
++            return (other instanceof ReachingUses) && ((ReachingUses) other).mayUseMap.equals(this.mayUseMap);
+     }
+ 
+     @Override
+@@ -118,6 +113,7 @@
+    * The read of A "may be" exposed to A = 1 in the beginning.
+    */
+   private static class ReachingUsesJoinOp implements JoinOp<ReachingUses> {
++
+     @Override
+     public ReachingUses apply(List<ReachingUses> from) {
+       ReachingUses result = new ReachingUses();
+@@ -146,13 +142,11 @@
+   @Override
+   ReachingUses flowThrough(Node n, ReachingUses input) {
+     ReachingUses output = new ReachingUses(input);
+-
+     // If there's an ON_EX edge, this cfgNode may or may not get executed.
+     // We can express this concisely by just pretending this happens in
+     // a conditional.
+     boolean conditional = hasExceptionHandler(n);
+     computeMayUse(n, n, output, conditional);
+-
+     return output;
+   }
+ 
+@@ -160,35 +154,29 @@
+     return false;
+   }
+ 
+-  private void computeMayUse(
+-      Node n, Node cfgNode, ReachingUses output, boolean conditional) {
++    private void computeMayUse(Node n, Node cfgNode, ReachingUses output, boolean conditional) {
+     switch (n.getType()) {
+-
+       case Token.BLOCK:
+       case Token.FUNCTION:
+         return;
+-
+       case Token.NAME:
+         addToUseIfLocal(n.getString(), cfgNode, output);
+         return;
+-
+       case Token.WHILE:
+       case Token.DO:
+       case Token.IF:
+-        computeMayUse(
+-            NodeUtil.getConditionExpression(n), cfgNode, output, conditional);
++                computeMayUse(NodeUtil.getConditionExpression(n), cfgNode, output, conditional);
+         return;
+-
+       case Token.FOR:
+         if (!NodeUtil.isForIn(n)) {
+-          computeMayUse(
+-              NodeUtil.getConditionExpression(n), cfgNode, output, conditional);
++                    computeMayUse(NodeUtil.getConditionExpression(n), cfgNode, output, conditional);
+         } else {
+           // for(x in y) {...}
+           Node lhs = n.getFirstChild();
+           Node rhs = lhs.getNext();
+           if (lhs.isVar()) {
+-            lhs = lhs.getLastChild(); // for(var x in y) {...}
++                        // for(var x in y) {...}
++                        lhs = lhs.getLastChild();
+           }
+           if (lhs.isName() && !conditional) {
+             removeFromUseIfLocal(lhs.getString(), output);
+@@ -196,23 +184,19 @@
+           computeMayUse(rhs, cfgNode, output, conditional);
+         }
+         return;
+-
+       case Token.AND:
+       case Token.OR:
+         computeMayUse(n.getLastChild(), cfgNode, output, true);
+         computeMayUse(n.getFirstChild(), cfgNode, output, conditional);
+         return;
+-
+       case Token.HOOK:
+         computeMayUse(n.getLastChild(), cfgNode, output, true);
+         computeMayUse(n.getFirstChild().getNext(), cfgNode, output, true);
+         computeMayUse(n.getFirstChild(), cfgNode, output, conditional);
+         return;
+-
+       case Token.VAR:
+         Node varName = n.getFirstChild();
+         Preconditions.checkState(n.hasChildren(), "AST should be normalized");
+-
+         if (varName.hasChildren()) {
+           computeMayUse(varName.getFirstChild(), cfgNode, output, conditional);
+           if (!conditional) {
+@@ -220,19 +204,16 @@
+           }
+         }
+         return;
+-
+       default:
+         if (NodeUtil.isAssignmentOp(n) && n.getFirstChild().isName()) {
+           Node name = n.getFirstChild();
+           if (!conditional) {
+             removeFromUseIfLocal(name.getString(), output);
+           }
+-
+           // In case of a += "Hello". There is a read of a.
+           if (!n.isAssign()) {
+             addToUseIfLocal(name.getString(), cfgNode, output);
+           }
+-
+           computeMayUse(name.getNext(), cfgNode, output, conditional);
+         } else {
+           /*

@@ -1,0 +1,703 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/closure/closure_92_buggy/src/com/google/javascript/jscomp/ProcessClosurePrimitives.java /mnt/D4JPatches/Manual2023/patches_correct/Closure/Closure_92/Closure_92_CoCoNut/src/com/google/javascript/jscomp/ProcessClosurePrimitives.java
+--- /mnt/d4j_bug_info/buggyfiles/closure/closure_92_buggy/src/com/google/javascript/jscomp/ProcessClosurePrimitives.java	2022-11-20 04:09:31.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Closure/Closure_92/Closure_92_CoCoNut/src/com/google/javascript/jscomp/ProcessClosurePrimitives.java	2023-11-13 22:37:06.000000000 -0800
+@@ -13,7 +13,6 @@
+  * See the License for the specific language governing permissions and
+  * limitations under the License.
+  */
+-
+ package com.google.javascript.jscomp;
+ 
+ import com.google.common.base.Preconditions;
+@@ -23,7 +22,6 @@
+ import com.google.javascript.jscomp.NodeTraversal.AbstractPostOrderCallback;
+ import com.google.javascript.rhino.Node;
+ import com.google.javascript.rhino.Token;
+-
+ import java.util.List;
+ import java.util.Map;
+ import java.util.Set;
+@@ -32,84 +30,58 @@
+  * Replaces goog.provide calls, removes goog.require calls, verifies that
+  * goog.require has a corresponding goog.provide and some closure specific
+  * simplifications.
+- *
+  */
+-class ProcessClosurePrimitives extends AbstractPostOrderCallback
+-    implements CompilerPass {
++class ProcessClosurePrimitives extends AbstractPostOrderCallback implements CompilerPass {
++
++    static final DiagnosticType NULL_ARGUMENT_ERROR = DiagnosticType.error("JSC_NULL_ARGUMENT_ERROR", "method \"{0}\" called without an argument");
++
++    static final DiagnosticType INVALID_ARGUMENT_ERROR = DiagnosticType.error("JSC_INVALID_ARGUMENT_ERROR", "method \"{0}\" called with a non-string argument");
++
++    static final DiagnosticType TOO_MANY_ARGUMENTS_ERROR = DiagnosticType.error("JSC_TOO_MANY_ARGUMENTS_ERROR", "method \"{0}\" called with more than one argument");
++
++    static final DiagnosticType DUPLICATE_NAMESPACE_ERROR = DiagnosticType.error("JSC_DUPLICATE_NAMESPACE_ERROR", "namespace \"{0}\" cannot be provided twice");
++
++    static final DiagnosticType FUNCTION_NAMESPACE_ERROR = DiagnosticType.error("JSC_FUNCTION_NAMESPACE_ERROR", "\"{0}\" cannot be both provided and declared as a function");
+ 
+-  static final DiagnosticType NULL_ARGUMENT_ERROR = DiagnosticType.error(
+-      "JSC_NULL_ARGUMENT_ERROR",
+-      "method \"{0}\" called without an argument");
+-
+-  static final DiagnosticType INVALID_ARGUMENT_ERROR = DiagnosticType.error(
+-      "JSC_INVALID_ARGUMENT_ERROR",
+-      "method \"{0}\" called with a non-string argument");
+-
+-  static final DiagnosticType TOO_MANY_ARGUMENTS_ERROR = DiagnosticType.error(
+-      "JSC_TOO_MANY_ARGUMENTS_ERROR",
+-      "method \"{0}\" called with more than one argument");
+-
+-  static final DiagnosticType DUPLICATE_NAMESPACE_ERROR = DiagnosticType.error(
+-      "JSC_DUPLICATE_NAMESPACE_ERROR",
+-      "namespace \"{0}\" cannot be provided twice");
+-
+-  static final DiagnosticType FUNCTION_NAMESPACE_ERROR = DiagnosticType.error(
+-      "JSC_FUNCTION_NAMESPACE_ERROR",
+-      "\"{0}\" cannot be both provided and declared as a function");
+-
+-  static final DiagnosticType MISSING_PROVIDE_ERROR = DiagnosticType.error(
+-      "JSC_MISSING_PROVIDE_ERROR",
+-      "required \"{0}\" namespace never provided");
+-
+-  static final DiagnosticType LATE_PROVIDE_ERROR = DiagnosticType.error(
+-      "JSC_LATE_PROVIDE_ERROR",
+-      "required \"{0}\" namespace not provided yet");
+-
+-  static final DiagnosticType INVALID_PROVIDE_ERROR = DiagnosticType.error(
+-      "JSC_INVALID_PROVIDE_ERROR",
+-      "\"{0}\" is not a valid JS property name");
+-
+-  static final DiagnosticType XMODULE_REQUIRE_ERROR = DiagnosticType.warning(
+-      "JSC_XMODULE_REQUIRE_ERROR",
+-      "namespace \"{0}\" provided in module {1} " +
+-      "but required in module {2}");
+-
+-  static final DiagnosticType NON_STRING_PASSED_TO_SET_CSS_NAME_MAPPING_ERROR =
+-      DiagnosticType.error(
+-          "JSC_NON_STRING_PASSED_TO_SET_CSS_NAME_MAPPING_ERROR",
+-      "goog.setCssNameMapping only takes an object literal with string values");
+-
+-  static final DiagnosticType BASE_CLASS_ERROR = DiagnosticType.error(
+-      "JSC_BASE_CLASS_ERROR",
+-      "incorrect use of goog.base: {0}");
++    static final DiagnosticType MISSING_PROVIDE_ERROR = DiagnosticType.error("JSC_MISSING_PROVIDE_ERROR", "required \"{0}\" namespace never provided");
+ 
+-  /** The root Closure namespace */
++    static final DiagnosticType LATE_PROVIDE_ERROR = DiagnosticType.error("JSC_LATE_PROVIDE_ERROR", "required \"{0}\" namespace not provided yet");
++
++    static final DiagnosticType INVALID_PROVIDE_ERROR = DiagnosticType.error("JSC_INVALID_PROVIDE_ERROR", "\"{0}\" is not a valid JS property name");
++
++    static final DiagnosticType XMODULE_REQUIRE_ERROR = DiagnosticType.warning("JSC_XMODULE_REQUIRE_ERROR", "namespace \"{0}\" provided in module {1} " + "but required in module {2}");
++
++    static final DiagnosticType NON_STRING_PASSED_TO_SET_CSS_NAME_MAPPING_ERROR = DiagnosticType.error("JSC_NON_STRING_PASSED_TO_SET_CSS_NAME_MAPPING_ERROR", "goog.setCssNameMapping only takes an object literal with string values");
++
++    static final DiagnosticType BASE_CLASS_ERROR = DiagnosticType.error("JSC_BASE_CLASS_ERROR", "incorrect use of goog.base: {0}");
++
++    /**
++     * The root Closure namespace
++     */
+   static final String GOOG = "goog";
+ 
+   private final AbstractCompiler compiler;
++
+   private final JSModuleGraph moduleGraph;
+ 
+   // The goog.provides must be processed in a deterministic order.
+-  private final Map<String, ProvidedName> providedNames =
+-      Maps.newTreeMap();
++    private final Map<String, ProvidedName> providedNames = Maps.newTreeMap();
++
++    private final List<UnrecognizedRequire> unrecognizedRequires = Lists.newArrayList();
+ 
+-  private final List<UnrecognizedRequire> unrecognizedRequires =
+-      Lists.newArrayList();
+   private final Set<String> exportedVariables = Sets.newHashSet();
++
+   private final CheckLevel requiresLevel;
++
+   private final boolean rewriteNewDateGoogNow;
+ 
+-  ProcessClosurePrimitives(AbstractCompiler compiler,
+-                           CheckLevel requiresLevel,
+-                           boolean rewriteNewDateGoogNow) {
++    ProcessClosurePrimitives(AbstractCompiler compiler, CheckLevel requiresLevel, boolean rewriteNewDateGoogNow) {
+     this.compiler = compiler;
+     this.moduleGraph = compiler.getModuleGraph();
+     this.requiresLevel = requiresLevel;
+     this.rewriteNewDateGoogNow = rewriteNewDateGoogNow;
+-
+     // goog is special-cased because it is provided in Closure's base library.
+-    providedNames.put(GOOG,
+-        new ProvidedName(GOOG, null, null, false /* implicit */));
++        providedNames.put(GOOG, new ProvidedName(GOOG, null, null, false));
+   }
+ 
+   Set<String> getExportedVariableNames() {
+@@ -119,11 +91,9 @@
+   @Override
+   public void process(Node externs, Node root) {
+     new NodeTraversal(compiler, this).traverse(root);
+-
+     for (ProvidedName pn : providedNames.values()) {
+       pn.replace();
+     }
+-
+     if (requiresLevel.isOn()) {
+       for (UnrecognizedRequire r : unrecognizedRequires) {
+         DiagnosticType error;
+@@ -134,9 +104,7 @@
+         } else {
+           error = MISSING_PROVIDE_ERROR;
+         }
+-
+-        compiler.report(JSError.make(
+-            r.inputName, r.requireNode, requiresLevel, error, r.namespace));
++                compiler.report(JSError.make(r.inputName, r.requireNode, requiresLevel, error, r.namespace));
+       }
+     }
+   }
+@@ -149,8 +117,7 @@
+         Node left = n.getFirstChild();
+         if (left.getType() == Token.GETPROP) {
+           Node name = left.getFirstChild();
+-          if (name.getType() == Token.NAME &&
+-              GOOG.equals(name.getString())) {
++                    if (name.getType() == Token.NAME && GOOG.equals(name.getString())) {
+             // For the sake of simplicity, we report code changes
+             // when we see a provides/requires, and don't worry about
+             // reporting the change when we actually do the replacement.
+@@ -176,14 +143,12 @@
+               }
+             } else if ("addDependency".equals(methodName)) {
+               CodingConvention convention = compiler.getCodingConvention();
+-              List<String> typeDecls =
+-                  convention.identifyTypeDeclarationCall(n);
++                            List<String> typeDecls = convention.identifyTypeDeclarationCall(n);
+               if (typeDecls != null) {
+                 for (String typeDecl : typeDecls) {
+                   compiler.getTypeRegistry().forwardDeclareType(typeDecl);
+                 }
+               }
+-
+               // We can't modify parent, so just create a node that will
+               // get compiled out.
+               parent.replaceChild(n, Node.newNumber(0));
+@@ -203,8 +168,7 @@
+       case Token.FUNCTION:
+         // If this is a declaration of a provided named function, this is an
+         // error. Hosited functions will explode if the're provided.
+-        if (t.inGlobalScope() &&
+-            !NodeUtil.isFunctionExpression(n)) {
++                if (t.inGlobalScope() && !NodeUtil.isFunctionExpression(n)) {
+           String name = n.getFirstChild().getString();
+           ProvidedName pn = providedNames.get(name);
+           if (pn != null) {
+@@ -212,16 +176,11 @@
+           }
+         }
+         break;
+-
+       case Token.NEW:
+         trySimplifyNewDate(t, n, parent);
+         break;
+-
+       case Token.GETPROP:
+-        if (n.getFirstChild().getType() == Token.NAME &&
+-            parent.getType() != Token.CALL &&
+-            parent.getType() != Token.ASSIGN &&
+-            "goog.base".equals(n.getQualifiedName())) {
++                if (n.getFirstChild().getType() == Token.NAME && parent.getType() != Token.CALL && parent.getType() != Token.ASSIGN && "goog.base".equals(n.getQualifiedName())) {
+           reportBadBaseClassUse(t, n, "May only be called directly.");
+         }
+         break;
+@@ -238,25 +197,16 @@
+       String ns = arg.getString();
+       ProvidedName provided = providedNames.get(ns);
+       if (provided == null || !provided.isExplicitlyProvided()) {
+-        unrecognizedRequires.add(
+-            new UnrecognizedRequire(n, ns, t.getSourceName()));
++                unrecognizedRequires.add(new UnrecognizedRequire(n, ns, t.getSourceName()));
+       } else {
+         JSModule providedModule = provided.explicitModule;
+-
+         // This must be non-null, because there was an explicit provide.
+         Preconditions.checkNotNull(providedModule);
+-
+         JSModule module = t.getModule();
+-        if (moduleGraph != null &&
+-            module != providedModule &&
+-            !moduleGraph.dependsOn(module, providedModule)) {
+-          compiler.report(
+-              t.makeError(n, XMODULE_REQUIRE_ERROR, ns,
+-                  providedModule.getName(),
+-                  module.getName()));
++                if (moduleGraph != null && module != providedModule && !moduleGraph.dependsOn(module, providedModule)) {
++                    compiler.report(t.makeError(n, XMODULE_REQUIRE_ERROR, ns, providedModule.getName(), module.getName()));
+         }
+       }
+-
+       // Requires should be removed before runtime.  The one
+       // exception is if the type has not been provided yet and
+       // errors for broken requires are turned off, in which case,
+@@ -283,13 +233,11 @@
+         if (!previouslyProvided.isExplicitlyProvided()) {
+           previouslyProvided.addProvide(parent, t.getModule(), true);
+         } else {
+-          compiler.report(
+-              t.makeError(n, DUPLICATE_NAMESPACE_ERROR, ns));
++                    compiler.report(t.makeError(n, DUPLICATE_NAMESPACE_ERROR, ns));
+         }
+       } else {
+         registerAnyProvidedPrefixes(ns, parent, t.getModule());
+-        providedNames.put(
+-            ns, new ProvidedName(ns, parent, t.getModule(), true));
++                providedNames.put(ns, new ProvidedName(ns, parent, t.getModule(), true));
+       }
+     }
+   }
+@@ -297,17 +245,14 @@
+   /**
+    * Handles a candidate definition for a goog.provided name.
+    */
+-  private void handleCandidateProvideDefinition(
+-      NodeTraversal t, Node n, Node parent) {
++    private void handleCandidateProvideDefinition(NodeTraversal t, Node n, Node parent) {
+     if (t.inGlobalScope()) {
+       String name = null;
+       if (n.getType() == Token.NAME && parent.getType() == Token.VAR) {
+         name = n.getString();
+-      } else if (n.getType() == Token.ASSIGN &&
+-          parent.getType() == Token.EXPR_RESULT) {
++            } else if (n.getType() == Token.ASSIGN && parent.getType() == Token.EXPR_RESULT) {
+         name = n.getFirstChild().getQualifiedName();
+       }
+-
+       if (name != null) {
+         if (parent.getBooleanProp(Node.IS_NAMESPACE)) {
+           processProvideFromPreviousPass(t, name, parent);
+@@ -351,50 +296,35 @@
+     //
+     // Most of the logic here is just to make sure the AST's
+     // structure is what we expect it to be.
+-
+     Node callee = n.getFirstChild();
+     Node thisArg = callee.getNext();
+     if (thisArg == null || thisArg.getType() != Token.THIS) {
+       reportBadBaseClassUse(t, n, "First argument must be 'this'.");
+       return;
+     }
+-
+     Node enclosingFnNameNode = getEnclosingDeclNameNode(t);
+     if (enclosingFnNameNode == null) {
+       reportBadBaseClassUse(t, n, "Could not find enclosing method.");
+       return;
+     }
+-
+     String enclosingQname = enclosingFnNameNode.getQualifiedName();
+     if (enclosingQname.indexOf(".prototype.") == -1) {
+       // Handle constructors.
+       Node enclosingParent = enclosingFnNameNode.getParent();
+-      Node maybeInheritsExpr = (enclosingParent.getType() == Token.ASSIGN ?
+-          enclosingParent.getParent() : enclosingParent).getNext();
++            Node maybeInheritsExpr = (enclosingParent.getType() == Token.ASSIGN ? enclosingParent.getParent() : enclosingParent).getNext();
+       Node baseClassNode = null;
+-      if (maybeInheritsExpr != null &&
+-          maybeInheritsExpr.getType() == Token.EXPR_RESULT &&
+-          maybeInheritsExpr.getFirstChild().getType() == Token.CALL) {
++            if (maybeInheritsExpr != null && maybeInheritsExpr.getType() == Token.EXPR_RESULT && maybeInheritsExpr.getFirstChild().getType() == Token.CALL) {
+         Node callNode = maybeInheritsExpr.getFirstChild();
+-        if ("goog.inherits".equals(
+-                callNode.getFirstChild().getQualifiedName()) &&
+-            callNode.getLastChild().isQualifiedName()) {
++                if ("goog.inherits".equals(callNode.getFirstChild().getQualifiedName()) && callNode.getLastChild().isQualifiedName()) {
+           baseClassNode = callNode.getLastChild();
+         }
+       }
+-
+       if (baseClassNode == null) {
+-        reportBadBaseClassUse(
+-            t, n, "Could not find goog.inherits for base class");
++                reportBadBaseClassUse(t, n, "Could not find goog.inherits for base class");
+         return;
+       }
+-
+       // We're good to go.
+-      n.replaceChild(
+-          callee,
+-          NodeUtil.newQualifiedNameNode(
+-            String.format("%s.call", baseClassNode.getQualifiedName()),
+-            callee, "goog.base"));
++            n.replaceChild(callee, NodeUtil.newQualifiedNameNode(String.format("%s.call", baseClassNode.getQualifiedName()), callee, "goog.base"));
+       compiler.reportCodeChange();
+     } else {
+       // Handle methods.
+@@ -403,25 +333,15 @@
+         reportBadBaseClassUse(t, n, "Second argument must name a method.");
+         return;
+       }
+-
+       String methodName = methodNameNode.getString();
+       String ending = ".prototype." + methodName;
+-      if (enclosingQname == null ||
+-          !enclosingQname.endsWith(ending)) {
+-        reportBadBaseClassUse(
+-            t, n, "Enclosing method does not match " + methodName);
++            if (enclosingQname == null || !enclosingQname.endsWith(ending)) {
++                reportBadBaseClassUse(t, n, "Enclosing method does not match " + methodName);
+         return;
+       }
+-
+       // We're good to go.
+-      Node className =
+-          enclosingFnNameNode.getFirstChild().getFirstChild();
+-      n.replaceChild(
+-          callee,
+-          NodeUtil.newQualifiedNameNode(
+-            String.format("%s.superClass_.%s.call",
+-                className.getQualifiedName(), methodName),
+-            callee, "goog.base"));
++            Node className = enclosingFnNameNode.getFirstChild().getFirstChild();
++            n.replaceChild(callee, NodeUtil.newQualifiedNameNode(String.format("%s.superClass_.%s.call", className.getQualifiedName(), methodName), callee, "goog.base"));
+       n.removeChild(methodNameNode);
+       compiler.reportCodeChange();
+     }
+@@ -439,9 +359,7 @@
+     } else {
+       Node parent = scopeRoot.getParent();
+       if (parent != null) {
+-        if (parent.getType() == Token.ASSIGN ||
+-            parent.getLastChild() == scopeRoot &&
+-            parent.getFirstChild().isQualifiedName()) {
++                if (parent.getType() == Token.ASSIGN || parent.getLastChild() == scopeRoot && parent.getFirstChild().isQualifiedName()) {
+           // x.y.z = function() {...};
+           return parent.getFirstChild();
+         } else if (parent.getType() == Token.NAME) {
+@@ -450,13 +368,13 @@
+         }
+       }
+     }
+-
+     return null;
+   }
+ 
+-  /** Reports an incorrect use of super-method calling. */
+-  private void reportBadBaseClassUse(
+-      NodeTraversal t, Node n, String extraMessage) {
++    /**
++     * Reports an incorrect use of super-method calling.
++     */
++    private void reportBadBaseClassUse(NodeTraversal t, Node n, String extraMessage) {
+     compiler.report(t.makeError(n, BASE_CLASS_ERROR, extraMessage));
+   }
+ 
+@@ -465,8 +383,7 @@
+    * update our data structures in the same manner as if the provide had been
+    * processed in this pass.
+    */
+-  private void processProvideFromPreviousPass(
+-      NodeTraversal t, String name, Node parent) {
++    private void processProvideFromPreviousPass(NodeTraversal t, String name, Node parent) {
+     if (!providedNames.containsKey(name)) {
+       // Record this provide created on a previous pass, and create a dummy
+       // EXPR node as a placeholder to simulate an explicit provide.
+@@ -474,10 +391,8 @@
+       expr.copyInformationFromForTree(parent);
+       parent.getParent().addChildBefore(expr, parent);
+       compiler.reportCodeChange();
+-
+       JSModule module = t.getModule();
+       registerAnyProvidedPrefixes(name, expr, module);
+-
+       ProvidedName provided = new ProvidedName(name, expr, module, true);
+       providedNames.put(name, provided);
+       provided.addDefinition(parent, module);
+@@ -506,14 +421,10 @@
+       // values must be strings, or an error will be thrown.
+       final Map<String, String> cssNames = Maps.newHashMap();
+       JSError error = null;
+-      for (Node key = arg.getFirstChild(); key != null;
+-          key = key.getNext().getNext()) {
++            for (Node key = arg.getFirstChild(); key != null; key = key.getNext().getNext()) {
+         Node value = key.getNext();
+-        if (key.getType() != Token.STRING
+-            || value == null
+-            || value.getType() != Token.STRING) {
+-          error = t.makeError(n,
+-              NON_STRING_PASSED_TO_SET_CSS_NAME_MAPPING_ERROR);
++                if (key.getType() != Token.STRING || value == null || value.getType() != Token.STRING) {
++                    error = t.makeError(n, NON_STRING_PASSED_TO_SET_CSS_NAME_MAPPING_ERROR);
+         }
+         if (error != null) {
+           compiler.report(error);
+@@ -521,11 +432,11 @@
+         }
+         cssNames.put(key.getString(), value.getString());
+       }
+-
+       // If there were no errors, create a CssRenamingMap from cssNames, update
+       // the compiler to use it and remove the call to goog.setCssNameMapping().
+       if (error == null) {
+         CssRenamingMap cssRenamingMap = new CssRenamingMap() {
++
+           public String get(String value) {
+             if (cssNames.containsKey(value)) {
+               return cssNames.get(value);
+@@ -554,14 +465,12 @@
+       return;
+     }
+     Node callGoogNow = date.getNext();
+-    if (callGoogNow == null || !NodeUtil.isCall(callGoogNow) ||
+-        callGoogNow.getNext() != null) {
++        if (callGoogNow == null || !NodeUtil.isCall(callGoogNow) || callGoogNow.getNext() != null) {
+       return;
+     }
+     Node googNow = callGoogNow.getFirstChild();
+     String googNowQName = googNow.getQualifiedName();
+-    if (googNowQName == null || !"goog.now".equals(googNowQName)
+-        || googNow.getNext() != null) {
++        if (googNowQName == null || !"goog.now".equals(googNowQName) || googNow.getNext() != null) {
+       return;
+     }
+     n.removeChild(callGoogNow);
+@@ -579,7 +488,6 @@
+     if (!verifyArgument(t, methodName, arg)) {
+       return false;
+     }
+-
+     for (String part : arg.getString().split("\\.")) {
+       if (!NodeUtil.isValidPropertyName(part)) {
+         compiler.report(t.makeError(arg, INVALID_PROVIDE_ERROR, part));
+@@ -605,8 +513,7 @@
+    *
+    * @return Whether the argument checked out okay
+    */
+-  private boolean verifyArgument(NodeTraversal t, Node methodName, Node arg,
+-      int desiredType) {
++    private boolean verifyArgument(NodeTraversal t, Node methodName, Node arg, int desiredType) {
+     DiagnosticType diagnostic = null;
+     if (arg == null) {
+       diagnostic = NULL_ARGUMENT_ERROR;
+@@ -616,9 +523,7 @@
+       diagnostic = TOO_MANY_ARGUMENTS_ERROR;
+     }
+     if (diagnostic != null) {
+-      compiler.report(
+-          t.makeError(methodName,
+-              diagnostic, methodName.getQualifiedName()));
++            compiler.report(t.makeError(methodName, diagnostic, methodName.getQualifiedName()));
+       return false;
+     }
+     return true;
+@@ -633,39 +538,37 @@
+    * @param node The EXPR of the provide call.
+    * @param module The current module.
+    */
+-  private void registerAnyProvidedPrefixes(
+-      String ns, Node node, JSModule module) {
++    private void registerAnyProvidedPrefixes(String ns, Node node, JSModule module) {
+     int pos = ns.indexOf('.');
+     while (pos != -1) {
+       String prefixNs = ns.substring(0, pos);
+       pos = ns.indexOf('.', pos + 1);
+       if (providedNames.containsKey(prefixNs)) {
+-        providedNames.get(prefixNs).addProvide(
+-            node, module, false /* implicit */);
++                providedNames.get(prefixNs).addProvide(node, module, false);
+       } else {
+-        providedNames.put(
+-            prefixNs,
+-            new ProvidedName(prefixNs, node, module, false /* implicit */));
++                providedNames.put(prefixNs, new ProvidedName(prefixNs, node, module, false));
+       }
+     }
+   }
+ 
+   // -------------------------------------------------------------------------
+-
+   /**
+    * Information required to replace a goog.provide call later in the traversal.
+    */
+   private class ProvidedName {
++
+     private final String namespace;
+ 
+     // The node and module where the call was explicitly or implicitly
+     // goog.provided.
+     private final Node firstNode;
++
+     private final JSModule firstModule;
+ 
+     // The node where the call was explicitly goog.provided. May be null
+     // if the namespace is always provided implicitly.
+     private Node explicitNode = null;
++
+     private JSModule explicitModule = null;
+ 
+     // The candidate definition.
+@@ -677,15 +580,12 @@
+     // The replacement declaration.
+     private Node replacementNode = null;
+ 
+-    ProvidedName(String namespace, Node node, JSModule module,
+-        boolean explicit) {
+-      Preconditions.checkArgument(
+-          node == null /* The base case */ ||
++        ProvidedName(String namespace, Node node, JSModule module, boolean explicit) {
++            Preconditions.checkArgument(node == null || /* The base case */
+           NodeUtil.isExpressionNode(node));
+       this.namespace = namespace;
+       this.firstNode = node;
+       this.firstModule = module;
+-
+       addProvide(node, module, explicit);
+     }
+ 
+@@ -713,9 +613,8 @@
+      * assignment so it repurposed later.
+      */
+     void addDefinition(Node node, JSModule module) {
+-      Preconditions.checkArgument(NodeUtil.isExpressionNode(node) || // assign
+-                                  NodeUtil.isFunction(node) ||
+-                                  NodeUtil.isVar(node));
++            Preconditions.checkArgument(// assign
++            NodeUtil.isExpressionNode(node) || NodeUtil.isFunction(node) || NodeUtil.isVar(node));
+       Preconditions.checkArgument(explicitNode != node);
+       if ((candidateDefinition == null) || !NodeUtil.isExpressionNode(node)) {
+         candidateDefinition = node;
+@@ -727,13 +626,11 @@
+       if (minimumModule == null) {
+         minimumModule = newModule;
+       } else if (moduleGraph != null) {
+-        minimumModule = moduleGraph.getDeepestCommonDependencyInclusive(
+-            minimumModule, newModule);
++                minimumModule = moduleGraph.getDeepestCommonDependencyInclusive(minimumModule, newModule);
+       } else {
+         // If there is no module graph, then there must be exactly one
+         // module in the program.
+-        Preconditions.checkState(newModule == minimumModule,
+-                                 "Missing module graph");
++                Preconditions.checkState(newModule == minimumModule, "Missing module graph");
+       }
+     }
+ 
+@@ -750,13 +647,11 @@
+         replacementNode = candidateDefinition;
+         return;
+       }
+-
+       // Handle the case where there is a duplicate definition for an explicitly
+       // provided symbol.
+       if (candidateDefinition != null && explicitNode != null) {
+         explicitNode.detachFromParent();
+         compiler.reportCodeChange();
+-
+         // Does this need a VAR keyword?
+         replacementNode = candidateDefinition;
+         if (NodeUtil.isExpressionNode(candidateDefinition)) {
+@@ -771,8 +666,7 @@
+             nameNode.addChildToFront(valueNode);
+             Node varNode = new Node(Token.VAR, nameNode);
+             varNode.copyInformationFrom(candidateDefinition);
+-            candidateDefinition.getParent().replaceChild(
+-                candidateDefinition, varNode);
++                        candidateDefinition.getParent().replaceChild(candidateDefinition, varNode);
+             nameNode.setJSDocInfo(assignNode.getJSDocInfo());
+             compiler.reportCodeChange();
+             replacementNode = varNode;
+@@ -786,19 +680,16 @@
+         } else {
+           // In this case, the name was implicitly provided by two independent
+           // modules. We need to move this code up to a common module.
+-          int indexOfDot = namespace.indexOf('.');
++                    int indexOfDot = namespace.lastIndexOf('.');
+           if (indexOfDot == -1) {
+             // Any old place is fine.
+-            compiler.getNodeForCodeInsertion(minimumModule)
+-                .addChildToBack(replacementNode);
++                        compiler.getNodeForCodeInsertion(minimumModule).addChildToBack(replacementNode);
+           } else {
+             // Add it after the parent namespace.
+-            ProvidedName parentName =
+-                providedNames.get(namespace.substring(0, indexOfDot));
++                        ProvidedName parentName = providedNames.get(namespace.substring(0, indexOfDot));
+             Preconditions.checkNotNull(parentName);
+             Preconditions.checkNotNull(parentName.replacementNode);
+-            parentName.replacementNode.getParent().addChildAfter(
+-                replacementNode, parentName.replacementNode);
++                        parentName.replacementNode.getParent().addChildAfter(replacementNode, parentName.replacementNode);
+           }
+         }
+         if (explicitNode != null) {
+@@ -830,15 +721,12 @@
+     private Node makeVarDeclNode(String namespace, Node sourceNode) {
+       Node name = Node.newString(Token.NAME, namespace);
+       name.addChildToFront(createNamespaceLiteral());
+-
+       Node decl = new Node(Token.VAR, name);
+       decl.putBooleanProp(Node.IS_NAMESPACE, true);
+-
+       // TODO(nicksantos): ew ew ew. Create a mutator package.
+       if (compiler.getCodingConvention().isConstant(namespace)) {
+         name.putBooleanProp(Node.IS_CONSTANT_NAME, true);
+       }
+-
+       Preconditions.checkState(isNamespacePlaceholder(decl));
+       decl.copyInformationFromForTree(sourceNode);
+       return decl;
+@@ -851,8 +739,7 @@
+      */
+     private Node createNamespaceLiteral() {
+       Node objlit = new Node(Token.OBJECTLIT);
+-      objlit.setJSType(
+-          compiler.getTypeRegistry().createAnonymousObjectType());
++            objlit.setJSType(compiler.getTypeRegistry().createAnonymousObjectType());
+       return objlit;
+     }
+ 
+@@ -864,10 +751,7 @@
+      * @param node A node from which to copy source info.
+      */
+     private Node makeAssignmentExprNode(String namespace, Node node) {
+-      Node decl = new Node(Token.EXPR_RESULT,
+-          new Node(Token.ASSIGN,
+-              NodeUtil.newQualifiedNameNode(namespace, node, namespace),
+-              createNamespaceLiteral()));
++            Node decl = new Node(Token.EXPR_RESULT, new Node(Token.ASSIGN, NodeUtil.newQualifiedNameNode(namespace, node, namespace), createNamespaceLiteral()));
+       decl.putBooleanProp(Node.IS_NAMESPACE, true);
+       Preconditions.checkState(isNamespacePlaceholder(decl));
+       decl.copyInformationFromForTree(node);
+@@ -882,7 +766,6 @@
+     if (!n.getBooleanProp(Node.IS_NAMESPACE)) {
+       return false;
+     }
+-
+     Node value = null;
+     if (n.getType() == Token.EXPR_RESULT) {
+       Node assign = n.getFirstChild();
+@@ -891,20 +774,19 @@
+       Node name = n.getFirstChild();
+       value = name.getFirstChild();
+     }
+-
+-    return value != null
+-      && value.getType() == Token.OBJECTLIT
+-      && !value.hasChildren();
++        return value != null && value.getType() == Token.OBJECTLIT && !value.hasChildren();
+   }
+ 
+   // -------------------------------------------------------------------------
+-
+   /**
+    * Information required to create a {@code MISSING_PROVIDE_ERROR} warning.
+    */
+   private class UnrecognizedRequire {
++
+     final Node requireNode;
++
+     final String namespace;
++
+     final String inputName;
+ 
+     UnrecognizedRequire(Node requireNode, String namespace, String inputName) {

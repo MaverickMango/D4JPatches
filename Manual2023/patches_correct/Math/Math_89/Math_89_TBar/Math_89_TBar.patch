@@ -1,0 +1,15 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/math/math_89_buggy/src/java/org/apache/commons/math/stat/Frequency.java /mnt/D4JPatches/Manual2023/patches_correct/Math/Math_89/Math_89_TBar/src/java/org/apache/commons/math/stat/Frequency.java
+--- /mnt/d4j_bug_info/buggyfiles/math/math_89_buggy/src/java/org/apache/commons/math/stat/Frequency.java	2022-11-20 04:09:32.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Math/Math_89/Math_89_TBar/src/java/org/apache/commons/math/stat/Frequency.java	2023-11-13 22:37:06.000000000 -0800
+@@ -107,7 +107,11 @@
+      */
+     @Deprecated
+     public void addValue(Object v) {
++            if (v instanceof Comparable<?>) {
+             addValue((Comparable<?>) v);            
++            } else {
++                throw new IllegalArgumentException("Illegal argument: v");
++            }           
+     }
+     
+     /**

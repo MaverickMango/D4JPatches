@@ -1,0 +1,13 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/math/math_25_buggy/src/main/java/org/apache/commons/math3/optimization/fitting/HarmonicFitter.java /mnt/D4JPatches/Manual2023/patches_correct/Math/Math_25/Math_25_ACS/src/main/java/org/apache/commons/math3/optimization/fitting/HarmonicFitter.java
+--- /mnt/d4j_bug_info/buggyfiles/math/math_25_buggy/src/main/java/org/apache/commons/math3/optimization/fitting/HarmonicFitter.java	2022-11-20 04:09:32.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Math/Math_25/Math_25_ACS/src/main/java/org/apache/commons/math3/optimization/fitting/HarmonicFitter.java	2023-11-13 22:37:06.000000000 -0800
+@@ -324,6 +324,9 @@
+                     // procedure cannot produce sensible results.
+ 
+                 a = FastMath.sqrt(c1 / c2);
++//ACS's patch begin
+++	if (c2==0.0){throw new MathIllegalStateException();}
++//ACS's patch end
+                 omega = FastMath.sqrt(c2 / c3);
+             }
+         }

@@ -1,0 +1,12 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/lang/lang_57_buggy/src/java/org/apache/commons/lang/LocaleUtils.java /mnt/D4JPatches/Manual2023/patches_correct/Lang/Lang_57/Lang_57_TBar/src/java/org/apache/commons/lang/LocaleUtils.java
+--- /mnt/d4j_bug_info/buggyfiles/lang/lang_57_buggy/src/java/org/apache/commons/lang/LocaleUtils.java	2022-11-20 04:09:31.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Lang/Lang_57/Lang_57_TBar/src/java/org/apache/commons/lang/LocaleUtils.java	2023-11-13 22:37:06.000000000 -0800
+@@ -220,7 +220,7 @@
+      * @return true if the locale is a known locale
+      */
+     public static boolean isAvailableLocale(Locale locale) {
+-        return cAvailableLocaleSet.contains(locale);
++        return availableLocaleList().contains(locale);
+     }
+ 
+     //-----------------------------------------------------------------------

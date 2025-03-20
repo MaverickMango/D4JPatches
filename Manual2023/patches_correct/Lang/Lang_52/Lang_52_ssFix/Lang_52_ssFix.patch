@@ -1,0 +1,34 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/lang/lang_52_buggy/src/java/org/apache/commons/lang/StringEscapeUtils.java /mnt/D4JPatches/Manual2023/patches_correct/Lang/Lang_52/Lang_52_ssFix/src/java/org/apache/commons/lang/StringEscapeUtils.java
+--- /mnt/d4j_bug_info/buggyfiles/lang/lang_52_buggy/src/java/org/apache/commons/lang/StringEscapeUtils.java	2022-11-20 04:09:31.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Lang/Lang_52/Lang_52_ssFix/src/java/org/apache/commons/lang/StringEscapeUtils.java	2023-11-13 22:37:06.000000000 -0800
+@@ -19,7 +19,6 @@
+ import java.io.IOException;
+ import java.io.StringWriter;
+ import java.io.Writer;
+-
+ import org.apache.commons.lang.exception.NestableRuntimeException;
+ 
+ /**
+@@ -133,7 +132,7 @@
+      * @param str  String to escape values in, may be null
+      * @throws IllegalArgumentException if the Writer is <code>null</code>
+      * @throws IOException if error occurs on underlying Writer
+-     **/
++     */
+     public static void escapeJavaScript(Writer out, String str) throws IOException {
+         escapeJavaStyleString(out, str, true);
+     }
+@@ -179,7 +178,6 @@
+         sz = str.length();
+         for (int i = 0; i < sz; i++) {
+             char ch = str.charAt(i);
+-
+             // handle unicode
+             if (ch > 0xfff) {
+                 out.write("\\u" + hex(ch));
+@@ -683,5 +681,4 @@
+         }
+         return StringUtils.replace(str, "'", "''");
+     }
+-
+ }

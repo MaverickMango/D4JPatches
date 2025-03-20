@@ -1,0 +1,20 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/lang/lang_14_buggy/src/main/java/org/apache/commons/lang3/StringUtils.java /mnt/D4JPatches/Manual2023/patches_plausible/Lang/Lang_14/Lang_14_RapidCapr/src/main/java/org/apache/commons/lang3/StringUtils.java
+--- /mnt/d4j_bug_info/buggyfiles/lang/lang_14_buggy/src/main/java/org/apache/commons/lang3/StringUtils.java	2022-11-20 04:09:31.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_plausible/Lang/Lang_14/Lang_14_RapidCapr/src/main/java/org/apache/commons/lang3/StringUtils.java	2023-11-13 22:37:06.000000000 -0800
+@@ -785,8 +785,15 @@
+         if (cs1 == null || cs2 == null) {
+             return false;
+         }
+-            return cs1.equals(cs2);
++                return false;
++            }
++       for (int i = 0; i < cs1.length(); i++) {
++                if (cs1.charAt(i) != cs2.charAt(i)) {
++            return false;
+     }
++        return true;
++        }
++    
+ 
+     /**
+      * <p>Compares two CharSequences, returning {@code true} if they represent

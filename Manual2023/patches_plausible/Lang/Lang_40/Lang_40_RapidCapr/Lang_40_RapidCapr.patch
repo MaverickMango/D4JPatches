@@ -1,0 +1,23 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/lang/lang_40_buggy/src/java/org/apache/commons/lang/StringUtils.java /mnt/D4JPatches/Manual2023/patches_plausible/Lang/Lang_40/Lang_40_RapidCapr/src/java/org/apache/commons/lang/StringUtils.java
+--- /mnt/d4j_bug_info/buggyfiles/lang/lang_40_buggy/src/java/org/apache/commons/lang/StringUtils.java	2022-11-20 04:09:31.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_plausible/Lang/Lang_40/Lang_40_RapidCapr/src/java/org/apache/commons/lang/StringUtils.java	2023-11-13 22:37:06.000000000 -0800
+@@ -1045,7 +1045,18 @@
+         if (str == null || searchStr == null) {
+             return false;
+         }
+-        return contains(str.toUpperCase(), searchStr.toUpperCase());
++            int strLength = str.length();
++           int searchLength = searchStr.length();
++            if (searchLength == 0) {
++                return true;
++            }
++            for (int i = 0; i <= strLength - searchLength; i++) {
++                if (str.regionMatches(true, i, searchStr, 0, searchLength)) {
++                    return true;
++        }
++       
++    }
++    return false;
+     }
+ 
+     // IndexOfAny chars

@@ -1,0 +1,114 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/lang/lang_45_buggy/src/java/org/apache/commons/lang/WordUtils.java /mnt/D4JPatches/Manual2023/patches_plausible/Lang/Lang_45/Lang_45_TBar_normal/src/java/org/apache/commons/lang/WordUtils.java
+--- /mnt/d4j_bug_info/buggyfiles/lang/lang_45_buggy/src/java/org/apache/commons/lang/WordUtils.java	2022-11-20 04:09:31.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_plausible/Lang/Lang_45/Lang_45_TBar_normal/src/java/org/apache/commons/lang/WordUtils.java	2023-11-13 22:37:06.000000000 -0800
+@@ -68,7 +68,6 @@
+ //    public static String wrapText(String str, int lineLength) {
+ //        return wrap(str, null, lineLength);
+ //    }
+-    
+ //    /**
+ //     * <p>Wraps a block of text to a specified line length.</p>
+ //     *
+@@ -117,7 +116,6 @@
+ //
+ //        return stringBuffer.toString();
+ //    }
+-
+     // Wrapping
+     //-----------------------------------------------------------------------
+     /**
+@@ -173,20 +171,17 @@
+         int inputLineLength = str.length();
+         int offset = 0;
+         StringBuffer wrappedLine = new StringBuffer(inputLineLength + 32);
+-        
+         while ((inputLineLength - offset) > wrapLength) {
+             if (str.charAt(offset) == ' ') {
+                 offset++;
+                 continue;
+             }
+             int spaceToWrapAt = str.lastIndexOf(' ', wrapLength + offset);
+-
+             if (spaceToWrapAt >= offset) {
+                 // normal case
+                 wrappedLine.append(str.substring(offset, spaceToWrapAt));
+                 wrappedLine.append(newLineStr);
+                 offset = spaceToWrapAt + 1;
+-                
+             } else {
+                 // really long word or URL
+                 if (wrapLongWords) {
+@@ -208,10 +203,8 @@
+                 }
+             }
+         }
+-
+         // Whatever is left in line is short enough to just pass through
+         wrappedLine.append(str.substring(offset));
+-
+         return wrappedLine.toString();
+     }
+ 
+@@ -282,7 +275,6 @@
+         boolean capitalizeNext = true;
+         for (int i = 0; i < strLen; i++) {
+             char ch = str.charAt(i);
+-
+             if (isDelimiter(ch, delimiters)) {
+                 buffer.append(ch);
+                 capitalizeNext = true;
+@@ -412,7 +404,6 @@
+         boolean uncapitalizeNext = true;
+         for (int i = 0; i < strLen; i++) {
+             char ch = str.charAt(i);
+-
+             if (isDelimiter(ch, delimiters)) {
+                 buffer.append(ch);
+                 uncapitalizeNext = true;
+@@ -455,11 +446,9 @@
+             return str;
+         }
+         StringBuffer buffer = new StringBuffer(strLen);
+-
+         boolean whitespace = true;
+         char ch = 0;
+         char tmp = 0;
+-
+         for (int i = 0; i < strLen; i++) {
+             ch = str.charAt(i);
+             if (Character.isUpperCase(ch)) {
+@@ -548,7 +537,6 @@
+         boolean lastWasGap = true;
+         for (int i = 0; i < strLen; i++) {
+             char ch = str.charAt(i);
+-
+             if (isDelimiter(ch, delimiters)) {
+                 lastWasGap = true;
+             } else if (lastWasGap) {
+@@ -610,7 +598,6 @@
+         if (str.length() == 0) {
+             return StringUtils.EMPTY;
+         }
+-
+         // if the lower value is greater than the length of the string,
+         // set to the length of the string
+         // if the upper value is -1 (i.e. no limit) or is greater
+@@ -619,10 +606,9 @@
+             upper = str.length();
+         }
+         // if upper is less than lower, raise it to lower
+-        if (upper < lower) {
++        if ((upper < lower) && (upper != str.length())) {
+             upper = lower;
+         }
+-
+         StringBuffer result = new StringBuffer();
+         int index = StringUtils.indexOf(str, " ", lower);
+         if (index == -1) {
+@@ -640,5 +626,4 @@
+         }
+         return result.toString();
+     }
+-
+ }
+Only in /mnt/D4JPatches/Manual2023/patches_plausible/Lang/Lang_45/Lang_45_TBar_normal/src/java/org/apache/commons/lang: WordUtils.java.orig

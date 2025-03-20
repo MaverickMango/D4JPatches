@@ -1,0 +1,12 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/math/math_28_buggy/src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java /mnt/D4JPatches/Manual2023/patches_plausible/Math/Math_28/math_28_ACS_buggy/src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java
+--- /mnt/d4j_bug_info/buggyfiles/math/math_28_buggy/src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java	2022-11-20 04:09:32.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_plausible/Math/Math_28/math_28_ACS_buggy/src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java	2023-11-13 22:37:06.000000000 -0800
+@@ -112,7 +112,7 @@
+ 
+         if (minRatioPositions.size() == 0) {
+             return null;
+-        } else if (minRatioPositions.size() > 1) {
++        } else if (minRatioPositions.size() > 1&&!(minRatioPositions.size()>(double)0.0)) {
+             // there's a degeneracy as indicated by a tie in the minimum ratio test
+ 
+             // 1. check if there's an artificial variable that can be forced out of the basis

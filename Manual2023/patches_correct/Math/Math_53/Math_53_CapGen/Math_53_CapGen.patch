@@ -1,0 +1,11 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/math/math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java /mnt/D4JPatches/Manual2023/patches_correct/Math/Math_53/Math_53_CapGen/src/main/java/org/apache/commons/math/complex/Complex.java
+--- /mnt/d4j_bug_info/buggyfiles/math/math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	2022-11-20 04:09:32.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Math/Math_53/Math_53_CapGen/src/main/java/org/apache/commons/math/complex/Complex.java	2023-11-13 22:37:06.000000000 -0800
+@@ -150,6 +150,7 @@
+     public Complex add(Complex rhs)
+         throws NullArgumentException {
+         MathUtils.checkNotNull(rhs);
++        if ((isNaN) || (rhs.isNaN)) {    return org.apache.commons.math.complex.Complex.NaN;}
+         return createComplex(real + rhs.getReal(),
+             imaginary + rhs.getImaginary());
+     }

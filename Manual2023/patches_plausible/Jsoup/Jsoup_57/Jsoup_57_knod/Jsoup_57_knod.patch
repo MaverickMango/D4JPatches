@@ -1,0 +1,275 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/jsoup/jsoup_57_buggy/src/main/java/org/jsoup/nodes/Attributes.java /mnt/D4JPatches/Manual2023/patches_plausible/Jsoup/Jsoup_57/Jsoup_57_knod/src/main/java/org/jsoup/nodes/Attributes.java
+--- /mnt/d4j_bug_info/buggyfiles/jsoup/jsoup_57_buggy/src/main/java/org/jsoup/nodes/Attributes.java	2022-11-20 04:09:33.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_plausible/Jsoup/Jsoup_57/Jsoup_57_knod/src/main/java/org/jsoup/nodes/Attributes.java	2023-11-13 22:37:06.000000000 -0800
+@@ -2,7 +2,6 @@
+ 
+ import org.jsoup.SerializationException;
+ import org.jsoup.helper.Validate;
+-
+ import java.io.IOException;
+ import java.util.AbstractMap;
+ import java.util.AbstractSet;
+@@ -28,24 +27,23 @@
+  * @author Jonathan Hedley, jonathan@hedley.net
+  */
+ public class Attributes implements Iterable<Attribute>, Cloneable {
++
+     protected static final String dataPrefix = "data-";
+ 
+     private LinkedHashMap<String, Attribute> attributes = null;
++
+     // linked hash map to preserve insertion order.
+     // null be default as so many elements have no attributes -- saves a good chunk of memory
+-
+     /**
+-     Get an attribute value by key.
+-     @param key the (case-sensitive) attribute key
+-     @return the attribute value if set; or empty string if not set.
+-     @see #hasKey(String)
++     *     Get an attribute value by key.
++     *     @param key the (case-sensitive) attribute key
++     *     @return the attribute value if set; or empty string if not set.
++     *     @see #hasKey(String)
+      */
+     public String get(String key) {
+         Validate.notEmpty(key);
+-
+         if (attributes == null)
+             return "";
+-
+         Attribute attr = attributes.get(key);
+         return attr != null ? attr.getValue() : "";
+     }
+@@ -59,7 +57,6 @@
+         Validate.notEmpty(key);
+         if (attributes == null)
+             return "";
+-
+         for (String attrKey : attributes.keySet()) {
+             if (attrKey.equalsIgnoreCase(key))
+                 return attributes.get(attrKey).getValue();
+@@ -68,9 +65,9 @@
+     }
+ 
+     /**
+-     Set a new attribute, or replace an existing one by key.
+-     @param key attribute key
+-     @param value attribute value
++     *     Set a new attribute, or replace an existing one by key.
++     *     @param key attribute key
++     *     @param value attribute value
+      */
+     public void put(String key, String value) {
+         Attribute attr = new Attribute(key, value);
+@@ -78,9 +75,9 @@
+     }
+ 
+     /**
+-    Set a new boolean attribute, remove attribute if value is false.
+-    @param key attribute key
+-    @param value attribute value
++     *    Set a new boolean attribute, remove attribute if value is false.
++     *    @param key attribute key
++     *    @param value attribute value
+     */
+     public void put(String key, boolean value) {
+         if (value)
+@@ -90,8 +87,8 @@
+     }
+ 
+     /**
+-     Set a new attribute, or replace an existing one by key.
+-     @param attribute attribute
++     *     Set a new attribute, or replace an existing one by key.
++     *     @param attribute attribute
+      */
+     public void put(Attribute attribute) {
+         Validate.notNull(attribute);
+@@ -101,8 +98,8 @@
+     }
+ 
+     /**
+-     Remove an attribute by key. <b>Case sensitive.</b>
+-     @param key attribute key to remove
++     *     Remove an attribute by key. <b>Case sensitive.</b>
++     *     @param key attribute key to remove
+      */
+     public void remove(String key) {
+         Validate.notEmpty(key);
+@@ -112,8 +109,8 @@
+     }
+ 
+     /**
+-     Remove an attribute by key. <b>Case insensitive.</b>
+-     @param key attribute key to remove
++     *     Remove an attribute by key. <b>Case insensitive.</b>
++     *     @param key attribute key to remove
+      */
+     public void removeIgnoreCase(String key) {
+         Validate.notEmpty(key);
+@@ -123,22 +120,23 @@
+             String attrKey = it.next();
+             if (attrKey.equalsIgnoreCase(key))
+                 attributes.remove(attrKey);
++            return;
+         }
+     }
+ 
+     /**
+-     Tests if these attributes contain an attribute with this key.
+-     @param key case-sensitive key to check for
+-     @return true if key exists, false otherwise
++     *     Tests if these attributes contain an attribute with this key.
++     *     @param key case-sensitive key to check for
++     *     @return true if key exists, false otherwise
+      */
+     public boolean hasKey(String key) {
+         return attributes != null && attributes.containsKey(key);
+     }
+ 
+     /**
+-     Tests if these attributes contain an attribute with this key.
+-     @param key key to check for
+-     @return true if key exists, false otherwise
++     *     Tests if these attributes contain an attribute with this key.
++     *     @param key key to check for
++     *     @return true if key exists, false otherwise
+      */
+     public boolean hasKeyIgnoreCase(String key) {
+         if (attributes == null)
+@@ -151,8 +149,8 @@
+     }
+ 
+     /**
+-     Get the number of attributes in this set.
+-     @return size
++     *     Get the number of attributes in this set.
++     *     @return size
+      */
+     public int size() {
+         if (attributes == null)
+@@ -161,8 +159,8 @@
+     }
+ 
+     /**
+-     Add all the attributes from the incoming set to this set.
+-     @param incoming attributes to add to these attributes.
++     *     Add all the attributes from the incoming set to this set.
++     *     @param incoming attributes to add to these attributes.
+      */
+     public void addAll(Attributes incoming) {
+         if (incoming.size() == 0)
+@@ -176,19 +174,17 @@
+         if (attributes == null || attributes.isEmpty()) {
+             return Collections.<Attribute>emptyList().iterator();
+         }
+-
+         return attributes.values().iterator();
+     }
+ 
+     /**
+-     Get the attributes as a List, for iteration. Do not modify the keys of the attributes via this view, as changes
+-     to keys will not be recognised in the containing set.
+-     @return an view of the attributes as a List.
++     *     Get the attributes as a List, for iteration. Do not modify the keys of the attributes via this view, as changes
++     *     to keys will not be recognised in the containing set.
++     *     @return an view of the attributes as a List.
+      */
+     public List<Attribute> asList() {
+         if (attributes == null)
+             return Collections.emptyList();
+-
+         List<Attribute> list = new ArrayList<Attribute>(attributes.size());
+         for (Map.Entry<String, Attribute> entry : attributes.entrySet()) {
+             list.add(entry.getValue());
+@@ -206,15 +202,17 @@
+     }
+ 
+     /**
+-     Get the HTML representation of these attributes.
+-     @return HTML
+-     @throws SerializationException if the HTML representation of the attributes cannot be constructed.
++     *     Get the HTML representation of these attributes.
++     *     @return HTML
++     *     @throws SerializationException if the HTML representation of the attributes cannot be constructed.
+      */
+     public String html() {
+         StringBuilder accum = new StringBuilder();
+         try {
+-            html(accum, (new Document("")).outputSettings()); // output settings a bit funky, but this html() seldom used
+-        } catch (IOException e) { // ought never happen
++            // output settings a bit funky, but this html() seldom used
++            html(accum, (new Document("")).outputSettings());
++        } catch (IOException e) {
++            // ought never happen
+             throw new SerializationException(e);
+         }
+         return accum.toString();
+@@ -223,7 +221,6 @@
+     void html(Appendable accum, Document.OutputSettings out) throws IOException {
+         if (attributes == null)
+             return;
+-
+         for (Map.Entry<String, Attribute> entry : attributes.entrySet()) {
+             Attribute attribute = entry.getValue();
+             accum.append(" ");
+@@ -243,11 +240,11 @@
+      */
+     @Override
+     public boolean equals(Object o) {
+-        if (this == o) return true;
+-        if (!(o instanceof Attributes)) return false;
+-
++        if (this == o)
++            return true;
++        if (!(o instanceof Attributes))
++            return false;
+         Attributes that = (Attributes) o;
+-
+         return !(attributes != null ? !attributes.equals(that.attributes) : that.attributes != null);
+     }
+ 
+@@ -264,7 +261,6 @@
+     public Attributes clone() {
+         if (attributes == null)
+             return new Attributes();
+-
+         Attributes clone;
+         try {
+             clone = (Attributes) super.clone();
+@@ -272,8 +268,7 @@
+             throw new RuntimeException(e);
+         }
+         clone.attributes = new LinkedHashMap<String, Attribute>(attributes.size());
+-        for (Attribute attribute: this)
+-            clone.attributes.put(attribute.getKey(), attribute.clone());
++        for (Attribute attribute : this) clone.attributes.put(attribute.getKey(), attribute.clone());
+         return clone;
+     }
+ 
+@@ -309,19 +304,22 @@
+             public int size() {
+                 int count = 0;
+                 Iterator iter = new DatasetIterator();
+-                while (iter.hasNext())
+-                    count++;
++                while (iter.hasNext()) count++;
+                 return count;
+             }
+         }
+ 
+         private class DatasetIterator implements Iterator<Map.Entry<String, String>> {
++
+             private Iterator<Attribute> attrIter = attributes.values().iterator();
++
+             private Attribute attr;
++
+             public boolean hasNext() {
+                 while (attrIter.hasNext()) {
+                     attr = attrIter.next();
+-                    if (attr.isDataAttribute()) return true;
++                    if (attr.isDataAttribute())
++                        return true;
+                 }
+                 return false;
+             }

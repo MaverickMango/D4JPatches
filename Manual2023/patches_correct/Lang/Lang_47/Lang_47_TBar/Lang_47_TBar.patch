@@ -1,0 +1,401 @@
+Only in /mnt/d4j_bug_info/buggyfiles/lang/lang_47_buggy: .DS_Store
+Only in /mnt/d4j_bug_info/buggyfiles/lang/lang_47_buggy/src: .DS_Store
+Only in /mnt/d4j_bug_info/buggyfiles/lang/lang_47_buggy/src/java: .DS_Store
+Only in /mnt/d4j_bug_info/buggyfiles/lang/lang_47_buggy/src/java/org: .DS_Store
+Only in /mnt/d4j_bug_info/buggyfiles/lang/lang_47_buggy/src/java/org/apache: .DS_Store
+Only in /mnt/d4j_bug_info/buggyfiles/lang/lang_47_buggy/src/java/org/apache/commons: .DS_Store
+Only in /mnt/d4j_bug_info/buggyfiles/lang/lang_47_buggy/src/java/org/apache/commons/lang: .DS_Store
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/lang/lang_47_buggy/src/java/org/apache/commons/lang/text/StrBuilder.java /mnt/D4JPatches/Manual2023/patches_correct/Lang/Lang_47/Lang_47_TBar/src/java/org/apache/commons/lang/text/StrBuilder.java
+--- /mnt/d4j_bug_info/buggyfiles/lang/lang_47_buggy/src/java/org/apache/commons/lang/text/StrBuilder.java	2022-11-20 04:09:31.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Lang/Lang_47/Lang_47_TBar/src/java/org/apache/commons/lang/text/StrBuilder.java	2023-11-13 22:37:06.000000000 -0800
+@@ -21,7 +21,6 @@
+ import java.util.Collection;
+ import java.util.Iterator;
+ import java.util.List;
+-
+ import org.apache.commons.lang.ArrayUtils;
+ import org.apache.commons.lang.SystemUtils;
+ 
+@@ -81,13 +80,24 @@
+      */
+     private static final long serialVersionUID = 7628716375283629643L;
+ 
+-    /** Internal data storage. */
++    /**
++     * Internal data storage.
++     */
+     protected char[] buffer;
+-    /** Current size of the buffer. */
++
++    /**
++     * Current size of the buffer.
++     */
+     protected int size;
+-    /** The new line. */
++
++    /**
++     * The new line.
++     */
+     private String newLine;
+-    /** The null text. */
++
++    /**
++     * The null text.
++     */
+     private String nullText;
+ 
+     //-----------------------------------------------------------------------
+@@ -350,7 +360,7 @@
+         if (size == 0) {
+             return ArrayUtils.EMPTY_CHAR_ARRAY;
+         }
+-        char chars[] = new char[size];
++        char[] chars = new char[size];
+         System.arraycopy(buffer, 0, chars, 0, size);
+         return chars;
+     }
+@@ -371,7 +381,7 @@
+         if (len == 0) {
+             return ArrayUtils.EMPTY_CHAR_ARRAY;
+         }
+-        char chars[] = new char[len];
++        char[] chars = new char[len];
+         System.arraycopy(buffer, startIndex, chars, 0, len);
+         return chars;
+     }
+@@ -401,7 +411,7 @@
+      * @throws NullPointerException if the array is null
+      * @throws IndexOutOfBoundsException if any index is invalid
+      */
+-    public void getChars(int startIndex, int endIndex, char destination[], int destinationIndex) {
++    public void getChars(int startIndex, int endIndex, char[] destination, int destinationIndex) {
+         if (startIndex < 0) {
+             throw new StringIndexOutOfBoundsException(startIndex);
+         }
+@@ -1183,6 +1193,8 @@
+         if (width > 0) {
+             ensureCapacity(size + width);
+             String str = (obj == null ? getNullText() : obj.toString());
++            if (str == null)
++                str = new String();
+             int strLen = str.length();
+             if (strLen >= width) {
+                 str.getChars(strLen - width, strLen, buffer, size);
+@@ -1307,7 +1319,7 @@
+      * @return this, to enable chaining
+      * @throws IndexOutOfBoundsException if the index is invalid
+      */
+-    public StrBuilder insert(int index, char chars[]) {
++    public StrBuilder insert(int index, char[] chars) {
+         validateIndex(index);
+         if (chars == null) {
+             return insert(index, nullText);
+@@ -1333,7 +1345,7 @@
+      * @return this, to enable chaining
+      * @throws IndexOutOfBoundsException if any index is invalid
+      */
+-    public StrBuilder insert(int index, char chars[], int offset, int length) {
++    public StrBuilder insert(int index, char[] chars, int offset, int length) {
+         validateIndex(index);
+         if (chars == null) {
+             return insert(index, nullText);
+@@ -1755,9 +1767,7 @@
+      * @return this, to enable chaining
+      * @throws IndexOutOfBoundsException if start index is invalid
+      */
+-    public StrBuilder replace(
+-            StrMatcher matcher, String replaceStr,
+-            int startIndex, int endIndex, int replaceCount) {
++    public StrBuilder replace(StrMatcher matcher, String replaceStr, int startIndex, int endIndex, int replaceCount) {
+         endIndex = validateRange(startIndex, endIndex);
+         return replaceImpl(matcher, replaceStr, startIndex, endIndex, replaceCount);
+     }
+@@ -1777,9 +1787,7 @@
+      * @return this, to enable chaining
+      * @throws IndexOutOfBoundsException if any index is invalid
+      */
+-    private StrBuilder replaceImpl(
+-            StrMatcher matcher, String replaceStr,
+-            int from, int to, int replaceCount) {
++    private StrBuilder replaceImpl(StrMatcher matcher, String replaceStr, int from, int to, int replaceCount) {
+         if (matcher == null || size == 0) {
+             return this;
+         }
+@@ -1809,7 +1817,6 @@
+         if (size == 0) {
+             return this;
+         }
+-        
+         int half = size / 2;
+         char[] buf = buffer;
+         for (int leftIdx = 0, rightIdx = size - 1; leftIdx < half; leftIdx++,rightIdx--) {
+@@ -2122,8 +2129,7 @@
+         }
+         char[] thisBuf = buffer;
+         int len = size - strLen + 1;
+-        outer:
+-        for (int i = startIndex; i < len; i++) {
++        outer: for (int i = startIndex; i < len; i++) {
+             for (int j = 0; j < strLen; j++) {
+                 if (str.charAt(j) != thisBuf[i + j]) {
+                     continue outer;
+@@ -2238,9 +2244,7 @@
+             if (strLen == 1) {
+                 return lastIndexOf(str.charAt(0), startIndex);
+             }
+-
+-            outer:
+-            for (int i = startIndex - strLen + 1; i >= 0; i--) {
++            outer: for (int i = startIndex - strLen + 1; i >= 0; i--) {
+                 for (int j = 0; j < strLen; j++) {
+                     if (str.charAt(j) != buffer[i + j]) {
+                         continue outer;
+@@ -2248,7 +2252,6 @@
+                 }
+                 return i;
+             }
+-            
+         } else if (strLen == 0) {
+             return startIndex;
+         }
+@@ -2411,7 +2414,6 @@
+ //            throw new UnsupportedOperationException("StrBuilder.toSharedString is unsupported: " + ex.getMessage());
+ //        }
+ //    }
+-
+     //-----------------------------------------------------------------------
+     /**
+      * Checks the contents of this builder against another to see if they
+@@ -2427,8 +2429,8 @@
+         if (this.size != other.size) {
+             return false;
+         }
+-        char thisBuf[] = this.buffer;
+-        char otherBuf[] = other.buffer;
++        char[] thisBuf = this.buffer;
++        char[] otherBuf = other.buffer;
+         for (int i = size - 1; i >= 0; i--) {
+             char c1 = thisBuf[i];
+             char c2 = otherBuf[i];
+@@ -2453,8 +2455,8 @@
+         if (this.size != other.size) {
+             return false;
+         }
+-        char thisBuf[] = this.buffer;
+-        char otherBuf[] = other.buffer;
++        char[] thisBuf = this.buffer;
++        char[] otherBuf = other.buffer;
+         for (int i = size - 1; i >= 0; i--) {
+             if (thisBuf[i] != otherBuf[i]) {
+                 return false;
+@@ -2483,7 +2485,7 @@
+      * @return a hash code
+      */
+     public int hashCode() {
+-        char buf[] = buffer;
++        char[] buf = buffer;
+         int hash = 0;
+         for (int i = size - 1; i >= 0; i--) {
+             hash = 31 * hash + buf[i];
+@@ -2556,12 +2558,16 @@
+      */
+     class StrBuilderTokenizer extends StrTokenizer {
+ 
+-        /** {@inheritDoc} */
++        /**
++         * {@inheritDoc}
++         */
+         StrBuilderTokenizer() {
+             super();
+         }
+ 
+-        /** {@inheritDoc} */
++        /**
++         * {@inheritDoc}
++         */
+         protected List tokenize(char[] chars, int offset, int count) {
+             if (chars == null) {
+                 return super.tokenize(StrBuilder.this.buffer, 0, StrBuilder.this.size());
+@@ -2570,7 +2576,9 @@
+             }
+         }
+ 
+-        /** {@inheritDoc} */
++        /**
++         * {@inheritDoc}
++         */
+         public String getContent() {
+             String str = super.getContent();
+             if (str == null) {
+@@ -2586,22 +2594,34 @@
+      * Inner class to allow StrBuilder to operate as a writer.
+      */
+     class StrBuilderReader extends Reader {
+-        /** The current stream position. */
++
++        /**
++         * The current stream position.
++         */
+         private int pos;
+-        /** The last mark position. */
++
++        /**
++         * The last mark position.
++         */
+         private int mark;
+ 
+-        /** {@inheritDoc} */
++        /**
++         * {@inheritDoc}
++         */
+         StrBuilderReader() {
+             super();
+         }
+ 
+-        /** {@inheritDoc} */
++        /**
++         * {@inheritDoc}
++         */
+         public void close() {
+             // do nothing
+         }
+ 
+-        /** {@inheritDoc} */
++        /**
++         * {@inheritDoc}
++         */
+         public int read() {
+             if (ready() == false) {
+                 return -1;
+@@ -2609,10 +2629,11 @@
+             return StrBuilder.this.charAt(pos++);
+         }
+ 
+-        /** {@inheritDoc} */
+-        public int read(char b[], int off, int len) {
+-            if (off < 0 || len < 0 || off > b.length ||
+-                    (off + len) > b.length || (off + len) < 0) {
++        /**
++         * {@inheritDoc}
++         */
++        public int read(char[] b, int off, int len) {
++            if (off < 0 || len < 0 || off > b.length || (off + len) > b.length || (off + len) < 0) {
+                 throw new IndexOutOfBoundsException();
+             }
+             if (len == 0) {
+@@ -2629,7 +2650,9 @@
+             return len;
+         }
+ 
+-        /** {@inheritDoc} */
++        /**
++         * {@inheritDoc}
++         */
+         public long skip(long n) {
+             if (pos + n > StrBuilder.this.size()) {
+                 n = StrBuilder.this.size() - pos;
+@@ -2641,22 +2664,30 @@
+             return n;
+         }
+ 
+-        /** {@inheritDoc} */
++        /**
++         * {@inheritDoc}
++         */
+         public boolean ready() {
+             return pos < StrBuilder.this.size();
+         }
+ 
+-        /** {@inheritDoc} */
++        /**
++         * {@inheritDoc}
++         */
+         public boolean markSupported() {
+             return true;
+         }
+ 
+-        /** {@inheritDoc} */
++        /**
++         * {@inheritDoc}
++         */
+         public void mark(int readAheadLimit) {
+             mark = pos;
+         }
+ 
+-        /** {@inheritDoc} */
++        /**
++         * {@inheritDoc}
++         */
+         public void reset() {
+             pos = mark;
+         }
+@@ -2668,45 +2699,60 @@
+      */
+     class StrBuilderWriter extends Writer {
+ 
+-        /** {@inheritDoc} */
++        /**
++         * {@inheritDoc}
++         */
+         StrBuilderWriter() {
+             super();
+         }
+ 
+-        /** {@inheritDoc} */
++        /**
++         * {@inheritDoc}
++         */
+         public void close() {
+             // do nothing
+         }
+ 
+-        /** {@inheritDoc} */
++        /**
++         * {@inheritDoc}
++         */
+         public void flush() {
+             // do nothing
+         }
+ 
+-        /** {@inheritDoc} */
++        /**
++         * {@inheritDoc}
++         */
+         public void write(int c) {
+             StrBuilder.this.append((char) c);
+         }
+ 
+-        /** {@inheritDoc} */
++        /**
++         * {@inheritDoc}
++         */
+         public void write(char[] cbuf) {
+             StrBuilder.this.append(cbuf);
+         }
+ 
+-        /** {@inheritDoc} */
++        /**
++         * {@inheritDoc}
++         */
+         public void write(char[] cbuf, int off, int len) {
+             StrBuilder.this.append(cbuf, off, len);
+         }
+ 
+-        /** {@inheritDoc} */
++        /**
++         * {@inheritDoc}
++         */
+         public void write(String str) {
+             StrBuilder.this.append(str);
+         }
+ 
+-        /** {@inheritDoc} */
++        /**
++         * {@inheritDoc}
++         */
+         public void write(String str, int off, int len) {
+             StrBuilder.this.append(str, off, len);
+         }
+     }
+-
+ }

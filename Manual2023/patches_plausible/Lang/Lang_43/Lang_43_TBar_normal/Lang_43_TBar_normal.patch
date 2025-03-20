@@ -1,0 +1,13 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/lang/lang_43_buggy/src/java/org/apache/commons/lang/text/ExtendedMessageFormat.java /mnt/D4JPatches/Manual2023/patches_plausible/Lang/Lang_43/Lang_43_TBar_normal/src/java/org/apache/commons/lang/text/ExtendedMessageFormat.java
+--- /mnt/d4j_bug_info/buggyfiles/lang/lang_43_buggy/src/java/org/apache/commons/lang/text/ExtendedMessageFormat.java	2022-11-20 04:09:31.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_plausible/Lang/Lang_43/Lang_43_TBar_normal/src/java/org/apache/commons/lang/text/ExtendedMessageFormat.java	2023-11-13 22:37:06.000000000 -0800
+@@ -155,7 +155,7 @@
+         while (pos.getIndex() < pattern.length()) {
+             switch (c[pos.getIndex()]) {
+             case QUOTE:
+-                appendQuotedString(pattern, pos, stripCustom, true);
++                appendQuotedString(pattern, pos, stripCustom, false);
+                 break;
+             case START_FE:
+                 fmtCount++;
+Only in /mnt/D4JPatches/Manual2023/patches_plausible/Lang/Lang_43/Lang_43_TBar_normal/src/java/org/apache/commons/lang/text: ExtendedMessageFormat.java.orig

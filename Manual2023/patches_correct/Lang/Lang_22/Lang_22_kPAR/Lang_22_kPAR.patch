@@ -1,0 +1,12 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/lang/lang_22_buggy/src/main/java/org/apache/commons/lang3/math/Fraction.java /mnt/D4JPatches/Manual2023/patches_correct/Lang/Lang_22/Lang_22_kPAR/src/main/java/org/apache/commons/lang3/math/Fraction.java
+--- /mnt/d4j_bug_info/buggyfiles/lang/lang_22_buggy/src/main/java/org/apache/commons/lang3/math/Fraction.java	2022-11-20 04:09:31.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Lang/Lang_22/Lang_22_kPAR/src/main/java/org/apache/commons/lang3/math/Fraction.java	2023-11-13 22:37:06.000000000 -0800
+@@ -581,7 +581,7 @@
+     private static int greatestCommonDivisor(int u, int v) {
+         // From Commons Math:
+         //if either operand is abs 1, return 1:
+-        if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++        if (Math.abs(u) == 1 || Math.abs(v) == 1) {
+             return 1;
+         }
+         // keep u and v negative, as negative integers range down to

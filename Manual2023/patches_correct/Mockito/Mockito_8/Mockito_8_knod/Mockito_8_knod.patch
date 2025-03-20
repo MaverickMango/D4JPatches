@@ -1,0 +1,12 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/mockito/mockito_8_buggy/src/org/mockito/internal/util/reflection/GenericMetadataSupport.java /mnt/D4JPatches/Manual2023/patches_correct/Mockito/Mockito_8/Mockito_8_knod/src/org/mockito/internal/util/reflection/GenericMetadataSupport.java
+--- /mnt/d4j_bug_info/buggyfiles/mockito/mockito_8_buggy/src/org/mockito/internal/util/reflection/GenericMetadataSupport.java	2022-11-20 04:09:31.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Mockito/Mockito_8/Mockito_8_knod/src/org/mockito/internal/util/reflection/GenericMetadataSupport.java	2023-11-13 22:37:06.000000000 -0800
+@@ -76,7 +76,7 @@
+ 
+             if (actualTypeArgument instanceof WildcardType) {
+                 contextualActualTypeParameters.put(typeParameter, boundsOf((WildcardType) actualTypeArgument));
+-            } else {
++            } else if (actualTypeArgument != typeParameter) {
+                 contextualActualTypeParameters.put(typeParameter, actualTypeArgument);
+             }
+             // logger.log("For '" + parameterizedType + "' found type variable : { '" + typeParameter + "(" + System.identityHashCode(typeParameter) + ")" + "' : '" + actualTypeArgument + "(" + System.identityHashCode(typeParameter) + ")" + "' }");

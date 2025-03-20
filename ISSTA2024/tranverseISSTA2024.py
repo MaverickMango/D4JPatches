@@ -1,7 +1,8 @@
 import os
+# https://dl.acm.org/doi/pdf/10.1145/3650212.3652140
 
 # 按编号分patch
-def get_alphaRepair_stat(work_directory):
+def get_alpharepair_stat(work_directory):
     tool_name = 'alphaRepair'
     directory = work_directory + os.sep + tool_name + '_patches'
     # print(directory)
@@ -49,7 +50,7 @@ def get_recoder_stat(work_directory):
         patches.append('-'.join([tool_name, proj, bid, patchId]))
     return projects, bugs, patches
 
-def get_rewardRepair_stat(work_directory):
+def get_rewardrepair_stat(work_directory):
     tool_name = 'rewardRepair'
     directory = work_directory + os.sep + tool_name + '_patches'
     # print(directory)
@@ -310,7 +311,7 @@ def output_bug_patch_count(projects, bugs, tools, patches):
 def total():
     work_directory = os.path.dirname(os.path.abspath(__file__)) + os.sep + 'src_d4j_ori_patches'
     # print(work_directory)
-    tools = ['alphaRepair', 'coconut', 'cure', 'edits', 'recoder', 'rewardRepair', 'selfapr', 'sequencer', 'simfix', 'tbar', 'tufano']
+    tools = ['alpharepair', 'coconut', 'cure', 'edits', 'recoder', 'rewardrepair', 'selfapr', 'sequencer', 'simfix', 'tbar', 'tufano']
     projects = set()
     bugs = set()
     patches = set()
@@ -321,6 +322,21 @@ def total():
         bugs.update(b)
         patches.update(p)
     return projects, bugs, tools, patches
+
+
+def find_compilable(projects, bugs, tools):
+    compilable = []
+    with open('/mnt/D4JPatches/ISSTA2024/compilable_patches_ISSTA24.txt', 'r') as f:
+        lines = f.readlines()
+        compilable.extend(lines)
+    compilable = [p.lower() for p in compilable]
+    projs_lower = {p.split('-')[1] for p in compilable}
+    projects = [p for p in projects if p in projs_lower]
+    vids_lower = {'-'.join([p.split('-')[1], p.split('-')[2]]) for p in compilable}
+    bugs = [b for b in bugs if b in vids_lower]
+    ts_lower = {p.split('-')[0] for p in compilable}
+    tools = [t for t in tools if t in ts_lower]
+    return projects, bugs, tools, compilable
 
 
 if __name__ == '__main__':

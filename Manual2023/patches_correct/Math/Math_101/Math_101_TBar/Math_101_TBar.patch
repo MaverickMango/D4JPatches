@@ -1,0 +1,12 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/math/math_101_buggy/src/java/org/apache/commons/math/complex/ComplexFormat.java /mnt/D4JPatches/Manual2023/patches_correct/Math/Math_101/Math_101_TBar/src/java/org/apache/commons/math/complex/ComplexFormat.java
+--- /mnt/d4j_bug_info/buggyfiles/math/math_101_buggy/src/java/org/apache/commons/math/complex/ComplexFormat.java	2022-11-20 04:09:32.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Math/Math_101/Math_101_TBar/src/java/org/apache/commons/math/complex/ComplexFormat.java	2023-11-13 22:37:06.000000000 -0800
+@@ -375,7 +375,7 @@
+         startIndex = pos.getIndex();
+         int endIndex = startIndex + n;
+         if (
+-            source.substring(startIndex, endIndex).compareTo(
++            source.substring(startIndex).compareTo(
+             getImaginaryCharacter()) != 0) {
+             // set index back to initial, error index should be the start index
+             // character examined.

@@ -1,0 +1,77 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/lang/lang_57_buggy/src/java/org/apache/commons/lang/LocaleUtils.java /mnt/D4JPatches/Manual2023/patches_correct/Lang/Lang_57/Lang_57_HDRepair/src/java/org/apache/commons/lang/LocaleUtils.java
+--- /mnt/d4j_bug_info/buggyfiles/lang/lang_57_buggy/src/java/org/apache/commons/lang/LocaleUtils.java	2022-11-20 04:09:31.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Lang/Lang_57/Lang_57_HDRepair/src/java/org/apache/commons/lang/LocaleUtils.java	2023-11-13 22:37:06.000000000 -0800
+@@ -25,6 +25,7 @@
+ import java.util.Locale;
+ import java.util.Map;
+ import java.util.Set;
++import myprinter.FieldPrinter;
+ 
+ /**
+  * <p>Operations to assist when working with a {@link Locale}.</p>
+@@ -39,6 +40,23 @@
+  */
+ public class LocaleUtils {
+ 
++    public static Map oref_map = new HashMap();
++	public static int eid_7au3e = 0;
++
++	public static void addToORefMap(String msig, Object obj) {
++		List l = (List) oref_map.get(msig);
++		if (l == null) {
++			l = new ArrayList();
++			oref_map.put(msig, l);
++		}
++		l.add(obj);
++	}
++
++	public static void clearORefMap() {
++		oref_map.clear();
++		eid_7au3e = 0;
++	}
++
+     /** Unmodifiable list of available locales. */
+     private static final List cAvailableLocaleList;
+     /** Unmodifiable set of available locales. */
+@@ -219,8 +237,8 @@
+      * @param locale the Locale object to check if it is available
+      * @return true if the locale is a known locale
+      */
+-    public static boolean isAvailableLocale(Locale locale) {
+-        return cAvailableLocaleSet.contains(locale);
++    public static boolean isAvailableLocale_7au3e(Locale locale) {
++        return availableLocaleList().contains(locale); //Overfitting
+     }
+ 
+     //-----------------------------------------------------------------------
+@@ -288,4 +306,30 @@
+         return countries;
+     }
+ 
++	/**
++	 * <p>Checks if the locale specified is in the list of available locales.</p>
++	 * @param locale  the Locale object to check if it is available
++	 * @return  true if the locale is a known locale
++	 */
++	public static boolean isAvailableLocale(Locale locale) {
++		Object o_7au3e = null;
++		String c_7au3e = "org.apache.commons.lang.LocaleUtils";
++		String msig_7au3e = "isAvailableLocale(Locale)" + eid_7au3e;
++		try {
++			o_7au3e = isAvailableLocale_7au3e(locale);
++			FieldPrinter.print(o_7au3e, eid_7au3e, c_7au3e, msig_7au3e, 0, 5);
++			addToORefMap(msig_7au3e, o_7au3e);
++			addToORefMap(msig_7au3e, null);
++			FieldPrinter.print(locale, eid_7au3e, c_7au3e, msig_7au3e, 2, 5);
++			addToORefMap(msig_7au3e, locale);
++		} catch (Throwable t7au3e) {
++			FieldPrinter.print(t7au3e, eid_7au3e, c_7au3e, msig_7au3e, 0, 5);
++			addToORefMap(msig_7au3e, t7au3e);
++			throw t7au3e;
++		} finally {
++			eid_7au3e++;
++		}
++		return (boolean) o_7au3e;
++	}
++
+ }

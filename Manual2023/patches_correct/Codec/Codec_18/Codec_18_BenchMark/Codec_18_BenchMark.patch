@@ -1,0 +1,41 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/codec/codec_18_buggy/src/main/java/org/apache/commons/codec/binary/StringUtils.java /mnt/D4JPatches/Manual2023/patches_correct/Codec/Codec_18/Codec_18_BenchMark/src/main/java/org/apache/commons/codec/binary/StringUtils.java
+--- /mnt/d4j_bug_info/buggyfiles/codec/codec_18_buggy/src/main/java/org/apache/commons/codec/binary/StringUtils.java	2022-11-20 04:09:32.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Codec/Codec_18/Codec_18_BenchMark/src/main/java/org/apache/commons/codec/binary/StringUtils.java	2023-11-13 22:37:06.000000000 -0800
+@@ -14,13 +14,11 @@
+  * See the License for the specific language governing permissions and
+  * limitations under the License.
+  */
+-
+ package org.apache.commons.codec.binary;
+ 
+ import java.io.UnsupportedEncodingException;
+ import java.nio.ByteBuffer;
+ import java.nio.charset.Charset;
+-
+ import org.apache.commons.codec.CharEncoding;
+ import org.apache.commons.codec.Charsets;
+ 
+@@ -150,7 +148,6 @@
+         return getBytes(string, Charsets.ISO_8859_1);
+     }
+ 
+-
+     /**
+      * Encodes the given string into a sequence of bytes using the named charset, storing the result into a new byte
+      * array.
+@@ -271,8 +268,7 @@
+         return getBytes(string, Charsets.UTF_8);
+     }
+ 
+-    private static IllegalStateException newIllegalStateException(final String charsetName,
+-                                                                  final UnsupportedEncodingException e) {
++    private static IllegalStateException newIllegalStateException(final String charsetName, final UnsupportedEncodingException e) {
+         return new IllegalStateException(charsetName + ": " + e);
+     }
+ 
+@@ -417,5 +413,4 @@
+     public static String newStringUtf8(final byte[] bytes) {
+         return newString(bytes, Charsets.UTF_8);
+     }
+-
+ }

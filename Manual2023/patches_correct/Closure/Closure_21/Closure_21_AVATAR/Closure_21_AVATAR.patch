@@ -1,0 +1,124 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/closure/closure_21_buggy/src/com/google/javascript/jscomp/CheckSideEffects.java /mnt/D4JPatches/Manual2023/patches_correct/Closure/Closure_21/Closure_21_AVATAR/src/com/google/javascript/jscomp/CheckSideEffects.java
+--- /mnt/d4j_bug_info/buggyfiles/closure/closure_21_buggy/src/com/google/javascript/jscomp/CheckSideEffects.java	2022-11-20 04:09:31.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Closure/Closure_21/Closure_21_AVATAR/src/com/google/javascript/jscomp/CheckSideEffects.java	2023-11-13 22:37:06.000000000 -0800
+@@ -13,7 +13,6 @@
+  * See the License for the specific language governing permissions and
+  * limitations under the License.
+  */
+-
+ package com.google.javascript.jscomp;
+ 
+ import com.google.common.collect.Lists;
+@@ -23,7 +22,6 @@
+ import com.google.javascript.rhino.JSDocInfoBuilder;
+ import com.google.javascript.rhino.Node;
+ import com.google.javascript.rhino.Token;
+-
+ import java.util.List;
+ 
+ /**
+@@ -35,14 +33,10 @@
+  * foo();;  // probably just a stray-semicolon. Doesn't hurt to check though
+  * </p>
+  * and generates warnings.
+- *
+  */
+-final class CheckSideEffects extends AbstractPostOrderCallback
+-    implements HotSwapCompilerPass {
++final class CheckSideEffects extends AbstractPostOrderCallback implements HotSwapCompilerPass {
+ 
+-  static final DiagnosticType USELESS_CODE_ERROR = DiagnosticType.warning(
+-      "JSC_USELESS_CODE",
+-      "Suspicious code. {0}");
++    static final DiagnosticType USELESS_CODE_ERROR = DiagnosticType.warning("JSC_USELESS_CODE", "Suspicious code. {0}");
+ 
+   static final String PROTECTOR_FN = "JSCOMPILER_PRESERVE";
+ 
+@@ -54,8 +48,7 @@
+ 
+   private final boolean protectSideEffectFreeCode;
+ 
+-  CheckSideEffects(AbstractCompiler compiler, CheckLevel level,
+-      boolean protectSideEffectFreeCode) {
++    CheckSideEffects(AbstractCompiler compiler, CheckLevel level, boolean protectSideEffectFreeCode) {
+     this.compiler = compiler;
+     this.level = level;
+     this.protectSideEffectFreeCode = protectSideEffectFreeCode;
+@@ -64,7 +57,6 @@
+   @Override
+   public void process(Node externs, Node root) {
+     NodeTraversal.traverse(compiler, root, this);
+-
+     // Code with hidden side-effect code is common, for example
+     // accessing "el.offsetWidth" forces a reflow in browsers, to allow this
+     // will still allowing local dead code removal in general,
+@@ -86,28 +78,23 @@
+     // I've been unable to think of any cases where this indicates a bug,
+     // and apparently some people like keeping these semicolons around,
+     // so we'll allow it.
+-    if (n.isEmpty() ||
+-        n.isComma()) {
++        if (n.isEmpty() || n.isComma()) {
+       return;
+     }
+-
+     if (parent == null) {
+       return;
+     }
+-
+     // Do not try to remove a block or an expr result. We already handle
+     // these cases when we visit the child, and the peephole passes will
+     // fix up the tree in more clever ways when these are removed.
+     if (n.isExprResult()) {
+       return;
+     }
+-
+     // This no-op statement was there so that JSDoc information could
+     // be attached to the name. This check should not complain about it.
+     if (n.isQualifiedName() && n.getJSDocInfo() != null) {
+       return;
+     }
+-
+     boolean isResultUsed = NodeUtil.isExpressionResultUsed(n);
+     boolean isSimpleOp = NodeUtil.isSimpleOperatorType(n.getType());
+     if (parent.getType() == Token.COMMA) {
+@@ -116,10 +103,13 @@
+       }
+       if (n == parent.getLastChild()) {
+         for (Node an : parent.getAncestors()) {
+-          int ancestorType = an.getType();
+-          if (ancestorType == Token.COMMA) continue;
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
+-          else break;
++                    int ancestorType = parent.getType();
++                    if (ancestorType == Token.COMMA)
++                        continue;
++                    if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++                        return;
++                    else
++                        break;
+         }
+       }
+     } else if (parent.getType() != Token.EXPR_RESULT && parent.getType() != Token.BLOCK) {
+@@ -127,18 +117,14 @@
+         return;
+       }
+     }
+-    if (
+-        (isSimpleOp || !NodeUtil.mayHaveSideEffects(n, t.getCompiler()))) {
++        if ((isSimpleOp || !NodeUtil.mayHaveSideEffects(n, t.getCompiler()))) {
+       String msg = "This code lacks side-effects. Is there a bug?";
+       if (n.isString()) {
+         msg = "Is there a missing '+' on the previous line?";
+       } else if (isSimpleOp) {
+-        msg = "The result of the '" + Token.name(n.getType()).toLowerCase() +
+-            "' operator is not being used.";
++                msg = "The result of the '" + Token.name(n.getType()).toLowerCase() + "' operator is not being used.";
+       }
+-
+-      t.getCompiler().report(
+-          t.makeError(n, level, USELESS_CODE_ERROR, msg));
++            t.getCompiler().report(t.makeError(n, level, USELESS_CODE_ERROR, msg));
+       // TODO(johnlenz): determine if it is necessary to
+       // try to protect side-effect free statements as well.
+       if (!NodeUtil.isStatement(n)) {

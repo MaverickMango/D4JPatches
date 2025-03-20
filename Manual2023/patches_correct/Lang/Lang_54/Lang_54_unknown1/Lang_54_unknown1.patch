@@ -1,0 +1,95 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/lang/lang_54_buggy/src/java/org/apache/commons/lang/LocaleUtils.java /mnt/D4JPatches/Manual2023/patches_correct/Lang/Lang_54/Lang_54_unknown1/src/java/org/apache/commons/lang/LocaleUtils.java
+--- /mnt/d4j_bug_info/buggyfiles/lang/lang_54_buggy/src/java/org/apache/commons/lang/LocaleUtils.java	2022-11-20 04:09:31.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Lang/Lang_54/Lang_54_unknown1/src/java/org/apache/commons/lang/LocaleUtils.java	2023-11-13 22:37:06.000000000 -0800
+@@ -39,14 +39,26 @@
+  */
+ public class LocaleUtils {
+ 
+-    /** Unmodifiable list of available locales. */
++    /**
++     * Unmodifiable list of available locales.
++     */
+     private static final List cAvailableLocaleList;
+-    /** Unmodifiable set of available locales. */
++
++    /**
++     * Unmodifiable set of available locales.
++     */
+     private static Set cAvailableLocaleSet;
+-    /** Unmodifiable map of language locales by country. */
++
++    /**
++     * Unmodifiable map of language locales by country.
++     */
+     private static final Map cLanguagesByCountry = Collections.synchronizedMap(new HashMap());
+-    /** Unmodifiable map of country locales by language. */
++
++    /**
++     * Unmodifiable map of country locales by language.
++     */
+     private static final Map cCountriesByLanguage = Collections.synchronizedMap(new HashMap());
++
+     static {
+         List list = Arrays.asList(Locale.getAvailableLocales());
+         cAvailableLocaleList = Collections.unmodifiableList(list);
+@@ -234,15 +246,15 @@
+      * @return an unmodifiable List of Locale objects, never null
+      */
+     public static List languagesByCountry(String countryCode) {
+-        List langs = (List) cLanguagesByCountry.get(countryCode);  //syncd
++        //syncd
++        List langs = (List) cLanguagesByCountry.get(countryCode);
+         if (langs == null) {
+             if (countryCode != null) {
+                 langs = new ArrayList();
+                 List locales = availableLocaleList();
+                 for (int i = 0; i < locales.size(); i++) {
+                     Locale locale = (Locale) locales.get(i);
+-                    if (countryCode.equals(locale.getCountry()) &&
+-                            locale.getVariant().length() == 0) {
++                    if (countryCode.equals(locale.getCountry()) && locale.getVariant().length() == 0) {
+                         langs.add(locale);
+                     }
+                 }
+@@ -250,7 +262,8 @@
+             } else {
+                 langs = Collections.EMPTY_LIST;
+             }
+-            cLanguagesByCountry.put(countryCode, langs);  //syncd
++            //syncd
++            cLanguagesByCountry.put(countryCode, langs);
+         }
+         return langs;
+     }
+@@ -266,16 +279,15 @@
+      * @return an unmodifiable List of Locale objects, never null
+      */
+     public static List countriesByLanguage(String languageCode) {
+-        List countries = (List) cCountriesByLanguage.get(languageCode);  //syncd
++        //syncd
++        List countries = (List) cCountriesByLanguage.get(languageCode);
+         if (countries == null) {
+             if (languageCode != null) {
+                 countries = new ArrayList();
+                 List locales = availableLocaleList();
+                 for (int i = 0; i < locales.size(); i++) {
+                     Locale locale = (Locale) locales.get(i);
+-                    if (languageCode.equals(locale.getLanguage()) &&
+-                            locale.getCountry().length() != 0 &&
+-                            locale.getVariant().length() == 0) {
++                    if (languageCode.equals(locale.getLanguage()) && locale.getCountry().length() != 0 && locale.getVariant().length() == 0) {
+                         countries.add(locale);
+                     }
+                 }
+@@ -283,9 +295,9 @@
+             } else {
+                 countries = Collections.EMPTY_LIST;
+             }
+-            cCountriesByLanguage.put(languageCode, countries);  //syncd
++            //syncd
++            cCountriesByLanguage.put(languageCode, countries);
+         }
+         return countries;
+     }
+-
+ }

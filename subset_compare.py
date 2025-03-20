@@ -1,7 +1,7 @@
 import csv
 import os,sys
 
-root = os.path.dirname(os.path.abspath(__file__))
+root = '/mnt/D4JPatches/bugs_inputs.csv'
 # 读取csv文件内容
 def read_csv(file):
     with open(file,'r',encoding='utf8') as f:
@@ -20,7 +20,7 @@ def split_name_by_project(bugs_names, split):
     return splited_count
 
 def compute_overlap(bug_patch_count, captive=True):
-    bugs_names = read_csv(f'{root}{os.sep}bugs_inputs.csv')
+    bugs_names = read_csv(f'{root}')
     # print('历史版本数据集中的bug数量: ' + str(len(bugs_names)), split_name_by_project(bugs_names, '_'))
     overlap = {}
     total_count = 0
@@ -34,28 +34,58 @@ def compute_overlap(bug_patch_count, captive=True):
             total_count += count
     return overlap, total_count
 
-from Manual2023.tranverseManual2023 import *
-# patches from Manual2023
-projects, bugs, tools, patches = output_patch_stat()
-project_patch_count, tool_patch_count, bug_patch_count = output_bug_patch_count(projects, bugs, tools, patches)
-overlap, total_count = compute_overlap(bug_patch_count, False)
-print('之前仓库中overlap的bug的数量:' + str(len(overlap)), split_name_by_project(overlap, '-'))
-print('Total patches:', total_count)
 
-from ASE2020.tranverseASE2020 import *
-# patches from ASE2020
-projects, bugs, tools, patches = output_patch_stat()
-project_patch_count, tool_patch_count, bug_patch_count = output_bug_patch_count(projects, bugs, tools, patches)
-overlap, total_count = compute_overlap(bug_patch_count)
-print('ASE2020中overlap的bug的数量:' + str(len(overlap)), split_name_by_project(overlap, '-'))
-print('Total patches:', total_count)
+total_tools = {}
 
+# from Manual2023.tranverseManual2023 import *
+# # patches from Manual2023
+# projects, bugs, tools, patches = output_patch_stat()
+# project_patch_count, tool_patch_count, bug_patch_count = output_bug_patch_count(projects, bugs, tools, patches)
+# # print('tool的数量(value为patch数): ' + str(len(tool_patch_count)), tool_patch_count)
+# lowercase_tool = {key.lower(): value for key, value in tool_patch_count.items()}
+# total_tools.update(lowercase_tool)
+# overlap, total_count = compute_overlap(bug_patch_count, False)
+# print('之前仓库中overlap的bug的数量:' + str(len(overlap)), split_name_by_project(overlap, '-'))
+# print('Total patches:', total_count)
+# print('全部补丁: ' + str(sum(total_tools.values())), '工具数：' + str(len(total_tools)))
+# print('工具对应的补丁数: ', total_tools)
+
+# total_tools = {}
+# from ASE2020.tranverseASE2020 import *
+# # patches from ASE2020
+# projects, bugs, tools, patches = output_patch_stat()
+# project_patch_count, tool_patch_count, bug_patch_count = output_bug_patch_count(projects, bugs, tools, patches)
+# # print('tool的数量(value为patch数): ' + str(len(tool_patch_count)), tool_patch_count)
+# lowercase_tool = {key.lower(): value for key, value in tool_patch_count.items()}
+# total_tools.update(lowercase_tool)
+# overlap, total_count = compute_overlap(bug_patch_count)
+# print('ASE2020中overlap的bug的数量:' + str(len(overlap)), split_name_by_project(overlap, '-'))
+# print('Total patches:', total_count)
+# print('全部补丁: ' + str(sum(total_tools.values())), '工具数：' + str(len(total_tools)))
+# print('工具对应的补丁数: ', total_tools)
+
+total_tools = {}
 from ISSTA2024.tranverseISSTA2024 import *
 # patches from ISSTA2024
 projects, bugs, tools, patches = total()
-project_patch_count, tool_patch_count, bug_patch_count = output_bug_patch_count(projects, bugs, tools, patches)
-overlap, total_count = compute_overlap(bug_patch_count, False)
-print('ISSTA2024中overlap的bug的数量:' + str(len(overlap)), split_name_by_project(overlap, '-'))
-print('Total patches:', total_count)
+# project_patch_count, tool_patch_count, bug_patch_count = output_bug_patch_count(projects, bugs, tools, patches)
+# # print('tool的数量(value为patch数): ' + str(len(tool_patch_count)), tool_patch_count)
+# lowercase_tool = {key.lower(): value for key, value in tool_patch_count.items()}
+# total_tools.update(lowercase_tool)
+# overlap, total_count = compute_overlap(bug_patch_count, False)
+# print('ISSTA2024中overlap的bug的数量:' + str(len(overlap)), split_name_by_project(overlap, '-'))
+# print('Total patches:', total_count)
 
-print('多项总计的补丁数量: ')
+# print('全部补丁: ' + str(sum(total_tools.values())), '工具数：' + str(len(total_tools)))
+# print('工具对应的补丁数: ', total_tools)
+
+total_tools = {}
+projects, bugs, tools, patches = find_compilable(projects, bugs, tools)
+project_patch_count, tool_patch_count, bug_patch_count = output_bug_patch_count(projects, bugs, tools, patches)
+lowercase_tool = {key.lower(): value for key, value in tool_patch_count.items()}
+total_tools.update(lowercase_tool)
+print('全部可编译补丁: ' + str(sum(total_tools.values())), '工具数：' + str(len(total_tools)))
+print('工具对应的补丁数: ', total_tools)
+overlap, total_count = compute_overlap(bug_patch_count, False)
+print('ISSTA2024中可编译的overlap的bug的数量:' + str(len(overlap)), split_name_by_project(overlap, '-'))
+print('Total compilable patches:', total_count)

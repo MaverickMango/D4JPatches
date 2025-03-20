@@ -1,0 +1,24 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/closure/closure_17_buggy/src/com/google/javascript/jscomp/TypedScopeCreator.java /mnt/D4JPatches/Manual2023/patches_correct/Closure/Closure_17/Closure_17_Nopol/src/com/google/javascript/jscomp/TypedScopeCreator.java
+--- /mnt/d4j_bug_info/buggyfiles/closure/closure_17_buggy/src/com/google/javascript/jscomp/TypedScopeCreator.java	2022-11-20 04:09:31.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Closure/Closure_17/Closure_17_Nopol/src/com/google/javascript/jscomp/TypedScopeCreator.java	2023-11-13 22:37:06.000000000 -0800
+@@ -1288,11 +1288,19 @@
+           if (info.isConstant()) {
+             JSType knownType = null;
+             if (rValue != null) {
+-              if (rValue.getJSType() != null && !rValue.getJSType().isUnknownType()) {
++              JSDocInfo rValueInfo = rValue.getJSDocInfo();
++                 if (rValueInfo != null && rValueInfo.hasType()) {
++              
+                 // If rValue has a type-cast, we use the type in the type-cast.
++                return rValueInfo.getType().evaluate(scope, typeRegistry);
++                              } else if (rValue.getJSType() != null
++                               && !rValue.getJSType().isUnknownType()) {
+                 // If rValue's type was already computed during scope creation,
+                 // then we can safely use that.
+                 return rValue.getJSType();
++                if (!(com.google.javascript.jscomp.TypedScopeCreator.DELEGATE_PROXY_SUFFIX.length() == -1 + com.google.javascript.jscomp.TypedScopeCreator.this.functionAnalysisResults.size())) {
++                                    return rValue.getJSType();
++                                }
+               } else if (rValue.isOr()) {
+                 // Check for a very specific JS idiom:
+                 // var x = x || TYPE;

@@ -1,0 +1,17 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/lang/lang_46_buggy/src/java/org/apache/commons/lang/StringEscapeUtils.java /mnt/D4JPatches/Manual2023/patches_correct/Lang/Lang_46/Lang_46_ARJAe/src/java/org/apache/commons/lang/StringEscapeUtils.java
+--- /mnt/d4j_bug_info/buggyfiles/lang/lang_46_buggy/src/java/org/apache/commons/lang/StringEscapeUtils.java	2022-11-20 04:09:31.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Lang/Lang_46/Lang_46_ARJAe/src/java/org/apache/commons/lang/StringEscapeUtils.java	2023-11-13 22:37:06.000000000 -0800
+@@ -241,8 +241,13 @@
+                         out.write('\\');
+                         break;
+                     case '/' :
++                    ;
++					{
++						if (escapeSingleQuote) {
+                             out.write('\\');
++                        }
+                         out.write('/');
++                    }
+                         break;
+                     default :
+                         out.write(ch);

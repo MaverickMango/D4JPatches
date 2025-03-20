@@ -38,7 +38,7 @@ def output_patch_stat():
             tools.add(tool_name)
         else:
             projects.add(base_name.split('-')[1])
-            tools.add(base_name.split('-')[3])
+            tools.add(base_name.split('-')[3].replace('.patch', ''))
             # print('Special directory(patches counted):', path)
     return projects, bugs, tools, patches
 

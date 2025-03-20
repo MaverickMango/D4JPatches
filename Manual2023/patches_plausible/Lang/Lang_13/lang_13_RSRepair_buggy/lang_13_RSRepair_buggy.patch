@@ -1,0 +1,12 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/lang/lang_13_buggy/src/main/java/org/apache/commons/lang3/SerializationUtils.java /mnt/D4JPatches/Manual2023/patches_plausible/Lang/Lang_13/lang_13_RSRepair_buggy/src/main/java/org/apache/commons/lang3/SerializationUtils.java
+--- /mnt/d4j_bug_info/buggyfiles/lang/lang_13_buggy/src/main/java/org/apache/commons/lang3/SerializationUtils.java	2022-11-20 04:09:31.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_plausible/Lang/Lang_13/lang_13_RSRepair_buggy/src/main/java/org/apache/commons/lang3/SerializationUtils.java	2023-11-13 22:37:06.000000000 -0800
+@@ -96,7 +96,7 @@
+             return readObject;
+ 
+         } catch (ClassNotFoundException ex) {
+-            throw new SerializationException("ClassNotFoundException while reading cloned object data", ex);
++            return object;
+         } catch (IOException ex) {
+             throw new SerializationException("IOException while reading cloned object data", ex);
+         } finally {

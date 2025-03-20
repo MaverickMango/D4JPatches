@@ -1,0 +1,27 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/lang/lang_13_buggy/src/main/java/org/apache/commons/lang3/SerializationUtils.java /mnt/D4JPatches/Manual2023/patches_correct/Lang/Lang_13/Lang_13_AVATAR/src/main/java/org/apache/commons/lang3/SerializationUtils.java
+--- /mnt/d4j_bug_info/buggyfiles/lang/lang_13_buggy/src/main/java/org/apache/commons/lang3/SerializationUtils.java	2022-11-20 04:09:31.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Lang/Lang_13/Lang_13_AVATAR/src/main/java/org/apache/commons/lang3/SerializationUtils.java	2023-11-13 22:37:06.000000000 -0800
+@@ -251,23 +251,6 @@
+ 
+         }
+ 
+-        /**
+-         * Overriden version that uses the parametrized <code>ClassLoader</code> or the <code>ClassLoader</code>
+-         * of the current <code>Thread</code> to resolve the class.
+-         * @param desc An instance of class <code>ObjectStreamClass</code>.
+-         * @return A <code>Class</code> object corresponding to <code>desc</code>.
+-         * @throws IOException Any of the usual Input/Output exceptions.
+-         * @throws ClassNotFoundException If class of a serialized object cannot be found.
+-         */
+-        @Override
+-        protected Class<?> resolveClass(ObjectStreamClass desc) throws IOException, ClassNotFoundException {
+-            String name = desc.getName();
+-            try {
+-                return Class.forName(name, false, classLoader);
+-            } catch (ClassNotFoundException ex) {
+-                    return Class.forName(name, false, Thread.currentThread().getContextClassLoader());
+-            }
+-        }
+ 
+     }
+ 

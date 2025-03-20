@@ -1,0 +1,20 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/math/math_48_buggy/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java /mnt/D4JPatches/Manual2023/patches_plausible/Math/Math_48/Math_48_RapidCapr/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
+--- /mnt/d4j_bug_info/buggyfiles/math/math_48_buggy/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java	2022-11-20 04:09:32.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_plausible/Math/Math_48/Math_48_RapidCapr/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java	2023-11-13 22:37:06.000000000 -0800
+@@ -186,6 +186,16 @@
+                 case REGULA_FALSI:
+                     // Detect early that algorithm is stuck, instead of waiting
+                     // for the maximum number of iterations to be exceeded.
++                    // Detect early that algorithm is stuck, instead of waiting
++// for the maximum number of iterations to be exceeded.
++    if (FastMath.abs(x1 - x) < FastMath.ulp(x1)) {
++        throw new ConvergenceException();
++    }
++    
++    // detect infinite loop i.e. x1 and x0 have not changed
++    if (x == x0 || x == x1) {
++        throw new ConvergenceException();
++    }
+                     break;
+                 default:
+                     // Should never happen.

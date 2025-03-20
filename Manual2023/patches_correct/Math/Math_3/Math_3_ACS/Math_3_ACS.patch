@@ -1,0 +1,13 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/math/math_3_buggy/src/main/java/org/apache/commons/math3/util/MathArrays.java /mnt/D4JPatches/Manual2023/patches_correct/Math/Math_3/Math_3_ACS/src/main/java/org/apache/commons/math3/util/MathArrays.java
+--- /mnt/d4j_bug_info/buggyfiles/math/math_3_buggy/src/main/java/org/apache/commons/math3/util/MathArrays.java	2022-11-20 04:09:32.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Math/Math_3/Math_3_ACS/src/main/java/org/apache/commons/math3/util/MathArrays.java	2023-11-13 22:37:06.000000000 -0800
+@@ -843,6 +843,9 @@
+ 
+ 
+         final double prodHighCur = prodHigh[0];
++//ACS's patch begin
+++	if (len==1.0){return a[0] * b[0];}
++//ACS's patch end
+         double prodHighNext = prodHigh[1];
+         double sHighPrev = prodHighCur + prodHighNext;
+         double sPrime = sHighPrev - prodHighNext;

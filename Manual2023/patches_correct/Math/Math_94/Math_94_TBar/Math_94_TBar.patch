@@ -1,0 +1,379 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/math/math_94_buggy/src/java/org/apache/commons/math/util/MathUtils.java /mnt/D4JPatches/Manual2023/patches_correct/Math/Math_94/Math_94_TBar/src/java/org/apache/commons/math/util/MathUtils.java
+--- /mnt/d4j_bug_info/buggyfiles/math/math_94_buggy/src/java/org/apache/commons/math/util/MathUtils.java	2022-11-20 04:09:32.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Math/Math_94/Math_94_TBar/src/java/org/apache/commons/math/util/MathUtils.java	2023-11-13 22:37:06.000000000 -0800
+@@ -14,7 +14,6 @@
+  * See the License for the specific language governing permissions and
+  * limitations under the License.
+  */
+-
+ package org.apache.commons.math.util;
+ 
+ import java.math.BigDecimal;
+@@ -26,34 +25,51 @@
+  */
+ public final class MathUtils {
+ 
+-    /** Smallest positive number such that 1 - EPSILON is not numerically equal to 1. */
++    /**
++     * Smallest positive number such that 1 - EPSILON is not numerically equal to 1.
++     */
+     public static final double EPSILON = 0x1.0p-53;
+ 
+-    /** Safe minimum, such that 1 / SAFE_MIN does not overflow.
++    /**
++     * Safe minimum, such that 1 / SAFE_MIN does not overflow.
+      * <p>In IEEE 754 arithmetic, this is also the smallest normalized
+      * number 2<sup>-1022</sup>.</p>
+      */
+     public static final double SAFE_MIN = 0x1.0p-1022;
+ 
+-    /** -1.0 cast as a byte. */
++    /**
++     * -1.0 cast as a byte.
++     */
+     private static final byte  NB = (byte)-1;
+ 
+-    /** -1.0 cast as a short. */
++    /**
++     * -1.0 cast as a short.
++     */
+     private static final short NS = (short)-1;
+ 
+-    /** 1.0 cast as a byte. */
++    /**
++     * 1.0 cast as a byte.
++     */
+     private static final byte  PB = (byte)1;
+ 
+-    /** 1.0 cast as a short. */
++    /**
++     * 1.0 cast as a short.
++     */
+     private static final short PS = (short)1;
+ 
+-    /** 0.0 cast as a byte. */
++    /**
++     * 0.0 cast as a byte.
++     */
+     private static final byte  ZB = (byte)0;
+ 
+-    /** 0.0 cast as a short. */
++    /**
++     * 0.0 cast as a short.
++     */
+     private static final short ZS = (short)0;
+ 
+-    /** 2 &pi;. */
++    /**
++     * 2 &pi;.
++     */
+     private static final double TWO_PI = 2 * Math.PI;
+ 
+     /**
+@@ -113,7 +129,6 @@
+             ret = addAndCheck(b, a, msg);
+         } else {
+             // assert a <= b
+-            
+             if (a < 0) {
+                 if (b < 0) {
+                     // check for negative overflow
+@@ -129,7 +144,6 @@
+             } else {
+                 // assert a >= 0
+                 // assert b >= 0
+-
+                 // check for positive overflow
+                 if (a <= Long.MAX_VALUE - b) {
+                     ret = a + b;
+@@ -169,12 +183,10 @@
+      */
+     public static long binomialCoefficient(final int n, final int k) {
+         if (n < k) {
+-            throw new IllegalArgumentException(
+-                "must have n >= k for binomial coefficient (n,k)");
++            throw new IllegalArgumentException("must have n >= k for binomial coefficient (n,k)");
+         }
+         if (n < 0) {
+-            throw new IllegalArgumentException(
+-                "must have n >= 0 for binomial coefficient (n,k)");
++            throw new IllegalArgumentException("must have n >= 0 for binomial coefficient (n,k)");
+         }
+         if ((n == k) || (k == 0)) {
+             return 1;
+@@ -182,11 +194,9 @@
+         if ((k == 1) || (k == n - 1)) {
+             return n;
+         }
+-
+         long result = Math.round(binomialCoefficientDouble(n, k));
+         if (result == Long.MAX_VALUE) {
+-            throw new ArithmeticException(
+-                "result too large to represent in a long integer");
++            throw new ArithmeticException("result too large to represent in a long integer");
+         }
+         return result;
+     }
+@@ -237,12 +247,10 @@
+      */
+     public static double binomialCoefficientLog(final int n, final int k) {
+         if (n < k) {
+-            throw new IllegalArgumentException(
+-                "must have n >= k for binomial coefficient (n,k)");
++            throw new IllegalArgumentException("must have n >= k for binomial coefficient (n,k)");
+         }
+         if (n < 0) {
+-            throw new IllegalArgumentException(
+-                "must have n >= 0 for binomial coefficient (n,k)");
++            throw new IllegalArgumentException("must have n >= 0 for binomial coefficient (n,k)");
+         }
+         if ((n == k) || (k == 0)) {
+             return 0;
+@@ -251,17 +259,14 @@
+             return Math.log((double)n);
+         }
+         double logSum = 0;
+-
+         // n!/k!
+         for (int i = k + 1; i <= n; i++) {
+             logSum += Math.log((double)i);
+         }
+-
+         // divide by (n-k)!
+         for (int i = 2; i <= n - k; i++) {
+             logSum -= Math.log((double)i);
+         }
+-
+         return logSum;
+     }
+     
+@@ -338,8 +343,7 @@
+     public static long factorial(final int n) {
+         long result = Math.round(factorialDouble(n));
+         if (result == Long.MAX_VALUE) {
+-            throw new ArithmeticException(
+-                "result too large to represent in a long integer");
++            throw new ArithmeticException("result too large to represent in a long integer");
+         }
+         return result;
+     }
+@@ -409,7 +413,7 @@
+      * @since 1.1
+      */
+     public static int gcd(int u, int v) {
+-        if (u * v == 0) {
++        if (sign(u) * v == 0) {
+             return (Math.abs(u) + Math.abs(v));
+         }
+         // keep u and v negative, as negative integers range down to
+@@ -419,31 +423,37 @@
+         /* assert u!=0 && v!=0; */
+         if (u > 0) {
+             u = -u;
+-        } // make u negative
++        }
++        // make u negative
+         if (v > 0) {
+             v = -v;
+-        } // make v negative
++        }
++        // make v negative
+         // B1. [Find power of 2]
+         int k = 0;
+-        while ((u & 1) == 0 && (v & 1) == 0 && k < 31) { // while u and v are
++        while ((u & 1) == 0 && (v & 1) == 0 && k < 31) {
++            // while u and v are
+                                                             // both even...
+             u /= 2;
+             v /= 2;
+-            k++; // cast out twos.
++            // cast out twos.
++            k++;
+         }
+         if (k == 31) {
+             throw new ArithmeticException("overflow: gcd is 2^31");
+         }
+         // B2. Initialize: u and v have been divided by 2^k and at least
+         // one is odd.
+-        int t = ((u & 1) == 1) ? v : -(u / 2)/* B3 */;
++        int t = ((u & 1) == 1) ? v : -(u / 2);
+         // t negative: u was odd, v may be even (t replaces v)
+         // t positive: u was even, v is odd (t replaces u)
+         do {
+             /* assert u<0 && v<0; */
+             // B4/B3: cast out twos from t.
+-            while ((t & 1) == 0) { // while t is even..
+-                t /= 2; // cast out twos
++            while ((t & 1) == 0) {
++                // while t is even..
++                // cast out twos
++                t /= 2;
+             }
+             // B5 [reset max(u,v)]
+             if (t > 0) {
+@@ -456,7 +466,8 @@
+             // |u| larger: t positive (replace u)
+             // |v| larger: t negative (replace v)
+         } while (t != 0);
+-        return -u * (1 << k); // gcd is u*2^k
++        // gcd is u*2^k
++        return -u * (1 << k);
+     }
+ 
+     /**
+@@ -633,7 +644,6 @@
+                         ret = a * b;
+                     } else {
+                         throw new ArithmeticException(msg);
+-                        
+                     }
+                 } else {
+                     // assert b == 0
+@@ -642,7 +652,6 @@
+             } else if (a > 0) {
+                 // assert a > 0
+                 // assert b > 0
+-                
+                 // check for positive overflow with positive a, positive b
+                 if (a <= Long.MAX_VALUE / b) {
+                     ret = a * b;
+@@ -675,7 +684,6 @@
+      * @since 1.2
+      */
+     public static double nextAfter(double d, double direction) {
+-
+         // handling of some important special cases
+         if (Double.isNaN(d) || Double.isInfinite(d)) {
+                 return d;
+@@ -684,34 +692,26 @@
+         }
+         // special cases MAX_VALUE to infinity and  MIN_VALUE to 0
+         // are handled just as normal numbers
+-
+         // split the double in raw components
+         long bits     = Double.doubleToLongBits(d);
+         long sign     = bits & 0x8000000000000000L;
+         long exponent = bits & 0x7ff0000000000000L;
+         long mantissa = bits & 0x000fffffffffffffL;
+-
+         if (d * (direction - d) >= 0) {
+                 // we should increase the mantissa
+                 if (mantissa == 0x000fffffffffffffL) {
+-                        return Double.longBitsToDouble(sign |
+-                                        (exponent + 0x0010000000000000L));
++                return Double.longBitsToDouble(sign | (exponent + 0x0010000000000000L));
+                 } else {
+-                        return Double.longBitsToDouble(sign |
+-                                        exponent | (mantissa + 1));
++                return Double.longBitsToDouble(sign | exponent | (mantissa + 1));
+                 }
+         } else {
+                 // we should decrease the mantissa
+                 if (mantissa == 0L) {
+-                        return Double.longBitsToDouble(sign |
+-                                        (exponent - 0x0010000000000000L) |
+-                                        0x000fffffffffffffL);
++                return Double.longBitsToDouble(sign | (exponent - 0x0010000000000000L) | 0x000fffffffffffffL);
+                 } else {
+-                        return Double.longBitsToDouble(sign |
+-                                        exponent | (mantissa - 1));
++                return Double.longBitsToDouble(sign | exponent | (mantissa - 1));
+                 }
+         }
+-
+     }
+ 
+     /**
+@@ -724,21 +724,17 @@
+      * @since 2.0
+      */
+     public static double scalb(final double d, final int scaleFactor) {
+-
+         // handling of some important special cases
+         if ((d == 0) || Double.isNaN(d) || Double.isInfinite(d)) {
+             return d;
+         }
+-
+         // split the double in raw components
+         final long bits     = Double.doubleToLongBits(d);
+         final long exponent = bits & 0x7ff0000000000000L;
+         final long rest     = bits & 0x800fffffffffffffL;
+-
+         // shift the exponent
+         final long newBits = rest | (exponent + (((long) scaleFactor) << 52));
+         return Double.longBitsToDouble(newBits);
+-
+     }
+ 
+     /**
+@@ -791,10 +787,7 @@
+      */
+     public static double round(double x, int scale, int roundingMethod) {
+         try {
+-            return (new BigDecimal
+-                   (Double.toString(x))
+-                   .setScale(scale, roundingMethod))
+-                   .doubleValue();
++            return (new BigDecimal(Double.toString(x)).setScale(scale, roundingMethod)).doubleValue();
+         } catch (NumberFormatException ex) {
+             if (Double.isInfinite(x)) {
+                 return x;          
+@@ -847,8 +840,7 @@
+      * @return the rounded value.
+      * @since 1.1
+      */
+-    private static double roundUnscaled(double unscaled, double sign,
+-        int roundingMethod) {
++    private static double roundUnscaled(double unscaled, double sign, int roundingMethod) {
+         switch (roundingMethod) {
+         case BigDecimal.ROUND_CEILING :
+             if (sign == -1) {
+@@ -867,7 +859,8 @@
+                 unscaled = Math.floor(nextAfter(unscaled, Double.NEGATIVE_INFINITY));
+             }
+             break;
+-        case BigDecimal.ROUND_HALF_DOWN : {
++            case BigDecimal.ROUND_HALF_DOWN:
++                {
+             unscaled = nextAfter(unscaled, Double.NEGATIVE_INFINITY);
+             double fraction = unscaled - Math.floor(unscaled);
+             if (fraction > 0.5) {
+@@ -877,7 +870,8 @@
+             }
+             break;
+         }
+-        case BigDecimal.ROUND_HALF_EVEN : {
++            case BigDecimal.ROUND_HALF_EVEN:
++                {
+             double fraction = unscaled - Math.floor(unscaled);
+             if (fraction > 0.5) {
+                 unscaled = Math.ceil(unscaled);
+@@ -885,16 +879,18 @@
+                 unscaled = Math.floor(unscaled);
+             } else {
+                 // The following equality test is intentional and needed for rounding purposes
+-                if (Math.floor(unscaled) / 2.0 == Math.floor(Math
+-                    .floor(unscaled) / 2.0)) { // even
++                        if (Math.floor(unscaled) / 2.0 == Math.floor(Math.floor(unscaled) / 2.0)) {
++                            // even
+                     unscaled = Math.floor(unscaled);
+-                } else { // odd
++                        } else {
++                            // odd
+                     unscaled = Math.ceil(unscaled);
+                 }
+             }
+             break;
+         }
+-        case BigDecimal.ROUND_HALF_UP : {
++            case BigDecimal.ROUND_HALF_UP:
++                {
+             unscaled = nextAfter(unscaled, Double.POSITIVE_INFINITY);
+             double fraction = unscaled - Math.floor(unscaled);
+             if (fraction >= 0.5) {
+@@ -1066,5 +1062,4 @@
+         }
+         return ret;
+     }
+-
+ }

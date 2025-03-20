@@ -1,0 +1,84 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/math/math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java /mnt/D4JPatches/Manual2023/patches_correct/Math/Math_53/Math_53_HDRepair/src/main/java/org/apache/commons/math/complex/Complex.java
+--- /mnt/d4j_bug_info/buggyfiles/math/math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java	2022-11-20 04:09:32.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Math/Math_53/Math_53_HDRepair/src/main/java/org/apache/commons/math/complex/Complex.java	2023-11-13 22:37:06.000000000 -0800
+@@ -27,6 +27,9 @@
+ import org.apache.commons.math.exception.util.LocalizedFormats;
+ import org.apache.commons.math.util.MathUtils;
+ import org.apache.commons.math.util.FastMath;
++import java.util.Map;
++import java.util.HashMap;
++import myprinter.FieldPrinter;
+ 
+ /**
+  * Representation of a Complex number - a number which has both a
+@@ -48,6 +51,24 @@
+  */
+ public class Complex implements FieldElement<Complex>, Serializable  {
+ 
++    public static Map oref_map = new HashMap();
++
++	public static int eid_7au3e = 0;
++
++	public static void addToORefMap(String msig, Object obj) {
++		List l = (List) oref_map.get(msig);
++		if (l == null) {
++			l = new ArrayList();
++			oref_map.put(msig, l);
++		}
++		l.add(obj);
++	}
++
++	public static void clearORefMap() {
++		oref_map.clear();
++		eid_7au3e = 0;
++	}
++
+     /** The square root of -1. A number representing "0.0 + 1.0i" */
+     public static final Complex I = new Complex(0.0, 1.0);
+ 
+@@ -147,10 +168,10 @@
+      * @return the complex number sum
+      * @throws NullArgumentException if <code>rhs</code> is null
+      */
+-    public Complex add(Complex rhs)
++    public Complex add_7au3e(Complex rhs)
+         throws NullArgumentException {
+         MathUtils.checkNotNull(rhs);
+-        return createComplex(real + rhs.getReal(),
++        return createComplex(real + rhs.getArgument(), //Overfitting
+             imaginary + rhs.getImaginary());
+     }
+ 
+@@ -1017,4 +1038,32 @@
+     public String toString() {
+         return "(" + real + ", " + imaginary + ")";
+     }
++
++	/**
++	 * Return the sum of this complex number and the given complex number. <p> Uses the definitional formula <pre> (a + bi) + (c + di) = (a+c) + (b+d)i </pre></p> <p> If either this or <code>rhs</code> has a NaN value in either part, {@link #NaN}  is returned; otherwise Infinite and NaN values are returned in the parts of the result according to the rules for {@link java.lang.Double}  arithmetic.</p>
++	 * @param rhs  the other complex number
++	 * @return  the complex number sum
++	 * @throws NullArgumentException  if <code>rhs</code> is null
++	 */
++	public Complex add(Complex rhs) throws NullArgumentException {
++		Object o_7au3e = null;
++		String c_7au3e = "org.apache.commons.math.complex.Complex";
++		String msig_7au3e = "add(Complex)" + eid_7au3e;
++		try {
++			o_7au3e = add_7au3e(rhs);
++			FieldPrinter.print(o_7au3e, eid_7au3e, c_7au3e, msig_7au3e, 0, 5);
++			addToORefMap(msig_7au3e, o_7au3e);
++			FieldPrinter.print(this, eid_7au3e, c_7au3e, msig_7au3e, 1, 5);
++			addToORefMap(msig_7au3e, this);
++			FieldPrinter.print(rhs, eid_7au3e, c_7au3e, msig_7au3e, 2, 5);
++			addToORefMap(msig_7au3e, rhs);
++		} catch (Throwable t7au3e) {
++			FieldPrinter.print(t7au3e, eid_7au3e, c_7au3e, msig_7au3e, 0, 5);
++			addToORefMap(msig_7au3e, t7au3e);
++			throw t7au3e;
++		} finally {
++			eid_7au3e++;
++		}
++		return (Complex) o_7au3e;
++	}
+ }

@@ -1,0 +1,13 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/mockito/mockito_22_buggy/src/org/mockito/internal/matchers/Equality.java /mnt/D4JPatches/Manual2023/patches_correct/Mockito/Mockito_22/Mockito_22_TENURE/src/org/mockito/internal/matchers/Equality.java
+--- /mnt/d4j_bug_info/buggyfiles/mockito/mockito_22_buggy/src/org/mockito/internal/matchers/Equality.java	2022-11-20 04:09:31.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Mockito/Mockito_22/Mockito_22_TENURE/src/org/mockito/internal/matchers/Equality.java	2023-11-13 22:37:06.000000000 -0800
+@@ -10,6 +10,9 @@
+ public class Equality {
+ 
+     public static boolean areEqual(Object o1, Object o2) {
++        if ( o1 == o2 ){
++                return true ;
++         }
+         if (o1 == null || o2 == null) {
+             return o1 == null && o2 == null;
+         } else if (isArray(o1)) {

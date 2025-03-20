@@ -1,0 +1,87 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/lang/lang_51_buggy/src/java/org/apache/commons/lang/BooleanUtils.java /mnt/D4JPatches/Manual2023/patches_correct/Lang/Lang_51/Lang_51_Jaid/src/java/org/apache/commons/lang/BooleanUtils.java
+--- /mnt/d4j_bug_info/buggyfiles/lang/lang_51_buggy/src/java/org/apache/commons/lang/BooleanUtils.java	2022-11-20 04:09:31.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Lang/Lang_51/Lang_51_Jaid/src/java/org/apache/commons/lang/BooleanUtils.java	2023-11-13 22:37:06.000000000 -0800
+@@ -660,39 +660,33 @@
+             return false;
+         }
+         switch (str.length()) {
+-            case 2: {
++            case 2:
++                {
+                 char ch0 = str.charAt(0);
+                 char ch1 = str.charAt(1);
+-                return 
+-                    (ch0 == 'o' || ch0 == 'O') &&
+-                    (ch1 == 'n' || ch1 == 'N');
++                    return (ch0 == 'o' || ch0 == 'O') && (ch1 == 'n' || ch1 == 'N');
+             }
+-            case 3: {
++            case 3:
++                {
+                 char ch = str.charAt(0);
+                 if (ch == 'y') {
+-                    return 
+-                        (str.charAt(1) == 'e' || str.charAt(1) == 'E') &&
+-                        (str.charAt(2) == 's' || str.charAt(2) == 'S');
++                        return (str.charAt(1) == 'e' || str.charAt(1) == 'E') && (str.charAt(2) == 's' || str.charAt(2) == 'S');
++                    }
++                    if ((ch == 'Y') == false) {
++                        return false;
+                 }
+                 if (ch == 'Y') {
+-                    return 
+-                        (str.charAt(1) == 'E' || str.charAt(1) == 'e') &&
+-                        (str.charAt(2) == 'S' || str.charAt(2) == 's');
++                        return (str.charAt(1) == 'E' || str.charAt(1) == 'e') && (str.charAt(2) == 'S' || str.charAt(2) == 's');
+                 }
+             }
+-            case 4: {
++            case 4:
++                {
+                 char ch = str.charAt(0);
+                 if (ch == 't') {
+-                    return 
+-                        (str.charAt(1) == 'r' || str.charAt(1) == 'R') &&
+-                        (str.charAt(2) == 'u' || str.charAt(2) == 'U') &&
+-                        (str.charAt(3) == 'e' || str.charAt(3) == 'E');
++                        return (str.charAt(1) == 'r' || str.charAt(1) == 'R') && (str.charAt(2) == 'u' || str.charAt(2) == 'U') && (str.charAt(3) == 'e' || str.charAt(3) == 'E');
+                 }
+                 if (ch == 'T') {
+-                    return 
+-                        (str.charAt(1) == 'R' || str.charAt(1) == 'r') &&
+-                        (str.charAt(2) == 'U' || str.charAt(2) == 'u') &&
+-                        (str.charAt(3) == 'E' || str.charAt(3) == 'e');
++                        return (str.charAt(1) == 'R' || str.charAt(1) == 'r') && (str.charAt(2) == 'U' || str.charAt(2) == 'u') && (str.charAt(3) == 'E' || str.charAt(3) == 'e');
+                 }
+             }
+         }
+@@ -709,7 +703,6 @@
+ //        long end = System.currentTimeMillis();
+ //        System.out.println((end - start) + " " + flag + " " + count);
+ //    }
+-    
+     /**
+      * <p>Converts a String to a Boolean throwing an exception if no match found.</p>
+      * 
+@@ -920,7 +913,6 @@
+         } else if (array.length == 0) {
+             throw new IllegalArgumentException("Array is empty");
+         }
+-
+         // Loops through array, comparing each item
+         int trueCount = 0;
+         for (int i = 0; i < array.length; i++) {
+@@ -934,7 +926,6 @@
+                 }
+             }
+         }
+-
+         // Returns true if there was exactly 1 true item
+         return trueCount == 1;
+     }
+@@ -968,5 +959,4 @@
+         }
+         return xor(primitive) ? Boolean.TRUE : Boolean.FALSE;
+     }
+-
+ }

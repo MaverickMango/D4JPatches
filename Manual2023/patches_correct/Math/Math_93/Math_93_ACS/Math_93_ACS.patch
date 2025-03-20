@@ -1,0 +1,26 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/math/math_93_buggy/src/java/org/apache/commons/math/util/MathUtils.java /mnt/D4JPatches/Manual2023/patches_correct/Math/Math_93/Math_93_ACS/src/java/org/apache/commons/math/util/MathUtils.java
+--- /mnt/d4j_bug_info/buggyfiles/math/math_93_buggy/src/java/org/apache/commons/math/util/MathUtils.java	2022-11-20 04:09:32.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Math/Math_93/Math_93_ACS/src/java/org/apache/commons/math/util/MathUtils.java	2023-11-13 22:37:06.000000000 -0800
+@@ -25,6 +25,14 @@
+  * @version $Revision$ $Date$
+  */
+ public final class MathUtils {
++    private static long patch_method(int n){
++          long result=1;
++          for (int i=2; i <= n; i++) {
++            result*=i;
++          }
++          return result;
++        }
++         
+ 
+     /** Smallest positive number such that 1 - EPSILON is not numerically equal to 1. */
+     public static final double EPSILON = 0x1.0p-53;
+@@ -374,6 +382,7 @@
+         if (n < 0) {
+             throw new IllegalArgumentException("must have n >= 0 for n!");
+         }
++        if (n<(int)20.0){return patch_method(n);}       
+         return Math.floor(Math.exp(factorialLog(n)) + 0.5);
+     }
+ 

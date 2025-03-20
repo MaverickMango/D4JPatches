@@ -1,0 +1,25 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/math/math_28_buggy/src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java /mnt/D4JPatches/Manual2023/patches_correct/Math/Math_28/Math_28_AVATAR/src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java
+--- /mnt/d4j_bug_info/buggyfiles/math/math_28_buggy/src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java	2022-11-20 04:09:32.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Math/Math_28/Math_28_AVATAR/src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java	2023-11-13 22:37:06.000000000 -0800
+@@ -135,20 +135,7 @@
+             // Additional heuristic: if we did not get a solution after half of maxIterations
+             //                       revert to the simple case of just returning the top-most row
+             // This heuristic is based on empirical data gathered while investigating MATH-828.
+-                Integer minRow = null;
+-                int minIndex = tableau.getWidth();
+-                for (Integer row : minRatioPositions) {
+-                    int i = tableau.getNumObjectiveFunctions();
+-                    for (; i < tableau.getWidth() - 1 && minRow != row; i++) {
+-                        if (row == tableau.getBasicRow(i)) {
+-                            if (i < minIndex) {
+-                                minIndex = i;
+-                                minRow = row;
+-                            }
+-                        }
+-                    }
+-                }
+-                return minRow;
++                
+         }
+         return minRatioPositions.get(0);
+     }

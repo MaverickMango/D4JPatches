@@ -1,0 +1,13 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/math/math_96_buggy/src/java/org/apache/commons/math/complex/Complex.java /mnt/D4JPatches/Manual2023/patches_plausible/Math/Math_96/Math_96_TBar_normal/src/java/org/apache/commons/math/complex/Complex.java
+--- /mnt/d4j_bug_info/buggyfiles/math/math_96_buggy/src/java/org/apache/commons/math/complex/Complex.java	2022-11-20 04:09:32.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_plausible/Math/Math_96/Math_96_TBar_normal/src/java/org/apache/commons/math/complex/Complex.java	2023-11-13 22:37:06.000000000 -0800
+@@ -255,7 +255,7 @@
+                 if (rhs.isNaN()) {
+                     ret = this.isNaN();
+                 } else {
+-                    ret = (Double.doubleToRawLongBits(real) == Double.doubleToRawLongBits(rhs.getReal())) && (Double.doubleToRawLongBits(imaginary) == Double.doubleToRawLongBits(rhs.getImaginary())); 
++                    ret = (Double.doubleToRawLongBits(real)>=Double.doubleToRawLongBits(rhs.getReal())) && (Double.doubleToRawLongBits(imaginary) == Double.doubleToRawLongBits(rhs.getImaginary())); 
+                 }
+             } catch (ClassCastException ex) {
+                 // ignore exception
+Only in /mnt/D4JPatches/Manual2023/patches_plausible/Math/Math_96/Math_96_TBar_normal/src/java/org/apache/commons/math/complex: Complex.java.orig

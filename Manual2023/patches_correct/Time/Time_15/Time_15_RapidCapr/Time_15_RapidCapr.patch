@@ -1,0 +1,13 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/time/time_15_buggy/src/main/java/org/joda/time/field/FieldUtils.java /mnt/D4JPatches/Manual2023/patches_correct/Time/Time_15/Time_15_RapidCapr/src/main/java/org/joda/time/field/FieldUtils.java
+--- /mnt/d4j_bug_info/buggyfiles/time/time_15_buggy/src/main/java/org/joda/time/field/FieldUtils.java	2022-11-20 04:09:31.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Time/Time_15/Time_15_RapidCapr/src/main/java/org/joda/time/field/FieldUtils.java	2023-11-13 22:37:06.000000000 -0800
+@@ -135,6 +135,9 @@
+     public static long safeMultiply(long val1, int val2) {
+         switch (val2) {
+             case -1:
++            if (val1 == Long.MIN_VALUE) {
++                                    throw new ArithmeticException("Multiplication overflows a long: " + val1 + " * " + val2);
++                                }
+                 return -val1;
+             case 0:
+                 return 0L;

@@ -1,0 +1,36 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/math/math_35_buggy/src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java /mnt/D4JPatches/Manual2023/patches_correct/Math/Math_35/Math_35_ACS/src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java
+--- /mnt/d4j_bug_info/buggyfiles/math/math_35_buggy/src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java	2022-11-20 04:09:32.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Math/Math_35/Math_35_ACS/src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java	2023-11-13 22:37:06.000000000 -0800
+@@ -14,7 +14,7 @@
+  * See the License for the specific language governing permissions and
+  * limitations under the License.
+  */
+-package org.apache.commons.math3.genetics;
++package org.apache.commons.math3.genetics;import  org.apache.commons.math3.exception.OutOfRangeException;import  org.apache.commons.math3.exception.OutOfRangeException;
+ 
+ import java.util.Collections;
+ import java.util.List;
+@@ -49,6 +49,10 @@
+                                    final double elitismRate) {
+         super(chromosomes, populationLimit);
+         this.elitismRate = elitismRate;
++//ACS's patch begin
+++	if (elitismRate>(double)1.0){throw new OutOfRangeException(null,null,null);}
+++	if (elitismRate<(double)0.0){throw new OutOfRangeException(null,null,null);}
++//ACS's patch end
+     }
+ 
+     /**
+@@ -63,6 +67,12 @@
+     public ElitisticListPopulation(final int populationLimit, final double elitismRate) {
+         super(populationLimit);
+         this.elitismRate = elitismRate;
++//ACS's patch begin
+++	if (elitismRate>(double)1.0){throw new OutOfRangeException(null,null,null);}
+++	if (elitismRate<(double)0.0){throw new OutOfRangeException(null,null,null);}
++//ACS's patch end
++
++
+     }
+ 
+     /**

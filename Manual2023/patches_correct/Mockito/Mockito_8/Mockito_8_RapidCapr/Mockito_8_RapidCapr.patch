@@ -1,0 +1,20 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/mockito/mockito_8_buggy/src/org/mockito/internal/util/reflection/GenericMetadataSupport.java /mnt/D4JPatches/Manual2023/patches_correct/Mockito/Mockito_8/Mockito_8_RapidCapr/src/org/mockito/internal/util/reflection/GenericMetadataSupport.java
+--- /mnt/d4j_bug_info/buggyfiles/mockito/mockito_8_buggy/src/org/mockito/internal/util/reflection/GenericMetadataSupport.java	2022-11-20 04:09:31.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Mockito/Mockito_8/Mockito_8_RapidCapr/src/org/mockito/internal/util/reflection/GenericMetadataSupport.java	2023-11-13 22:37:06.000000000 -0800
+@@ -64,6 +64,7 @@
+ 
+ 
+     protected void registerTypeVariablesOn(Type classType) {
++       
+         if (!(classType instanceof ParameterizedType)) {
+             return;
+         }
+@@ -76,7 +77,7 @@
+ 
+             if (actualTypeArgument instanceof WildcardType) {
+                 contextualActualTypeParameters.put(typeParameter, boundsOf((WildcardType) actualTypeArgument));
+-            } else {
++                } else if (!typeParameter.equals(actualTypeArgument)) { // check for equality before adding to the map
+                 contextualActualTypeParameters.put(typeParameter, actualTypeArgument);
+             }
+             // logger.log("For '" + parameterizedType + "' found type variable : { '" + typeParameter + "(" + System.identityHashCode(typeParameter) + ")" + "' : '" + actualTypeArgument + "(" + System.identityHashCode(typeParameter) + ")" + "' }");

@@ -1,0 +1,15 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/closure/closure_33_buggy/src/com/google/javascript/rhino/jstype/PrototypeObjectType.java /mnt/D4JPatches/Manual2023/patches_correct/Closure/Closure_33/Closure_33_Nopol/src/com/google/javascript/rhino/jstype/PrototypeObjectType.java
+--- /mnt/d4j_bug_info/buggyfiles/closure/closure_33_buggy/src/com/google/javascript/rhino/jstype/PrototypeObjectType.java	2022-11-20 04:09:31.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Closure/Closure_33/Closure_33_Nopol/src/com/google/javascript/rhino/jstype/PrototypeObjectType.java	2023-11-13 22:37:06.000000000 -0800
+@@ -570,9 +570,11 @@
+         if (!isPropertyTypeDeclared(prop)) {
+           JSType typeToInfer = propType;
+           if (!hasProperty(prop)) {
++            if (com.google.javascript.rhino.jstype.PrototypeObjectType.this.prettyPrint) {
+             typeToInfer = getNativeType(JSTypeNative.VOID_TYPE)
+                 .getLeastSupertype(propType);
+           }
++          }
+           defineInferredProperty(prop, typeToInfer, null);
+         }
+       }

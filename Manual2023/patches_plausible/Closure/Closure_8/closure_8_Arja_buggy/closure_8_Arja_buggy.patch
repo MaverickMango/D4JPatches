@@ -1,0 +1,180 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/closure/closure_8_buggy/src/com/google/javascript/jscomp/CollapseVariableDeclarations.java /mnt/D4JPatches/Manual2023/patches_plausible/Closure/Closure_8/closure_8_Arja_buggy/src/com/google/javascript/jscomp/CollapseVariableDeclarations.java
+--- /mnt/d4j_bug_info/buggyfiles/closure/closure_8_buggy/src/com/google/javascript/jscomp/CollapseVariableDeclarations.java	2022-11-20 04:09:31.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_plausible/Closure/Closure_8/closure_8_Arja_buggy/src/com/google/javascript/jscomp/CollapseVariableDeclarations.java	2023-11-13 22:37:06.000000000 -0800
+@@ -13,7 +13,6 @@
+  * See the License for the specific language governing permissions and
+  * limitations under the License.
+  */
+-
+ package com.google.javascript.jscomp;
+ 
+ import com.google.common.base.Preconditions;
+@@ -24,7 +23,6 @@
+ import com.google.javascript.rhino.JSDocInfo;
+ import com.google.javascript.rhino.Node;
+ import com.google.javascript.rhino.Token;
+-
+ import java.util.List;
+ import java.util.Set;
+ 
+@@ -59,14 +57,19 @@
+  * becomes:
+  *
+  * <pre>var c = b = a = true;</pre>
+- *
+  */
+ class CollapseVariableDeclarations implements CompilerPass {
+-  /** Reference to JS Compiler */
++
++    /**
++     * Reference to JS Compiler
++     */
+   private final AbstractCompiler compiler;
+ 
+-  /** Encapsulation of information about a variable declaration collapse */
++    /**
++     * Encapsulation of information about a variable declaration collapse
++     */
+   private static class Collapse {
++
+     /**
+      * Variable declaration that any following var nodes should be
+      * collapsed into
+@@ -78,7 +81,9 @@
+      */
+     final Node endNode;
+ 
+-    /** Parent of the nodes to the collapse */
++        /**
++         * Parent of the nodes to the collapse
++         */
+     final Node parent;
+ 
+     Collapse(Node startNode, Node endNode, Node parent) {
+@@ -109,12 +114,9 @@
+   public void process(Node externs, Node root) {
+     collapses.clear();
+     nodesToCollapse.clear();
+-
+     NodeTraversal.traverse(compiler, root, new GatherCollapses());
+-
+     if (!collapses.isEmpty()) {
+       applyCollapses();
+-      compiler.reportCodeChange();
+     }
+   }
+ 
+@@ -138,40 +140,30 @@
+       if (n.isVar()) {
+         blacklistStubVars(t, n);
+       }
+-
+       // Only care about var nodes
+-      if (!n.isVar() && !canBeRedeclared(n, t.getScope())) return;
+-
++            if (!n.isVar() && !canBeRedeclared(n, t.getScope()))
++                return;
+       // If we've already looked at this node, skip it
+-      if (nodesToCollapse.contains(n)) return;
+-
++            if (nodesToCollapse.contains(n))
++                return;
+       // Adjacent VAR children of an IF node are the if and else parts and can't
+       // be collapsed
+-      if (parent.isIf()) return;
+-
++            if (parent.isIf())
++                return;
+       Node varNode = n;
+-
+       boolean hasVar = n.isVar();
+-
+       // Find variable declarations that follow this one (if any)
+       n = n.getNext();
+-
+       boolean hasNodesToCollapse = false;
+-
+-      while (n != null &&
+-          (n.isVar() || canBeRedeclared(n, t.getScope()))) {
+-
++            while (n != null && (n.isVar() || canBeRedeclared(n, t.getScope()))) {
+         if (n.isVar()) {
+           blacklistStubVars(t, n);
+           hasVar = true;
+         }
+-
+         nodesToCollapse.add(n);
+         hasNodesToCollapse = true;
+-
+         n = n.getNext();
+       }
+-
+       if (hasNodesToCollapse && hasVar) {
+         nodesToCollapse.add(varNode);
+         collapses.add(new Collapse(varNode, n, parent));
+@@ -179,8 +171,7 @@
+     }
+ 
+     private void blacklistStubVars(NodeTraversal t, Node varNode) {
+-      for (Node child = varNode.getFirstChild();
+-           child != null; child = child.getNext()) {
++            for (Node child = varNode.getFirstChild(); child != null; child = child.getNext()) {
+         if (child.getFirstChild() == null) {
+           blacklistedVars.add(t.getScope().getVar(child.getString()));
+         }
+@@ -193,54 +184,14 @@
+       }
+       Node assign = n.getFirstChild();
+       Node lhs = assign.getFirstChild();
+-
+       if (!lhs.isName()) {
+         return false;
+       }
+-
+       Var var = s.getVar(lhs.getString());
+-      return var != null
+-          && var.getScope() == s
+-          && !blacklistedVars.contains(var);
++            return var != null && var.getScope() == s && !blacklistedVars.contains(var);
+     }
+   }
+ 
+-
+   private void applyCollapses() {
+-    for (Collapse collapse : collapses) {
+-
+-      Node var = new Node(Token.VAR);
+-      var.copyInformationFrom(collapse.startNode);
+-      collapse.parent.addChildBefore(var, collapse.startNode);
+-
+-      boolean redeclaration = false;
+-      for (Node n = collapse.startNode; n != collapse.endNode;) {
+-        Node next = n.getNext();
+-
+-        Preconditions.checkState(var.getNext() == n);
+-        collapse.parent.removeChildAfter(var);
+-
+-        if (n.isVar()) {
+-          while(n.hasChildren()) {
+-            var.addChildToBack(n.removeFirstChild());
+-          }
+-        } else {
+-          Node assign = n.getFirstChild();
+-          Node lhs = assign.getFirstChild();
+-          Preconditions.checkState(lhs.isName());
+-          Node rhs = assign.getLastChild();
+-          lhs.addChildToBack(rhs.detachFromParent());
+-          var.addChildToBack(lhs.detachFromParent());
+-          redeclaration = true;
+-        }
+-        n = next;
+-      }
+-
+-      if (redeclaration) {
+-        JSDocInfo info = new JSDocInfo();
+-        info.addSuppression("duplicate");
+-        var.setJSDocInfo(info);
+-      }
+-    }
+   }
+ }

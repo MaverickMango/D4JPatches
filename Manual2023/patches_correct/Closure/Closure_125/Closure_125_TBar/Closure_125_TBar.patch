@@ -1,0 +1,1886 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/closure/closure_125_buggy/src/com/google/javascript/jscomp/TypeCheck.java /mnt/D4JPatches/Manual2023/patches_correct/Closure/Closure_125/Closure_125_TBar/src/com/google/javascript/jscomp/TypeCheck.java
+--- /mnt/d4j_bug_info/buggyfiles/closure/closure_125_buggy/src/com/google/javascript/jscomp/TypeCheck.java	2022-11-20 04:09:31.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Closure/Closure_125/Closure_125_TBar/src/com/google/javascript/jscomp/TypeCheck.java	2023-11-13 22:37:06.000000000 -0800
+@@ -13,7 +13,6 @@
+  * See the License for the specific language governing permissions and
+  * limitations under the License.
+  */
+-
+ package com.google.javascript.jscomp;
+ 
+ import static com.google.javascript.rhino.jstype.JSTypeNative.ARRAY_TYPE;
+@@ -26,7 +25,6 @@
+ import static com.google.javascript.rhino.jstype.JSTypeNative.STRING_TYPE;
+ import static com.google.javascript.rhino.jstype.JSTypeNative.UNKNOWN_TYPE;
+ import static com.google.javascript.rhino.jstype.JSTypeNative.VOID_TYPE;
+-
+ import com.google.common.base.Preconditions;
+ import com.google.common.collect.ImmutableSet;
+ import com.google.javascript.jscomp.Scope.Var;
+@@ -44,7 +42,6 @@
+ import com.google.javascript.rhino.jstype.TemplateTypeMapReplacer;
+ import com.google.javascript.rhino.jstype.TernaryValue;
+ import com.google.javascript.rhino.jstype.UnionType;
+-
+ import java.lang.reflect.Method;
+ import java.util.HashMap;
+ import java.util.Iterator;
+@@ -53,245 +50,106 @@
+ /**
+  * <p>Checks the types of JS expressions against any declared type
+  * information.</p>
+- *
+  */
+ public class TypeCheck implements NodeTraversal.Callback, CompilerPass {
+ 
+   //
+   // Internal errors
+   //
+-  static final DiagnosticType UNEXPECTED_TOKEN = DiagnosticType.error(
+-      "JSC_INTERNAL_ERROR_UNEXPECTED_TOKEN",
+-      "Internal Error: Don't know how to handle {0}");
+-
++    static final DiagnosticType UNEXPECTED_TOKEN = DiagnosticType.error("JSC_INTERNAL_ERROR_UNEXPECTED_TOKEN", "Internal Error: Don't know how to handle {0}");
+ 
+   //
+   // User warnings
+   //
+-
+-  protected static final String OVERRIDING_PROTOTYPE_WITH_NON_OBJECT =
+-      "overriding prototype with non-object";
++    protected static final String OVERRIDING_PROTOTYPE_WITH_NON_OBJECT = "overriding prototype with non-object";
+ 
+   // TODO(user): make all the non private messages private once the
+   // TypedScopeCreator has been merged with the type checker.
+-  static final DiagnosticType DETERMINISTIC_TEST =
+-      DiagnosticType.warning(
+-          "JSC_DETERMINISTIC_TEST",
+-          "condition always evaluates to {2}\n" +
+-          "left : {0}\n" +
+-          "right: {1}");
+-
+-  static final DiagnosticType INEXISTENT_ENUM_ELEMENT =
+-      DiagnosticType.warning(
+-          "JSC_INEXISTENT_ENUM_ELEMENT",
+-          "element {0} does not exist on this enum");
++    static final DiagnosticType DETERMINISTIC_TEST = DiagnosticType.warning("JSC_DETERMINISTIC_TEST", "condition always evaluates to {2}\n" + "left : {0}\n" + "right: {1}");
++
++    static final DiagnosticType INEXISTENT_ENUM_ELEMENT = DiagnosticType.warning("JSC_INEXISTENT_ENUM_ELEMENT", "element {0} does not exist on this enum");
+ 
+   // disabled by default. This one only makes sense if you're using
+   // well-typed externs.
+-  static final DiagnosticType INEXISTENT_PROPERTY =
+-      DiagnosticType.disabled(
+-          "JSC_INEXISTENT_PROPERTY",
+-          "Property {0} never defined on {1}");
+-
+-  static final DiagnosticType INEXISTENT_PROPERTY_WITH_SUGGESTION =
+-      DiagnosticType.disabled(
+-          "JSC_INEXISTENT_PROPERTY",
+-          "Property {0} never defined on {1}. Did you mean {2}?");
+-
+-  protected static final DiagnosticType NOT_A_CONSTRUCTOR =
+-      DiagnosticType.warning(
+-          "JSC_NOT_A_CONSTRUCTOR",
+-          "cannot instantiate non-constructor");
+-
+-  static final DiagnosticType BIT_OPERATION =
+-      DiagnosticType.warning(
+-          "JSC_BAD_TYPE_FOR_BIT_OPERATION",
+-          "operator {0} cannot be applied to {1}");
+-
+-  static final DiagnosticType NOT_CALLABLE =
+-      DiagnosticType.warning(
+-          "JSC_NOT_FUNCTION_TYPE",
+-          "{0} expressions are not callable");
+-
+-  static final DiagnosticType CONSTRUCTOR_NOT_CALLABLE =
+-      DiagnosticType.warning(
+-          "JSC_CONSTRUCTOR_NOT_CALLABLE",
+-          "Constructor {0} should be called with the \"new\" keyword");
+-
+-  static final DiagnosticType FUNCTION_MASKS_VARIABLE =
+-      DiagnosticType.warning(
+-          "JSC_FUNCTION_MASKS_VARIABLE",
+-          "function {0} masks variable (IE bug)");
+-
+-  static final DiagnosticType MULTIPLE_VAR_DEF = DiagnosticType.warning(
+-      "JSC_MULTIPLE_VAR_DEF",
+-      "declaration of multiple variables with shared type information");
+-
+-  static final DiagnosticType ENUM_DUP = DiagnosticType.error("JSC_ENUM_DUP",
+-      "enum element {0} already defined");
+-
+-  static final DiagnosticType ENUM_NOT_CONSTANT =
+-      DiagnosticType.warning("JSC_ENUM_NOT_CONSTANT",
+-          "enum key {0} must be a syntactic constant");
+-
+-  static final DiagnosticType INVALID_INTERFACE_MEMBER_DECLARATION =
+-      DiagnosticType.warning(
+-          "JSC_INVALID_INTERFACE_MEMBER_DECLARATION",
+-          "interface members can only be empty property declarations,"
+-          + " empty functions{0}");
+-
+-  static final DiagnosticType INTERFACE_FUNCTION_NOT_EMPTY =
+-      DiagnosticType.warning(
+-          "JSC_INTERFACE_FUNCTION_NOT_EMPTY",
+-          "interface member functions must have an empty body");
+-
+-  static final DiagnosticType CONFLICTING_SHAPE_TYPE =
+-      DiagnosticType.warning(
+-          "JSC_CONFLICTING_SHAPE_TYPE",
+-          "{1} cannot extend this type; {0}s can only extend {0}s");
+-
+-  static final DiagnosticType CONFLICTING_EXTENDED_TYPE =
+-      DiagnosticType.warning(
+-          "JSC_CONFLICTING_EXTENDED_TYPE",
+-          "{1} cannot extend this type; {0}s can only extend {0}s");
+-
+-  static final DiagnosticType CONFLICTING_IMPLEMENTED_TYPE =
+-    DiagnosticType.warning(
+-        "JSC_CONFLICTING_IMPLEMENTED_TYPE",
+-        "{0} cannot implement this type; " +
+-        "an interface can only extend, but not implement interfaces");
+-
+-  static final DiagnosticType BAD_IMPLEMENTED_TYPE =
+-      DiagnosticType.warning(
+-          "JSC_IMPLEMENTS_NON_INTERFACE",
+-          "can only implement interfaces");
+-
+-  static final DiagnosticType HIDDEN_SUPERCLASS_PROPERTY =
+-      DiagnosticType.warning(
+-          "JSC_HIDDEN_SUPERCLASS_PROPERTY",
+-          "property {0} already defined on superclass {1}; " +
+-          "use @override to override it");
+-
+-  static final DiagnosticType HIDDEN_INTERFACE_PROPERTY =
+-      DiagnosticType.warning(
+-          "JSC_HIDDEN_INTERFACE_PROPERTY",
+-          "property {0} already defined on interface {1}; " +
+-          "use @override to override it");
+-
+-  static final DiagnosticType HIDDEN_SUPERCLASS_PROPERTY_MISMATCH =
+-      DiagnosticType.warning("JSC_HIDDEN_SUPERCLASS_PROPERTY_MISMATCH",
+-          "mismatch of the {0} property type and the type " +
+-          "of the property it overrides from superclass {1}\n" +
+-          "original: {2}\n" +
+-          "override: {3}");
+-
+-  static final DiagnosticType UNKNOWN_OVERRIDE =
+-      DiagnosticType.warning(
+-          "JSC_UNKNOWN_OVERRIDE",
+-          "property {0} not defined on any superclass of {1}");
+-
+-  static final DiagnosticType INTERFACE_METHOD_OVERRIDE =
+-      DiagnosticType.warning(
+-          "JSC_INTERFACE_METHOD_OVERRIDE",
+-          "property {0} is already defined by the {1} extended interface");
+-
+-  static final DiagnosticType UNKNOWN_EXPR_TYPE =
+-      DiagnosticType.disabled("JSC_UNKNOWN_EXPR_TYPE",
+-          "could not determine the type of this expression");
+-
+-  static final DiagnosticType UNRESOLVED_TYPE =
+-      DiagnosticType.warning("JSC_UNRESOLVED_TYPE",
+-          "could not resolve the name {0} to a type");
+-
+-  static final DiagnosticType WRONG_ARGUMENT_COUNT =
+-      DiagnosticType.warning(
+-          "JSC_WRONG_ARGUMENT_COUNT",
+-          "Function {0}: called with {1} argument(s). " +
+-          "Function requires at least {2} argument(s){3}.");
+-
+-  static final DiagnosticType ILLEGAL_IMPLICIT_CAST =
+-      DiagnosticType.warning(
+-          "JSC_ILLEGAL_IMPLICIT_CAST",
+-          "Illegal annotation on {0}. @implicitCast may only be used in " +
+-          "externs.");
+-
+-  static final DiagnosticType INCOMPATIBLE_EXTENDED_PROPERTY_TYPE =
+-      DiagnosticType.warning(
+-          "JSC_INCOMPATIBLE_EXTENDED_PROPERTY_TYPE",
+-          "Interface {0} has a property {1} with incompatible types in " +
+-          "its super interfaces {2} and {3}");
+-
+-  static final DiagnosticType EXPECTED_THIS_TYPE =
+-      DiagnosticType.warning(
+-          "JSC_EXPECTED_THIS_TYPE",
+-          "\"{0}\" must be called with a \"this\" type");
+-
+-  static final DiagnosticType IN_USED_WITH_STRUCT =
+-      DiagnosticType.warning("JSC_IN_USED_WITH_STRUCT",
+-                             "Cannot use the IN operator with structs");
+-
+-  static final DiagnosticType ILLEGAL_PROPERTY_CREATION =
+-      DiagnosticType.warning("JSC_ILLEGAL_PROPERTY_CREATION",
+-                             "Cannot add a property to a struct instance " +
+-                             "after it is constructed.");
+-
+-  static final DiagnosticType ILLEGAL_OBJLIT_KEY =
+-      DiagnosticType.warning(
+-          "ILLEGAL_OBJLIT_KEY",
+-          "Illegal key, the object literal is a {0}");
++    static final DiagnosticType INEXISTENT_PROPERTY = DiagnosticType.disabled("JSC_INEXISTENT_PROPERTY", "Property {0} never defined on {1}");
++
++    static final DiagnosticType INEXISTENT_PROPERTY_WITH_SUGGESTION = DiagnosticType.disabled("JSC_INEXISTENT_PROPERTY", "Property {0} never defined on {1}. Did you mean {2}?");
++
++    protected static final DiagnosticType NOT_A_CONSTRUCTOR = DiagnosticType.warning("JSC_NOT_A_CONSTRUCTOR", "cannot instantiate non-constructor");
++
++    static final DiagnosticType BIT_OPERATION = DiagnosticType.warning("JSC_BAD_TYPE_FOR_BIT_OPERATION", "operator {0} cannot be applied to {1}");
++
++    static final DiagnosticType NOT_CALLABLE = DiagnosticType.warning("JSC_NOT_FUNCTION_TYPE", "{0} expressions are not callable");
++
++    static final DiagnosticType CONSTRUCTOR_NOT_CALLABLE = DiagnosticType.warning("JSC_CONSTRUCTOR_NOT_CALLABLE", "Constructor {0} should be called with the \"new\" keyword");
++
++    static final DiagnosticType FUNCTION_MASKS_VARIABLE = DiagnosticType.warning("JSC_FUNCTION_MASKS_VARIABLE", "function {0} masks variable (IE bug)");
++
++    static final DiagnosticType MULTIPLE_VAR_DEF = DiagnosticType.warning("JSC_MULTIPLE_VAR_DEF", "declaration of multiple variables with shared type information");
++
++    static final DiagnosticType ENUM_DUP = DiagnosticType.error("JSC_ENUM_DUP", "enum element {0} already defined");
++
++    static final DiagnosticType ENUM_NOT_CONSTANT = DiagnosticType.warning("JSC_ENUM_NOT_CONSTANT", "enum key {0} must be a syntactic constant");
++
++    static final DiagnosticType INVALID_INTERFACE_MEMBER_DECLARATION = DiagnosticType.warning("JSC_INVALID_INTERFACE_MEMBER_DECLARATION", "interface members can only be empty property declarations," + " empty functions{0}");
++
++    static final DiagnosticType INTERFACE_FUNCTION_NOT_EMPTY = DiagnosticType.warning("JSC_INTERFACE_FUNCTION_NOT_EMPTY", "interface member functions must have an empty body");
++
++    static final DiagnosticType CONFLICTING_SHAPE_TYPE = DiagnosticType.warning("JSC_CONFLICTING_SHAPE_TYPE", "{1} cannot extend this type; {0}s can only extend {0}s");
++
++    static final DiagnosticType CONFLICTING_EXTENDED_TYPE = DiagnosticType.warning("JSC_CONFLICTING_EXTENDED_TYPE", "{1} cannot extend this type; {0}s can only extend {0}s");
++
++    static final DiagnosticType CONFLICTING_IMPLEMENTED_TYPE = DiagnosticType.warning("JSC_CONFLICTING_IMPLEMENTED_TYPE", "{0} cannot implement this type; " + "an interface can only extend, but not implement interfaces");
++
++    static final DiagnosticType BAD_IMPLEMENTED_TYPE = DiagnosticType.warning("JSC_IMPLEMENTS_NON_INTERFACE", "can only implement interfaces");
++
++    static final DiagnosticType HIDDEN_SUPERCLASS_PROPERTY = DiagnosticType.warning("JSC_HIDDEN_SUPERCLASS_PROPERTY", "property {0} already defined on superclass {1}; " + "use @override to override it");
++
++    static final DiagnosticType HIDDEN_INTERFACE_PROPERTY = DiagnosticType.warning("JSC_HIDDEN_INTERFACE_PROPERTY", "property {0} already defined on interface {1}; " + "use @override to override it");
++
++    static final DiagnosticType HIDDEN_SUPERCLASS_PROPERTY_MISMATCH = DiagnosticType.warning("JSC_HIDDEN_SUPERCLASS_PROPERTY_MISMATCH", "mismatch of the {0} property type and the type " + "of the property it overrides from superclass {1}\n" + "original: {2}\n" + "override: {3}");
++
++    static final DiagnosticType UNKNOWN_OVERRIDE = DiagnosticType.warning("JSC_UNKNOWN_OVERRIDE", "property {0} not defined on any superclass of {1}");
++
++    static final DiagnosticType INTERFACE_METHOD_OVERRIDE = DiagnosticType.warning("JSC_INTERFACE_METHOD_OVERRIDE", "property {0} is already defined by the {1} extended interface");
++
++    static final DiagnosticType UNKNOWN_EXPR_TYPE = DiagnosticType.disabled("JSC_UNKNOWN_EXPR_TYPE", "could not determine the type of this expression");
++
++    static final DiagnosticType UNRESOLVED_TYPE = DiagnosticType.warning("JSC_UNRESOLVED_TYPE", "could not resolve the name {0} to a type");
++
++    static final DiagnosticType WRONG_ARGUMENT_COUNT = DiagnosticType.warning("JSC_WRONG_ARGUMENT_COUNT", "Function {0}: called with {1} argument(s). " + "Function requires at least {2} argument(s){3}.");
++
++    static final DiagnosticType ILLEGAL_IMPLICIT_CAST = DiagnosticType.warning("JSC_ILLEGAL_IMPLICIT_CAST", "Illegal annotation on {0}. @implicitCast may only be used in " + "externs.");
++
++    static final DiagnosticType INCOMPATIBLE_EXTENDED_PROPERTY_TYPE = DiagnosticType.warning("JSC_INCOMPATIBLE_EXTENDED_PROPERTY_TYPE", "Interface {0} has a property {1} with incompatible types in " + "its super interfaces {2} and {3}");
++
++    static final DiagnosticType EXPECTED_THIS_TYPE = DiagnosticType.warning("JSC_EXPECTED_THIS_TYPE", "\"{0}\" must be called with a \"this\" type");
++
++    static final DiagnosticType IN_USED_WITH_STRUCT = DiagnosticType.warning("JSC_IN_USED_WITH_STRUCT", "Cannot use the IN operator with structs");
++
++    static final DiagnosticType ILLEGAL_PROPERTY_CREATION = DiagnosticType.warning("JSC_ILLEGAL_PROPERTY_CREATION", "Cannot add a property to a struct instance " + "after it is constructed.");
++
++    static final DiagnosticType ILLEGAL_OBJLIT_KEY = DiagnosticType.warning("ILLEGAL_OBJLIT_KEY", "Illegal key, the object literal is a {0}");
+ 
+   // If a diagnostic is disabled by default, do not add it in this list
+   // TODO(user): Either INEXISTENT_PROPERTY shouldn't be here, or we should
+   // change DiagnosticGroups.setWarningLevel to not accidentally enable it.
+-  static final DiagnosticGroup ALL_DIAGNOSTICS = new DiagnosticGroup(
+-      DETERMINISTIC_TEST,
+-      INEXISTENT_ENUM_ELEMENT,
+-      INEXISTENT_PROPERTY,
+-      NOT_A_CONSTRUCTOR,
+-      BIT_OPERATION,
+-      NOT_CALLABLE,
+-      CONSTRUCTOR_NOT_CALLABLE,
+-      FUNCTION_MASKS_VARIABLE,
+-      MULTIPLE_VAR_DEF,
+-      ENUM_DUP,
+-      ENUM_NOT_CONSTANT,
+-      INVALID_INTERFACE_MEMBER_DECLARATION,
+-      INTERFACE_FUNCTION_NOT_EMPTY,
+-      CONFLICTING_SHAPE_TYPE,
+-      CONFLICTING_EXTENDED_TYPE,
+-      CONFLICTING_IMPLEMENTED_TYPE,
+-      BAD_IMPLEMENTED_TYPE,
+-      HIDDEN_SUPERCLASS_PROPERTY,
+-      HIDDEN_INTERFACE_PROPERTY,
+-      HIDDEN_SUPERCLASS_PROPERTY_MISMATCH,
+-      UNKNOWN_OVERRIDE,
+-      INTERFACE_METHOD_OVERRIDE,
+-      UNRESOLVED_TYPE,
+-      WRONG_ARGUMENT_COUNT,
+-      ILLEGAL_IMPLICIT_CAST,
+-      INCOMPATIBLE_EXTENDED_PROPERTY_TYPE,
+-      EXPECTED_THIS_TYPE,
+-      IN_USED_WITH_STRUCT,
+-      ILLEGAL_PROPERTY_CREATION,
+-      ILLEGAL_OBJLIT_KEY,
+-      RhinoErrorReporter.TYPE_PARSE_ERROR,
+-      TypedScopeCreator.UNKNOWN_LENDS,
+-      TypedScopeCreator.LENDS_ON_NON_OBJECT,
+-      TypedScopeCreator.CTOR_INITIALIZER,
+-      TypedScopeCreator.IFACE_INITIALIZER,
+-      FunctionTypeBuilder.THIS_TYPE_NON_OBJECT);
++    static final DiagnosticGroup ALL_DIAGNOSTICS = new DiagnosticGroup(DETERMINISTIC_TEST, INEXISTENT_ENUM_ELEMENT, INEXISTENT_PROPERTY, NOT_A_CONSTRUCTOR, BIT_OPERATION, NOT_CALLABLE, CONSTRUCTOR_NOT_CALLABLE, FUNCTION_MASKS_VARIABLE, MULTIPLE_VAR_DEF, ENUM_DUP, ENUM_NOT_CONSTANT, INVALID_INTERFACE_MEMBER_DECLARATION, INTERFACE_FUNCTION_NOT_EMPTY, CONFLICTING_SHAPE_TYPE, CONFLICTING_EXTENDED_TYPE, CONFLICTING_IMPLEMENTED_TYPE, BAD_IMPLEMENTED_TYPE, HIDDEN_SUPERCLASS_PROPERTY, HIDDEN_INTERFACE_PROPERTY, HIDDEN_SUPERCLASS_PROPERTY_MISMATCH, UNKNOWN_OVERRIDE, INTERFACE_METHOD_OVERRIDE, UNRESOLVED_TYPE, WRONG_ARGUMENT_COUNT, ILLEGAL_IMPLICIT_CAST, INCOMPATIBLE_EXTENDED_PROPERTY_TYPE, EXPECTED_THIS_TYPE, IN_USED_WITH_STRUCT, ILLEGAL_PROPERTY_CREATION, ILLEGAL_OBJLIT_KEY, RhinoErrorReporter.TYPE_PARSE_ERROR, TypedScopeCreator.UNKNOWN_LENDS, TypedScopeCreator.LENDS_ON_NON_OBJECT, TypedScopeCreator.CTOR_INITIALIZER, TypedScopeCreator.IFACE_INITIALIZER, FunctionTypeBuilder.THIS_TYPE_NON_OBJECT);
+ 
+   private final AbstractCompiler compiler;
++
+   private final TypeValidator validator;
+ 
+   private final ReverseAbstractInterpreter reverseInterpreter;
+ 
+   private final JSTypeRegistry typeRegistry;
++
+   private Scope topScope;
+ 
+   private MemoizedScopeCreator scopeCreator;
+ 
+   private final CheckLevel reportMissingOverride;
++
+   private final boolean reportUnknownTypes;
+ 
+   // This may be expensive, so don't emit these warnings if they're
+@@ -302,8 +160,11 @@
+ 
+   // These fields are used to calculate the percentage of expressions typed.
+   private int typedCount = 0;
++
+   private int nullCount = 0;
++
+   private int unknownCount = 0;
++
+   private boolean inExterns;
+ 
+   // A state boolean to see we are currently in @notypecheck section of the
+@@ -313,20 +174,18 @@
+   private Method editDistance;
+ 
+   private static final class SuggestionPair {
++
+     private final String suggestion;
++
+     final int distance;
++
+     private SuggestionPair(String suggestion, int distance) {
+       this.suggestion = suggestion;
+       this.distance = distance;
+     }
+   }
+ 
+-  public TypeCheck(AbstractCompiler compiler,
+-      ReverseAbstractInterpreter reverseInterpreter,
+-      JSTypeRegistry typeRegistry,
+-      Scope topScope,
+-      MemoizedScopeCreator scopeCreator,
+-      CheckLevel reportMissingOverride) {
++    public TypeCheck(AbstractCompiler compiler, ReverseAbstractInterpreter reverseInterpreter, JSTypeRegistry typeRegistry, Scope topScope, MemoizedScopeCreator scopeCreator, CheckLevel reportMissingOverride) {
+     this.compiler = compiler;
+     this.validator = compiler.getTypeValidator();
+     this.reverseInterpreter = reverseInterpreter;
+@@ -334,37 +193,28 @@
+     this.topScope = topScope;
+     this.scopeCreator = scopeCreator;
+     this.reportMissingOverride = reportMissingOverride;
+-    this.reportUnknownTypes = ((Compiler) compiler).getOptions().enables(
+-        DiagnosticGroups.REPORT_UNKNOWN_TYPES);
++        this.reportUnknownTypes = ((Compiler) compiler).getOptions().enables(DiagnosticGroups.REPORT_UNKNOWN_TYPES);
+     this.inferJSDocInfo = new InferJSDocInfo(compiler);
+-
+     ClassLoader classLoader = TypeCheck.class.getClassLoader();
+     try {
+-      Class<?> c = classLoader.loadClass(
+-          "com.google.common.string.EditDistance");
+-      editDistance = c.getDeclaredMethod(
+-          "getEditDistance", String.class, String.class, boolean.class);
++            Class<?> c = classLoader.loadClass("com.google.common.string.EditDistance");
++            editDistance = c.getDeclaredMethod("getEditDistance", String.class, String.class, boolean.class);
+     } catch (Exception ignored) {
+       editDistance = null;
+     }
+   }
+ 
+-  public TypeCheck(AbstractCompiler compiler,
+-      ReverseAbstractInterpreter reverseInterpreter,
+-      JSTypeRegistry typeRegistry,
+-      CheckLevel reportMissingOverride) {
+-    this(compiler, reverseInterpreter, typeRegistry, null, null,
+-        reportMissingOverride);
+-  }
+-
+-  TypeCheck(AbstractCompiler compiler,
+-      ReverseAbstractInterpreter reverseInterpreter,
+-      JSTypeRegistry typeRegistry) {
+-    this(compiler, reverseInterpreter, typeRegistry, null, null,
+-         CheckLevel.WARNING);
++    public TypeCheck(AbstractCompiler compiler, ReverseAbstractInterpreter reverseInterpreter, JSTypeRegistry typeRegistry, CheckLevel reportMissingOverride) {
++        this(compiler, reverseInterpreter, typeRegistry, null, null, reportMissingOverride);
++    }
++
++    TypeCheck(AbstractCompiler compiler, ReverseAbstractInterpreter reverseInterpreter, JSTypeRegistry typeRegistry) {
++        this(compiler, reverseInterpreter, typeRegistry, null, null, CheckLevel.WARNING);
+   }
+ 
+-  /** Turn on the missing property check. Returns this for easy chaining. */
++    /**
++     * Turn on the missing property check. Returns this for easy chaining.
++     */
+   TypeCheck reportMissingProperties(boolean report) {
+     reportMissingProperties = report;
+     return this;
+@@ -381,42 +231,33 @@
+   public void process(Node externsRoot, Node jsRoot) {
+     Preconditions.checkNotNull(scopeCreator);
+     Preconditions.checkNotNull(topScope);
+-
+     Node externsAndJs = jsRoot.getParent();
+     Preconditions.checkState(externsAndJs != null);
+-    Preconditions.checkState(
+-        externsRoot == null || externsAndJs.hasChild(externsRoot));
+-
++        Preconditions.checkState(externsRoot == null || externsAndJs.hasChild(externsRoot));
+     if (externsRoot != null) {
+       check(externsRoot, true);
+     }
+     check(jsRoot, false);
+   }
+ 
+-  /** Main entry point of this phase for testing code. */
++    /**
++     * Main entry point of this phase for testing code.
++     */
+   public Scope processForTesting(Node externsRoot, Node jsRoot) {
+     Preconditions.checkState(scopeCreator == null);
+     Preconditions.checkState(topScope == null);
+-
+     Preconditions.checkState(jsRoot.getParent() != null);
+     Node externsAndJsRoot = jsRoot.getParent();
+-
+     scopeCreator = new MemoizedScopeCreator(new TypedScopeCreator(compiler));
+     topScope = scopeCreator.createScope(externsAndJsRoot, null);
+-
+-    TypeInferencePass inference = new TypeInferencePass(compiler,
+-        reverseInterpreter, topScope, scopeCreator);
+-
++        TypeInferencePass inference = new TypeInferencePass(compiler, reverseInterpreter, topScope, scopeCreator);
+     inference.process(externsRoot, jsRoot);
+     process(externsRoot, jsRoot);
+-
+     return topScope;
+   }
+ 
+-
+   public void check(Node node, boolean externs) {
+     Preconditions.checkNotNull(node);
+-
+     NodeTraversal t = new NodeTraversal(compiler, this, scopeCreator);
+     inExterns = externs;
+     t.traverseWithScope(node, topScope);
+@@ -427,7 +268,6 @@
+     }
+   }
+ 
+-
+   private void checkNoTypeCheckSection(Node n, boolean enterSection) {
+     switch (n.getType()) {
+       case Token.SCRIPT:
+@@ -448,32 +288,26 @@
+     }
+   }
+ 
+-  private void report(NodeTraversal t, Node n, DiagnosticType diagnosticType,
+-      String... arguments) {
++    private void report(NodeTraversal t, Node n, DiagnosticType diagnosticType, String... arguments) {
+     if (noTypeCheckSection == 0) {
+       t.report(n, diagnosticType, arguments);
+     }
+   }
+ 
+   @Override
+-  public boolean shouldTraverse(
+-      NodeTraversal t, Node n, Node parent) {
++    public boolean shouldTraverse(NodeTraversal t, Node n, Node parent) {
+     checkNoTypeCheckSection(n, true);
+     switch (n.getType()) {
+       case Token.FUNCTION:
+         // normal type checking
+         final Scope outerScope = t.getScope();
+         final String functionPrivateName = n.getFirstChild().getString();
+-        if (functionPrivateName != null && functionPrivateName.length() > 0 &&
+-            outerScope.isDeclared(functionPrivateName, false) &&
+-            // Ideally, we would want to check whether the type in the scope
++                if (functionPrivateName != null && functionPrivateName.length() > 0 && outerScope.isDeclared(functionPrivateName, false) && // Ideally, we would want to check whether the type in the scope
+             // differs from the type being defined, but then the extern
+             // redeclarations of built-in types generates spurious warnings.
+-            !(outerScope.getVar(
+-                functionPrivateName).getType() instanceof FunctionType)) {
++                !(outerScope.getVar(functionPrivateName).getType() instanceof FunctionType)) {
+           report(t, n, FUNCTION_MASKS_VARIABLE, functionPrivateName);
+         }
+-
+         // TODO(user): Only traverse the function's body. The function's
+         // name and arguments are traversed by the scope creator, and ideally
+         // should not be traversed by the type checker.
+@@ -499,81 +333,63 @@
+     Node left, right;
+     // To be explicitly set to false if the node is not typeable.
+     boolean typeable = true;
+-
+     switch (n.getType()) {
+       case Token.CAST:
+         Node expr = n.getFirstChild();
+         JSType exprType = getJSType(expr);
+         JSType castType = getJSType(n);
+-
+         // TODO(johnlenz): determine if we can limit object literals in some
+         // way.
+         if (!expr.isObjectLit()) {
+           validator.expectCanCast(t, n, castType, exprType);
+         }
+         ensureTyped(t, n, castType);
+-
+         if (castType.isSubtype(exprType) || expr.isObjectLit()) {
+           expr.setJSType(castType);
+         }
+         break;
+-
+       case Token.NAME:
+         typeable = visitName(t, n, parent);
+         break;
+-
+       case Token.PARAM_LIST:
+         typeable = false;
+         break;
+-
+       case Token.COMMA:
+         ensureTyped(t, n, getJSType(n.getLastChild()));
+         break;
+-
+       case Token.TRUE:
+       case Token.FALSE:
+         ensureTyped(t, n, BOOLEAN_TYPE);
+         break;
+-
+       case Token.THIS:
+         ensureTyped(t, n, t.getScope().getTypeOfThis());
+         break;
+-
+       case Token.NULL:
+         ensureTyped(t, n, NULL_TYPE);
+         break;
+-
+       case Token.NUMBER:
+         ensureTyped(t, n, NUMBER_TYPE);
+         break;
+-
+       case Token.STRING:
+         ensureTyped(t, n, STRING_TYPE);
+         break;
+-
+       case Token.STRING_KEY:
+         typeable = false;
+         break;
+-
+       case Token.GETTER_DEF:
+       case Token.SETTER_DEF:
+         // Object literal keys are handled with OBJECTLIT
+         break;
+-
+       case Token.ARRAYLIT:
+         ensureTyped(t, n, ARRAY_TYPE);
+         break;
+-
+       case Token.REGEXP:
+         ensureTyped(t, n, REGEXP_TYPE);
+         break;
+-
+       case Token.GETPROP:
+         visitGetProp(t, n, parent);
+-        typeable = !(parent.isAssign() &&
+-                     parent.getFirstChild() == n);
++                typeable = !(parent.isAssign() && parent.getFirstChild() == n);
+         break;
+-
+       case Token.GETELEM:
+         visitGetElem(t, n);
+         // The type of GETELEM is always unknown, so no point counting that.
+@@ -581,26 +397,21 @@
+         // variable), then it will be counted.
+         typeable = false;
+         break;
+-
+       case Token.VAR:
+         visitVar(t, n);
+         typeable = false;
+         break;
+-
+       case Token.NEW:
+         visitNew(t, n);
+         break;
+-
+       case Token.CALL:
+         visitCall(t, n);
+         typeable = !parent.isExprResult();
+         break;
+-
+       case Token.RETURN:
+         visitReturn(t, n);
+         typeable = false;
+         break;
+-
+       case Token.DEC:
+       case Token.INC:
+         left = n.getFirstChild();
+@@ -608,42 +419,35 @@
+         validator.expectNumber(t, left, getJSType(left), "increment/decrement");
+         ensureTyped(t, n, NUMBER_TYPE);
+         break;
+-
+       case Token.NOT:
+         ensureTyped(t, n, BOOLEAN_TYPE);
+         break;
+-
+       case Token.VOID:
+         ensureTyped(t, n, VOID_TYPE);
+         break;
+-
+       case Token.TYPEOF:
+         ensureTyped(t, n, STRING_TYPE);
+         break;
+-
+       case Token.BITNOT:
+         childType = getJSType(n.getFirstChild());
+         if (!childType.matchesInt32Context()) {
+-          report(t, n, BIT_OPERATION, NodeUtil.opToStr(n.getType()),
+-              childType.toString());
++                    report(t, n, BIT_OPERATION, NodeUtil.opToStr(n.getType()), childType.toString());
+         }
+         ensureTyped(t, n, NUMBER_TYPE);
+         break;
+-
+       case Token.POS:
+       case Token.NEG:
+         left = n.getFirstChild();
+         validator.expectNumber(t, left, getJSType(left), "sign operator");
+         ensureTyped(t, n, NUMBER_TYPE);
+         break;
+-
+       case Token.EQ:
+       case Token.NE:
+       case Token.SHEQ:
+-      case Token.SHNE: {
++            case Token.SHNE:
++                {
+         left = n.getFirstChild();
+         right = n.getLastChild();
+-
+         if (left.isTypeOf()) {
+           if (right.isString()) {
+             checkTypeofString(t, right, right.getString());
+@@ -651,10 +455,8 @@
+         } else if (right.isTypeOf() && left.isString()) {
+           checkTypeofString(t, left, left.getString());
+         }
+-
+         leftType = getJSType(left);
+         rightType = getJSType(right);
+-
+         // We do not want to warn about explicit comparisons to VOID. People
+         // often do this if they think their type annotations screwed up.
+         //
+@@ -666,7 +468,6 @@
+         // care about without too many false negatives.
+         JSType leftTypeRestricted = leftType.restrictByNotNullOrUndefined();
+         JSType rightTypeRestricted = rightType.restrictByNotNullOrUndefined();
+-
+         TernaryValue result = TernaryValue.UNKNOWN;
+         if (n.getType() == Token.EQ || n.getType() == Token.NE) {
+           result = leftTypeRestricted.testForEquality(rightTypeRestricted);
+@@ -675,21 +476,16 @@
+           }
+         } else {
+           // SHEQ or SHNE
+-          if (!leftTypeRestricted.canTestForShallowEqualityWith(
+-                  rightTypeRestricted)) {
+-            result = n.getType() == Token.SHEQ ?
+-                TernaryValue.FALSE : TernaryValue.TRUE;
++                        if (!leftTypeRestricted.canTestForShallowEqualityWith(rightTypeRestricted)) {
++                            result = n.getType() == Token.SHEQ ? TernaryValue.FALSE : TernaryValue.TRUE;
+           }
+         }
+-
+         if (result != TernaryValue.UNKNOWN) {
+-          report(t, n, DETERMINISTIC_TEST, leftType.toString(),
+-              rightType.toString(), result.toString());
++                        report(t, n, DETERMINISTIC_TEST, leftType.toString(), rightType.toString(), result.toString());
+         }
+         ensureTyped(t, n, BOOLEAN_TYPE);
+         break;
+       }
+-
+       case Token.LT:
+       case Token.LE:
+       case Token.GT:
+@@ -697,13 +493,10 @@
+         leftType = getJSType(n.getFirstChild());
+         rightType = getJSType(n.getLastChild());
+         if (rightType.isNumber()) {
+-          validator.expectNumber(
+-              t, n, leftType, "left side of numeric comparison");
++                    validator.expectNumber(t, n, leftType, "left side of numeric comparison");
+         } else if (leftType.isNumber()) {
+-          validator.expectNumber(
+-              t, n, rightType, "right side of numeric comparison");
+-        } else if (leftType.matchesNumberContext() &&
+-                   rightType.matchesNumberContext()) {
++                    validator.expectNumber(t, n, rightType, "right side of numeric comparison");
++                } else if (leftType.matchesNumberContext() && rightType.matchesNumberContext()) {
+           // OK.
+         } else {
+           // Whether the comparison is numeric will be determined at runtime
+@@ -711,16 +504,13 @@
+           // should match a string context.
+           String message = "left side of comparison";
+           validator.expectString(t, n, leftType, message);
+-          validator.expectNotNullOrUndefined(
+-              t, n, leftType, message, getNativeType(STRING_TYPE));
++                    validator.expectNotNullOrUndefined(t, n, leftType, message, getNativeType(STRING_TYPE));
+           message = "right side of comparison";
+           validator.expectString(t, n, rightType, message);
+-          validator.expectNotNullOrUndefined(
+-              t, n, rightType, message, getNativeType(STRING_TYPE));
++                    validator.expectNotNullOrUndefined(t, n, rightType, message, getNativeType(STRING_TYPE));
+         }
+         ensureTyped(t, n, BOOLEAN_TYPE);
+         break;
+-
+       case Token.IN:
+         left = n.getFirstChild();
+         right = n.getLastChild();
+@@ -732,23 +522,18 @@
+         }
+         ensureTyped(t, n, BOOLEAN_TYPE);
+         break;
+-
+       case Token.INSTANCEOF:
+         left = n.getFirstChild();
+         right = n.getLastChild();
+         rightType = getJSType(right).restrictByNotNullOrUndefined();
+-        validator.expectAnyObject(
+-            t, left, getJSType(left), "deterministic instanceof yields false");
+-        validator.expectActualObject(
+-            t, right, rightType, "instanceof requires an object");
++                validator.expectAnyObject(t, left, getJSType(left), "deterministic instanceof yields false");
++                validator.expectActualObject(t, right, rightType, "instanceof requires an object");
+         ensureTyped(t, n, BOOLEAN_TYPE);
+         break;
+-
+       case Token.ASSIGN:
+         visitAssign(t, n);
+         typeable = false;
+         break;
+-
+       case Token.ASSIGN_LSH:
+       case Token.ASSIGN_RSH:
+       case Token.ASSIGN_URSH:
+@@ -762,7 +547,6 @@
+       case Token.ASSIGN_MUL:
+         checkPropCreation(t, n.getFirstChild());
+         // fall through
+-
+       case Token.LSH:
+       case Token.RSH:
+       case Token.URSH:
+@@ -776,30 +560,26 @@
+       case Token.MUL:
+         visitBinaryOperator(n.getType(), t, n);
+         break;
+-
+       case Token.DELPROP:
+         ensureTyped(t, n, BOOLEAN_TYPE);
+         break;
+-
+       case Token.CASE:
+         JSType switchType = getJSType(parent.getFirstChild());
+         JSType caseType = getJSType(n.getFirstChild());
+         validator.expectSwitchMatchesCase(t, n, switchType, caseType);
+         typeable = false;
+         break;
+-
+-      case Token.WITH: {
++            case Token.WITH:
++                {
+         Node child = n.getFirstChild();
+         childType = getJSType(child);
+         validator.expectObject(t, child, childType, "with requires an object");
+         typeable = false;
+         break;
+       }
+-
+       case Token.FUNCTION:
+         visitFunction(t, n);
+         break;
+-
+       // These nodes have no interesting type behavior.
+       case Token.LABEL:
+       case Token.LABEL_NAME:
+@@ -817,14 +597,12 @@
+       case Token.THROW:
+         typeable = false;
+         break;
+-
+       // These nodes require data flow analysis.
+       case Token.DO:
+       case Token.IF:
+       case Token.WHILE:
+         typeable = false;
+         break;
+-
+       case Token.FOR:
+         if (NodeUtil.isForIn(n)) {
+           Node obj = n.getChildAtIndex(1);
+@@ -834,18 +612,17 @@
+         }
+         typeable = false;
+         break;
+-
+       // These nodes are typed during the type inference.
+       case Token.AND:
+       case Token.HOOK:
+       case Token.OBJECTLIT:
+       case Token.OR:
+-        if (n.getJSType() != null) { // If we didn't run type inference.
++                if (n.getJSType() != null) {
++                    // If we didn't run type inference.
+           ensureTyped(t, n);
+         } else {
+           // If this is an enum, then give that type to the objectlit as well.
+-          if ((n.isObjectLit())
+-              && (parent.getJSType() instanceof EnumType)) {
++                    if ((n.isObjectLit()) && (parent.getJSType() instanceof EnumType)) {
+             ensureTyped(t, n, parent.getJSType());
+           } else {
+             ensureTyped(t, n);
+@@ -858,27 +635,21 @@
+           }
+         }
+         break;
+-
+       default:
+         report(t, n, UNEXPECTED_TOKEN, Token.name(n.getType()));
+         ensureTyped(t, n);
+         break;
+     }
+-
+     // Don't count externs since the user's code may not even use that part.
+     typeable = typeable && !inExterns;
+-
+     if (typeable) {
+       doPercentTypedAccounting(t, n);
+     }
+-
+     checkNoTypeCheckSection(n, false);
+   }
+ 
+   private void checkTypeofString(NodeTraversal t, Node n, String s) {
+-    if (!(s.equals("number") || s.equals("string") || s.equals("boolean") ||
+-          s.equals("undefined") || s.equals("function") ||
+-          s.equals("object") || s.equals("unknown"))) {
++        if (!(s.equals("number") || s.equals("string") || s.equals("boolean") || s.equals("undefined") || s.equals("function") || s.equals("object") || s.equals("unknown"))) {
+       validator.expectValidTypeofName(t, n, s);
+     }
+   }
+@@ -913,27 +684,22 @@
+     JSDocInfo info = assign.getJSDocInfo();
+     Node lvalue = assign.getFirstChild();
+     Node rvalue = assign.getLastChild();
+-
+     // Check property sets to 'object.property' when 'object' is known.
+     if (lvalue.isGetProp()) {
+       Node object = lvalue.getFirstChild();
+       JSType objectJsType = getJSType(object);
+       Node property = lvalue.getLastChild();
+       String pname = property.getString();
+-
+       // the first name in this getprop refers to an interface
+       // we perform checks in addition to the ones below
+       if (object.isGetProp()) {
+         JSType jsType = getJSType(object.getFirstChild());
+-        if (jsType.isInterface() &&
+-            object.getLastChild().getString().equals("prototype")) {
++                if (jsType.isInterface() && object.getLastChild().getString().equals("prototype")) {
+           visitInterfaceGetprop(t, assign, object, pname, lvalue, rvalue);
+         }
+       }
+-
+       checkEnumAlias(t, info, rvalue);
+       checkPropCreation(t, lvalue);
+-
+       // Prototype assignments are special, because they actually affect
+       // the definition of a class. These are mostly validated
+       // during TypedScopeCreator, and we only look for the "dumb" cases here.
+@@ -943,46 +709,34 @@
+           FunctionType functionType = objectJsType.toMaybeFunctionType();
+           if (functionType.isConstructor()) {
+             JSType rvalueType = rvalue.getJSType();
+-            validator.expectObject(t, rvalue, rvalueType,
+-                OVERRIDING_PROTOTYPE_WITH_NON_OBJECT);
++                        validator.expectObject(t, rvalue, rvalueType, OVERRIDING_PROTOTYPE_WITH_NON_OBJECT);
+             // Only assign structs to the prototype of a @struct constructor
+             if (functionType.makesStructs() && !rvalueType.isStruct()) {
+               String funName = functionType.getTypeOfThis().toString();
+-              compiler.report(t.makeError(assign, CONFLICTING_SHAPE_TYPE,
+-                                          "struct", funName));
++                            compiler.report(t.makeError(assign, CONFLICTING_SHAPE_TYPE, "struct", funName));
+             }
+             return;
+           }
+         }
+       }
+-
+       // The generic checks for 'object.property' when 'object' is known,
+       // and 'property' is declared on it.
+       // object.property = ...;
+-      ObjectType type = ObjectType.cast(
+-          objectJsType.restrictByNotNullOrUndefined());
++            ObjectType type = ObjectType.cast(objectJsType.restrictByNotNullOrUndefined());
+       if (type != null) {
+-        if (type.hasProperty(pname) &&
+-            !type.isPropertyTypeInferred(pname) &&
+-            !propertyIsImplicitCast(type, pname)) {
++                if (type.hasProperty(pname) && !type.isPropertyTypeInferred(pname) && !propertyIsImplicitCast(type, pname)) {
+           JSType expectedType = type.getPropertyType(pname);
+           if (!expectedType.isUnknownType()) {
+-            validator.expectCanAssignToPropertyOf(
+-                t, assign, getJSType(rvalue),
+-                expectedType, object, pname);
+-            checkPropertyInheritanceOnGetpropAssign(
+-                t, assign, object, pname, info, expectedType);
++                        validator.expectCanAssignToPropertyOf(t, assign, getJSType(rvalue), expectedType, object, pname);
++                        checkPropertyInheritanceOnGetpropAssign(t, assign, object, pname, info, expectedType);
+             return;
+           }
+         }
+       }
+-
+       // If we couldn't get the property type with normal object property
+       // lookups, then check inheritance anyway with the unknown type.
+-      checkPropertyInheritanceOnGetpropAssign(
+-          t, assign, object, pname, info, getNativeType(UNKNOWN_TYPE));
++            checkPropertyInheritanceOnGetpropAssign(t, assign, object, pname, info, getNativeType(UNKNOWN_TYPE));
+     }
+-
+     // Check qualified name sets to 'object' and 'object.property'.
+     // This can sometimes handle cases when the type of 'object' is not known.
+     // e.g.,
+@@ -996,24 +750,19 @@
+         if (var.isTypeInferred()) {
+           return;
+         }
+-
+-        if (NodeUtil.getRootOfQualifiedName(lvalue).isThis() &&
+-            t.getScope() != var.getScope()) {
++                if (NodeUtil.getRootOfQualifiedName(lvalue).isThis() && t.getScope() != var.getScope()) {
+           // Don't look at "this.foo" variables from other scopes.
+           return;
+         }
+-
+         if (var.getType() != null) {
+           leftType = var.getType();
+         }
+       }
+     }
+-
+     // Fall through case for arbitrary LHS and arbitrary RHS.
+     Node rightChild = assign.getLastChild();
+     JSType rightType = getJSType(rightChild);
+-    if (validator.expectCanAssignTo(
+-            t, assign, rightType, leftType, "assignment")) {
++        if (validator.expectCanAssignTo(t, assign, rightType, leftType, "assignment")) {
+       ensureTyped(t, assign, rightType);
+     } else {
+       ensureTyped(t, assign);
+@@ -1033,7 +782,6 @@
+       Node prop = lvalue.getLastChild();
+       JSType objType = getJSType(obj);
+       String pname = prop.getString();
+-
+       if (!objType.isStruct() || objType.hasProperty(pname)) {
+         return;
+       }
+@@ -1044,11 +792,8 @@
+       // Prop created outside ctor, check that it's a static prop
+       Node assgnExp = lvalue.getParent();
+       Node assgnStm = assgnExp.getParent();
+-      if (objType instanceof ObjectType &&
+-          s.isGlobal() &&
+-          NodeUtil.isPrototypePropertyDeclaration(assgnStm)) {
+-        ObjectType instance =
+-            objType.toObjectType().getOwnerFunction().getInstanceType();
++            if (objType instanceof ObjectType && s.isGlobal() && NodeUtil.isPrototypePropertyDeclaration(assgnStm)) {
++                ObjectType instance = objType.toObjectType().getOwnerFunction().getInstanceType();
+         String file = lvalue.getSourceFileName();
+         Node ctor = instance.getConstructor().getSource();
+         if (ctor != null && ctor.getSourceFileName().equals(file)) {
+@@ -1061,9 +806,7 @@
+     }
+   }
+ 
+-  private void checkPropertyInheritanceOnGetpropAssign(
+-      NodeTraversal t, Node assign, Node object, String property,
+-      JSDocInfo info, JSType propertyType) {
++    private void checkPropertyInheritanceOnGetpropAssign(NodeTraversal t, Node assign, Node object, String property, JSDocInfo info, JSType propertyType) {
+     // Inheritance checks for prototype properties.
+     //
+     // TODO(nicksantos): This isn't the right place to do this check. We
+@@ -1078,14 +821,12 @@
+     if (object.isGetProp()) {
+       Node object2 = object.getFirstChild();
+       String property2 = NodeUtil.getStringValue(object.getLastChild());
+-
+       if ("prototype".equals(property2)) {
+         JSType jsType = getJSType(object2);
+         if (jsType.isFunctionType()) {
+           FunctionType functionType = jsType.toMaybeFunctionType();
+           if (functionType.isConstructor() || functionType.isInterface()) {
+-            checkDeclaredPropertyInheritance(
+-                t, assign, functionType, property, info, propertyType);
++                        checkDeclaredPropertyInheritance(t, assign, functionType, property, info, propertyType);
+           }
+         }
+       }
+@@ -1101,72 +842,52 @@
+    * @param t the traversal
+    * @param key the assign node
+    */
+-  private void visitObjLitKey(
+-      NodeTraversal t, Node key, Node objlit, JSType litType) {
++    private void visitObjLitKey(NodeTraversal t, Node key, Node objlit, JSType litType) {
+     // Do not validate object lit value types in externs. We don't really care,
+     // and it makes it easier to generate externs.
+     if (objlit.isFromExterns()) {
+       ensureTyped(t, key);
+       return;
+     }
+-
+     // Structs must have unquoted keys and dicts must have quoted keys
+     if (litType.isStruct() && key.isQuotedString()) {
+       report(t, key, ILLEGAL_OBJLIT_KEY, "struct");
+     } else if (litType.isDict() && !key.isQuotedString()) {
+       report(t, key, ILLEGAL_OBJLIT_KEY, "dict");
+     }
+-
+     // TODO(johnlenz): Validate get and set function declarations are valid
+     // as is the functions can have "extraneous" bits.
+-
+     // For getter and setter property definitions the
+     // r-value type != the property type.
+     Node rvalue = key.getFirstChild();
+-    JSType rightType = NodeUtil.getObjectLitKeyTypeFromValueType(
+-        key, getJSType(rvalue));
++        JSType rightType = NodeUtil.getObjectLitKeyTypeFromValueType(key, getJSType(rvalue));
+     if (rightType == null) {
+       rightType = getNativeType(UNKNOWN_TYPE);
+     }
+-
+     Node owner = objlit;
+-
+     // Validate value is assignable to the key type.
+-
+     JSType keyType = getJSType(key);
+-
+     JSType allowedValueType = keyType;
+     if (allowedValueType.isEnumElementType()) {
+-      allowedValueType =
+-          allowedValueType.toMaybeEnumElementType().getPrimitiveType();
++            allowedValueType = allowedValueType.toMaybeEnumElementType().getPrimitiveType();
+     }
+-
+-    boolean valid = validator.expectCanAssignToPropertyOf(t, key,
+-        rightType, allowedValueType,
+-        owner, NodeUtil.getObjectLitKeyName(key));
++        boolean valid = validator.expectCanAssignToPropertyOf(t, key, rightType, allowedValueType, owner, NodeUtil.getObjectLitKeyName(key));
+     if (valid) {
+       ensureTyped(t, key, rightType);
+     } else {
+       ensureTyped(t, key);
+     }
+-
+     // Validate that the key type is assignable to the object property type.
+     // This is necessary as the objlit may have been cast to a non-literal
+     // object type.
+     // TODO(johnlenz): consider introducing a CAST node to the AST (or
+     // perhaps a parentheses node).
+-
+     JSType objlitType = getJSType(objlit);
+-    ObjectType type = ObjectType.cast(
+-        objlitType.restrictByNotNullOrUndefined());
++        ObjectType type = ObjectType.cast(objlitType.restrictByNotNullOrUndefined());
+     if (type != null) {
+       String property = NodeUtil.getObjectLitKeyName(key);
+-      if (type.hasProperty(property) &&
+-          !type.isPropertyTypeInferred(property) &&
+-          !propertyIsImplicitCast(type, property)) {
+-        validator.expectCanAssignToPropertyOf(
+-            t, key, keyType,
+-            type.getPropertyType(property), owner, property);
++            if (type.hasProperty(property) && !type.isPropertyTypeInferred(property) && !propertyIsImplicitCast(type, property)) {
++                validator.expectCanAssignToPropertyOf(t, key, keyType, type.getPropertyType(property), owner, property);
+       }
+       return;
+     }
+@@ -1192,130 +913,78 @@
+    * superclass. Several checks regarding inheritance correctness are also
+    * performed.
+    */
+-  private void checkDeclaredPropertyInheritance(
+-      NodeTraversal t, Node n, FunctionType ctorType, String propertyName,
+-      JSDocInfo info, JSType propertyType) {
++    private void checkDeclaredPropertyInheritance(NodeTraversal t, Node n, FunctionType ctorType, String propertyName, JSDocInfo info, JSType propertyType) {
+     // If the supertype doesn't resolve correctly, we've warned about this
+     // already.
+     if (hasUnknownOrEmptySupertype(ctorType)) {
+       return;
+     }
+-
+     FunctionType superClass = ctorType.getSuperClassConstructor();
+-    boolean superClassHasProperty = superClass != null &&
+-        superClass.getInstanceType().hasProperty(propertyName);
+-    boolean superClassHasDeclaredProperty = superClass != null &&
+-        superClass.getInstanceType().isPropertyTypeDeclared(propertyName);
+-
++        boolean superClassHasProperty = superClass != null && superClass.getInstanceType().hasProperty(propertyName);
++        boolean superClassHasDeclaredProperty = superClass != null && superClass.getInstanceType().isPropertyTypeDeclared(propertyName);
+     // For interface
+     boolean superInterfaceHasProperty = false;
+     boolean superInterfaceHasDeclaredProperty = false;
+     if (ctorType.isInterface()) {
+       for (ObjectType interfaceType : ctorType.getExtendedInterfaces()) {
+-        superInterfaceHasProperty =
+-            superInterfaceHasProperty ||
+-            interfaceType.hasProperty(propertyName);
+-        superInterfaceHasDeclaredProperty =
+-            superInterfaceHasDeclaredProperty ||
+-            interfaceType.isPropertyTypeDeclared(propertyName);
++                superInterfaceHasProperty = superInterfaceHasProperty || interfaceType.hasProperty(propertyName);
++                superInterfaceHasDeclaredProperty = superInterfaceHasDeclaredProperty || interfaceType.isPropertyTypeDeclared(propertyName);
+       }
+     }
+     boolean declaredOverride = info != null && info.isOverride();
+-
+     boolean foundInterfaceProperty = false;
+     if (ctorType.isConstructor()) {
+-      for (JSType implementedInterface :
+-          ctorType.getAllImplementedInterfaces()) {
+-        if (implementedInterface.isUnknownType() ||
+-            implementedInterface.isEmptyType()) {
++            for (JSType implementedInterface : ctorType.getAllImplementedInterfaces()) {
++                if (implementedInterface.isUnknownType() || implementedInterface.isEmptyType()) {
+           continue;
+         }
+-        FunctionType interfaceType =
+-            implementedInterface.toObjectType().getConstructor();
++                FunctionType interfaceType = implementedInterface.toObjectType().getConstructor();
+         Preconditions.checkNotNull(interfaceType);
+-
+-        boolean interfaceHasProperty =
+-            interfaceType.getPrototype().hasProperty(propertyName);
+-        foundInterfaceProperty = foundInterfaceProperty ||
+-            interfaceHasProperty;
+-        if (reportMissingOverride.isOn()
+-            && !declaredOverride
+-            && interfaceHasProperty) {
++                boolean interfaceHasProperty = interfaceType.getPrototype().hasProperty(propertyName);
++                foundInterfaceProperty = foundInterfaceProperty || interfaceHasProperty;
++                if (reportMissingOverride.isOn() && !declaredOverride && interfaceHasProperty) {
+           // @override not present, but the property does override an interface
+           // property
+-          compiler.report(t.makeError(n, reportMissingOverride,
+-              HIDDEN_INTERFACE_PROPERTY, propertyName,
+-              interfaceType.getTopMostDefiningType(propertyName).toString()));
++                    compiler.report(t.makeError(n, reportMissingOverride, HIDDEN_INTERFACE_PROPERTY, propertyName, interfaceType.getTopMostDefiningType(propertyName).toString()));
+         }
+       }
+     }
+-
+-    if (!declaredOverride
+-        && !superClassHasProperty
+-        && !superInterfaceHasProperty) {
++        if (!declaredOverride && !superClassHasProperty && !superInterfaceHasProperty) {
+       // nothing to do here, it's just a plain new property
+       return;
+     }
+-
+-    ObjectType topInstanceType = superClassHasDeclaredProperty ?
+-        superClass.getTopMostDefiningType(propertyName) : null;
+-    boolean declaredLocally =
+-        ctorType.isConstructor() &&
+-        (ctorType.getPrototype().hasOwnProperty(propertyName) ||
+-         ctorType.getInstanceType().hasOwnProperty(propertyName));
+-    if (reportMissingOverride.isOn()
+-        && !declaredOverride
+-        && superClassHasDeclaredProperty
+-        && declaredLocally) {
++        ObjectType topInstanceType = superClassHasDeclaredProperty ? superClass.getTopMostDefiningType(propertyName) : null;
++        boolean declaredLocally = ctorType.isConstructor() && (ctorType.getPrototype().hasOwnProperty(propertyName) || ctorType.getInstanceType().hasOwnProperty(propertyName));
++        if (reportMissingOverride.isOn() && !declaredOverride && superClassHasDeclaredProperty && declaredLocally) {
+       // @override not present, but the property does override a superclass
+       // property
+-      compiler.report(t.makeError(n, reportMissingOverride,
+-          HIDDEN_SUPERCLASS_PROPERTY, propertyName,
+-          topInstanceType.toString()));
++            compiler.report(t.makeError(n, reportMissingOverride, HIDDEN_SUPERCLASS_PROPERTY, propertyName, topInstanceType.toString()));
+     }
+-
+     // @override is present and we have to check that it is ok
+     if (superClassHasDeclaredProperty) {
+       // there is a superclass implementation
+-      JSType superClassPropType =
+-          superClass.getInstanceType().getPropertyType(propertyName);
+-      TemplateTypeMap ctorTypeMap =
+-          ctorType.getTypeOfThis().getTemplateTypeMap();
++            JSType superClassPropType = superClass.getInstanceType().getPropertyType(propertyName);
++            TemplateTypeMap ctorTypeMap = ctorType.getTypeOfThis().getTemplateTypeMap();
+       if (!ctorTypeMap.isEmpty()) {
+-        superClassPropType = superClassPropType.visit(
+-            new TemplateTypeMapReplacer(typeRegistry, ctorTypeMap));
++                superClassPropType = superClassPropType.visit(new TemplateTypeMapReplacer(typeRegistry, ctorTypeMap));
+       }
+-
+       if (!propertyType.isSubtype(superClassPropType)) {
+-        compiler.report(
+-            t.makeError(n, HIDDEN_SUPERCLASS_PROPERTY_MISMATCH,
+-                propertyName, topInstanceType.toString(),
+-                superClassPropType.toString(), propertyType.toString()));
++                compiler.report(t.makeError(n, HIDDEN_SUPERCLASS_PROPERTY_MISMATCH, propertyName, topInstanceType.toString(), superClassPropType.toString(), propertyType.toString()));
+       }
+     } else if (superInterfaceHasDeclaredProperty) {
+       // there is an super interface property
+       for (ObjectType interfaceType : ctorType.getExtendedInterfaces()) {
+         if (interfaceType.hasProperty(propertyName)) {
+-          JSType superPropertyType =
+-              interfaceType.getPropertyType(propertyName);
++                    JSType superPropertyType = interfaceType.getPropertyType(propertyName);
+           if (!propertyType.isSubtype(superPropertyType)) {
+-            topInstanceType = interfaceType.getConstructor().
+-                getTopMostDefiningType(propertyName);
+-            compiler.report(
+-                t.makeError(n, HIDDEN_SUPERCLASS_PROPERTY_MISMATCH,
+-                    propertyName, topInstanceType.toString(),
+-                    superPropertyType.toString(),
+-                    propertyType.toString()));
++                        topInstanceType = interfaceType.getConstructor().getTopMostDefiningType(propertyName);
++                        compiler.report(t.makeError(n, HIDDEN_SUPERCLASS_PROPERTY_MISMATCH, propertyName, topInstanceType.toString(), superPropertyType.toString(), propertyType.toString()));
+           }
+         }
+       }
+-    } else if (!foundInterfaceProperty
+-        && !superClassHasProperty
+-        && !superInterfaceHasProperty) {
++        } else if (!foundInterfaceProperty && !superClassHasProperty && !superInterfaceHasProperty) {
+       // there is no superclass nor interface implementation
+-      compiler.report(
+-          t.makeError(n, UNKNOWN_OVERRIDE,
+-              propertyName, ctorType.getInstanceType().toString()));
++            compiler.report(t.makeError(n, UNKNOWN_OVERRIDE, propertyName, ctorType.getInstanceType().toString()));
+     }
+   }
+ 
+@@ -1326,17 +995,14 @@
+   private static boolean hasUnknownOrEmptySupertype(FunctionType ctor) {
+     Preconditions.checkArgument(ctor.isConstructor() || ctor.isInterface());
+     Preconditions.checkArgument(!ctor.isUnknownType());
+-
+     // The type system should notice inheritance cycles on its own
+     // and break the cycle.
+     while (true) {
+-      ObjectType maybeSuperInstanceType =
+-          ctor.getPrototype().getImplicitPrototype();
++            ObjectType maybeSuperInstanceType = ctor.getPrototype().getImplicitPrototype();
+       if (maybeSuperInstanceType == null) {
+         return false;
+       }
+-      if (maybeSuperInstanceType.isUnknownType() ||
+-          maybeSuperInstanceType.isEmptyType()) {
++            if (maybeSuperInstanceType.isUnknownType() || maybeSuperInstanceType.isEmptyType()) {
+         return true;
+       }
+       ctor = maybeSuperInstanceType.getConstructor();
+@@ -1353,34 +1019,21 @@
+    * interface.property2.property = ...;
+    * </pre>
+    */
+-  private void visitInterfaceGetprop(NodeTraversal t, Node assign, Node object,
+-      String property, Node lvalue, Node rvalue) {
+-
++    private void visitInterfaceGetprop(NodeTraversal t, Node assign, Node object, String property, Node lvalue, Node rvalue) {
+     JSType rvalueType = getJSType(rvalue);
+-
+     // Only 2 values are allowed for methods:
+     //    goog.abstractMethod
+     //    function () {};
+     // or for properties, no assignment such as:
+     //    InterfaceFoo.prototype.foobar;
+-
+-    String abstractMethodName =
+-        compiler.getCodingConvention().getAbstractMethodName();
++        String abstractMethodName = compiler.getCodingConvention().getAbstractMethodName();
+     if (!rvalueType.isFunctionType()) {
+       // This is bad i18n style but we don't localize our compiler errors.
+-      String abstractMethodMessage = (abstractMethodName != null)
+-         ? ", or " + abstractMethodName
+-         : "";
+-      compiler.report(
+-          t.makeError(object, INVALID_INTERFACE_MEMBER_DECLARATION,
+-              abstractMethodMessage));
++            String abstractMethodMessage = (abstractMethodName != null) ? ", or " + abstractMethodName : "";
++            compiler.report(t.makeError(object, INVALID_INTERFACE_MEMBER_DECLARATION, abstractMethodMessage));
+     }
+-
+-    if (assign.getLastChild().isFunction()
+-        && !NodeUtil.isEmptyBlock(assign.getLastChild().getLastChild())) {
+-      compiler.report(
+-          t.makeError(object, INTERFACE_FUNCTION_NOT_EMPTY,
+-              abstractMethodName));
++        if (assign.getLastChild().isFunction() && !NodeUtil.isEmptyBlock(assign.getLastChild().getLastChild())) {
++            compiler.report(t.makeError(object, INTERFACE_FUNCTION_NOT_EMPTY, abstractMethodName));
+     }
+   }
+ 
+@@ -1402,13 +1055,9 @@
+     // TODO(user): remove this short-circuiting in favor of a
+     // pre order traversal of the FUNCTION, CATCH, LP and VAR nodes.
+     int parentNodeType = parent.getType();
+-    if (parentNodeType == Token.FUNCTION ||
+-        parentNodeType == Token.CATCH ||
+-        parentNodeType == Token.PARAM_LIST ||
+-        parentNodeType == Token.VAR) {
++        if (parentNodeType == Token.FUNCTION || parentNodeType == Token.CATCH || parentNodeType == Token.PARAM_LIST || parentNodeType == Token.VAR) {
+       return false;
+     }
+-
+     JSType type = n.getJSType();
+     if (type == null) {
+       type = getNativeType(UNKNOWN_TYPE);
+@@ -1440,11 +1089,9 @@
+     Node property = n.getLastChild();
+     Node objNode = n.getFirstChild();
+     JSType childType = getJSType(objNode);
+-
+     if (childType.isDict()) {
+       report(t, property, TypeValidator.ILLEGAL_PROPERTY_ACCESS, "'.'", "dict");
+-    } else if (validator.expectNotNullOrUndefined(t, n, childType,
+-        "No properties on this expression", getNativeType(OBJECT_TYPE))) {
++        } else if (validator.expectNotNullOrUndefined(t, n, childType, "No properties on this expression", getNativeType(OBJECT_TYPE))) {
+       checkPropertyAccess(childType, property.getString(), t, n);
+     }
+     ensureTyped(t, n);
+@@ -1457,8 +1104,7 @@
+    * *cannot be defined*, whereas a java compiler would check if the
+    * property *can be undefined*.
+    */
+-  private void checkPropertyAccess(JSType childType, String propName,
+-      NodeTraversal t, Node n) {
++    private void checkPropertyAccess(JSType childType, String propName, NodeTraversal t, Node n) {
+     // If the property type is unknown, check the object type to see if it
+     // can ever be defined. We explicitly exclude CHECKED_UNKNOWN (for
+     // properties where we've checked that it exists, or for properties on
+@@ -1471,48 +1117,36 @@
+         // We special-case object types so that checks on enums can be
+         // much stricter, and so that we can use hasProperty (which is much
+         // faster in most cases).
+-        if (!objectType.hasProperty(propName) ||
+-            objectType.isEquivalentTo(
+-                typeRegistry.getNativeType(UNKNOWN_TYPE))) {
++                if (!objectType.hasProperty(propName) || objectType.isEquivalentTo(typeRegistry.getNativeType(UNKNOWN_TYPE))) {
+           if (objectType instanceof EnumType) {
+             report(t, n, INEXISTENT_ENUM_ELEMENT, propName);
+           } else {
+             checkPropertyAccessHelper(objectType, propName, t, n);
+           }
+         }
+-
+       } else {
+         checkPropertyAccessHelper(childType, propName, t, n);
+       }
+     }
+   }
+ 
+-  private void checkPropertyAccessHelper(JSType objectType, String propName,
+-      NodeTraversal t, Node n) {
+-    if (!objectType.isEmptyType() &&
+-        reportMissingProperties &&
+-        (!isPropertyTest(n) || objectType.isStruct())) {
++    private void checkPropertyAccessHelper(JSType objectType, String propName, NodeTraversal t, Node n) {
++        if (!objectType.isEmptyType() && reportMissingProperties && (!isPropertyTest(n) || objectType.isStruct())) {
+       if (!typeRegistry.canPropertyBeDefined(objectType, propName)) {
+-        SuggestionPair pair =
+-            getClosestPropertySuggestion(objectType, propName);
++                SuggestionPair pair = getClosestPropertySuggestion(objectType, propName);
+         if (pair != null && pair.distance * 4 < propName.length()) {
+-          report(t, n, INEXISTENT_PROPERTY_WITH_SUGGESTION, propName,
+-              validator.getReadableJSTypeName(n.getFirstChild(), true),
+-              pair.suggestion);
++                    report(t, n, INEXISTENT_PROPERTY_WITH_SUGGESTION, propName, validator.getReadableJSTypeName(n.getFirstChild(), true), pair.suggestion);
+         } else {
+-          report(t, n, INEXISTENT_PROPERTY, propName,
+-              validator.getReadableJSTypeName(n.getFirstChild(), true));
++                    report(t, n, INEXISTENT_PROPERTY, propName, validator.getReadableJSTypeName(n.getFirstChild(), true));
+         }
+       }
+     }
+   }
+ 
+-  private SuggestionPair getClosestPropertySuggestion(
+-      JSType objectType, String propName) {
++    private SuggestionPair getClosestPropertySuggestion(JSType objectType, String propName) {
+     if (editDistance == null) {
+       return null;
+     }
+-
+     String bestSoFar = null;
+     int shortest = Integer.MAX_VALUE;
+     if (objectType instanceof ObjectType) {
+@@ -1543,8 +1177,7 @@
+         if (pair != null) {
+           if (pair.distance <= shortest) {
+             if (pair.distance  == shortest) {
+-              if (bestSoFar != null &&
+-                  pair.suggestion.compareToIgnoreCase(bestSoFar) > 0) {
++                            if (bestSoFar != null && pair.suggestion.compareToIgnoreCase(bestSoFar) > 0) {
+                 continue;
+               }
+             }
+@@ -1554,11 +1187,9 @@
+         }
+       }
+     }
+-
+     if (bestSoFar != null) {
+       return new SuggestionPair(bestSoFar, shortest);
+     }
+-
+     return null;
+   }
+ 
+@@ -1572,27 +1203,20 @@
+     Node parent = getProp.getParent();
+     switch (parent.getType()) {
+       case Token.CALL:
+-        return parent.getFirstChild() != getProp &&
+-            compiler.getCodingConvention().isPropertyTestFunction(parent);
+-
++                return parent.getFirstChild() != getProp && compiler.getCodingConvention().isPropertyTestFunction(parent);
+       case Token.IF:
+       case Token.WHILE:
+       case Token.DO:
+       case Token.FOR:
+         return NodeUtil.getConditionExpression(parent) == getProp;
+-
+       case Token.INSTANCEOF:
+       case Token.TYPEOF:
+         return true;
+-
+       case Token.AND:
+       case Token.HOOK:
+         return parent.getFirstChild() == getProp;
+-
+       case Token.NOT:
+-        return parent.getParent().isOr() &&
+-            parent.getParent().getFirstChild() == parent;
+-
++                return parent.getParent().isOr() && parent.getParent().getFirstChild() == parent;
+       case Token.CAST:
+         return isPropertyTest(parent);
+     }
+@@ -1607,8 +1231,7 @@
+    * @param n The node being visited.
+    */
+   private void visitGetElem(NodeTraversal t, Node n) {
+-    validator.expectIndexMatch(
+-        t, n, getJSType(n.getFirstChild()), getJSType(n.getLastChild()));
++        validator.expectIndexMatch(t, n, getJSType(n.getFirstChild()), getJSType(n.getLastChild()));
+     ensureTyped(t, n);
+   }
+ 
+@@ -1628,23 +1251,19 @@
+       Node value = name.getFirstChild();
+       // A null var would indicate a bug in the scope creation logic.
+       Var var = t.getScope().getVar(name.getString());
+-
+       if (value != null) {
+         JSType valueType = getJSType(value);
+         JSType nameType = var.getType();
+         nameType = (nameType == null) ? getNativeType(UNKNOWN_TYPE) : nameType;
+-
+         JSDocInfo info = name.getJSDocInfo();
+         if (info == null) {
+           info = varInfo;
+         }
+-
+         checkEnumAlias(t, info, value);
+         if (var.isTypeInferred()) {
+           ensureTyped(t, name, valueType);
+         } else {
+-          validator.expectCanAssignTo(
+-              t, value, valueType, nameType, "initializing variable");
++                    validator.expectCanAssignTo(t, value, valueType, nameType, "initializing variable");
+         }
+       }
+     }
+@@ -1658,7 +1277,7 @@
+     JSType type = getJSType(constructor).restrictByNotNullOrUndefined();
+     if (type.isConstructor() || type.isEmptyType() || type.isUnknownType()) {
+       FunctionType fnType = type.toMaybeFunctionType();
+-      if (fnType != null) {
++            if ((fnType != null) && (type.isConstructor())) {
+         visitParameterList(t, n, fnType);
+         ensureTyped(t, n, fnType.getInstanceType());
+       } else {
+@@ -1682,10 +1301,7 @@
+    * that have been visited
+    * @param interfaceType The super interface that is being visited
+    */
+-  private void checkInterfaceConflictProperties(NodeTraversal t, Node n,
+-      String functionName, HashMap<String, ObjectType> properties,
+-      HashMap<String, ObjectType> currentProperties,
+-      ObjectType interfaceType) {
++    private void checkInterfaceConflictProperties(NodeTraversal t, Node n, String functionName, HashMap<String, ObjectType> properties, HashMap<String, ObjectType> currentProperties, ObjectType interfaceType) {
+     ObjectType implicitProto = interfaceType.getImplicitPrototype();
+     Set<String> currentPropertyNames;
+     if (implicitProto == null) {
+@@ -1698,19 +1314,14 @@
+     for (String name : currentPropertyNames) {
+       ObjectType oType = properties.get(name);
+       if (oType != null) {
+-        if (!interfaceType.getPropertyType(name).isEquivalentTo(
+-            oType.getPropertyType(name))) {
+-          compiler.report(
+-              t.makeError(n, INCOMPATIBLE_EXTENDED_PROPERTY_TYPE,
+-                  functionName, name, oType.toString(),
+-                  interfaceType.toString()));
++                if (!interfaceType.getPropertyType(name).isEquivalentTo(oType.getPropertyType(name))) {
++                    compiler.report(t.makeError(n, INCOMPATIBLE_EXTENDED_PROPERTY_TYPE, functionName, name, oType.toString(), interfaceType.toString()));
+         }
+       }
+       currentProperties.put(name, interfaceType);
+     }
+     for (ObjectType iType : interfaceType.getCtorExtendedInterfaces()) {
+-      checkInterfaceConflictProperties(t, n, functionName, properties,
+-          currentProperties, iType);
++            checkInterfaceConflictProperties(t, n, functionName, properties, currentProperties, iType);
+     }
+   }
+ 
+@@ -1726,21 +1337,15 @@
+     String functionPrivateName = n.getFirstChild().getString();
+     if (functionType.isConstructor()) {
+       FunctionType baseConstructor = functionType.getSuperClassConstructor();
+-      if (baseConstructor != getNativeType(OBJECT_FUNCTION_TYPE) &&
+-          baseConstructor != null &&
+-          baseConstructor.isInterface()) {
+-        compiler.report(
+-            t.makeError(n, CONFLICTING_EXTENDED_TYPE,
+-                        "constructor", functionPrivateName));
++            if (baseConstructor != getNativeType(OBJECT_FUNCTION_TYPE) && baseConstructor != null && baseConstructor.isInterface()) {
++                compiler.report(t.makeError(n, CONFLICTING_EXTENDED_TYPE, "constructor", functionPrivateName));
+       } else {
+         if (baseConstructor != getNativeType(OBJECT_FUNCTION_TYPE)) {
+           ObjectType proto = functionType.getPrototype();
+           if (functionType.makesStructs() && !proto.isStruct()) {
+-            compiler.report(t.makeError(n, CONFLICTING_SHAPE_TYPE,
+-                                        "struct", functionPrivateName));
++                        compiler.report(t.makeError(n, CONFLICTING_SHAPE_TYPE, "struct", functionPrivateName));
+           } else if (functionType.makesDicts() && !proto.isDict()) {
+-            compiler.report(t.makeError(n, CONFLICTING_SHAPE_TYPE,
+-                                        "dict", functionPrivateName));
++                        compiler.report(t.makeError(n, CONFLICTING_SHAPE_TYPE, "dict", functionPrivateName));
+           }
+         }
+         // All interfaces are properly implemented by a class
+@@ -1748,10 +1353,8 @@
+           boolean badImplementedType = false;
+           ObjectType baseInterfaceObj = ObjectType.cast(baseInterface);
+           if (baseInterfaceObj != null) {
+-            FunctionType interfaceConstructor =
+-              baseInterfaceObj.getConstructor();
+-            if (interfaceConstructor != null &&
+-                !interfaceConstructor.isInterface()) {
++                        FunctionType interfaceConstructor = baseInterfaceObj.getConstructor();
++                        if (interfaceConstructor != null && !interfaceConstructor.isInterface()) {
+               badImplementedType = true;
+             }
+           } else {
+@@ -1767,25 +1370,18 @@
+     } else if (functionType.isInterface()) {
+       // Interface must extend only interfaces
+       for (ObjectType extInterface : functionType.getExtendedInterfaces()) {
+-        if (extInterface.getConstructor() != null
+-            && !extInterface.getConstructor().isInterface()) {
+-          compiler.report(
+-              t.makeError(n, CONFLICTING_EXTENDED_TYPE,
+-                          "interface", functionPrivateName));
++                if (extInterface.getConstructor() != null && !extInterface.getConstructor().isInterface()) {
++                    compiler.report(t.makeError(n, CONFLICTING_EXTENDED_TYPE, "interface", functionPrivateName));
+         }
+       }
+-
+       // Check whether the extended interfaces have any conflicts
+       if (functionType.getExtendedInterfacesCount() > 1) {
+         // Only check when extending more than one interfaces
+-        HashMap<String, ObjectType> properties
+-            = new HashMap<String, ObjectType>();
+-        HashMap<String, ObjectType> currentProperties
+-            = new HashMap<String, ObjectType>();
++                HashMap<String, ObjectType> properties = new HashMap<String, ObjectType>();
++                HashMap<String, ObjectType> currentProperties = new HashMap<String, ObjectType>();
+         for (ObjectType interfaceType : functionType.getExtendedInterfaces()) {
+           currentProperties.clear();
+-          checkInterfaceConflictProperties(t, n, functionPrivateName,
+-              properties, currentProperties, interfaceType);
++                    checkInterfaceConflictProperties(t, n, functionPrivateName, properties, currentProperties, interfaceType);
+           properties.putAll(currentProperties);
+         }
+       }
+@@ -1802,53 +1398,36 @@
+   private void visitCall(NodeTraversal t, Node n) {
+     Node child = n.getFirstChild();
+     JSType childType = getJSType(child).restrictByNotNullOrUndefined();
+-
+     if (!childType.canBeCalled()) {
+       report(t, n, NOT_CALLABLE, childType.toString());
+       ensureTyped(t, n);
+       return;
+     }
+-
+     // A couple of types can be called as if they were functions.
+     // If it is a function type, then validate parameters.
+     if (childType.isFunctionType()) {
+       FunctionType functionType = childType.toMaybeFunctionType();
+-
+       boolean isExtern = false;
+       JSDocInfo functionJSDocInfo = functionType.getJSDocInfo();
+-      if (functionJSDocInfo != null  &&
+-          functionJSDocInfo.getAssociatedNode() != null) {
++            if (functionJSDocInfo != null && functionJSDocInfo.getAssociatedNode() != null) {
+         isExtern = functionJSDocInfo.getAssociatedNode().isFromExterns();
+       }
+-
+       // Non-native constructors should not be called directly
+       // unless they specify a return type and are defined
+       // in an extern.
+-      if (functionType.isConstructor() &&
+-          !functionType.isNativeObjectType() &&
+-          (functionType.getReturnType().isUnknownType() ||
+-           functionType.getReturnType().isVoidType() ||
+-           !isExtern)) {
++            if (functionType.isConstructor() && !functionType.isNativeObjectType() && (functionType.getReturnType().isUnknownType() || functionType.getReturnType().isVoidType() || !isExtern)) {
+         report(t, n, CONSTRUCTOR_NOT_CALLABLE, childType.toString());
+       }
+-
+       // Functions with explicit 'this' types must be called in a GETPROP
+       // or GETELEM.
+-      if (functionType.isOrdinaryFunction() &&
+-          !functionType.getTypeOfThis().isUnknownType() &&
+-          !(functionType.getTypeOfThis().toObjectType() != null &&
+-          functionType.getTypeOfThis().toObjectType().isNativeObjectType()) &&
+-          !(child.isGetElem() ||
+-            child.isGetProp())) {
++            if (functionType.isOrdinaryFunction() && !functionType.getTypeOfThis().isUnknownType() && !(functionType.getTypeOfThis().toObjectType() != null && functionType.getTypeOfThis().toObjectType().isNativeObjectType()) && !(child.isGetElem() || child.isGetProp())) {
+         report(t, n, EXPECTED_THIS_TYPE, functionType.toString());
+       }
+-
+       visitParameterList(t, n, functionType);
+       ensureTyped(t, n, functionType.getReturnType());
+     } else {
+       ensureTyped(t, n);
+     }
+-
+     // TODO(nicksantos): Add something to check for calls of RegExp objects,
+     // which is not supported by IE. Either say something about the return type
+     // or warn about the non-portability of the call or both.
+@@ -1857,18 +1436,15 @@
+   /**
+    * Visits the parameters of a CALL or a NEW node.
+    */
+-  private void visitParameterList(NodeTraversal t, Node call,
+-      FunctionType functionType) {
++    private void visitParameterList(NodeTraversal t, Node call, FunctionType functionType) {
+     Iterator<Node> arguments = call.children().iterator();
+-    arguments.next(); // skip the function name
+-
++        // skip the function name
++        arguments.next();
+     Iterator<Node> parameters = functionType.getParameters().iterator();
+     int ordinal = 0;
+     Node parameter = null;
+     Node argument = null;
+-    while (arguments.hasNext() &&
+-           (parameters.hasNext() ||
+-            parameter != null && parameter.isVarArgs())) {
++        while (arguments.hasNext() && (parameters.hasNext() || parameter != null && parameter.isVarArgs())) {
+       // If there are no parameters left in the list, then the while loop
+       // above implies that this must be a var_args function.
+       if (parameters.hasNext()) {
+@@ -1876,20 +1452,13 @@
+       }
+       argument = arguments.next();
+       ordinal++;
+-
+-      validator.expectArgumentMatchesParameter(t, argument,
+-          getJSType(argument), getJSType(parameter), call, ordinal);
++            validator.expectArgumentMatchesParameter(t, argument, getJSType(argument), getJSType(parameter), call, ordinal);
+     }
+-
+     int numArgs = call.getChildCount() - 1;
+     int minArgs = functionType.getMinArguments();
+     int maxArgs = functionType.getMaxArguments();
+     if (minArgs > numArgs || maxArgs < numArgs) {
+-      report(t, call, WRONG_ARGUMENT_COUNT,
+-              validator.getReadableJSTypeName(call.getFirstChild(), false),
+-              String.valueOf(numArgs), String.valueOf(minArgs),
+-              maxArgs != Integer.MAX_VALUE ?
+-              " and no more than " + maxArgs + " argument(s)" : "");
++            report(t, call, WRONG_ARGUMENT_COUNT, validator.getReadableJSTypeName(call.getFirstChild(), false), String.valueOf(numArgs), String.valueOf(minArgs), maxArgs != Integer.MAX_VALUE ? " and no more than " + maxArgs + " argument(s)" : "");
+     }
+   }
+ 
+@@ -1902,18 +1471,14 @@
+    */
+   private void visitReturn(NodeTraversal t, Node n) {
+     JSType jsType = getJSType(t.getEnclosingFunction());
+-
+     if (jsType.isFunctionType()) {
+       FunctionType functionType = jsType.toMaybeFunctionType();
+-
+       JSType returnType = functionType.getReturnType();
+-
+       // if no return type is specified, undefined must be returned
+       // (it's a void function)
+       if (returnType == null) {
+         returnType = getNativeType(VOID_TYPE);
+       }
+-
+       // fetching the returned value's type
+       Node valueNode = n.getFirstChild();
+       JSType actualReturnType;
+@@ -1923,10 +1488,8 @@
+       } else {
+         actualReturnType = getJSType(valueNode);
+       }
+-
+       // verifying
+-      validator.expectCanAssignTo(t, valueNode, actualReturnType, returnType,
+-          "inconsistent return type");
++            validator.expectCanAssignTo(t, valueNode, actualReturnType, returnType, "inconsistent return type");
+     }
+   }
+ 
+@@ -1953,15 +1516,12 @@
+       case Token.ASSIGN_URSH:
+       case Token.URSH:
+         if (!leftType.matchesInt32Context()) {
+-          report(t, left, BIT_OPERATION,
+-                   NodeUtil.opToStr(n.getType()), leftType.toString());
++                    report(t, left, BIT_OPERATION, NodeUtil.opToStr(n.getType()), leftType.toString());
+         }
+         if (!rightType.matchesUint32Context()) {
+-          report(t, right, BIT_OPERATION,
+-                   NodeUtil.opToStr(n.getType()), rightType.toString());
++                    report(t, right, BIT_OPERATION, NodeUtil.opToStr(n.getType()), rightType.toString());
+         }
+         break;
+-
+       case Token.ASSIGN_DIV:
+       case Token.ASSIGN_MOD:
+       case Token.ASSIGN_MUL:
+@@ -1973,30 +1533,24 @@
+         validator.expectNumber(t, left, leftType, "left operand");
+         validator.expectNumber(t, right, rightType, "right operand");
+         break;
+-
+       case Token.ASSIGN_BITAND:
+       case Token.ASSIGN_BITXOR:
+       case Token.ASSIGN_BITOR:
+       case Token.BITAND:
+       case Token.BITXOR:
+       case Token.BITOR:
+-        validator.expectBitwiseable(t, left, leftType,
+-            "bad left operand to bitwise operator");
+-        validator.expectBitwiseable(t, right, rightType,
+-            "bad right operand to bitwise operator");
++                validator.expectBitwiseable(t, left, leftType, "bad left operand to bitwise operator");
++                validator.expectBitwiseable(t, right, rightType, "bad right operand to bitwise operator");
+         break;
+-
+       case Token.ASSIGN_ADD:
+       case Token.ADD:
+         break;
+-
+       default:
+         report(t, n, UNEXPECTED_TOKEN, Token.name(op));
+     }
+     ensureTyped(t, n);
+   }
+ 
+-
+   /**
+    * <p>Checks enum aliases.
+    *
+@@ -2011,23 +1565,17 @@
+    *
+    * @param value the value used for initialization of the enum
+    */
+-  private void checkEnumAlias(
+-      NodeTraversal t, JSDocInfo declInfo, Node value) {
++    private void checkEnumAlias(NodeTraversal t, JSDocInfo declInfo, Node value) {
+     if (declInfo == null || !declInfo.hasEnumParameterType()) {
+       return;
+     }
+-
+     JSType valueType = getJSType(value);
+     if (!valueType.isEnumType()) {
+       return;
+     }
+-
+     EnumType valueEnumType = valueType.toMaybeEnumType();
+-    JSType valueEnumPrimitiveType =
+-        valueEnumType.getElementsType().getPrimitiveType();
+-    validator.expectCanAssignTo(t, value, valueEnumPrimitiveType,
+-        declInfo.getEnumParameterType().evaluate(t.getScope(), typeRegistry),
+-        "incompatible enum element types");
++        JSType valueEnumPrimitiveType = valueEnumType.getElementsType().getPrimitiveType();
++        validator.expectCanAssignTo(t, value, valueEnumPrimitiveType, declInfo.getEnumParameterType().evaluate(t.getScope(), typeRegistry), "incompatible enum element types");
+   }
+ 
+   /**
+@@ -2052,7 +1600,6 @@
+   // for legacy reasons. There are a number of places where TypeInference
+   // doesn't attach a type, as a signal to TypeCheck that it needs to check
+   // that node's type.
+-
+   /**
+    * Ensure that the given node has a type. If it does not have one,
+    * attach the UNKNOWN_TYPE.
+@@ -2085,20 +1632,15 @@
+    */
+   private void ensureTyped(NodeTraversal t, Node n, JSType type) {
+     // Make sure FUNCTION nodes always get function type.
+-    Preconditions.checkState(!n.isFunction() ||
+-            type.isFunctionType() ||
+-            type.isUnknownType());
++        Preconditions.checkState(!n.isFunction() || type.isFunctionType() || type.isUnknownType());
+     // TODO(johnlenz): this seems like a strange place to check "@implicitCast"
+     JSDocInfo info = n.getJSDocInfo();
+     if (info != null) {
+       if (info.isImplicitCast() && !inExterns) {
+-        String propName = n.isGetProp() ?
+-            n.getLastChild().getString() : "(missing)";
+-        compiler.report(
+-            t.makeError(n, ILLEGAL_IMPLICIT_CAST, propName));
++                String propName = n.isGetProp() ? n.getLastChild().getString() : "(missing)";
++                compiler.report(t.makeError(n, ILLEGAL_IMPLICIT_CAST, propName));
+       }
+     }
+-
+     if (n.getJSType() == null) {
+       n.setJSType(type);
+     }

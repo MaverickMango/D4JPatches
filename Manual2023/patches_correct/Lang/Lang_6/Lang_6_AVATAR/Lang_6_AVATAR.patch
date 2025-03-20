@@ -1,0 +1,18 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/lang/lang_6_buggy/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java /mnt/D4JPatches/Manual2023/patches_correct/Lang/Lang_6/Lang_6_AVATAR/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java
+--- /mnt/d4j_bug_info/buggyfiles/lang/lang_6_buggy/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java	2022-11-20 04:09:31.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Lang/Lang_6/Lang_6_AVATAR/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java	2023-11-13 22:37:06.000000000 -0800
+@@ -92,7 +92,7 @@
+ //          // contract with translators is that they have to understand codepoints 
+ //          // and they just took care of a surrogate pair
+             for (int pt = 0; pt < consumed; pt++) {
+-                pos += Character.charCount(Character.codePointAt(input, pos));
++                pos += Character.charCount(Character.codePointAt(input, pt));
+             }
+         }
+     }
+@@ -121,5 +121,4 @@
+     public static String hex(int codepoint) {
+         return Integer.toHexString(codepoint).toUpperCase(Locale.ENGLISH);
+     }
+-
+ }

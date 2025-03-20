@@ -1,0 +1,12 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/math/math_28_buggy/src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java /mnt/D4JPatches/Manual2023/patches_plausible/Math/Math_28/Math_28_TBar/src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java
+--- /mnt/d4j_bug_info/buggyfiles/math/math_28_buggy/src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java	2022-11-20 04:09:32.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_plausible/Math/Math_28/Math_28_TBar/src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java	2023-11-13 22:37:06.000000000 -0800
+@@ -140,7 +140,7 @@
+                 for (Integer row : minRatioPositions) {
+                     int i = tableau.getNumObjectiveFunctions();
+                     for (; i < tableau.getWidth() - 1 && minRow != row; i++) {
+-                        if (row == tableau.getBasicRow(i)) {
++                        if ((row == tableau.getBasicRow(i)) || !(minRatioPositions.size() == 0)) {
+                             if (i < minIndex) {
+                                 minIndex = i;
+                                 minRow = row;

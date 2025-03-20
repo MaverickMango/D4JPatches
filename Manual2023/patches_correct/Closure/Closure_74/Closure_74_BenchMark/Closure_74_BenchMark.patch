@@ -1,0 +1,33 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/closure/closure_74_buggy/src/com/google/javascript/jscomp/PeepholeFoldConstants.java /mnt/D4JPatches/Manual2023/patches_correct/Closure/Closure_74/Closure_74_BenchMark/src/com/google/javascript/jscomp/PeepholeFoldConstants.java
+--- /mnt/d4j_bug_info/buggyfiles/closure/closure_74_buggy/src/com/google/javascript/jscomp/PeepholeFoldConstants.java	2022-11-20 04:09:31.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Closure/Closure_74/Closure_74_BenchMark/src/com/google/javascript/jscomp/PeepholeFoldConstants.java	2023-11-13 22:37:06.000000000 -0800
+@@ -906,6 +906,8 @@
+               && NodeUtil.isLiteralValue(right.getFirstChild(), false)));
+     int lhType = left.getType();
+     int rhType = right.getType();
++    int lhType = getNormalizedNodeType(left);
++        int rhType = getNormalizedNodeType(right);
+     switch (lhType) {
+       case Token.VOID:
+         if (!NodeUtil.isLiteralValue(left.getFirstChild(), false)) {
+@@ -1071,7 +1073,19 @@
+   /**
+    * @return Translate NOT expressions into TRUE or FALSE when possible.
+    */
+-
++  private int getNormalizedNodeType(Node n) {
++        int type = n.getType();
++        if (type == Token.NOT) {
++          TernaryValue value = NodeUtil.getPureBooleanValue(n);
++          switch (value) {
++            case TRUE:
++              return Token.TRUE;
++            case FALSE:
++              return Token.FALSE;
++          }
++        }
++        return type;
++      }
+   /**
+    * The result of the comparison as a Boolean or null if the
+    * result could not be determined.

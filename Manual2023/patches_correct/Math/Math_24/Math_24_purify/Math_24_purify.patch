@@ -1,0 +1,12 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/math/math_24_buggy/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java /mnt/D4JPatches/Manual2023/patches_correct/Math/Math_24/Math_24_purify/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java
+--- /mnt/d4j_bug_info/buggyfiles/math/math_24_buggy/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java	2022-11-20 04:09:32.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Math/Math_24/Math_24_purify/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java	2023-11-13 22:37:06.000000000 -0800
+@@ -264,7 +264,7 @@
+                     }
+                 }
+             } else { // Default termination (Brent's criterion).
+-                return current;
++            return best(current, previous, isMinim);
+             }
+             ++iter;
+         }

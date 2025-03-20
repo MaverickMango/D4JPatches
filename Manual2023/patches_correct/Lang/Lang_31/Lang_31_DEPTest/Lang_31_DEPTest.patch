@@ -1,0 +1,764 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/lang/lang_31_buggy/src/main/java/org/apache/commons/lang3/StringUtils.java /mnt/D4JPatches/Manual2023/patches_correct/Lang/Lang_31/Lang_31_DEPTest/src/main/java/org/apache/commons/lang3/StringUtils.java
+--- /mnt/d4j_bug_info/buggyfiles/lang/lang_31_buggy/src/main/java/org/apache/commons/lang3/StringUtils.java	2022-11-20 04:09:31.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Lang/Lang_31/Lang_31_DEPTest/src/main/java/org/apache/commons/lang3/StringUtils.java	2023-11-13 22:37:06.000000000 -0800
+@@ -20,7 +20,6 @@
+ import java.util.Iterator;
+ import java.util.List;
+ import java.util.Locale;
+-
+ import org.apache.commons.lang3.text.WordUtils;
+ 
+ /**
+@@ -125,6 +124,7 @@
+  */
+ //@Immutable
+ public class StringUtils {
++
+     // Performance testing notes (JDK 1.4, Jul03, scolebourne)
+     // Whitespace:
+     // Character.isWhitespace() is faster than WHITESPACE.indexOf()
+@@ -140,7 +140,6 @@
+     // Append:
+     // String.concat about twice as fast as StringBuffer.append
+     // (not sure who tested this)
+-
+     /**
+      * The empty String <code>""</code>.
+      * @since 2.0
+@@ -533,7 +532,6 @@
+         if (str == null || (end = str.length()) == 0) {
+             return str;
+         }
+-
+         if (stripChars == null) {
+             while ((end != 0) && Character.isWhitespace(str.charAt(end - 1))) {
+                 end--;
+@@ -631,27 +629,20 @@
+             return null;
+         }
+         if(SystemUtils.isJavaVersionAtLeast(1.6f)) {
+-
+             // String decomposed = Normalizer.normalize(input, Normalizer.Form.NFD);
+-
+             // START of 1.5 reflection - in 1.6 use the line commented out above
+             try {
+                 // get java.text.Normalizer.Form class
+                 Class<?> normalizerFormClass = ClassUtils.getClass("java.text.Normalizer$Form", false);
+-
+                 // get Normlizer class
+                 Class<?> normalizerClass = ClassUtils.getClass("java.text.Normalizer", false);
+-
+                 // get static method on Normalizer
+                 java.lang.reflect.Method method = normalizerClass.getMethod("normalize", CharSequence.class, normalizerFormClass );
+-
+                 // get Normalizer.NFD field
+                 java.lang.reflect.Field nfd = normalizerFormClass.getField("NFD");
+-
+                 // invoke method
+                 String decomposed = (String) method.invoke( null, input, nfd.get(null) );
+                 // END of 1.5 reflection
+-
+                 java.util.regex.Pattern accentPattern = java.util.regex.Pattern.compile("\\p{InCombiningDiacriticalMarks}+");
+                 return accentPattern.matcher(decomposed).replaceAll("");
+             } catch(ClassNotFoundException cnfe) {
+@@ -1242,7 +1233,6 @@
+         if (searchStr.length() == 0) {
+             return startPos;
+         }
+-
+         for (int i = startPos; i >= 0; i--) {
+             if (str.regionMatches(true, i, searchStr, 0, searchStr.length())) {
+                 return i;
+@@ -1741,10 +1731,8 @@
+             return INDEX_NOT_FOUND;
+         }
+         int sz = searchStrs.length;
+-
+         // String's can't have a MAX_VALUEth index.
+         int ret = Integer.MAX_VALUE;
+-
+         int tmp = 0;
+         for (int i = 0; i < sz; i++) {
+             String search = searchStrs[i];
+@@ -1755,12 +1743,10 @@
+             if (tmp == INDEX_NOT_FOUND) {
+                 continue;
+             }
+-
+             if (tmp < ret) {
+                 ret = tmp;
+             }
+         }
+-
+         return (ret == Integer.MAX_VALUE) ? INDEX_NOT_FOUND : ret;
+     }
+ 
+@@ -1839,19 +1825,17 @@
+         if (str == null) {
+             return null;
+         }
+-
+         // handle negatives, which means last n characters
+         if (start < 0) {
+-            start = str.length() + start; // remember start is negative
++            // remember start is negative
++            start = str.length() + start;
+         }
+-
+         if (start < 0) {
+             start = 0;
+         }
+         if (start > str.length()) {
+             return EMPTY;
+         }
+-
+         return str.substring(start);
+     }
+ 
+@@ -1894,32 +1878,29 @@
+         if (str == null) {
+             return null;
+         }
+-
+         // handle negatives
+         if (end < 0) {
+-            end = str.length() + end; // remember end is negative
++            // remember end is negative
++            end = str.length() + end;
+         }
+         if (start < 0) {
+-            start = str.length() + start; // remember start is negative
++            // remember start is negative
++            start = str.length() + start;
+         }
+-
+         // check length next
+         if (end > str.length()) {
+             end = str.length();
+         }
+-
+         // if start is greater than end, return ""
+         if (start > end) {
+             return EMPTY;
+         }
+-
+         if (start < 0) {
+             start = 0;
+         }
+         if (end < 0) {
+             end = 0;
+         }
+-
+         return str.substring(start, end);
+     }
+ 
+@@ -2320,7 +2301,6 @@
+ 
+     // Nested extraction
+     //-----------------------------------------------------------------------
+-
+     // Splitting
+     //-----------------------------------------------------------------------
+     /**
+@@ -2574,37 +2554,28 @@
+      * @return an array of parsed Strings, <code>null</code> if null String input
+      * @since 2.4
+      */
+-    private static String[] splitByWholeSeparatorWorker(String str, String separator, int max, 
+-                                                        boolean preserveAllTokens) 
+-    {
++    private static String[] splitByWholeSeparatorWorker(String str, String separator, int max, boolean preserveAllTokens) {
+         if (str == null) {
+             return null;
+         }
+-
+         int len = str.length();
+-
+         if (len == 0) {
+             return ArrayUtils.EMPTY_STRING_ARRAY;
+         }
+-
+         if ((separator == null) || (EMPTY.equals(separator))) {
+             // Split on whitespace.
+             return splitWorker(str, null, max, preserveAllTokens);
+         }
+-
+         int separatorLength = separator.length();
+-
+         ArrayList<String> substrings = new ArrayList<String>();
+         int numberOfSubstrings = 0;
+         int beg = 0;
+         int end = 0;
+         while (end < len) {
+             end = str.indexOf(separator, beg);
+-
+             if (end > -1) {
+                 if (end > beg) {
+                     numberOfSubstrings += 1;
+-
+                     if (numberOfSubstrings == max) {
+                         end = len;
+                         substrings.add(str.substring(beg));
+@@ -2612,7 +2583,6 @@
+                         // The following is OK, because String.substring( beg, end ) excludes
+                         // the character at the position 'end'.
+                         substrings.add(str.substring(beg, end));
+-
+                         // Set the starting point for the next search.
+                         // The following is equivalent to beg = end + (separatorLength - 1) + 1,
+                         // which is the right calculation:
+@@ -2637,7 +2607,6 @@
+                 end = len;
+             }
+         }
+-
+         return substrings.toArray(new String[substrings.size()]);
+     }
+ 
+@@ -2720,7 +2689,6 @@
+      */
+     private static String[] splitWorker(String str, char separatorChar, boolean preserveAllTokens) {
+         // Performance tuned for 2.0 (JDK1.4)
+-
+         if (str == null) {
+             return null;
+         }
+@@ -2847,7 +2815,6 @@
+         // Performance tuned for 2.0 (JDK1.4)
+         // Direct code is quicker than StringTokenizer.
+         // Also, StringTokenizer uses isSpace() not isWhitespace()
+-
+         if (str == null) {
+             return null;
+         }
+@@ -3077,7 +3044,6 @@
+         if (array == null) {
+             return null;
+         }
+-
+         return join(array, separator, 0, array.length);
+     }
+ 
+@@ -3115,10 +3081,8 @@
+         if (bufSize <= 0) {
+             return EMPTY;
+         }
+-
+         bufSize *= ((array[startIndex] == null ? 16 : array[startIndex].toString().length()) + 1);
+         StringBuilder buf = new StringBuilder(bufSize);
+-
+         for (int i = startIndex; i < endIndex; i++) {
+             if (i > startIndex) {
+                 buf.append(separator);
+@@ -3130,7 +3094,6 @@
+         return buf.toString();
+     }
+ 
+-
+     /**
+      * <p>Joins the elements of the provided array into a single String
+      * containing the provided list of elements.</p>
+@@ -3195,19 +3158,14 @@
+         if (separator == null) {
+             separator = EMPTY;
+         }
+-
+         // endIndex - startIndex > 0:   Len = NofStrings *(len(firstString) + len(separator))
+         //           (Assuming that all Strings are roughly equally long)
+         int bufSize = (endIndex - startIndex);
+         if (bufSize <= 0) {
+             return EMPTY;
+         }
+-
+-        bufSize *= ((array[startIndex] == null ? 16 : array[startIndex].toString().length())
+-                        + separator.length());
+-
++        bufSize *= ((array[startIndex] == null ? 16 : array[startIndex].toString().length()) + separator.length());
+         StringBuilder buf = new StringBuilder(bufSize);
+-
+         for (int i = startIndex; i < endIndex; i++) {
+             if (i > startIndex) {
+                 buf.append(separator);
+@@ -3234,7 +3192,6 @@
+      * @since 2.0
+      */
+     public static String join(Iterator<?> iterator, char separator) {
+-
+         // handle null, zero and one elements before building a buffer
+         if (iterator == null) {
+             return null;
+@@ -3246,13 +3203,12 @@
+         if (!iterator.hasNext()) {
+             return ObjectUtils.toString(first);
+         }
+-
+         // two or more elements
+-        StringBuilder buf = new StringBuilder(256); // Java default is 16, probably too small
++        // Java default is 16, probably too small
++        StringBuilder buf = new StringBuilder(256);
+         if (first != null) {
+             buf.append(first);
+         }
+-
+         while (iterator.hasNext()) {
+             buf.append(separator);
+             Object obj = iterator.next();
+@@ -3260,7 +3216,6 @@
+                 buf.append(obj);
+             }
+         }
+-
+         return buf.toString();
+     }
+ 
+@@ -3278,7 +3233,6 @@
+      * @return the joined String, <code>null</code> if null iterator input
+      */
+     public static String join(Iterator<?> iterator, String separator) {
+-
+         // handle null, zero and one elements before building a buffer
+         if (iterator == null) {
+             return null;
+@@ -3290,13 +3244,12 @@
+         if (!iterator.hasNext()) {
+             return ObjectUtils.toString(first);
+         }
+-
+         // two or more elements
+-        StringBuilder buf = new StringBuilder(256); // Java default is 16, probably too small
++        // Java default is 16, probably too small
++        StringBuilder buf = new StringBuilder(256);
+         if (first != null) {
+             buf.append(first);
+         }
+-
+         while (iterator.hasNext()) {
+             if (separator != null) {
+                 buf.append(separator);
+@@ -3842,53 +3795,35 @@
+      *             and/or size 0)
+      * @since 2.4
+      */
+-    private static String replaceEach(String text, String[] searchList, String[] replacementList, 
+-                                      boolean repeat, int timeToLive) 
+-    {
+-
++    private static String replaceEach(String text, String[] searchList, String[] replacementList, boolean repeat, int timeToLive) {
+         // mchyzer Performance note: This creates very few new objects (one major goal)
+         // let me know if there are performance requests, we can create a harness to measure
+-
+-        if (text == null || text.length() == 0 || searchList == null || 
+-            searchList.length == 0 || replacementList == null || replacementList.length == 0) 
+-        {
++        if (text == null || text.length() == 0 || searchList == null || searchList.length == 0 || replacementList == null || replacementList.length == 0) {
+             return text;
+         }
+-
+         // if recursing, this shouldnt be less than 0
+         if (timeToLive < 0) {
+             throw new IllegalStateException("TimeToLive of " + timeToLive + " is less than 0: " + text);
+         }
+-
+         int searchLength = searchList.length;
+         int replacementLength = replacementList.length;
+-
+         // make sure lengths are ok, these need to be equal
+         if (searchLength != replacementLength) {
+-            throw new IllegalArgumentException("Search and Replace array lengths don't match: "
+-                + searchLength
+-                + " vs "
+-                + replacementLength);
++            throw new IllegalArgumentException("Search and Replace array lengths don't match: " + searchLength + " vs " + replacementLength);
+         }
+-
+         // keep track of which still have matches
+         boolean[] noMoreMatchesForReplIndex = new boolean[searchLength];
+-
+         // index on index that the match was found
+         int textIndex = -1;
+         int replaceIndex = -1;
+         int tempIndex = -1;
+-
+         // index of replace array that will replace the search string found
+         // NOTE: logic duplicated below START
+         for (int i = 0; i < searchLength; i++) {
+-            if (noMoreMatchesForReplIndex[i] || searchList[i] == null || 
+-                searchList[i].length() == 0 || replacementList[i] == null) 
+-            {
++            if (noMoreMatchesForReplIndex[i] || searchList[i] == null || searchList[i].length() == 0 || replacementList[i] == null) {
+                 continue;
+             }
+             tempIndex = text.indexOf(searchList[i]);
+-
+             // see if we need to keep searching for this
+             if (tempIndex == -1) {
+                 noMoreMatchesForReplIndex[i] = true;
+@@ -3900,17 +3835,13 @@
+             }
+         }
+         // NOTE: logic mostly below END
+-
+         // no search strings found, we are done
+         if (textIndex == -1) {
+             return text;
+         }
+-
+         int start = 0;
+-
+         // get a good guess on the size of the result buffer so it doesnt have to double if it goes over a bit
+         int increase = 0;
+-
+         // count the replacement text elements that are larger than their corresponding text being replaced
+         for (int i = 0; i < searchList.length; i++) {
+             if (searchList[i] == null || replacementList[i] == null) {
+@@ -3918,36 +3849,29 @@
+             }
+             int greater = replacementList[i].length() - searchList[i].length();
+             if (greater > 0) {
+-                increase += 3 * greater; // assume 3 matches
++                // assume 3 matches
++                increase += 3 * greater;
+             }
+         }
+         // have upper-bound at 20% increase, then let Java take over
+         increase = Math.min(increase, text.length() / 5);
+-
+         StringBuilder buf = new StringBuilder(text.length() + increase);
+-
+         while (textIndex != -1) {
+-
+             for (int i = start; i < textIndex; i++) {
+                 buf.append(text.charAt(i));
+             }
+             buf.append(replacementList[replaceIndex]);
+-
+             start = textIndex + searchList[replaceIndex].length();
+-
+             textIndex = -1;
+             replaceIndex = -1;
+             tempIndex = -1;
+             // find the next earliest match
+             // NOTE: logic mostly duplicated above START
+             for (int i = 0; i < searchLength; i++) {
+-                if (noMoreMatchesForReplIndex[i] || searchList[i] == null || 
+-                    searchList[i].length() == 0 || replacementList[i] == null) 
+-                {
++                if (noMoreMatchesForReplIndex[i] || searchList[i] == null || searchList[i].length() == 0 || replacementList[i] == null) {
+                     continue;
+                 }
+                 tempIndex = text.indexOf(searchList[i], start);
+-
+                 // see if we need to keep searching for this
+                 if (tempIndex == -1) {
+                     noMoreMatchesForReplIndex[i] = true;
+@@ -3959,7 +3883,6 @@
+                 }
+             }
+             // NOTE: logic duplicated above END
+-
+         }
+         int textLength = text.length();
+         for (int i = start; i < textLength; i++) {
+@@ -3969,7 +3892,6 @@
+         if (!repeat) {
+             return result;
+         }
+-
+         return replaceEach(result, searchList, replacementList, repeat, timeToLive - 1);
+     }
+ 
+@@ -4123,11 +4045,7 @@
+             start = end;
+             end = temp;
+         }
+-        return new StringBuilder(len + start - end + overlay.length() + 1)
+-            .append(str.substring(0, start))
+-            .append(overlay)
+-            .append(str.substring(end))
+-            .toString();
++        return new StringBuilder(len + start - end + overlay.length() + 1).append(str.substring(0, start)).append(overlay).append(str.substring(end)).toString();
+     }
+ 
+     // Chomping
+@@ -4161,7 +4079,6 @@
+         if (isEmpty(str)) {
+             return str;
+         }
+-
+         if (str.length() == 1) {
+             char ch = str.charAt(0);
+             if (ch == CharUtils.CR || ch == CharUtils.LF) {
+@@ -4169,10 +4086,8 @@
+             }
+             return str;
+         }
+-
+         int lastIdx = str.length() - 1;
+         char last = str.charAt(lastIdx);
+-
+         if (last == CharUtils.LF) {
+             if (str.charAt(lastIdx - 1) == CharUtils.CR) {
+                 lastIdx--;
+@@ -4265,7 +4180,6 @@
+ 
+     // Conversion
+     //-----------------------------------------------------------------------
+-
+     // Padding
+     //-----------------------------------------------------------------------
+     /**
+@@ -4289,7 +4203,6 @@
+      */
+     public static String repeat(String str, int repeat) {
+         // Performance tuned for 2.0 (JDK1.4)
+-
+         if (str == null) {
+             return null;
+         }
+@@ -4303,7 +4216,6 @@
+         if (inputLength == 1 && repeat <= PAD_LIMIT) {
+             return padding(repeat, str.charAt(0));
+         }
+-
+         int outputLength = inputLength * repeat;
+         switch (inputLength) {
+             case 1 :
+@@ -4444,7 +4356,8 @@
+         }
+         int pads = size - str.length();
+         if (pads <= 0) {
+-            return str; // returns original String when possible
++            // returns original String when possible
++            return str;
+         }
+         if (pads > PAD_LIMIT) {
+             return rightPad(str, size, String.valueOf(padChar));
+@@ -4486,12 +4399,12 @@
+         int strLen = str.length();
+         int pads = size - strLen;
+         if (pads <= 0) {
+-            return str; // returns original String when possible
++            // returns original String when possible
++            return str;
+         }
+         if (padLen == 1 && pads <= PAD_LIMIT) {
+             return rightPad(str, size, padStr.charAt(0));
+         }
+-
+         if (pads == padLen) {
+             return str.concat(padStr);
+         } else if (pads < padLen) {
+@@ -4556,7 +4469,8 @@
+         }
+         int pads = size - str.length();
+         if (pads <= 0) {
+-            return str; // returns original String when possible
++            // returns original String when possible
++            return str;
+         }
+         if (pads > PAD_LIMIT) {
+             return leftPad(str, size, String.valueOf(padChar));
+@@ -4598,12 +4512,12 @@
+         int strLen = str.length();
+         int pads = size - strLen;
+         if (pads <= 0) {
+-            return str; // returns original String when possible
++            // returns original String when possible
++            return str;
+         }
+         if (padLen == 1 && pads <= PAD_LIMIT) {
+             return leftPad(str, size, padStr.charAt(0));
+         }
+-
+         if (pads == padLen) {
+             return padStr.concat(str);
+         } else if (pads < padLen) {
+@@ -4871,10 +4785,7 @@
+         if ((strLen = cs.length()) == 0) {
+             return cs.toString();
+         }
+-        return new StringBuilder(strLen)
+-            .append(Character.toTitleCase(cs.charAt(0)))
+-            .append(CharSequenceUtils.subSequence(cs, 1))
+-            .toString();
++        return new StringBuilder(strLen).append(Character.toTitleCase(cs.charAt(0))).append(CharSequenceUtils.subSequence(cs, 1)).toString();
+     }
+ 
+     /**
+@@ -4905,10 +4816,7 @@
+         if ((strLen = cs.length()) == 0) {
+             return cs.toString();
+         }
+-        return new StringBuilder(strLen)
+-            .append(Character.toLowerCase(cs.charAt(0)))
+-            .append(CharSequenceUtils.subSequence(cs, 1))
+-            .toString();
++        return new StringBuilder(strLen).append(Character.toLowerCase(cs.charAt(0))).append(CharSequenceUtils.subSequence(cs, 1)).toString();
+     }
+ 
+     /**
+@@ -4944,7 +4852,6 @@
+             return str;
+         }
+         StringBuilder buffer = new StringBuilder(strLen);
+-
+         char ch = 0;
+         for (int i = 0; i < strLen; i++) {
+             ch = str.charAt(i);
+@@ -5582,20 +5489,16 @@
+         if (isEmpty(str) || isEmpty(middle)) {
+             return str;
+         }
+-      
+         if (length >= str.length() || length < (middle.length()+2)) {
+             return str;
+         }
+-
+         int targetSting = length-middle.length();
+         int startOffset = targetSting/2+targetSting%2;
+         int endOffset = str.length()-targetSting/2;
+-        
+         StringBuilder builder = new StringBuilder(length);
+         builder.append(str.substring(0,startOffset));
+         builder.append(middle);
+         builder.append(str.substring(endOffset));
+-        
+         return builder.toString();
+     }
+ 
+@@ -5722,7 +5625,6 @@
+         int arrayLen = css.length;
+         int shortestStrLen = Integer.MAX_VALUE;
+         int longestStrLen = 0;
+-
+         // find the min and max string lengths; this avoids checking to make
+         // sure we are not exceeding the length of the string each time through
+         // the bottom loop.
+@@ -5736,17 +5638,14 @@
+                 longestStrLen = Math.max(css[i].length(), longestStrLen);
+             }
+         }
+-
+         // handle lists containing all nulls or all empty strings
+         if (allStringsNull || (longestStrLen == 0 && !anyStringNull)) {
+             return INDEX_NOT_FOUND;
+         }
+-
+         // handle lists containing some nulls or some empty strings
+         if (shortestStrLen == 0) {
+             return 0;
+         }
+-
+         // find the position with the first difference across all strings
+         int firstDiff = -1;
+         for (int stringPos = 0; stringPos < shortestStrLen; stringPos++) {
+@@ -5761,7 +5660,6 @@
+                 break;
+             }
+         }
+-
+         if (firstDiff == -1 && shortestStrLen != longestStrLen) {
+             // we compared all of the characters up to the length of the
+             // shortest string and didn't find a match, but the string lengths
+@@ -5864,7 +5762,6 @@
+         if (s == null || t == null) {
+             throw new IllegalArgumentException("Strings must not be null");
+         }
+-
+         /*
+            The difference between this impl. and the previous is that, rather 
+            than creating and retaining a matrix of size s.length()+1 by t.length()+1, 
+@@ -5881,16 +5778,15 @@
+            Effectively, the difference between the two implementations is this one does not 
+            cause an out of memory condition when calculating the LD over two very large strings.
+          */
+-
+-        int n = s.length(); // length of s
+-        int m = t.length(); // length of t
+-
++        // length of s
++        int n = s.length();
++        // length of t
++        int m = t.length();
+         if (n == 0) {
+             return m;
+         } else if (m == 0) {
+             return n;
+         }
+-
+         if (n > m) {
+             // swap the input strings to consume less memory
+         	CharSequence tmp = s;
+@@ -5899,39 +5795,37 @@
+             n = m;
+             m = t.length();
+         }
+-
+-        int p[] = new int[n+1]; //'previous' cost array, horizontally
+-        int d[] = new int[n+1]; // cost array, horizontally
+-        int _d[]; //placeholder to assist in swapping p and d
+-
++        //'previous' cost array, horizontally
++        int[] p = new int[n + 1];
++        // cost array, horizontally
++        int[] d = new int[n + 1];
++        //placeholder to assist in swapping p and d
++        int[] _d;
+         // indexes into strings s and t
+-        int i; // iterates through s
+-        int j; // iterates through t
+-
+-        char t_j; // jth character of t
+-
+-        int cost; // cost
+-
++        // iterates through s
++        int i;
++        // iterates through t
++        int j;
++        // jth character of t
++        char t_j;
++        // cost
++        int cost;
+         for (i = 0; i<=n; i++) {
+             p[i] = i;
+         }
+-
+         for (j = 1; j<=m; j++) {
+             t_j = t.charAt(j-1);
+             d[0] = j;
+-
+             for (i=1; i<=n; i++) {
+                 cost = s.charAt(i-1)==t_j ? 0 : 1;
+                 // minimum of cell to the left+1, to the top+1, diagonally left and up +cost
+                 d[i] = Math.min(Math.min(d[i-1]+1, p[i]+1),  p[i-1]+cost);
+             }
+-
+             // copy current distance counts to 'previous row' distance counts
+             _d = p;
+             p = d;
+             d = _d;
+         }
+-
+         // our last action in the above loop was to switch d and p, so p now 
+         // actually has the most recent cost counts
+         return p[n];
+@@ -5957,10 +5851,8 @@
+         return a;
+     }
+ */
+-
+     // startsWith
+     //-----------------------------------------------------------------------
+-
+     /**
+      * <p>Check if a String starts with a specified prefix.</p>
+      *
+@@ -6065,7 +5957,6 @@
+ 
+     // endsWith
+     //-----------------------------------------------------------------------
+-
+     /**
+      * <p>Check if a String ends with a specified suffix.</p>
+      *

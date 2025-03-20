@@ -1,0 +1,12 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/math/math_70_buggy/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java /mnt/D4JPatches/Manual2023/patches_correct/Math/Math_70/Math_70_SOFix/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java
+--- /mnt/d4j_bug_info/buggyfiles/math/math_70_buggy/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java	2022-11-20 04:09:32.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Math/Math_70/Math_70_SOFix/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java	2023-11-13 22:37:06.000000000 -0800
+@@ -69,7 +69,7 @@
+     /** {@inheritDoc} */
+     public double solve(final UnivariateRealFunction f, double min, double max, double initial)
+         throws MaxIterationsExceededException, FunctionEvaluationException {
+-        return solve(min, max);
++        rreturn solve(f,min, max);
+     }
+ 
+     /** {@inheritDoc} */

@@ -1,0 +1,12 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/math/math_105_buggy/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java /mnt/D4JPatches/Manual2023/patches_correct/Math/Math_105/Math_105_sequencer/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java
+--- /mnt/d4j_bug_info/buggyfiles/math/math_105_buggy/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java	2022-11-20 04:09:32.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Math/Math_105/Math_105_sequencer/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java	2023-11-13 22:37:06.000000000 -0800
+@@ -261,7 +261,7 @@
+      * @return sum of squared errors associated with the regression model
+      */
+     public double getSumSquaredErrors() {
+-        return sumYY - sumXY * sumXY / sumXX;
++        return((sumYY)-(((sumXY)*(sumXY))/(sumXX));
+     }
+ 
+     /**

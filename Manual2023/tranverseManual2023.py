@@ -1,6 +1,6 @@
 import os
 
-def output_patch_stat():
+def get_pathes():
     directory = os.path.dirname(os.path.abspath(__file__))
     pathes = []
     for root, dirs, files in os.walk(directory):
@@ -10,12 +10,15 @@ def output_patch_stat():
         if depth == 4:
             pathes.append(root)
             # print(root)
+    return pathes
+    
 
+def output_patch_stat():
     projects = set() # 所有的project名字都替换为小写
     bugs = set()
     tools = set()
     patches = []
-    for path in pathes:
+    for path in get_pathes():
         base_name = os.path.basename(path) # 获取文件名
         items = base_name.split('_')
         bug_name = '-'.join(items[0:2]).lower() # 获取bug_name
@@ -49,8 +52,18 @@ def output_bug_patch_count(projects, bugs, tools, patches):
         bug_patch_count.update({bug: count})
     return project_patch_count, tool_patch_count, bug_patch_count
 
+def get_diff_path():
+    proj_bId_path = []
+    for path in get_pathes():
+        base_name = os.path.basename(path) # 获取文件名
+        items = base_name.split('_')
+        proj = items[0].lower()
+        bId = items[1]
+        proj_bId_path.append((proj, bId, path))
+    return proj_bId_path
 
 if __name__ == '__main__':
+    # print(get_diff_path())
     projects, bugs, tools, patches = output_patch_stat()
     project_patch_count, tool_patch_count, bug_patch_count = output_bug_patch_count(projects, bugs, tools, patches)
     print('project对应的bug数', project_patch_count)

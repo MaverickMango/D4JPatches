@@ -1,0 +1,12 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/math/math_97_buggy/src/java/org/apache/commons/math/analysis/BrentSolver.java /mnt/D4JPatches/Manual2023/patches_correct/Math/Math_97/Math_97_TBar/src/java/org/apache/commons/math/analysis/BrentSolver.java
+--- /mnt/d4j_bug_info/buggyfiles/math/math_97_buggy/src/java/org/apache/commons/math/analysis/BrentSolver.java	2022-11-20 04:09:32.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Math/Math_97/Math_97_TBar/src/java/org/apache/commons/math/analysis/BrentSolver.java	2023-11-13 22:37:06.000000000 -0800
+@@ -135,7 +135,7 @@
+         
+         // Verify bracketing
+         double sign = yMin * yMax;
+-        if (sign >= 0) {
++        if (sign > this.absoluteAccuracy && (sign >= 0)) {
+             // check if either value is close to a zero
+                 // neither value is close to zero and min and max do not bracket root.
+                 throw new IllegalArgumentException

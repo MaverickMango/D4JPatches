@@ -1,0 +1,19 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/math/math_64_buggy/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java /mnt/D4JPatches/Manual2023/patches_correct/Math/Math_64/Math_64_FixMiner/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+--- /mnt/d4j_bug_info/buggyfiles/math/math_64_buggy/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java	2022-11-20 04:09:32.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Math/Math_64/Math_64_FixMiner/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java	2023-11-13 22:37:06.000000000 -0800
+@@ -362,7 +362,6 @@
+ 
+                 // evaluate the function at x + p and calculate its norm
+                 updateResidualsAndCost();
+-                current = new VectorialPointValuePair(point, objective);
+ 
+                 // compute the scaled actual reduction
+                 double actRed = -1.0;
+@@ -432,6 +431,7 @@
+                     residuals = oldRes;
+                     oldRes    = tmpVec;
+                 }
++                current = new VectorialPointValuePair(point, objective);
+                 if (checker==null) {
+                 	if (((Math.abs(actRed) <= costRelativeTolerance) &&
+                         (preRed <= costRelativeTolerance) &&

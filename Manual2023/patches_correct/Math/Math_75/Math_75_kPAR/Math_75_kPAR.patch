@@ -1,0 +1,183 @@
+diff -urwE '--exclude=*.patch' '--exclude=*.fix.java' /mnt/d4j_bug_info/buggyfiles/math/math_75_buggy/src/main/java/org/apache/commons/math/stat/Frequency.java /mnt/D4JPatches/Manual2023/patches_correct/Math/Math_75/Math_75_kPAR/src/main/java/org/apache/commons/math/stat/Frequency.java
+--- /mnt/d4j_bug_info/buggyfiles/math/math_75_buggy/src/main/java/org/apache/commons/math/stat/Frequency.java	2022-11-20 04:09:32.000000000 -0800
++++ /mnt/D4JPatches/Manual2023/patches_correct/Math/Math_75/Math_75_kPAR/src/main/java/org/apache/commons/math/stat/Frequency.java	2023-11-13 22:37:06.000000000 -0800
+@@ -21,7 +21,6 @@
+ import java.util.Iterator;
+ import java.util.Comparator;
+ import java.util.TreeMap;
+-
+ import org.apache.commons.math.MathRuntimeException;
+ 
+ /**
+@@ -47,10 +46,14 @@
+  */
+ public class Frequency implements Serializable {
+ 
+-    /** Serializable version identifier */
++    /**
++     * Serializable version identifier
++     */
+     private static final long serialVersionUID = -3845586908418844111L;
+ 
+-    /** underlying collection */
++    /**
++     * underlying collection
++     */
+     private final TreeMap<Comparable<?>, Long> freqTable;
+ 
+     /**
+@@ -113,9 +116,7 @@
+         if (v instanceof Comparable<?>){
+             addValue((Comparable<?>) v);
+         } else {
+-            throw MathRuntimeException.createIllegalArgumentException(
+-                  "class ({0}) does not implement Comparable",
+-                  v.getClass().getName());
++            throw MathRuntimeException.createIllegalArgumentException("class ({0}) does not implement Comparable", v.getClass().getName());
+         }
+     }
+ 
+@@ -143,9 +144,7 @@
+             }
+         } catch (ClassCastException ex) {
+             //TreeMap will throw ClassCastException if v is not comparable
+-            throw MathRuntimeException.createIllegalArgumentException(
+-                  "instance of class {0} not comparable to existing values",
+-                  v.getClass().getName());
++            throw MathRuntimeException.createIllegalArgumentException("instance of class {0} not comparable to existing values", v.getClass().getName());
+         }
+     }
+ 
+@@ -186,7 +185,9 @@
+         addValue(Character.valueOf(v));
+     }
+ 
+-    /** Clears the frequency table */
++    /**
++     * Clears the frequency table
++     */
+     public void clear() {
+         freqTable.clear();
+     }
+@@ -205,7 +206,6 @@
+     }
+ 
+     //-------------------------------------------------------------------------
+-
+     /**
+      * Returns the sum of all frequencies.
+      *
+@@ -287,7 +287,6 @@
+     }
+ 
+     //-------------------------------------------------------------
+-
+     /**
+       * Returns the percentage of values that are equal to v
+      * (as a proportion between 0 and 1).
+@@ -300,7 +299,7 @@
+      */
+     @Deprecated
+     public double getPct(Object v) {
+-        return getCumPct((Comparable<?>) v);
++        return getPct((Comparable<?>) v);
+     }
+ 
+     /**
+@@ -354,7 +353,6 @@
+     }
+ 
+     //-----------------------------------------------------------------------------------------
+-
+     /**
+      * Returns the cumulative frequency of values less than or equal to v.
+      * <p>
+@@ -390,24 +388,23 @@
+             c = new NaturalComparator();
+         }
+         long result = 0;
+-
+         try {
+             Long value = freqTable.get(v);
+             if (value != null) {
+                 result = value.longValue();
+             }
+         } catch (ClassCastException ex) {
+-            return result;   // v is not comparable
++            // v is not comparable
++            return result;
+         }
+-
+         if (c.compare(v, freqTable.firstKey()) < 0) {
+-            return 0;  // v is comparable, but less than first value
++            // v is comparable, but less than first value
++            return 0;
+         }
+-
+         if (c.compare(v, freqTable.lastKey()) >= 0) {
+-            return getSumFreq();    // v is comparable, but greater than the last value
++            // v is comparable, but greater than the last value
++            return getSumFreq();
+         }
+-
+         Iterator<Comparable<?>> values = valuesIterator();
+         while (values.hasNext()) {
+             Comparable<?> nextValue = values.next();
+@@ -457,7 +454,6 @@
+     }
+ 
+     //----------------------------------------------------------------------------------------------
+-
+     /**
+      * Returns the cumulative percentage of values less than or equal to v
+      * (as a proportion between 0 and 1).
+@@ -473,7 +469,6 @@
+     @Deprecated
+     public double getCumPct(Object v) {
+         return getCumPct((Comparable<?>) v);
+-
+     }
+ 
+     /**
+@@ -540,7 +535,9 @@
+      */
+     private static class NaturalComparator<T extends Comparable<T>> implements Comparator<Comparable<T>>, Serializable {
+ 
+-        /** Serializable version identifier */
++        /**
++         * Serializable version identifier
++         */
+         private static final long serialVersionUID = -3852193713161395148L;
+ 
+         /**
+@@ -562,17 +559,20 @@
+         }
+     }
+ 
+-    /** {@inheritDoc} */
++    /**
++     * {@inheritDoc}
++     */
+     @Override
+     public int hashCode() {
+         final int prime = 31;
+         int result = 1;
+-        result = prime * result +
+-                 ((freqTable == null) ? 0 : freqTable.hashCode());
++        result = prime * result + ((freqTable == null) ? 0 : freqTable.hashCode());
+         return result;
+     }
+ 
+-    /** {@inheritDoc} */
++    /**
++     * {@inheritDoc}
++     */
+     @Override
+     public boolean equals(Object obj) {
+         if (this == obj)
+@@ -589,5 +589,4 @@
+             return false;
+         return true;
+     }
+-
+ }
