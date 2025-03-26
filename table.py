@@ -1,10 +1,11 @@
 import pandas as pd
 
 bugs_inputs = '/mnt/D4JPatches/bugs_inputs.csv'
-compilable_patches_file = '/mnt/D4JPatches/ISSTA2024/compilable_patches_ISSTA24.txt'
-compilable_patches_df_output = '/mnt/D4JPatches/ISSTA2024/compilable_patches.csv'
-overlap_compilable_patches = '/mnt/D4JPatches/ISSTA2024/overlap_compilable_patches_ISSTA2024.txt'
-overlap_compilable_df_output = '/mnt/D4JPatches/ISSTA2024/overlap_compilable_patches.csv'
+compilable_patches_file = '/mnt/D4JPatches/ISSTA2024/plausible_patch_list.txt'
+
+compilable_patches_df_output = '/mnt/D4JPatches/ISSTA2024/plausible_patches.csv'
+overlap_compilable_patches_output = '/mnt/D4JPatches/ISSTA2024/overlap_plausible_patches_ISSTA2024.txt'
+overlap_compilable_df_output = '/mnt/D4JPatches/ISSTA2024/overlap_plausible_patches.csv'
 
 def split_str(value):
     return pd.Series(str(value).split('_'))
@@ -42,7 +43,7 @@ def compute_overlap(captive=False):
     overlap_df['bug_name'].apply(split_str)
     overlap_df.drop(columns=['bug_name'], inplace=True)
     overlap_df.insert(3, 'patch', overlap_df.pop('patch'))
-    with open(overlap_compilable_patches, 'w', encoding='utf-8') as file:
+    with open(overlap_compilable_patches_output, 'w', encoding='utf-8') as file:
         for _, row in overlap_df.iterrows():
             line = '-'.join(row.astype(str))
             file.write(line+'\n')

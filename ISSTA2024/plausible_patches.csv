@@ -1,0 +1,9 @@
+,proj,cure_patch_count,cure_bug_count,selfapr_patch_count,selfapr_bug_count,sequencer_patch_count,sequencer_bug_count,recoder_patch_count,recoder_bug_count,rewardrepair_patch_count,rewardrepair_bug_count,tbar_patch_count,tbar_bug_count,coconut_patch_count,coconut_bug_count,alpharepair_patch_count,alpharepair_bug_count,simfix_patch_count,simfix_bug_count,edits_patch_count,edits_bug_count
+0,cli,10,1,26,1,2,1,22,1,13,1,0,0,5,1,8,1,0,0,10,1
+1,closure,103,3,114,3,84,3,43,3,165,3,182,3,115,3,75,3,70,2,4,2
+2,codec,26,1,64,1,0,0,0,0,88,1,0,0,0,0,16,1,0,0,0,0
+3,jacksoncore,24,2,70,2,23,1,25,2,68,2,23,2,34,1,45,2,8,1,5,2
+4,jacksondatabind,28,1,42,1,0,0,3,1,60,1,27,1,3,1,26,1,0,0,0,0
+5,jxpath,0,0,0,0,0,0,0,0,2,1,0,0,1,1,0,0,0,0,0,0
+6,math,67,1,83,1,38,1,46,1,48,1,83,1,36,1,63,1,7,1,0,0
+7,mockito,6,1,44,1,0,0,0,0,54,1,6,1,0,0,35,1,0,0,0,0
